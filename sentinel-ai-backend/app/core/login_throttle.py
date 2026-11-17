@@ -24,11 +24,13 @@ MAX_FAILURES = 5
 WINDOW_SECONDS = 15 * 60
 LOCK_SECONDS = 15 * 60
 MAX_TRACKED = 10_000
+MAX_ADDRESS_FAILURES = 20
 
 
 class LoginThrottle:
-    def __init__(self, clock: Callable[[], float] = time.monotonic) -> None:
+    def __init__(self, clock: Callable[[], float] = time.monotonic, max_failures: int = MAX_FAILURES) -> None:
         self._clock = clock
+        self._max_failures = max_failures
         self._entries: dict[str, tuple[int, float]] = {}  # key -> (failures, expires_at)
 
     @staticmethod
@@ -45,7 +47,7 @@ class LoginThrottle:
         if remaining <= 0:
             self._entries.pop(self._key(email), None)
             return 0
-        return math.ceil(remaining) if failures >= MAX_FAILURES else 0
+        return math.ceil(remaining) if failures >= self._max_failures else 0
 
     def record_failure(self, email: str) -> None:
         key, now = self._key(email), self._clock()
@@ -53,7 +55,7 @@ class LoginThrottle:
         if expires_at <= now:
             failures, expires_at = 0, now + WINDOW_SECONDS
         failures += 1
-        if failures >= MAX_FAILURES:
+        if failures >= self._max_failures:
             expires_at = now + LOCK_SECONDS
         self._entries.pop(key, None)  # re-insert so eviction order is by last failure
         self._entries[key] = (failures, expires_at)
@@ -69,7 +71,7 @@ class LoginThrottle:
         dropped — reaching that takes MAX_FAILURES x MAX_TRACKED failed
         sign-ins inside one lock period."""
         for key, (failures, expires_at) in self._entries.items():
-            if failures < MAX_FAILURES or expires_at <= now:
+            if failures < self._max_failures or expires_at <= now:
                 return key
         return next(iter(self._entries))
 
@@ -81,3 +83,7 @@ class LoginThrottle:
 
 
 throttle = LoginThrottle()
+# R6: also per client address, against guessing spread across many accounts.
+# ponytail: keyed on the TCP peer, so behind a reverse proxy every client shares
+# the proxy's address; rate-limit at the proxy too (ADR-004).
+address_throttle = LoginThrottle(max_failures=MAX_ADDRESS_FAILURES)

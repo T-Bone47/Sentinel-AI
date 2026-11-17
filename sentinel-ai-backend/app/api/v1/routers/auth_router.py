@@ -27,7 +27,7 @@ from datetime import datetime, timezone
 from functools import lru_cache
 from typing import Any
 
-from fastapi import APIRouter, Depends, HTTPException, status
+from fastapi import APIRouter, Depends, HTTPException, Request, status
 from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
 from pydantic import BaseModel, EmailStr
 from sqlalchemy import delete, or_, select, update
@@ -35,7 +35,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.core import permissions
 from app.core.config import settings
-from app.core.login_throttle import throttle
+from app.core.login_throttle import address_throttle, throttle
 from app.core.security import (
     create_access_token,
     create_refresh_token,
@@ -154,8 +154,9 @@ def _tokens(user: User, session_id: str, refresh_jti: str, expires_at: int) -> d
 
 
 @router.post("/login", tags=["auth"], summary="Exchange email + password for a session", response_model=None)
-async def login(body: LoginRequest, db: AsyncSession = Depends(get_db)) -> dict[str, Any]:
-    wait = throttle.retry_after(body.email)
+async def login(body: LoginRequest, request: Request, db: AsyncSession = Depends(get_db)) -> dict[str, Any]:
+    address = request.client.host if request.client else "unknown"
+    wait = max(throttle.retry_after(body.email), address_throttle.retry_after(address))
     if wait:
         raise HTTPException(
             status_code=429,
@@ -169,14 +170,15 @@ async def login(body: LoginRequest, db: AsyncSession = Depends(get_db)) -> dict[
     password_ok = await asyncio.to_thread(
         verify_password, body.password, user.hashed_password if user else _DUMMY_HASH
     )
-    if user is None or not password_ok:
+    # R8: a disabled account answers exactly like a wrong password. A different
+    # answer after the right password would confirm the password.
+    if user is None or not password_ok or not user.is_active:
         throttle.record_failure(body.email)
+        address_throttle.record_failure(address)
         if throttle.retry_after(body.email):
             logger.warning("sign-in locked after repeated failures (account_ref=%s)", _account_ref(body.email))
         raise HTTPException(status_code=401, detail="Incorrect email or password")
-    if not user.is_active:
-        raise HTTPException(status_code=403, detail="Account is disabled")
-    throttle.record_success(body.email)
+    throttle.record_success(body.email)   # the address count is kept: one valid account must not reset it
 
     now = int(time.time())
     # Housekeeping: this user's dead sessions are no longer needed for anything.

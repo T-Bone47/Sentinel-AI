@@ -4,6 +4,34 @@ Status words: IMPLEMENTED (code exists), TESTED (automated test passes),
 LIVE-VALIDATED (seen working in a real browser), BLOCKED, PLANNED.
 Newest entry first.
 
+## 2026-11-18 — Review findings R6, R7, R8, R10 fixed (branch `fix/review-findings`)
+
+| ID | Fix | Regression test |
+|---|---|---|
+| R6 | A second throttle, keyed by client address, locks after 20 failures in 15 minutes. A successful sign-in does not reset it, so one valid account cannot clear the count | `test_failures_from_one_address_lock_that_address` |
+| R7 | API docs, ReDoc and the OpenAPI schema are served only when `ENVIRONMENT` is `development` or `test` | `test_api_docs_are_not_served_outside_development` |
+| R8 | A disabled account gets the same 401 as a wrong password, and the attempt counts as a failure. API change: it was 403 "Account is disabled" | `test_a_disabled_account_answers_like_a_wrong_password` |
+| R10 | The AI conversation store caps each user at 20 entries inside the 500 total | `test_one_user_cannot_push_out_another_users_conversations` |
+
+- **Seen failing first:** the R8 and R10 tests failed on the old code.
+- **Mutation checks for the other two:**
+  - R6's test failed on the old code only because its constant did not exist
+    yet. It also fails when the per-address limit is set to a million.
+  - R7's fix went in before its test. The test fails when `is_local` is
+    forced to true.
+- **Full suites:** SQLite **632 passed, 2 skipped**; PostgreSQL 16
+  **633 passed, 1 skipped** (a throwaway container, removed afterwards).
+- **Not fixed:**
+  - **R9**, the duplicate trust-measurement race. A unique constraint does not
+    fit, because a score may legitimately recur. The fix is serialising
+    writes, and testing that needs real concurrent sessions.
+  - **F9**, the undisclosed AI data egress. It is a frontend disclosure for a
+    feature that is off by default.
+
+  Both stay open in `docs/THREAT_MODEL.md`.
+- **Limitation:** both counters are per process, and behind a proxy they see
+  the proxy's address. A deployment still needs a proxy rate limit.
+
 ## 2026-11-18 — Published; first CI run; Phase 1 docs (branch `feat/phase1-docs`)
 
 - **Published.** With the owner's approval, `main` was force-pushed to the

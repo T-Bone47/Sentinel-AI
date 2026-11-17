@@ -18,6 +18,7 @@ from collections.abc import Callable
 
 TTL_SECONDS = 30 * 60
 MAX_ENTRIES = 500
+MAX_PER_USER = 20
 
 
 class ConversationStore:
@@ -26,9 +27,11 @@ class ConversationStore:
         ttl_seconds: float = TTL_SECONDS,
         max_entries: int = MAX_ENTRIES,
         clock: Callable[[], float] = time.monotonic,
+        max_per_user: int = MAX_PER_USER,
     ) -> None:
         self._ttl = ttl_seconds
         self._max = max_entries
+        self._max_per_user = max_per_user
         self._clock = clock
         self._entries: dict[tuple[str, str], tuple[str, float]] = {}
 
@@ -47,6 +50,11 @@ class ConversationStore:
         key = (user_id, conversation_id)
         self._entries.pop(key, None)  # re-insert so eviction order is by last use
         self._entries[key] = (summary, self._clock() + self._ttl)
+        # R10: a per-user cap first, so one user cannot push out everyone else's entries.
+        # ponytail: linear scan over at most max_entries keys; trivial at 500.
+        mine = [k for k in self._entries if k[0] == user_id]
+        if len(mine) > self._max_per_user:
+            del self._entries[mine[0]]                 # this user's least recently used
         while len(self._entries) > self._max:
             self._entries.pop(next(iter(self._entries)))
 

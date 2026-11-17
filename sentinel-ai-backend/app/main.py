@@ -45,9 +45,10 @@ def create_app() -> FastAPI:
         version=settings.app_version,
         description="Sentinel AI — From Compliance Documents to Continuous Trust. Phase 1: backend foundation + dataset integration.",
         lifespan=lifespan,
-        docs_url="/api/docs",
-        redoc_url="/api/redoc",
-        openapi_url="/api/openapi.json",
+        # R7: the schema maps every route; publish it only where developers need it.
+        docs_url="/api/docs" if settings.is_local else None,
+        redoc_url="/api/redoc" if settings.is_local else None,
+        openapi_url="/api/openapi.json" if settings.is_local else None,
     )
 
     app.add_middleware(

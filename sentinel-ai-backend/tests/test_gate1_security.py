@@ -77,14 +77,14 @@ async def _call(client, role: str, method: str, path: str):
 @pytest.fixture(autouse=True)
 def _reset_login_throttle():
     """Failed-login counters are process-wide; never let one test lock another out."""
-    try:
-        from app.core.login_throttle import throttle
-    except ImportError:
-        yield
-        return
-    throttle.reset()
+    from app.core import login_throttle as lt
+
+    counters = [t for t in (lt.throttle, getattr(lt, "address_throttle", None)) if t is not None]
+    for counter in counters:
+        counter.reset()
     yield
-    throttle.reset()
+    for counter in counters:
+        counter.reset()
 
 
 @pytest.fixture
@@ -561,6 +561,53 @@ async def test_disabling_a_user_invalidates_their_tokens_immediately(unauth_clie
 
 async def _bad_login(client, email: str):
     return await client.post(f"{API}/auth/login", json={"email": email, "password": "wrong-password"})
+
+
+async def test_a_disabled_account_answers_like_a_wrong_password(unauth_client, temp_user, sync_engine):
+    """R8: a different answer after the right password would confirm the password."""
+    from sqlalchemy.orm import Session
+
+    email, password = temp_user()
+    with Session(sync_engine) as session:
+        session.execute(select(User).where(User.email == email)).scalar_one().is_active = False
+        session.commit()
+    right = await unauth_client.post(f"{API}/auth/login", json={"email": email, "password": password})
+    wrong = await _bad_login(unauth_client, email)
+    assert right.status_code == wrong.status_code == 401
+    assert right.json() == wrong.json()
+
+
+async def test_failures_from_one_address_lock_that_address(unauth_client, temp_user):
+    """R6: guessing spread across many accounts from one address is throttled too."""
+    from app.core.login_throttle import MAX_ADDRESS_FAILURES
+
+    email, password = temp_user()
+    for i in range(MAX_ADDRESS_FAILURES):
+        assert (await _bad_login(unauth_client, f"nobody-{i}@example.com")).status_code == 401
+    blocked = await unauth_client.post(f"{API}/auth/login", json={"email": email, "password": password})
+    assert blocked.status_code == 429
+
+
+def test_one_user_cannot_push_out_another_users_conversations():
+    """R10: each user has their own cap inside the shared bound."""
+    from app.services.conversation_store import ConversationStore
+
+    store = ConversationStore(max_entries=500, max_per_user=20)
+    store.put("victim", "c-1", "kept")
+    for i in range(600):
+        store.put("noisy", f"c-{i}", "x")
+    assert store.get("victim", "c-1") == "kept"
+    assert sum(store.get("noisy", f"c-{i}") is not None for i in range(600)) == 20
+
+
+def test_api_docs_are_not_served_outside_development(monkeypatch):
+    """R7: the schema maps every route; publish it only where developers need it."""
+    from app.core.config import settings
+    from app.main import create_app
+
+    monkeypatch.setattr(settings, "environment", "production")
+    app = create_app()
+    assert (app.openapi_url, app.docs_url, app.redoc_url) == (None, None, None)
 
 
 async def test_repeated_failed_logins_lock_the_account_even_for_the_right_password(unauth_client, temp_user):
