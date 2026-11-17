@@ -4,6 +4,29 @@ Status words: IMPLEMENTED (code exists), TESTED (automated test passes),
 LIVE-VALIDATED (seen working in a real browser), BLOCKED, PLANNED.
 Newest entry first.
 
+## 2026-11-18 — Published; first CI run; Phase 1 docs (branch `feat/phase1-docs`)
+
+- **Published.** With the owner's approval, `main` was force-pushed to the
+  public `T-Bone47/Sentinel-AI`, replacing the October snapshot, which is kept
+  locally as `refs/legacy/original-snapshot`.
+  - Before the push, two local paths that showed the Windows username were
+    removed from the docs and from both unpushed commits.
+  - Pushed head: `dbb75b1`.
+- **First CI run on GitHub for `dbb75b1`:**
+  - Frontend CI: success.
+  - Backend CI: **628 passed, 2 skipped** (SQLite), the same as locally.
+  - GitHub detects the licence as Apache-2.0.
+- **New docs:**
+  - `SECURITY.md`: private reporting, scope, known open issues.
+  - `docs/THREAT_MODEL.md`: STRIDE table with mitigations, evidence and
+    residual risks, drawn from the code, the ADRs and findings R1–R10.
+    Pending since S0.
+  - README: the stale status block ("105 backend tests") replaced with a
+    status table linked to its evidence.
+- **Not done:** GitHub's private vulnerability reporting must be switched on
+  in the repository settings (the owner's decision); `SECURITY.md` relies on
+  it.
+
 ## 2026-11-18 — M0: PostgreSQL validation (branch `fix/pg-date-filter-utc`)
 
 - **Environment:** a throwaway `postgres:16-alpine` container on

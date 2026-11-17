@@ -4,17 +4,23 @@
 & Compliance platform. Full-stack: React/TypeScript frontend, FastAPI/PostgreSQL backend,
 **14,400 records** across 15 datasets (fictional demo data generated with ChatGPT: see `sentinel-ai-backend/datasets/README.md`).
 
-> **Phase 2B backend intelligence is live**: Evidence Intelligence, Policy
-> Intelligence and a Compliance Copilot, all answering from the loaded datasets.
-> **105 backend tests pass.** Their frontend panels are not built yet — see
-> `HANDOFF.md` § PHASE 2B.
->
-> **Status: the frontend is wired to the real backend.** 19 of 21 data screens read live
-> Postgres data through the API. No screen silently falls back to sample data — if the
-> backend is down, the UI says so.
->
-> See `HANDOFF.md` for the full picture, `IMPLEMENTATION_STATUS.md` for the honest
-> done/remaining tracker, and `NEXT_CLAUDE_PROMPT.md` to continue the work.
+## Status (2026-11-18)
+
+A defensive security research project, not production software. Every claim
+below links to its evidence.
+
+| Area | State | Evidence |
+|---|---|---|
+| Sign-in, sessions, role and record-level permissions (Gate 1) | Implemented and tested on SQLite and PostgreSQL 16 | `docs/PROGRESS.md` |
+| Immutable security-event store with provenance (Gate 2) | Same | `docs/EVENT_CONTRACT.md` |
+| Detection engine: five identity rules with pre-registered contracts (Gate 3) | Same; tested on synthetic fixtures only | `research/rules/` |
+| Evaluation on public data (M2) | IA-003 caught **5 of 701** real red-team sign-ins in LANL's dataset, as pre-registered: a documented negative result | `research/M2_REPORT.md` |
+| Tests | 628 passed, 2 skipped (CI, SQLite); 629 passed, 1 skipped (local PostgreSQL 16) | GitHub Actions; `docs/PROGRESS.md` |
+| Investigation workflow (Gate 4), grounded AI answers (Gate 5) | Not built yet | — |
+
+Security: `SECURITY.md` (reporting) and `docs/THREAT_MODEL.md` (threats and
+open weaknesses). The original pre-November notes, `HANDOFF.md` and
+`IMPLEMENTATION_STATUS.md`, are historical.
 
 ## Run it
 
