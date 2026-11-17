@@ -1,0 +1,101 @@
+ApplicationID,ApplicationName,OwnerDepartment,AuthenticationMethod,UsesMFA,EncryptionEnabled,DataClassification,InternetFacing,RiskLevel
+APP4193,ThreatWatch,Information Security,SSO (SAML),FALSE,FALSE,Internal,FALSE,High
+APP7712,PurchaseOrderHub,Procurement,LDAP,FALSE,TRUE,Internal,FALSE,Medium
+APP2989,IAM Gateway,Information Security,Okta SSO,TRUE,TRUE,Restricted,FALSE,Medium
+APP1630,LogisticsHub,Operations,SSO (OAuth2),TRUE,TRUE,Internal,TRUE,Medium
+APP9581,InvoiceHub,Finance,Okta SSO,FALSE,TRUE,Internal,FALSE,Medium
+APP5510,BuildPipeline,Engineering,Okta SSO,TRUE,TRUE,Confidential,TRUE,Medium
+APP5430,BoardPortal,Executive,Azure AD SSO,TRUE,TRUE,Confidential,FALSE,Low
+APP2533,eDiscovery Console,Legal & Compliance,SSO (OAuth2),FALSE,TRUE,Internal,FALSE,Medium
+APP2184,ContentStudio,Marketing,Okta SSO,TRUE,TRUE,Internal,TRUE,Medium
+APP9417,ServiceMesh Console,Engineering,Okta SSO,TRUE,TRUE,Public,FALSE,Low
+APP3993,LeadCapture,Sales,Okta SSO,TRUE,TRUE,Confidential,FALSE,Low
+APP8952,ITSM Portal,Information Technology,LDAP,TRUE,TRUE,Confidential,FALSE,Low
+APP8861,DataLake Console,Data & Analytics,Okta SSO,TRUE,TRUE,Confidential,FALSE,Low
+APP4301,OpsConsole,Operations,LDAP,FALSE,TRUE,Restricted,FALSE,High
+APP2396,GovernanceHub,Executive,Username/Password,FALSE,TRUE,Confidential,FALSE,High
+APP4848,KnowledgeBase Portal,Customer Support,Username/Password,FALSE,TRUE,Public,FALSE,Medium
+APP6475,SupportChat,Customer Support,Okta SSO,TRUE,TRUE,Confidential,TRUE,Medium
+APP1338,CodeForge,Engineering,Okta SSO,TRUE,TRUE,Internal,TRUE,Medium
+APP7390,ArtifactRegistry,Engineering,SSO (OAuth2),FALSE,TRUE,Restricted,FALSE,High
+APP6202,eDiscovery Console 2,Legal & Compliance,SSO (SAML),TRUE,TRUE,Confidential,TRUE,Medium
+APP7940,FindingsTracker,Internal Audit,Username/Password,FALSE,TRUE,Restricted,TRUE,Critical
+APP8967,ThreatWatch 2,Information Security,Username/Password,FALSE,TRUE,Confidential,TRUE,Critical
+APP6092,HelpDesk Console,Information Technology,Username/Password,TRUE,TRUE,Confidential,FALSE,Medium
+APP9546,TalentHub,Human Resources,SSO (OAuth2),TRUE,FALSE,Confidential,TRUE,High
+APP2825,ContractVault,Legal & Compliance,LDAP,FALSE,TRUE,Internal,FALSE,Medium
+APP8495,ExpenseTrack,Finance,SSO (OAuth2),TRUE,TRUE,Confidential,TRUE,Medium
+APP8419,SupportChat 2,Customer Support,Okta SSO,TRUE,TRUE,Confidential,TRUE,Medium
+APP3324,ExpenseTrack 2,Finance,SSO (SAML),FALSE,TRUE,Confidential,FALSE,Medium
+APP2306,SalesForceCRM,Sales,Username/Password,TRUE,TRUE,Confidential,FALSE,Medium
+APP4393,FacilitiesTrack,Operations,Username/Password,FALSE,TRUE,Confidential,TRUE,Critical
+APP6870,ContractRegistry,Procurement,SSO (OAuth2),FALSE,TRUE,Internal,TRUE,High
+APP6915,LeadCapture 2,Sales,Okta SSO,TRUE,TRUE,Internal,TRUE,Medium
+APP9741,RiskAssessTool,Internal Audit,LDAP,FALSE,TRUE,Restricted,TRUE,Critical
+APP4391,PerformancePro,Human Resources,SSO (SAML),TRUE,TRUE,Restricted,FALSE,Medium
+APP6081,FacilitiesTrack 2,Operations,SSO (SAML),FALSE,TRUE,Confidential,FALSE,Medium
+APP6756,ThreatWatch 3,Information Security,SSO (OAuth2),FALSE,TRUE,Internal,FALSE,Medium
+APP3843,PatchManager,Information Technology,Azure AD SSO,FALSE,FALSE,Confidential,TRUE,Critical
+APP1847,WarehouseManager,Data & Analytics,LDAP,FALSE,TRUE,Internal,TRUE,High
+APP1029,IAM Gateway 2,Information Security,Azure AD SSO,TRUE,TRUE,Internal,TRUE,Medium
+APP2242,ServiceMesh Console 2,Engineering,SSO (SAML),TRUE,TRUE,Confidential,TRUE,Medium
+APP4358,ITSM Portal 2,Information Technology,LDAP,FALSE,TRUE,Internal,FALSE,Medium
+APP5001,QuoteBuilder,Sales,Username/Password,TRUE,TRUE,Confidential,FALSE,Medium
+APP6660,AnalyticsBoard,Marketing,SSO (SAML),FALSE,FALSE,Confidential,FALSE,High
+APP7096,VulnScanner Dashboard,Information Security,LDAP,FALSE,TRUE,Confidential,FALSE,Medium
+APP2350,DevPortal,Engineering,Azure AD SSO,TRUE,FALSE,Confidential,FALSE,Medium
+APP9767,CustomerVoice,Customer Support,Okta SSO,FALSE,TRUE,Confidential,TRUE,High
+APP8735,BacklogBoard,Product Management,SSO (SAML),TRUE,TRUE,Confidential,TRUE,Medium
+APP6399,PatchManager 2,Information Technology,SSO (SAML),FALSE,TRUE,Confidential,TRUE,High
+APP9680,RiskRegisterApp,Risk Management,SSO (OAuth2),TRUE,FALSE,Public,TRUE,High
+APP5632,HelpDesk Console 2,Information Technology,Okta SSO,FALSE,FALSE,Internal,FALSE,High
+APP8431,PurchaseOrderHub 2,Procurement,LDAP,FALSE,TRUE,Confidential,FALSE,Medium
+APP3805,ProductAnalytics,Product Management,SSO (SAML),TRUE,TRUE,Public,FALSE,Low
+APP1984,PipelineView,Sales,Okta SSO,TRUE,TRUE,Internal,FALSE,Low
+APP3269,AuditEvidenceHub,Internal Audit,Username/Password,FALSE,TRUE,Restricted,TRUE,Critical
+APP5049,ITSM Portal 3,Information Technology,SSO (OAuth2),FALSE,TRUE,Internal,FALSE,Medium
+APP2208,ControlTestSuite,Internal Audit,Azure AD SSO,TRUE,TRUE,Confidential,FALSE,Low
+APP9822,eDiscovery Console 3,Legal & Compliance,Username/Password,FALSE,TRUE,Internal,FALSE,Medium
+APP5360,FindingsTracker 2,Internal Audit,Okta SSO,FALSE,TRUE,Confidential,FALSE,Medium
+APP8899,LogisticsHub 2,Operations,Okta SSO,TRUE,TRUE,Confidential,FALSE,Low
+APP3408,CustomerVoice 2,Customer Support,LDAP,FALSE,TRUE,Public,TRUE,High
+APP4265,EmailBlast Console,Marketing,SSO (OAuth2),FALSE,TRUE,Restricted,FALSE,High
+APP3606,BoardPortal 2,Executive,Username/Password,TRUE,TRUE,Internal,TRUE,Medium
+APP3719,PipelineView 2,Sales,Azure AD SSO,FALSE,TRUE,Restricted,FALSE,High
+APP5981,ETLOrchestrator,Data & Analytics,Username/Password,FALSE,TRUE,Confidential,TRUE,Critical
+APP6439,ContentStudio 2,Marketing,SSO (SAML),FALSE,TRUE,Restricted,TRUE,Critical
+APP3542,DealDesk,Sales,Username/Password,FALSE,TRUE,Confidential,FALSE,High
+APP2834,RiskAssessTool 2,Internal Audit,Okta SSO,TRUE,TRUE,Internal,FALSE,Low
+APP5830,SupplierTrack,Procurement,SSO (SAML),TRUE,TRUE,Restricted,FALSE,Medium
+APP7088,ExpenseTrack 3,Finance,LDAP,TRUE,TRUE,Confidential,FALSE,Low
+APP8073,TicketDesk,Customer Support,SSO (OAuth2),FALSE,FALSE,Confidential,TRUE,Critical
+APP2744,eDiscovery Console 4,Legal & Compliance,SSO (OAuth2),TRUE,FALSE,Public,TRUE,High
+APP4469,ContractVault 2,Legal & Compliance,SSO (OAuth2),FALSE,TRUE,Confidential,FALSE,Medium
+APP2608,DealDesk 2,Sales,SSO (OAuth2),FALSE,TRUE,Internal,TRUE,High
+APP2604,ETLOrchestrator 2,Data & Analytics,Azure AD SSO,TRUE,TRUE,Internal,TRUE,Medium
+APP7666,AuditTrail,Legal & Compliance,Azure AD SSO,TRUE,TRUE,Internal,TRUE,Medium
+APP9791,AuditPlanner,Internal Audit,SSO (OAuth2),TRUE,TRUE,Internal,FALSE,Low
+APP9605,HelpCenter Console,Customer Support,Azure AD SSO,TRUE,TRUE,Confidential,FALSE,Low
+APP7845,ContractRegistry 2,Procurement,LDAP,FALSE,TRUE,Confidential,FALSE,Medium
+APP9740,ControlTestSuite 2,Internal Audit,LDAP,FALSE,TRUE,Restricted,TRUE,Critical
+APP7447,SocialSuite,Marketing,Okta SSO,TRUE,TRUE,Confidential,FALSE,Low
+APP1166,EmailBlast Console 2,Marketing,Azure AD SSO,TRUE,TRUE,Confidential,TRUE,Medium
+APP7235,LedgerPro,Finance,LDAP,FALSE,TRUE,Confidential,FALSE,Medium
+APP6210,SalesForceCRM 2,Sales,SSO (OAuth2),TRUE,FALSE,Internal,FALSE,Medium
+APP5066,LogisticsHub 3,Operations,SSO (SAML),TRUE,FALSE,Internal,FALSE,Medium
+APP1900,eDiscovery Console 5,Legal & Compliance,Okta SSO,TRUE,TRUE,Internal,FALSE,Low
+APP7956,InvoiceHub 2,Finance,SSO (OAuth2),TRUE,TRUE,Confidential,FALSE,Low
+APP2482,ThreatWatch 4,Information Security,SSO (OAuth2),TRUE,TRUE,Public,TRUE,Medium
+APP6532,PatchManager 3,Information Technology,Okta SSO,TRUE,TRUE,Internal,FALSE,Low
+APP8198,ControlMonitor,Risk Management,SSO (OAuth2),TRUE,TRUE,Confidential,FALSE,Low
+APP4451,ControlMonitor 2,Risk Management,SSO (OAuth2),TRUE,FALSE,Public,TRUE,High
+APP4666,OpsConsole 2,Operations,SSO (SAML),TRUE,TRUE,Public,FALSE,Low
+APP6709,VendorPortal,Procurement,Azure AD SSO,TRUE,FALSE,Confidential,FALSE,Medium
+APP4188,ThreatWatch 5,Information Security,Azure AD SSO,TRUE,TRUE,Restricted,TRUE,High
+APP1410,ExpenseTrack 4,Finance,Okta SSO,FALSE,FALSE,Internal,FALSE,High
+APP1536,OpsConsole 3,Operations,LDAP,FALSE,TRUE,Internal,FALSE,Medium
+APP5103,WarehouseManager 2,Data & Analytics,Azure AD SSO,FALSE,TRUE,Internal,TRUE,High
+APP9673,SocialSuite 2,Marketing,SSO (SAML),TRUE,FALSE,Internal,FALSE,Medium
+APP6784,FacilitiesTrack 3,Operations,SSO (OAuth2),TRUE,TRUE,Internal,TRUE,Medium
+APP1065,FacilitiesTrack 4,Operations,Okta SSO,TRUE,TRUE,Confidential,FALSE,Low
+APP1700,ProductAnalytics 2,Product Management,SSO (OAuth2),FALSE,TRUE,Restricted,FALSE,High

@@ -1,0 +1,3899 @@
+{
+  "dataset10_evidence_repository.csv": {
+    "file": "dataset10_evidence_repository.csv",
+    "rows": 500,
+    "columns": [
+      "EvidenceID",
+      "ControlID",
+      "EvidenceType",
+      "EvidenceLocation",
+      "CollectedDate",
+      "Verified",
+      "CollectedAutomatically"
+    ],
+    "n_columns": 7,
+    "duplicate_full_rows": 0,
+    "pk_candidates": [
+      "EvidenceID"
+    ],
+    "columns_info": {
+      "EvidenceID": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 500,
+        "unique_ratio": 1.0,
+        "is_id_like_name": true,
+        "sample_values": [
+          "EVD-516751",
+          "EVD-806280",
+          "EVD-862311",
+          "EVD-922315",
+          "EVD-733725",
+          "EVD-300995",
+          "EVD-986728",
+          "EVD-253166"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": false
+      },
+      "ControlID": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 217,
+        "unique_ratio": 0.434,
+        "is_id_like_name": true,
+        "sample_values": [
+          "CTRL-53203",
+          "CTRL-52753",
+          "CTRL-57033",
+          "CTRL-92564",
+          "CTRL-57517",
+          "CTRL-99548",
+          "CTRL-49331",
+          "CTRL-42312"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": false
+      },
+      "EvidenceType": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 15,
+        "unique_ratio": 0.03,
+        "is_id_like_name": false,
+        "sample_values": [
+          "Backup Verification Report",
+          "Audit Trail Export",
+          "Incident Report",
+          "Log Extract",
+          "Penetration Test Report",
+          "Encryption Configuration Proof",
+          "Policy Document",
+          "Screenshot"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "Access Review Report",
+          "Audit Trail Export",
+          "Backup Verification Report",
+          "Configuration Export",
+          "Encryption Configuration Proof",
+          "Incident Report",
+          "Log Extract",
+          "Penetration Test Report",
+          "Policy Document",
+          "Screenshot",
+          "Signed Attestation",
+          "System Configuration Snapshot",
+          "Training Completion Report",
+          "Vendor Assessment Report",
+          "Vulnerability Scan Report"
+        ]
+      },
+      "EvidenceLocation": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 500,
+        "unique_ratio": 1.0,
+        "is_id_like_name": false,
+        "sample_values": [
+          "evidence-repo/backups/CTRL-53203-4488.pdf",
+          "evidence-repo/audit-trails/CTRL-52753-7670.csv",
+          "evidence-repo/incidents/CTRL-57033-2051.pdf",
+          "evidence-repo/logs/CTRL-92564-3409.log",
+          "evidence-repo/pentest/CTRL-57517-7002.pdf",
+          "evidence-repo/encryption/CTRL-99548-2854.json",
+          "evidence-repo/incidents/CTRL-49331-5317.pdf",
+          "evidence-repo/policies/CTRL-42312-3113.pdf"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": false
+      },
+      "CollectedDate": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 170,
+        "unique_ratio": 0.34,
+        "is_id_like_name": false,
+        "sample_values": [
+          "2026-06-08",
+          "2026-03-29",
+          "2026-02-17",
+          "2026-03-25",
+          "2026-02-27",
+          "2026-02-15",
+          "2026-05-01",
+          "2026-07-04"
+        ],
+        "date_parse_fraction": 1.0,
+        "looks_like_date": true,
+        "looks_like_enum": false
+      },
+      "Verified": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 2,
+        "unique_ratio": 0.004,
+        "is_id_like_name": false,
+        "sample_values": [
+          "TRUE",
+          "FALSE"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "FALSE",
+          "TRUE"
+        ]
+      },
+      "CollectedAutomatically": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 2,
+        "unique_ratio": 0.004,
+        "is_id_like_name": false,
+        "sample_values": [
+          "TRUE",
+          "FALSE"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "FALSE",
+          "TRUE"
+        ]
+      }
+    },
+    "sample_records": [
+      {
+        "EvidenceID": "EVD-516751",
+        "ControlID": "CTRL-53203",
+        "EvidenceType": "Backup Verification Report",
+        "EvidenceLocation": "evidence-repo/backups/CTRL-53203-4488.pdf",
+        "CollectedDate": "2026-06-08",
+        "Verified": "TRUE",
+        "CollectedAutomatically": "TRUE"
+      },
+      {
+        "EvidenceID": "EVD-806280",
+        "ControlID": "CTRL-52753",
+        "EvidenceType": "Audit Trail Export",
+        "EvidenceLocation": "evidence-repo/audit-trails/CTRL-52753-7670.csv",
+        "CollectedDate": "2026-03-29",
+        "Verified": "TRUE",
+        "CollectedAutomatically": "TRUE"
+      },
+      {
+        "EvidenceID": "EVD-862311",
+        "ControlID": "CTRL-57033",
+        "EvidenceType": "Incident Report",
+        "EvidenceLocation": "evidence-repo/incidents/CTRL-57033-2051.pdf",
+        "CollectedDate": "2026-02-17",
+        "Verified": "TRUE",
+        "CollectedAutomatically": "FALSE"
+      }
+    ]
+  },
+  "dataset11_compliance_findings.csv": {
+    "file": "dataset11_compliance_findings.csv",
+    "rows": 300,
+    "columns": [
+      "FindingID",
+      "ControlID",
+      "Severity",
+      "Description",
+      "EvidenceID",
+      "Recommendation",
+      "Status"
+    ],
+    "n_columns": 7,
+    "duplicate_full_rows": 0,
+    "pk_candidates": [
+      "FindingID"
+    ],
+    "columns_info": {
+      "FindingID": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 300,
+        "unique_ratio": 1.0,
+        "is_id_like_name": true,
+        "sample_values": [
+          "FIND-63833",
+          "FIND-36780",
+          "FIND-56681",
+          "FIND-88860",
+          "FIND-79145",
+          "FIND-29433",
+          "FIND-24039",
+          "FIND-89208"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": false
+      },
+      "ControlID": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 193,
+        "unique_ratio": 0.6433,
+        "is_id_like_name": true,
+        "sample_values": [
+          "CTRL-86374",
+          "CTRL-67924",
+          "CTRL-88524",
+          "CTRL-52471",
+          "CTRL-97409",
+          "CTRL-55240",
+          "CTRL-51875",
+          "CTRL-79082"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": false
+      },
+      "Severity": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 4,
+        "unique_ratio": 0.0133,
+        "is_id_like_name": false,
+        "sample_values": [
+          "Low",
+          "Critical",
+          "High",
+          "Medium"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "Critical",
+          "High",
+          "Low",
+          "Medium"
+        ]
+      },
+      "Description": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 12,
+        "unique_ratio": 0.04,
+        "is_id_like_name": false,
+        "sample_values": [
+          "Consent records incomplete for processed data: Personal data processing activity was identified without a corresponding valid consent record.",
+          "Patch SLA breach identified: Vulnerability remediation exceeded the defined SLA window based on scan and ticketing data.",
+          "Segregation of duties violation identified: A single user was found with conflicting permissions that violate segregation of duties requirements.",
+          "Control implementation partially effective: Testing indicated the control is implemented but does not consistently operate as designed across all in-scope systems.",
+          "Training completion below required threshold: Security awareness training completion rate for in-scope employees fell below the mandated threshold.",
+          "Encryption not enforced on identified assets: One or more in-scope assets were found without encryption enabled, contrary to the control objective.",
+          "MFA not enforced for all applicable accounts: A subset of user accounts with access to sensitive systems did not have multi-factor authentication enabled.",
+          "Log retention below policy requirement: Centralized log data was found retained for a duration shorter than the policy-mandated period."
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "Access review not performed for affected accounts: A sample of privileged accounts had no evidence of a periodic access recertification review.",
+          "Consent records incomplete for processed data: Personal data processing activity was identified without a corresponding valid consent record.",
+          "Control implementation partially effective: Testing indicated the control is implemented but does not consistently operate as designed across all in-scope systems.",
+          "Encryption not enforced on identified assets: One or more in-scope assets were found without encryption enabled, contrary to the control objective.",
+          "Evidence not collected within required cadence: The control's supporting evidence was not refreshed within the defined collection interval, creating a gap in continuous assurance.",
+          "Incident response plan not tested within required period: No evidence of a tabletop exercise or simulation was found within the last 12 months.",
+          "Log retention below policy requirement: Centralized log data was found retained for a duration shorter than the policy-mandated period.",
+          "MFA not enforced for all applicable accounts: A subset of user accounts with access to sensitive systems did not have multi-factor authentication enabled.",
+          "Patch SLA breach identified: Vulnerability remediation exceeded the defined SLA window based on scan and ticketing data.",
+          "Segregation of duties violation identified: A single user was found with conflicting permissions that violate segregation of duties requirements.",
+          "Training completion below required threshold: Security awareness training completion rate for in-scope employees fell below the mandated threshold.",
+          "Vendor security certification expired or missing: The associated third-party vendor's security certification could not be verified as current."
+        ]
+      },
+      "EvidenceID": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 218,
+        "unique_ratio": 0.7267,
+        "is_id_like_name": true,
+        "sample_values": [
+          "EVD-232410",
+          "EVD-350826",
+          "EVD-140266",
+          "EVD-535468",
+          "EVD-108927",
+          "EVD-921033",
+          "EVD-108841",
+          "EVD-210991"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": false
+      },
+      "Recommendation": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 12,
+        "unique_ratio": 0.04,
+        "is_id_like_name": false,
+        "sample_values": [
+          "Reconcile data processing activities against consent records and remediate gaps.",
+          "Prioritize remediation of overdue vulnerabilities and review patch management SLA adherence.",
+          "Revoke conflicting privileges and implement approval workflow for sensitive role combinations.",
+          "Extend control coverage to remaining systems and re-test for consistent operating effectiveness.",
+          "Launch a remediation campaign to close training completion gaps within 30 days.",
+          "Enable encryption at rest and in transit on the affected assets and validate via automated scan.",
+          "Enforce organization-wide MFA policy and remediate exception accounts within 30 days.",
+          "Adjust log retention configuration to meet or exceed the policy-defined retention period."
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "Adjust log retention configuration to meet or exceed the policy-defined retention period.",
+          "Complete a full access recertification cycle and enforce quarterly review cadence going forward.",
+          "Enable encryption at rest and in transit on the affected assets and validate via automated scan.",
+          "Enforce organization-wide MFA policy and remediate exception accounts within 30 days.",
+          "Establish an automated evidence collection schedule aligned to the control's required frequency.",
+          "Extend control coverage to remaining systems and re-test for consistent operating effectiveness.",
+          "Launch a remediation campaign to close training completion gaps within 30 days.",
+          "Obtain updated certification from the vendor or escalate to procurement for contract review.",
+          "Prioritize remediation of overdue vulnerabilities and review patch management SLA adherence.",
+          "Reconcile data processing activities against consent records and remediate gaps.",
+          "Revoke conflicting privileges and implement approval workflow for sensitive role combinations.",
+          "Schedule and conduct an incident response tabletop exercise and document results."
+        ]
+      },
+      "Status": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 5,
+        "unique_ratio": 0.0167,
+        "is_id_like_name": false,
+        "sample_values": [
+          "Open",
+          "Risk Accepted",
+          "Remediated",
+          "In Progress",
+          "Closed"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "Closed",
+          "In Progress",
+          "Open",
+          "Remediated",
+          "Risk Accepted"
+        ]
+      }
+    },
+    "sample_records": [
+      {
+        "FindingID": "FIND-63833",
+        "ControlID": "CTRL-86374",
+        "Severity": "Low",
+        "Description": "Consent records incomplete for processed data: Personal data processing activity was identified without a corresponding valid consent record.",
+        "EvidenceID": "EVD-232410",
+        "Recommendation": "Reconcile data processing activities against consent records and remediate gaps.",
+        "Status": "Open"
+      },
+      {
+        "FindingID": "FIND-36780",
+        "ControlID": "CTRL-67924",
+        "Severity": "Critical",
+        "Description": "Patch SLA breach identified: Vulnerability remediation exceeded the defined SLA window based on scan and ticketing data.",
+        "EvidenceID": "EVD-350826",
+        "Recommendation": "Prioritize remediation of overdue vulnerabilities and review patch management SLA adherence.",
+        "Status": "Risk Accepted"
+      },
+      {
+        "FindingID": "FIND-56681",
+        "ControlID": "CTRL-88524",
+        "Severity": "Low",
+        "Description": "Segregation of duties violation identified: A single user was found with conflicting permissions that violate segregation of duties requirements.",
+        "EvidenceID": "EVD-140266",
+        "Recommendation": "Revoke conflicting privileges and implement approval workflow for sensitive role combinations.",
+        "Status": "Remediated"
+      }
+    ]
+  },
+  "dataset12_compliance_reports.csv": {
+    "file": "dataset12_compliance_reports.csv",
+    "rows": 100,
+    "columns": [
+      "ReportID",
+      "Framework",
+      "GeneratedDate",
+      "OverallScore",
+      "CriticalFindings",
+      "HighFindings",
+      "MediumFindings",
+      "LowFindings",
+      "ComplianceStatus"
+    ],
+    "n_columns": 9,
+    "duplicate_full_rows": 0,
+    "pk_candidates": [
+      "ReportID"
+    ],
+    "columns_info": {
+      "ReportID": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 100,
+        "unique_ratio": 1.0,
+        "is_id_like_name": true,
+        "sample_values": [
+          "RPT-34567",
+          "RPT-23965",
+          "RPT-55543",
+          "RPT-25632",
+          "RPT-87946",
+          "RPT-94634",
+          "RPT-70681",
+          "RPT-41078"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": false
+      },
+      "Framework": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 5,
+        "unique_ratio": 0.05,
+        "is_id_like_name": false,
+        "sample_values": [
+          "ISO 27001",
+          "NIST",
+          "DPDP",
+          "SOC2",
+          "CIS Controls"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "CIS Controls",
+          "DPDP",
+          "ISO 27001",
+          "NIST",
+          "SOC2"
+        ]
+      },
+      "GeneratedDate": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 88,
+        "unique_ratio": 0.88,
+        "is_id_like_name": false,
+        "sample_values": [
+          "2025-11-22",
+          "2025-08-23",
+          "2026-03-14",
+          "2025-12-29",
+          "2026-05-15",
+          "2026-04-12",
+          "2025-12-02",
+          "2026-06-04"
+        ],
+        "date_parse_fraction": 1.0,
+        "looks_like_date": true,
+        "looks_like_enum": false
+      },
+      "OverallScore": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 48,
+        "unique_ratio": 0.48,
+        "is_id_like_name": false,
+        "sample_values": [
+          "88",
+          "87",
+          "58",
+          "79",
+          "53",
+          "85",
+          "80",
+          "63"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": false
+      },
+      "CriticalFindings": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 4,
+        "unique_ratio": 0.04,
+        "is_id_like_name": false,
+        "sample_values": [
+          "0",
+          "2",
+          "1",
+          "3"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      "HighFindings": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 7,
+        "unique_ratio": 0.07,
+        "is_id_like_name": false,
+        "sample_values": [
+          "0",
+          "1",
+          "4",
+          "2",
+          "3",
+          "5",
+          "6"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      },
+      "MediumFindings": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 8,
+        "unique_ratio": 0.08,
+        "is_id_like_name": false,
+        "sample_values": [
+          "3",
+          "2",
+          "6",
+          "5",
+          "0",
+          "1",
+          "4",
+          "7"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ]
+      },
+      "LowFindings": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 6,
+        "unique_ratio": 0.06,
+        "is_id_like_name": false,
+        "sample_values": [
+          "3",
+          "1",
+          "0",
+          "2",
+          "4",
+          "5"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "ComplianceStatus": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 4,
+        "unique_ratio": 0.04,
+        "is_id_like_name": false,
+        "sample_values": [
+          "Substantially Compliant",
+          "Partially Compliant",
+          "Non-Compliant",
+          "Compliant"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "Compliant",
+          "Non-Compliant",
+          "Partially Compliant",
+          "Substantially Compliant"
+        ]
+      }
+    },
+    "sample_records": [
+      {
+        "ReportID": "RPT-34567",
+        "Framework": "ISO 27001",
+        "GeneratedDate": "2025-11-22",
+        "OverallScore": "88",
+        "CriticalFindings": "0",
+        "HighFindings": "0",
+        "MediumFindings": "3",
+        "LowFindings": "3",
+        "ComplianceStatus": "Substantially Compliant"
+      },
+      {
+        "ReportID": "RPT-23965",
+        "Framework": "NIST",
+        "GeneratedDate": "2025-08-23",
+        "OverallScore": "87",
+        "CriticalFindings": "0",
+        "HighFindings": "1",
+        "MediumFindings": "2",
+        "LowFindings": "1",
+        "ComplianceStatus": "Substantially Compliant"
+      },
+      {
+        "ReportID": "RPT-55543",
+        "Framework": "DPDP",
+        "GeneratedDate": "2026-03-14",
+        "OverallScore": "58",
+        "CriticalFindings": "0",
+        "HighFindings": "4",
+        "MediumFindings": "6",
+        "LowFindings": "0",
+        "ComplianceStatus": "Partially Compliant"
+      }
+    ]
+  },
+  "dataset13_dpdp_personal_data_inventory.csv": {
+    "file": "dataset13_dpdp_personal_data_inventory.csv",
+    "rows": 300,
+    "columns": [
+      "DataID",
+      "ApplicationID",
+      "DataCategory",
+      "PurposeOfProcessing",
+      "RetentionPeriod",
+      "ThirdPartySharing",
+      "EncryptionEnabled",
+      "ConsentRequired"
+    ],
+    "n_columns": 8,
+    "duplicate_full_rows": 0,
+    "pk_candidates": [
+      "DataID"
+    ],
+    "columns_info": {
+      "DataID": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 300,
+        "unique_ratio": 1.0,
+        "is_id_like_name": true,
+        "sample_values": [
+          "DPDP-80925",
+          "DPDP-55571",
+          "DPDP-41582",
+          "DPDP-79017",
+          "DPDP-50780",
+          "DPDP-53036",
+          "DPDP-55259",
+          "DPDP-87137"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": false
+      },
+      "ApplicationID": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 93,
+        "unique_ratio": 0.31,
+        "is_id_like_name": true,
+        "sample_values": [
+          "APP9673",
+          "APP7390",
+          "APP9680",
+          "APP7845",
+          "APP9740",
+          "APP1630",
+          "APP5632",
+          "APP5430"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": false
+      },
+      "DataCategory": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 17,
+        "unique_ratio": 0.0567,
+        "is_id_like_name": false,
+        "sample_values": [
+          "Health and Medical Records",
+          "Location Data",
+          "Employee Government ID (PAN/Aadhaar)",
+          "Employee Financial Details (Salary, Bank Account)",
+          "Authentication Credentials",
+          "Vendor Contact and Banking Details",
+          "Employee Personal Details (Name, DOB, Address)",
+          "Device and IP Address Data"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "Authentication Credentials",
+          "Background Verification Records",
+          "Biometric Data (Fingerprint/Facial Recognition)",
+          "Customer Contact Information",
+          "Customer Financial Details (Payment Card Data)",
+          "Customer Support Interaction Records",
+          "Customer Transaction History",
+          "Device and IP Address Data",
+          "Employee Contact Information",
+          "Employee Financial Details (Salary, Bank Account)",
+          "Employee Government ID (PAN/Aadhaar)",
+          "Employee Personal Details (Name, DOB, Address)",
+          "Health and Medical Records",
+          "Job Applicant Resume Data",
+          "Location Data",
+          "Marketing Preference Data",
+          "Vendor Contact and Banking Details"
+        ]
+      },
+      "PurposeOfProcessing": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 14,
+        "unique_ratio": 0.0467,
+        "is_id_like_name": false,
+        "sample_values": [
+          "Legal and Statutory Obligations",
+          "Marketing and Communications",
+          "Vendor Payment Processing",
+          "Payroll Processing",
+          "Customer Relationship Management",
+          "Analytics and Product Improvement",
+          "Access Control and Authentication",
+          "Fraud Detection"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "Access Control and Authentication",
+          "Analytics and Product Improvement",
+          "Customer Relationship Management",
+          "Customer Support Service Delivery",
+          "Employee Onboarding",
+          "Fraud Detection",
+          "Legal and Statutory Obligations",
+          "Marketing and Communications",
+          "Payment Processing",
+          "Payroll Processing",
+          "Performance Management",
+          "Recruitment and Hiring",
+          "Regulatory Compliance Reporting",
+          "Vendor Payment Processing"
+        ]
+      },
+      "RetentionPeriod": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 7,
+        "unique_ratio": 0.0233,
+        "is_id_like_name": false,
+        "sample_values": [
+          "2 Years",
+          "7 Years",
+          "5 Years",
+          "6 Months",
+          "1 Year",
+          "3 Years",
+          "Duration of Employment + 3 Years"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "1 Year",
+          "2 Years",
+          "3 Years",
+          "5 Years",
+          "6 Months",
+          "7 Years",
+          "Duration of Employment + 3 Years"
+        ]
+      },
+      "ThirdPartySharing": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 2,
+        "unique_ratio": 0.0067,
+        "is_id_like_name": false,
+        "sample_values": [
+          "FALSE",
+          "TRUE"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "FALSE",
+          "TRUE"
+        ]
+      },
+      "EncryptionEnabled": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 2,
+        "unique_ratio": 0.0067,
+        "is_id_like_name": false,
+        "sample_values": [
+          "TRUE",
+          "FALSE"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "FALSE",
+          "TRUE"
+        ]
+      },
+      "ConsentRequired": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 2,
+        "unique_ratio": 0.0067,
+        "is_id_like_name": false,
+        "sample_values": [
+          "FALSE",
+          "TRUE"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "FALSE",
+          "TRUE"
+        ]
+      }
+    },
+    "sample_records": [
+      {
+        "DataID": "DPDP-80925",
+        "ApplicationID": "APP9673",
+        "DataCategory": "Health and Medical Records",
+        "PurposeOfProcessing": "Legal and Statutory Obligations",
+        "RetentionPeriod": "2 Years",
+        "ThirdPartySharing": "FALSE",
+        "EncryptionEnabled": "TRUE",
+        "ConsentRequired": "FALSE"
+      },
+      {
+        "DataID": "DPDP-55571",
+        "ApplicationID": "APP7390",
+        "DataCategory": "Location Data",
+        "PurposeOfProcessing": "Marketing and Communications",
+        "RetentionPeriod": "2 Years",
+        "ThirdPartySharing": "FALSE",
+        "EncryptionEnabled": "TRUE",
+        "ConsentRequired": "TRUE"
+      },
+      {
+        "DataID": "DPDP-41582",
+        "ApplicationID": "APP9680",
+        "DataCategory": "Employee Government ID (PAN/Aadhaar)",
+        "PurposeOfProcessing": "Vendor Payment Processing",
+        "RetentionPeriod": "7 Years",
+        "ThirdPartySharing": "FALSE",
+        "EncryptionEnabled": "TRUE",
+        "ConsentRequired": "TRUE"
+      }
+    ]
+  },
+  "dataset14_consent_records.csv": {
+    "file": "dataset14_consent_records.csv",
+    "rows": 500,
+    "columns": [
+      "ConsentID",
+      "EmployeeID",
+      "ApplicationID",
+      "ConsentGiven",
+      "ConsentDate",
+      "ExpiryDate",
+      "Revoked"
+    ],
+    "n_columns": 7,
+    "duplicate_full_rows": 0,
+    "pk_candidates": [
+      "ConsentID"
+    ],
+    "columns_info": {
+      "ConsentID": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 500,
+        "unique_ratio": 1.0,
+        "is_id_like_name": true,
+        "sample_values": [
+          "CNS-799803",
+          "CNS-689094",
+          "CNS-192705",
+          "CNS-422336",
+          "CNS-125955",
+          "CNS-736897",
+          "CNS-585559",
+          "CNS-938005"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": false
+      },
+      "EmployeeID": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 320,
+        "unique_ratio": 0.64,
+        "is_id_like_name": true,
+        "sample_values": [
+          "EMP0450",
+          "EMP0493",
+          "EMP0191",
+          "EMP0453",
+          "EMP0260",
+          "EMP0099",
+          "EMP0419",
+          "EMP0084"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": false
+      },
+      "ApplicationID": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 100,
+        "unique_ratio": 0.2,
+        "is_id_like_name": true,
+        "sample_values": [
+          "APP7447",
+          "APP9740",
+          "APP7096",
+          "APP2482",
+          "APP6202",
+          "APP5001",
+          "APP2306",
+          "APP1536"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": false
+      },
+      "ConsentGiven": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 2,
+        "unique_ratio": 0.004,
+        "is_id_like_name": false,
+        "sample_values": [
+          "FALSE",
+          "TRUE"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "FALSE",
+          "TRUE"
+        ]
+      },
+      "ConsentDate": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 396,
+        "unique_ratio": 0.792,
+        "is_id_like_name": false,
+        "sample_values": [
+          "2025-05-02",
+          "2024-03-07",
+          "2024-03-21",
+          "2025-07-05",
+          "2024-05-11",
+          "2025-10-22",
+          "2025-03-08",
+          "2024-05-13"
+        ],
+        "date_parse_fraction": 1.0,
+        "looks_like_date": true,
+        "looks_like_enum": false
+      },
+      "ExpiryDate": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 417,
+        "unique_ratio": 0.834,
+        "is_id_like_name": false,
+        "sample_values": [
+          "2026-12-02",
+          "2026-01-04",
+          "2026-07-17",
+          "2027-08-06",
+          "2026-10-14",
+          "2027-02-25",
+          "2027-12-02",
+          "2026-01-05"
+        ],
+        "date_parse_fraction": 1.0,
+        "looks_like_date": true,
+        "looks_like_enum": false
+      },
+      "Revoked": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 2,
+        "unique_ratio": 0.004,
+        "is_id_like_name": false,
+        "sample_values": [
+          "FALSE",
+          "TRUE"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "FALSE",
+          "TRUE"
+        ]
+      }
+    },
+    "sample_records": [
+      {
+        "ConsentID": "CNS-799803",
+        "EmployeeID": "EMP0450",
+        "ApplicationID": "APP7447",
+        "ConsentGiven": "FALSE",
+        "ConsentDate": "2025-05-02",
+        "ExpiryDate": "2026-12-02",
+        "Revoked": "FALSE"
+      },
+      {
+        "ConsentID": "CNS-689094",
+        "EmployeeID": "EMP0493",
+        "ApplicationID": "APP9740",
+        "ConsentGiven": "TRUE",
+        "ConsentDate": "2024-03-07",
+        "ExpiryDate": "2026-01-04",
+        "Revoked": "FALSE"
+      },
+      {
+        "ConsentID": "CNS-192705",
+        "EmployeeID": "EMP0191",
+        "ApplicationID": "APP7096",
+        "ConsentGiven": "TRUE",
+        "ConsentDate": "2024-03-21",
+        "ExpiryDate": "2026-07-17",
+        "Revoked": "FALSE"
+      }
+    ]
+  },
+  "dataset15_identity_access_management.csv": {
+    "file": "dataset15_identity_access_management.csv",
+    "rows": 500,
+    "columns": [
+      "UserID",
+      "EmployeeID",
+      "Role",
+      "Privileges",
+      "PrivilegedAccount",
+      "MFAEnabled",
+      "InactiveDays",
+      "LastPrivilegeReview"
+    ],
+    "n_columns": 8,
+    "duplicate_full_rows": 0,
+    "pk_candidates": [
+      "UserID",
+      "EmployeeID"
+    ],
+    "columns_info": {
+      "UserID": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 500,
+        "unique_ratio": 1.0,
+        "is_id_like_name": true,
+        "sample_values": [
+          "USR20944",
+          "USR72655",
+          "USR98309",
+          "USR59069",
+          "USR46912",
+          "USR96387",
+          "USR35867",
+          "USR81525"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": false
+      },
+      "EmployeeID": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 500,
+        "unique_ratio": 1.0,
+        "is_id_like_name": true,
+        "sample_values": [
+          "EMP0001",
+          "EMP0002",
+          "EMP0003",
+          "EMP0004",
+          "EMP0005",
+          "EMP0006",
+          "EMP0007",
+          "EMP0008"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": false
+      },
+      "Role": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 47,
+        "unique_ratio": 0.094,
+        "is_id_like_name": false,
+        "sample_values": [
+          "Sales User",
+          "DevOps Engineer",
+          "Product User",
+          "Network Administrator",
+          "Engineering Manager",
+          "SOC Analyst",
+          "HR User",
+          "System Administrator"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": false
+      },
+      "Privileges": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 47,
+        "unique_ratio": 0.094,
+        "is_id_like_name": false,
+        "sample_values": [
+          "Read: CRM Records; Write: Sales Opportunities",
+          "Read: Infrastructure; Write: Infrastructure; Deploy: Production Environment; Admin: CI/CD Pipeline",
+          "Read: Product Roadmap; Write: Feature Requests",
+          "Admin: Network Devices; Admin: VPN Gateway",
+          "Read: Source Code; Approve: Pull Requests; Admin: Team Repository",
+          "Read: SIEM Alerts; Write: Incident Tickets",
+          "Read: Employee Records; Write: Leave Requests",
+          "Admin: Servers; Admin: Backup Systems"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": false
+      },
+      "PrivilegedAccount": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 2,
+        "unique_ratio": 0.004,
+        "is_id_like_name": false,
+        "sample_values": [
+          "FALSE",
+          "TRUE"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "FALSE",
+          "TRUE"
+        ]
+      },
+      "MFAEnabled": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 2,
+        "unique_ratio": 0.004,
+        "is_id_like_name": false,
+        "sample_values": [
+          "FALSE",
+          "TRUE"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "FALSE",
+          "TRUE"
+        ]
+      },
+      "InactiveDays": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 73,
+        "unique_ratio": 0.146,
+        "is_id_like_name": false,
+        "sample_values": [
+          "2",
+          "11",
+          "0",
+          "1",
+          "24",
+          "15",
+          "12",
+          "13"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": false
+      },
+      "LastPrivilegeReview": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 281,
+        "unique_ratio": 0.562,
+        "is_id_like_name": false,
+        "sample_values": [
+          "2025-12-05",
+          "2026-02-05",
+          "2026-06-02",
+          "2026-07-29",
+          "2026-01-26",
+          "2026-04-22",
+          "2025-09-19",
+          "2026-06-17"
+        ],
+        "date_parse_fraction": 1.0,
+        "looks_like_date": true,
+        "looks_like_enum": false
+      }
+    },
+    "sample_records": [
+      {
+        "UserID": "USR20944",
+        "EmployeeID": "EMP0001",
+        "Role": "Sales User",
+        "Privileges": "Read: CRM Records; Write: Sales Opportunities",
+        "PrivilegedAccount": "FALSE",
+        "MFAEnabled": "FALSE",
+        "InactiveDays": "2",
+        "LastPrivilegeReview": "2025-12-05"
+      },
+      {
+        "UserID": "USR72655",
+        "EmployeeID": "EMP0002",
+        "Role": "DevOps Engineer",
+        "Privileges": "Read: Infrastructure; Write: Infrastructure; Deploy: Production Environment; Admin: CI/CD Pipeline",
+        "PrivilegedAccount": "FALSE",
+        "MFAEnabled": "TRUE",
+        "InactiveDays": "11",
+        "LastPrivilegeReview": "2026-02-05"
+      },
+      {
+        "UserID": "USR98309",
+        "EmployeeID": "EMP0003",
+        "Role": "Product User",
+        "Privileges": "Read: Product Roadmap; Write: Feature Requests",
+        "PrivilegedAccount": "FALSE",
+        "MFAEnabled": "TRUE",
+        "InactiveDays": "0",
+        "LastPrivilegeReview": "2026-06-02"
+      }
+    ]
+  },
+  "dataset1_enterprise_employees.csv": {
+    "file": "dataset1_enterprise_employees.csv",
+    "rows": 500,
+    "columns": [
+      "EmployeeID",
+      "FirstName",
+      "LastName",
+      "Email",
+      "Department",
+      "Designation",
+      "ManagerID",
+      "OfficeLocation",
+      "EmploymentType",
+      "JoiningDate",
+      "PasswordLength",
+      "PasswordLastChanged",
+      "MFAEnabled",
+      "AccountStatus",
+      "DeviceID",
+      "LastLogin"
+    ],
+    "n_columns": 16,
+    "duplicate_full_rows": 0,
+    "pk_candidates": [
+      "EmployeeID",
+      "DeviceID"
+    ],
+    "columns_info": {
+      "EmployeeID": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 500,
+        "unique_ratio": 1.0,
+        "is_id_like_name": true,
+        "sample_values": [
+          "EMP0001",
+          "EMP0002",
+          "EMP0003",
+          "EMP0004",
+          "EMP0005",
+          "EMP0006",
+          "EMP0007",
+          "EMP0008"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": false
+      },
+      "FirstName": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 100,
+        "unique_ratio": 0.2,
+        "is_id_like_name": false,
+        "sample_values": [
+          "Harish",
+          "Sneha",
+          "Fang",
+          "Priya",
+          "Rekha",
+          "Aryan",
+          "Rohan",
+          "Bilal"
+        ],
+        "date_parse_fraction": 0.02,
+        "looks_like_date": false,
+        "looks_like_enum": false
+      },
+      "LastName": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 70,
+        "unique_ratio": 0.14,
+        "is_id_like_name": false,
+        "sample_values": [
+          "Arora",
+          "Thompson",
+          "Liu",
+          "Anderson",
+          "Wu",
+          "Smith",
+          "Xu",
+          "Joshi"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": false
+      },
+      "Email": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 500,
+        "unique_ratio": 1.0,
+        "is_id_like_name": false,
+        "sample_values": [
+          "harish.arora@meridianfintech.example",
+          "sneha.thompson@meridianfintech.example",
+          "fang.liu@meridianfintech.example",
+          "priya.anderson@meridianfintech.example",
+          "rekha.wu@meridianfintech.example",
+          "aryan.smith@meridianfintech.example",
+          "rohan.xu@meridianfintech.example",
+          "bilal.joshi@meridianfintech.example"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": false
+      },
+      "Department": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 16,
+        "unique_ratio": 0.032,
+        "is_id_like_name": false,
+        "sample_values": [
+          "Sales",
+          "Engineering",
+          "Product Management",
+          "Information Technology",
+          "Information Security",
+          "Human Resources",
+          "Procurement",
+          "Operations"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "Customer Support",
+          "Data & Analytics",
+          "Engineering",
+          "Executive",
+          "Finance",
+          "Human Resources",
+          "Information Security",
+          "Information Technology",
+          "Internal Audit",
+          "Legal & Compliance",
+          "Marketing",
+          "Operations",
+          "Procurement",
+          "Product Management",
+          "Risk Management",
+          "Sales"
+        ]
+      },
+      "Designation": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 75,
+        "unique_ratio": 0.15,
+        "is_id_like_name": false,
+        "sample_values": [
+          "Sales Manager",
+          "DevOps Engineer",
+          "Senior Product Manager",
+          "IT Manager",
+          "Principal Engineer",
+          "GRC Analyst",
+          "HR Business Partner",
+          "Database Administrator"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": false
+      },
+      "ManagerID": {
+        "null_count": 1,
+        "null_pct": 0.2,
+        "nunique": 200,
+        "unique_ratio": 0.4,
+        "is_id_like_name": true,
+        "sample_values": [
+          "EMP0231",
+          "EMP0408",
+          "EMP0145",
+          "EMP0475",
+          "EMP0142",
+          "EMP0468",
+          "EMP0332",
+          "EMP0338"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": false
+      },
+      "OfficeLocation": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 12,
+        "unique_ratio": 0.024,
+        "is_id_like_name": false,
+        "sample_values": [
+          "Bengaluru, IN",
+          "Hyderabad, IN",
+          "Austin, US",
+          "London, UK",
+          "Mumbai, IN",
+          "Chennai, IN",
+          "Remote - India",
+          "Singapore, SG"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "Austin, US",
+          "Bengaluru, IN",
+          "Chennai, IN",
+          "Gurugram, IN",
+          "Hyderabad, IN",
+          "London, UK",
+          "Mumbai, IN",
+          "New York, US",
+          "Pune, IN",
+          "Remote - India",
+          "Remote - US",
+          "Singapore, SG"
+        ]
+      },
+      "EmploymentType": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 4,
+        "unique_ratio": 0.008,
+        "is_id_like_name": false,
+        "sample_values": [
+          "Part-Time",
+          "Intern",
+          "Contract",
+          "Full-Time"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "Contract",
+          "Full-Time",
+          "Intern",
+          "Part-Time"
+        ]
+      },
+      "JoiningDate": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 479,
+        "unique_ratio": 0.958,
+        "is_id_like_name": false,
+        "sample_values": [
+          "2020-11-21",
+          "2026-04-29",
+          "2019-04-26",
+          "2016-01-02",
+          "2021-04-22",
+          "2025-01-16",
+          "2018-03-07",
+          "2025-01-06"
+        ],
+        "date_parse_fraction": 1.0,
+        "looks_like_date": true,
+        "looks_like_enum": false
+      },
+      "PasswordLength": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 5,
+        "unique_ratio": 0.01,
+        "is_id_like_name": false,
+        "sample_values": [
+          "8",
+          "10",
+          "12",
+          "16",
+          "14"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "10",
+          "12",
+          "14",
+          "16",
+          "8"
+        ]
+      },
+      "PasswordLastChanged": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 433,
+        "unique_ratio": 0.866,
+        "is_id_like_name": false,
+        "sample_values": [
+          "2025-10-30",
+          "2026-06-27",
+          "2020-06-05",
+          "2019-03-21",
+          "2022-11-27",
+          "2025-05-31",
+          "2025-10-23",
+          "2026-06-15"
+        ],
+        "date_parse_fraction": 1.0,
+        "looks_like_date": true,
+        "looks_like_enum": false
+      },
+      "MFAEnabled": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 2,
+        "unique_ratio": 0.004,
+        "is_id_like_name": false,
+        "sample_values": [
+          "FALSE",
+          "TRUE"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "FALSE",
+          "TRUE"
+        ]
+      },
+      "AccountStatus": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 3,
+        "unique_ratio": 0.006,
+        "is_id_like_name": false,
+        "sample_values": [
+          "Active",
+          "Disabled",
+          "Suspended"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "Active",
+          "Disabled",
+          "Suspended"
+        ]
+      },
+      "DeviceID": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 500,
+        "unique_ratio": 1.0,
+        "is_id_like_name": true,
+        "sample_values": [
+          "DEV0001",
+          "DEV0002",
+          "DEV0003",
+          "DEV0004",
+          "DEV0005",
+          "DEV0006",
+          "DEV0007",
+          "DEV0008"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": false
+      },
+      "LastLogin": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 500,
+        "unique_ratio": 1.0,
+        "is_id_like_name": false,
+        "sample_values": [
+          "2026-08-04 23:47:42",
+          "2026-08-07 09:32:19",
+          "2026-07-30 21:47:57",
+          "2026-08-02 20:20:29",
+          "2026-08-03 20:39:21",
+          "2026-07-31 19:54:49",
+          "2026-07-26 20:44:00",
+          "2026-08-07 03:29:08"
+        ],
+        "date_parse_fraction": 1.0,
+        "looks_like_date": true,
+        "looks_like_enum": false
+      }
+    },
+    "sample_records": [
+      {
+        "EmployeeID": "EMP0001",
+        "FirstName": "Harish",
+        "LastName": "Arora",
+        "Email": "harish.arora@meridianfintech.example",
+        "Department": "Sales",
+        "Designation": "Sales Manager",
+        "ManagerID": "EMP0231",
+        "OfficeLocation": "Bengaluru, IN",
+        "EmploymentType": "Part-Time",
+        "JoiningDate": "2020-11-21",
+        "PasswordLength": "8",
+        "PasswordLastChanged": "2025-10-30",
+        "MFAEnabled": "FALSE",
+        "AccountStatus": "Active",
+        "DeviceID": "DEV0001",
+        "LastLogin": "2026-08-04 23:47:42"
+      },
+      {
+        "EmployeeID": "EMP0002",
+        "FirstName": "Sneha",
+        "LastName": "Thompson",
+        "Email": "sneha.thompson@meridianfintech.example",
+        "Department": "Engineering",
+        "Designation": "DevOps Engineer",
+        "ManagerID": "EMP0408",
+        "OfficeLocation": "Hyderabad, IN",
+        "EmploymentType": "Part-Time",
+        "JoiningDate": "2026-04-29",
+        "PasswordLength": "10",
+        "PasswordLastChanged": "2026-06-27",
+        "MFAEnabled": "TRUE",
+        "AccountStatus": "Active",
+        "DeviceID": "DEV0002",
+        "LastLogin": "2026-08-07 09:32:19"
+      },
+      {
+        "EmployeeID": "EMP0003",
+        "FirstName": "Fang",
+        "LastName": "Liu",
+        "Email": "fang.liu@meridianfintech.example",
+        "Department": "Product Management",
+        "Designation": "Senior Product Manager",
+        "ManagerID": "EMP0231",
+        "OfficeLocation": "Austin, US",
+        "EmploymentType": "Part-Time",
+        "JoiningDate": "2019-04-26",
+        "PasswordLength": "12",
+        "PasswordLastChanged": "2020-06-05",
+        "MFAEnabled": "TRUE",
+        "AccountStatus": "Active",
+        "DeviceID": "DEV0003",
+        "LastLogin": "2026-07-30 21:47:57"
+      }
+    ]
+  },
+  "dataset2_enterprise_devices.csv": {
+    "file": "dataset2_enterprise_devices.csv",
+    "rows": 500,
+    "columns": [
+      "DeviceID",
+      "EmployeeID",
+      "DeviceType",
+      "OperatingSystem",
+      "OSVersion",
+      "EncryptionEnabled",
+      "FirewallEnabled",
+      "AntivirusInstalled",
+      "EDRInstalled",
+      "ComplianceStatus",
+      "RiskLevel",
+      "LastPatchDate"
+    ],
+    "n_columns": 12,
+    "duplicate_full_rows": 0,
+    "pk_candidates": [
+      "DeviceID",
+      "EmployeeID"
+    ],
+    "columns_info": {
+      "DeviceID": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 500,
+        "unique_ratio": 1.0,
+        "is_id_like_name": true,
+        "sample_values": [
+          "DEV0001",
+          "DEV0002",
+          "DEV0003",
+          "DEV0004",
+          "DEV0005",
+          "DEV0006",
+          "DEV0007",
+          "DEV0008"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": false
+      },
+      "EmployeeID": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 500,
+        "unique_ratio": 1.0,
+        "is_id_like_name": true,
+        "sample_values": [
+          "EMP0001",
+          "EMP0002",
+          "EMP0003",
+          "EMP0004",
+          "EMP0005",
+          "EMP0006",
+          "EMP0007",
+          "EMP0008"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": false
+      },
+      "DeviceType": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 4,
+        "unique_ratio": 0.008,
+        "is_id_like_name": false,
+        "sample_values": [
+          "Mobile Phone",
+          "Desktop",
+          "Laptop",
+          "Tablet"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "Desktop",
+          "Laptop",
+          "Mobile Phone",
+          "Tablet"
+        ]
+      },
+      "OperatingSystem": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 6,
+        "unique_ratio": 0.012,
+        "is_id_like_name": false,
+        "sample_values": [
+          "iOS",
+          "Windows",
+          "macOS",
+          "Android",
+          "Linux",
+          "iPadOS"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "Android",
+          "Linux",
+          "Windows",
+          "iOS",
+          "iPadOS",
+          "macOS"
+        ]
+      },
+      "OSVersion": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 16,
+        "unique_ratio": 0.032,
+        "is_id_like_name": false,
+        "sample_values": [
+          "17.4",
+          "10 Enterprise 22H2",
+          "Sequoia 15.1",
+          "11 Pro 23H2",
+          "Sonoma 14.5",
+          "Ventura 13.6",
+          "13",
+          "11 Pro 22H2"
+        ],
+        "date_parse_fraction": 0.03,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "10 Enterprise 22H2",
+          "11 Pro 22H2",
+          "11 Pro 23H2",
+          "13",
+          "14",
+          "15",
+          "17.4",
+          "17.5",
+          "17.5.1",
+          "18.0",
+          "Fedora 40",
+          "Sequoia 15.1",
+          "Sonoma 14.5",
+          "Ubuntu 22.04 LTS",
+          "Ubuntu 24.04 LTS",
+          "Ventura 13.6"
+        ]
+      },
+      "EncryptionEnabled": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 2,
+        "unique_ratio": 0.004,
+        "is_id_like_name": false,
+        "sample_values": [
+          "FALSE",
+          "TRUE"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "FALSE",
+          "TRUE"
+        ]
+      },
+      "FirewallEnabled": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 2,
+        "unique_ratio": 0.004,
+        "is_id_like_name": false,
+        "sample_values": [
+          "TRUE",
+          "FALSE"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "FALSE",
+          "TRUE"
+        ]
+      },
+      "AntivirusInstalled": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 2,
+        "unique_ratio": 0.004,
+        "is_id_like_name": false,
+        "sample_values": [
+          "TRUE",
+          "FALSE"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "FALSE",
+          "TRUE"
+        ]
+      },
+      "EDRInstalled": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 2,
+        "unique_ratio": 0.004,
+        "is_id_like_name": false,
+        "sample_values": [
+          "TRUE",
+          "FALSE"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "FALSE",
+          "TRUE"
+        ]
+      },
+      "ComplianceStatus": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 3,
+        "unique_ratio": 0.006,
+        "is_id_like_name": false,
+        "sample_values": [
+          "Partially Compliant",
+          "Non-Compliant",
+          "Compliant"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "Compliant",
+          "Non-Compliant",
+          "Partially Compliant"
+        ]
+      },
+      "RiskLevel": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 4,
+        "unique_ratio": 0.008,
+        "is_id_like_name": false,
+        "sample_values": [
+          "Medium",
+          "High",
+          "Low",
+          "Critical"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "Critical",
+          "High",
+          "Low",
+          "Medium"
+        ]
+      },
+      "LastPatchDate": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 151,
+        "unique_ratio": 0.302,
+        "is_id_like_name": false,
+        "sample_values": [
+          "2026-06-09",
+          "2026-04-30",
+          "2026-07-24",
+          "2026-06-03",
+          "2026-06-10",
+          "2026-07-03",
+          "2026-04-15",
+          "2026-08-07"
+        ],
+        "date_parse_fraction": 1.0,
+        "looks_like_date": true,
+        "looks_like_enum": false
+      }
+    },
+    "sample_records": [
+      {
+        "DeviceID": "DEV0001",
+        "EmployeeID": "EMP0001",
+        "DeviceType": "Mobile Phone",
+        "OperatingSystem": "iOS",
+        "OSVersion": "17.4",
+        "EncryptionEnabled": "FALSE",
+        "FirewallEnabled": "TRUE",
+        "AntivirusInstalled": "TRUE",
+        "EDRInstalled": "TRUE",
+        "ComplianceStatus": "Partially Compliant",
+        "RiskLevel": "Medium",
+        "LastPatchDate": "2026-06-09"
+      },
+      {
+        "DeviceID": "DEV0002",
+        "EmployeeID": "EMP0002",
+        "DeviceType": "Desktop",
+        "OperatingSystem": "Windows",
+        "OSVersion": "10 Enterprise 22H2",
+        "EncryptionEnabled": "FALSE",
+        "FirewallEnabled": "TRUE",
+        "AntivirusInstalled": "TRUE",
+        "EDRInstalled": "TRUE",
+        "ComplianceStatus": "Non-Compliant",
+        "RiskLevel": "High",
+        "LastPatchDate": "2026-04-30"
+      },
+      {
+        "DeviceID": "DEV0003",
+        "EmployeeID": "EMP0003",
+        "DeviceType": "Laptop",
+        "OperatingSystem": "macOS",
+        "OSVersion": "Sequoia 15.1",
+        "EncryptionEnabled": "TRUE",
+        "FirewallEnabled": "TRUE",
+        "AntivirusInstalled": "TRUE",
+        "EDRInstalled": "TRUE",
+        "ComplianceStatus": "Compliant",
+        "RiskLevel": "Low",
+        "LastPatchDate": "2026-07-24"
+      }
+    ]
+  },
+  "dataset3_cloud_assets.csv": {
+    "file": "dataset3_cloud_assets.csv",
+    "rows": 300,
+    "columns": [
+      "ResourceID",
+      "CloudProvider",
+      "ResourceType",
+      "Region",
+      "OwnerEmployeeID",
+      "PublicAccess",
+      "EncryptionEnabled",
+      "LoggingEnabled",
+      "Criticality",
+      "RiskLevel"
+    ],
+    "n_columns": 10,
+    "duplicate_full_rows": 0,
+    "pk_candidates": [
+      "ResourceID"
+    ],
+    "columns_info": {
+      "ResourceID": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 300,
+        "unique_ratio": 1.0,
+        "is_id_like_name": true,
+        "sample_values": [
+          "AZR-RES-69151",
+          "AWS-RES-35196",
+          "AZR-RES-78464",
+          "AWS-RES-33229",
+          "GCP-RES-56904",
+          "AWS-RES-48280",
+          "AWS-RES-85081",
+          "AWS-RES-35971"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": false
+      },
+      "CloudProvider": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 3,
+        "unique_ratio": 0.01,
+        "is_id_like_name": false,
+        "sample_values": [
+          "Azure",
+          "AWS",
+          "GCP"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "AWS",
+          "Azure",
+          "GCP"
+        ]
+      },
+      "ResourceType": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 25,
+        "unique_ratio": 0.0833,
+        "is_id_like_name": false,
+        "sample_values": [
+          "Load Balancer",
+          "ELB Load Balancer",
+          "Managed Disk",
+          "IAM Role",
+          "VPC Network",
+          "Lambda Function",
+          "CloudFront Distribution",
+          "EBS Volume"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "Azure AD Application",
+          "Azure SQL Database",
+          "Blob Storage",
+          "Cloud Function",
+          "Cloud SQL Instance",
+          "Cloud Storage Bucket",
+          "CloudFront Distribution",
+          "Compute Engine Instance",
+          "DynamoDB Table",
+          "EBS Volume",
+          "EC2 Instance",
+          "ELB Load Balancer",
+          "Function App",
+          "IAM Role",
+          "IAM Service Account",
+          "Lambda Function",
+          "Load Balancer",
+          "Managed Disk",
+          "Persistent Disk",
+          "RDS Database",
+          "S3 Bucket",
+          "VPC",
+          "VPC Network",
+          "Virtual Machine",
+          "Virtual Network"
+        ]
+      },
+      "Region": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 13,
+        "unique_ratio": 0.0433,
+        "is_id_like_name": false,
+        "sample_values": [
+          "Southeast Asia",
+          "us-west-2",
+          "eu-west-1",
+          "asia-south1",
+          "us-east-1",
+          "Central India",
+          "asia-southeast1",
+          "East US"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "Central India",
+          "East US",
+          "Southeast Asia",
+          "West Europe",
+          "ap-south-1",
+          "ap-southeast-1",
+          "asia-south1",
+          "asia-southeast1",
+          "eu-west-1",
+          "europe-west1",
+          "us-central1",
+          "us-east-1",
+          "us-west-2"
+        ]
+      },
+      "OwnerEmployeeID": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 172,
+        "unique_ratio": 0.5733,
+        "is_id_like_name": true,
+        "sample_values": [
+          "EMP0469",
+          "EMP0081",
+          "EMP0050",
+          "EMP0255",
+          "EMP0013",
+          "EMP0228",
+          "EMP0169",
+          "EMP0062"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": false
+      },
+      "PublicAccess": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 2,
+        "unique_ratio": 0.0067,
+        "is_id_like_name": false,
+        "sample_values": [
+          "FALSE",
+          "TRUE"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "FALSE",
+          "TRUE"
+        ]
+      },
+      "EncryptionEnabled": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 2,
+        "unique_ratio": 0.0067,
+        "is_id_like_name": false,
+        "sample_values": [
+          "TRUE",
+          "FALSE"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "FALSE",
+          "TRUE"
+        ]
+      },
+      "LoggingEnabled": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 2,
+        "unique_ratio": 0.0067,
+        "is_id_like_name": false,
+        "sample_values": [
+          "FALSE",
+          "TRUE"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "FALSE",
+          "TRUE"
+        ]
+      },
+      "Criticality": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 4,
+        "unique_ratio": 0.0133,
+        "is_id_like_name": false,
+        "sample_values": [
+          "Medium",
+          "Low",
+          "High",
+          "Critical"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "Critical",
+          "High",
+          "Low",
+          "Medium"
+        ]
+      },
+      "RiskLevel": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 4,
+        "unique_ratio": 0.0133,
+        "is_id_like_name": false,
+        "sample_values": [
+          "Medium",
+          "Low",
+          "High",
+          "Critical"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "Critical",
+          "High",
+          "Low",
+          "Medium"
+        ]
+      }
+    },
+    "sample_records": [
+      {
+        "ResourceID": "AZR-RES-69151",
+        "CloudProvider": "Azure",
+        "ResourceType": "Load Balancer",
+        "Region": "Southeast Asia",
+        "OwnerEmployeeID": "EMP0469",
+        "PublicAccess": "FALSE",
+        "EncryptionEnabled": "TRUE",
+        "LoggingEnabled": "FALSE",
+        "Criticality": "Medium",
+        "RiskLevel": "Medium"
+      },
+      {
+        "ResourceID": "AWS-RES-35196",
+        "CloudProvider": "AWS",
+        "ResourceType": "ELB Load Balancer",
+        "Region": "us-west-2",
+        "OwnerEmployeeID": "EMP0081",
+        "PublicAccess": "FALSE",
+        "EncryptionEnabled": "TRUE",
+        "LoggingEnabled": "TRUE",
+        "Criticality": "Medium",
+        "RiskLevel": "Low"
+      },
+      {
+        "ResourceID": "AZR-RES-78464",
+        "CloudProvider": "Azure",
+        "ResourceType": "Managed Disk",
+        "Region": "Southeast Asia",
+        "OwnerEmployeeID": "EMP0050",
+        "PublicAccess": "FALSE",
+        "EncryptionEnabled": "FALSE",
+        "LoggingEnabled": "FALSE",
+        "Criticality": "Medium",
+        "RiskLevel": "High"
+      }
+    ]
+  },
+  "dataset4_applications.csv": {
+    "file": "dataset4_applications.csv",
+    "rows": 100,
+    "columns": [
+      "ApplicationID",
+      "ApplicationName",
+      "OwnerDepartment",
+      "AuthenticationMethod",
+      "UsesMFA",
+      "EncryptionEnabled",
+      "DataClassification",
+      "InternetFacing",
+      "RiskLevel"
+    ],
+    "n_columns": 9,
+    "duplicate_full_rows": 0,
+    "pk_candidates": [
+      "ApplicationID"
+    ],
+    "columns_info": {
+      "ApplicationID": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 100,
+        "unique_ratio": 1.0,
+        "is_id_like_name": true,
+        "sample_values": [
+          "APP4193",
+          "APP7712",
+          "APP2989",
+          "APP1630",
+          "APP9581",
+          "APP5510",
+          "APP5430",
+          "APP2533"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": false
+      },
+      "ApplicationName": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 100,
+        "unique_ratio": 1.0,
+        "is_id_like_name": false,
+        "sample_values": [
+          "ThreatWatch",
+          "PurchaseOrderHub",
+          "IAM Gateway",
+          "LogisticsHub",
+          "InvoiceHub",
+          "BuildPipeline",
+          "BoardPortal",
+          "eDiscovery Console"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": false
+      },
+      "OwnerDepartment": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 16,
+        "unique_ratio": 0.16,
+        "is_id_like_name": false,
+        "sample_values": [
+          "Information Security",
+          "Procurement",
+          "Operations",
+          "Finance",
+          "Engineering",
+          "Executive",
+          "Legal & Compliance",
+          "Marketing"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "Customer Support",
+          "Data & Analytics",
+          "Engineering",
+          "Executive",
+          "Finance",
+          "Human Resources",
+          "Information Security",
+          "Information Technology",
+          "Internal Audit",
+          "Legal & Compliance",
+          "Marketing",
+          "Operations",
+          "Procurement",
+          "Product Management",
+          "Risk Management",
+          "Sales"
+        ]
+      },
+      "AuthenticationMethod": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 6,
+        "unique_ratio": 0.06,
+        "is_id_like_name": false,
+        "sample_values": [
+          "SSO (SAML)",
+          "LDAP",
+          "Okta SSO",
+          "SSO (OAuth2)",
+          "Azure AD SSO",
+          "Username/Password"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "Azure AD SSO",
+          "LDAP",
+          "Okta SSO",
+          "SSO (OAuth2)",
+          "SSO (SAML)",
+          "Username/Password"
+        ]
+      },
+      "UsesMFA": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 2,
+        "unique_ratio": 0.02,
+        "is_id_like_name": false,
+        "sample_values": [
+          "FALSE",
+          "TRUE"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "FALSE",
+          "TRUE"
+        ]
+      },
+      "EncryptionEnabled": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 2,
+        "unique_ratio": 0.02,
+        "is_id_like_name": false,
+        "sample_values": [
+          "FALSE",
+          "TRUE"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "FALSE",
+          "TRUE"
+        ]
+      },
+      "DataClassification": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 4,
+        "unique_ratio": 0.04,
+        "is_id_like_name": false,
+        "sample_values": [
+          "Internal",
+          "Restricted",
+          "Confidential",
+          "Public"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "Confidential",
+          "Internal",
+          "Public",
+          "Restricted"
+        ]
+      },
+      "InternetFacing": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 2,
+        "unique_ratio": 0.02,
+        "is_id_like_name": false,
+        "sample_values": [
+          "FALSE",
+          "TRUE"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "FALSE",
+          "TRUE"
+        ]
+      },
+      "RiskLevel": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 4,
+        "unique_ratio": 0.04,
+        "is_id_like_name": false,
+        "sample_values": [
+          "High",
+          "Medium",
+          "Low",
+          "Critical"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "Critical",
+          "High",
+          "Low",
+          "Medium"
+        ]
+      }
+    },
+    "sample_records": [
+      {
+        "ApplicationID": "APP4193",
+        "ApplicationName": "ThreatWatch",
+        "OwnerDepartment": "Information Security",
+        "AuthenticationMethod": "SSO (SAML)",
+        "UsesMFA": "FALSE",
+        "EncryptionEnabled": "FALSE",
+        "DataClassification": "Internal",
+        "InternetFacing": "FALSE",
+        "RiskLevel": "High"
+      },
+      {
+        "ApplicationID": "APP7712",
+        "ApplicationName": "PurchaseOrderHub",
+        "OwnerDepartment": "Procurement",
+        "AuthenticationMethod": "LDAP",
+        "UsesMFA": "FALSE",
+        "EncryptionEnabled": "TRUE",
+        "DataClassification": "Internal",
+        "InternetFacing": "FALSE",
+        "RiskLevel": "Medium"
+      },
+      {
+        "ApplicationID": "APP2989",
+        "ApplicationName": "IAM Gateway",
+        "OwnerDepartment": "Information Security",
+        "AuthenticationMethod": "Okta SSO",
+        "UsesMFA": "TRUE",
+        "EncryptionEnabled": "TRUE",
+        "DataClassification": "Restricted",
+        "InternetFacing": "FALSE",
+        "RiskLevel": "Medium"
+      }
+    ]
+  },
+  "dataset5_third_party_vendors.csv": {
+    "file": "dataset5_third_party_vendors.csv",
+    "rows": 100,
+    "columns": [
+      "VendorID",
+      "VendorName",
+      "ServiceCategory",
+      "ISO27001Certified",
+      "SOC2Certified",
+      "DPDPCompliant",
+      "RiskRating",
+      "ContractExpiry"
+    ],
+    "n_columns": 8,
+    "duplicate_full_rows": 0,
+    "pk_candidates": [
+      "VendorID"
+    ],
+    "columns_info": {
+      "VendorID": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 100,
+        "unique_ratio": 1.0,
+        "is_id_like_name": true,
+        "sample_values": [
+          "VEN7649",
+          "VEN8864",
+          "VEN9291",
+          "VEN9945",
+          "VEN9964",
+          "VEN6711",
+          "VEN9293",
+          "VEN2862"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": false
+      },
+      "VendorName": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 100,
+        "unique_ratio": 1.0,
+        "is_id_like_name": false,
+        "sample_values": [
+          "Ironclad Global",
+          "Nimbus Global",
+          "Sentinel Systems",
+          "Apex Global",
+          "Clarity Systems",
+          "Everline Analytics",
+          "Zenith Consulting",
+          "Redshift Security"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": false
+      },
+      "ServiceCategory": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 16,
+        "unique_ratio": 0.16,
+        "is_id_like_name": false,
+        "sample_values": [
+          "Cloud Hosting",
+          "HR & Payroll Services",
+          "Customer Support Tooling",
+          "Background Verification",
+          "Recruitment Services",
+          "Legal Services",
+          "IT Managed Services",
+          "Email & Collaboration"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "Background Verification",
+          "Cloud Hosting",
+          "Customer Support Tooling",
+          "Cybersecurity Services",
+          "Data Analytics",
+          "Document Management",
+          "Email & Collaboration",
+          "Facilities Management",
+          "HR & Payroll Services",
+          "IT Managed Services",
+          "Legal Services",
+          "Logistics & Courier",
+          "Marketing Automation",
+          "Payment Processing",
+          "Recruitment Services",
+          "Software Development Outsourcing"
+        ]
+      },
+      "ISO27001Certified": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 2,
+        "unique_ratio": 0.02,
+        "is_id_like_name": false,
+        "sample_values": [
+          "TRUE",
+          "FALSE"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "FALSE",
+          "TRUE"
+        ]
+      },
+      "SOC2Certified": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 2,
+        "unique_ratio": 0.02,
+        "is_id_like_name": false,
+        "sample_values": [
+          "FALSE",
+          "TRUE"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "FALSE",
+          "TRUE"
+        ]
+      },
+      "DPDPCompliant": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 2,
+        "unique_ratio": 0.02,
+        "is_id_like_name": false,
+        "sample_values": [
+          "TRUE",
+          "FALSE"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "FALSE",
+          "TRUE"
+        ]
+      },
+      "RiskRating": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 4,
+        "unique_ratio": 0.04,
+        "is_id_like_name": false,
+        "sample_values": [
+          "Low",
+          "Medium",
+          "High",
+          "Critical"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "Critical",
+          "High",
+          "Low",
+          "Medium"
+        ]
+      },
+      "ContractExpiry": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 96,
+        "unique_ratio": 0.96,
+        "is_id_like_name": false,
+        "sample_values": [
+          "2026-09-18",
+          "2026-12-13",
+          "2029-01-19",
+          "2027-08-21",
+          "2028-06-25",
+          "2027-08-29",
+          "2026-06-19",
+          "2028-04-16"
+        ],
+        "date_parse_fraction": 1.0,
+        "looks_like_date": true,
+        "looks_like_enum": false
+      }
+    },
+    "sample_records": [
+      {
+        "VendorID": "VEN7649",
+        "VendorName": "Ironclad Global",
+        "ServiceCategory": "Cloud Hosting",
+        "ISO27001Certified": "TRUE",
+        "SOC2Certified": "FALSE",
+        "DPDPCompliant": "TRUE",
+        "RiskRating": "Low",
+        "ContractExpiry": "2026-09-18"
+      },
+      {
+        "VendorID": "VEN8864",
+        "VendorName": "Nimbus Global",
+        "ServiceCategory": "HR & Payroll Services",
+        "ISO27001Certified": "TRUE",
+        "SOC2Certified": "TRUE",
+        "DPDPCompliant": "FALSE",
+        "RiskRating": "Medium",
+        "ContractExpiry": "2026-12-13"
+      },
+      {
+        "VendorID": "VEN9291",
+        "VendorName": "Sentinel Systems",
+        "ServiceCategory": "Customer Support Tooling",
+        "ISO27001Certified": "TRUE",
+        "SOC2Certified": "FALSE",
+        "DPDPCompliant": "FALSE",
+        "RiskRating": "Medium",
+        "ContractExpiry": "2029-01-19"
+      }
+    ]
+  },
+  "dataset6_security_policies.csv": {
+    "file": "dataset6_security_policies.csv",
+    "rows": 100,
+    "columns": [
+      "PolicyID",
+      "PolicyName",
+      "Framework",
+      "Category",
+      "Version",
+      "OwnerDepartment",
+      "Mandatory"
+    ],
+    "n_columns": 7,
+    "duplicate_full_rows": 0,
+    "pk_candidates": [
+      "PolicyID"
+    ],
+    "columns_info": {
+      "PolicyID": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 100,
+        "unique_ratio": 1.0,
+        "is_id_like_name": true,
+        "sample_values": [
+          "POL-DPDP-528",
+          "POL-CIS-886",
+          "POL-ISO-754",
+          "POL-ISO-662",
+          "POL-DPDP-558",
+          "POL-ISO-595",
+          "POL-ISO-764",
+          "POL-CIS-221"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": false
+      },
+      "PolicyName": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 63,
+        "unique_ratio": 0.63,
+        "is_id_like_name": false,
+        "sample_values": [
+          "Data Protection Impact Assessment Policy",
+          "Email and Web Browser Protections Policy",
+          "Internal Audit Policy",
+          "Physical and Environmental Security Policy",
+          "Consent Management Policy",
+          "Information Security Policy",
+          "Asset Management Policy",
+          "Malware Defenses Policy"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": false
+      },
+      "Framework": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 5,
+        "unique_ratio": 0.05,
+        "is_id_like_name": false,
+        "sample_values": [
+          "DPDP",
+          "CIS Controls",
+          "ISO 27001",
+          "SOC2",
+          "NIST"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "CIS Controls",
+          "DPDP",
+          "ISO 27001",
+          "NIST",
+          "SOC2"
+        ]
+      },
+      "Category": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 18,
+        "unique_ratio": 0.18,
+        "is_id_like_name": false,
+        "sample_values": [
+          "Risk Management",
+          "Network Security",
+          "Audit",
+          "Physical Security",
+          "Data Privacy",
+          "Governance",
+          "Asset Management",
+          "Endpoint Security"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "Access Management",
+          "Asset Management",
+          "Audit",
+          "Business Continuity",
+          "Data Privacy",
+          "Data Protection",
+          "Endpoint Security",
+          "Governance",
+          "Incident Response",
+          "Monitoring",
+          "Network Security",
+          "Operations",
+          "Personnel Security",
+          "Physical Security",
+          "Risk Management",
+          "Secure Development",
+          "Third-Party Risk",
+          "Vulnerability Management"
+        ]
+      },
+      "Version": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 6,
+        "unique_ratio": 0.06,
+        "is_id_like_name": false,
+        "sample_values": [
+          "3.0",
+          "2.1",
+          "1.0",
+          "1.1",
+          "2.0",
+          "1.2"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "1.0",
+          "1.1",
+          "1.2",
+          "2.0",
+          "2.1",
+          "3.0"
+        ]
+      },
+      "OwnerDepartment": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 5,
+        "unique_ratio": 0.05,
+        "is_id_like_name": false,
+        "sample_values": [
+          "Legal & Compliance",
+          "Information Security",
+          "Risk Management",
+          "Internal Audit",
+          "Information Technology"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "Information Security",
+          "Information Technology",
+          "Internal Audit",
+          "Legal & Compliance",
+          "Risk Management"
+        ]
+      },
+      "Mandatory": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 2,
+        "unique_ratio": 0.02,
+        "is_id_like_name": false,
+        "sample_values": [
+          "TRUE",
+          "FALSE"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "FALSE",
+          "TRUE"
+        ]
+      }
+    },
+    "sample_records": [
+      {
+        "PolicyID": "POL-DPDP-528",
+        "PolicyName": "Data Protection Impact Assessment Policy",
+        "Framework": "DPDP",
+        "Category": "Risk Management",
+        "Version": "3.0",
+        "OwnerDepartment": "Legal & Compliance",
+        "Mandatory": "TRUE"
+      },
+      {
+        "PolicyID": "POL-CIS-886",
+        "PolicyName": "Email and Web Browser Protections Policy",
+        "Framework": "CIS Controls",
+        "Category": "Network Security",
+        "Version": "2.1",
+        "OwnerDepartment": "Information Security",
+        "Mandatory": "TRUE"
+      },
+      {
+        "PolicyID": "POL-ISO-754",
+        "PolicyName": "Internal Audit Policy",
+        "Framework": "ISO 27001",
+        "Category": "Audit",
+        "Version": "1.0",
+        "OwnerDepartment": "Risk Management",
+        "Mandatory": "TRUE"
+      }
+    ]
+  },
+  "dataset7_compliance_controls.csv": {
+    "file": "dataset7_compliance_controls.csv",
+    "rows": 300,
+    "columns": [
+      "ControlID",
+      "PolicyID",
+      "ControlName",
+      "Description",
+      "Severity",
+      "AutomationPossible",
+      "EvidenceRequired"
+    ],
+    "n_columns": 7,
+    "duplicate_full_rows": 0,
+    "pk_candidates": [
+      "ControlID"
+    ],
+    "columns_info": {
+      "ControlID": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 300,
+        "unique_ratio": 1.0,
+        "is_id_like_name": true,
+        "sample_values": [
+          "CTRL-57517",
+          "CTRL-31442",
+          "CTRL-64142",
+          "CTRL-74900",
+          "CTRL-66319",
+          "CTRL-92128",
+          "CTRL-24352",
+          "CTRL-52518"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": false
+      },
+      "PolicyID": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 96,
+        "unique_ratio": 0.32,
+        "is_id_like_name": true,
+        "sample_values": [
+          "POL-ISO-123",
+          "POL-CIS-211",
+          "POL-CIS-573",
+          "POL-ISO-576",
+          "POL-CIS-742",
+          "POL-NIST-850",
+          "POL-SOC2-959",
+          "POL-NIST-229"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": false
+      },
+      "ControlName": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 56,
+        "unique_ratio": 0.1867,
+        "is_id_like_name": false,
+        "sample_values": [
+          "Risk Assessment Cadence",
+          "Continuous Security Monitoring",
+          "Network Segmentation",
+          "Information Security Governance Charter",
+          "Acceptable Use Agreement",
+          "Incident Response Plan Testing",
+          "Policy Review Cadence",
+          "Encryption of Data at Rest"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": false
+      },
+      "Description": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 56,
+        "unique_ratio": 0.1867,
+        "is_id_like_name": false,
+        "sample_values": [
+          "Perform formal risk assessments at least annually",
+          "Implement continuous monitoring of critical systems for anomalous activity",
+          "Segment networks to isolate critical systems from general user traffic",
+          "Establish and maintain a formal information security governance charter approved by senior management",
+          "Require employees to acknowledge an acceptable use policy upon onboarding",
+          "Test the incident response plan through tabletop exercises at least annually",
+          "Review and update security policies at least annually or upon significant organizational change",
+          "Encrypt sensitive data at rest using industry-standard encryption algorithms"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": false
+      },
+      "Severity": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 4,
+        "unique_ratio": 0.0133,
+        "is_id_like_name": false,
+        "sample_values": [
+          "Medium",
+          "High",
+          "Low",
+          "Critical"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "Critical",
+          "High",
+          "Low",
+          "Medium"
+        ]
+      },
+      "AutomationPossible": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 2,
+        "unique_ratio": 0.0067,
+        "is_id_like_name": false,
+        "sample_values": [
+          "FALSE",
+          "TRUE"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "FALSE",
+          "TRUE"
+        ]
+      },
+      "EvidenceRequired": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 2,
+        "unique_ratio": 0.0067,
+        "is_id_like_name": false,
+        "sample_values": [
+          "TRUE",
+          "FALSE"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "FALSE",
+          "TRUE"
+        ]
+      }
+    },
+    "sample_records": [
+      {
+        "ControlID": "CTRL-57517",
+        "PolicyID": "POL-ISO-123",
+        "ControlName": "Risk Assessment Cadence",
+        "Description": "Perform formal risk assessments at least annually",
+        "Severity": "Medium",
+        "AutomationPossible": "FALSE",
+        "EvidenceRequired": "TRUE"
+      },
+      {
+        "ControlID": "CTRL-31442",
+        "PolicyID": "POL-CIS-211",
+        "ControlName": "Continuous Security Monitoring",
+        "Description": "Implement continuous monitoring of critical systems for anomalous activity",
+        "Severity": "Medium",
+        "AutomationPossible": "TRUE",
+        "EvidenceRequired": "TRUE"
+      },
+      {
+        "ControlID": "CTRL-64142",
+        "PolicyID": "POL-CIS-573",
+        "ControlName": "Network Segmentation",
+        "Description": "Segment networks to isolate critical systems from general user traffic",
+        "Severity": "High",
+        "AutomationPossible": "FALSE",
+        "EvidenceRequired": "TRUE"
+      }
+    ]
+  },
+  "dataset8_risk_register.csv": {
+    "file": "dataset8_risk_register.csv",
+    "rows": 300,
+    "columns": [
+      "RiskID",
+      "RiskName",
+      "Description",
+      "BusinessImpact",
+      "Likelihood",
+      "Severity",
+      "OwnerDepartment",
+      "MappedControlID",
+      "CurrentStatus"
+    ],
+    "n_columns": 9,
+    "duplicate_full_rows": 0,
+    "pk_candidates": [
+      "RiskID"
+    ],
+    "columns_info": {
+      "RiskID": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 300,
+        "unique_ratio": 1.0,
+        "is_id_like_name": true,
+        "sample_values": [
+          "RISK-77463",
+          "RISK-96518",
+          "RISK-66453",
+          "RISK-95959",
+          "RISK-74848",
+          "RISK-60570",
+          "RISK-88834",
+          "RISK-64450"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": false
+      },
+      "RiskName": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 20,
+        "unique_ratio": 0.0667,
+        "is_id_like_name": false,
+        "sample_values": [
+          "Unauthorized Access to Production Systems",
+          "Weak Password Policy Enforcement",
+          "Ransomware Infection on Endpoints",
+          "Unmonitored Privileged Account Activity",
+          "Cross-Border Data Transfer Without Safeguards",
+          "Phishing-Induced Credential Compromise",
+          "Excessive Data Retention Beyond Policy",
+          "Cloud Storage Misconfiguration"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "Cloud Storage Misconfiguration",
+          "Cross-Border Data Transfer Without Safeguards",
+          "Data Exfiltration via Unencrypted Channels",
+          "Delayed Patching of Critical Vulnerabilities",
+          "Excessive Data Retention Beyond Policy",
+          "Inadequate Incident Response Readiness",
+          "Insider Threat from Privileged Users",
+          "Insufficient Vendor Contract Security Clauses",
+          "Lack of Network Segmentation",
+          "Non-Compliance with DPDP Consent Requirements",
+          "Outdated Software Dependencies in Applications",
+          "Phishing-Induced Credential Compromise",
+          "Ransomware Infection on Endpoints",
+          "Shadow IT Application Usage",
+          "Single Point of Failure in Backup Systems",
+          "Third-Party Vendor Data Mishandling",
+          "Unauthorized Access to Production Systems",
+          "Unmonitored Privileged Account Activity",
+          "Unpatched Legacy Systems in Production",
+          "Weak Password Policy Enforcement"
+        ]
+      },
+      "Description": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 20,
+        "unique_ratio": 0.0667,
+        "is_id_like_name": false,
+        "sample_values": [
+          "Weak access controls could allow unauthorized personnel to reach production environments and sensitive data.",
+          "Insufficient password complexity and rotation requirements increase susceptibility to credential attacks.",
+          "Insufficient endpoint protection increases exposure to ransomware attacks that could encrypt critical business data.",
+          "Privileged account actions not logged or reviewed could allow malicious activity to go undetected.",
+          "Transferring personal data outside approved jurisdictions without safeguards may violate data protection law.",
+          "Employees without adequate security awareness training are susceptible to phishing attacks.",
+          "Personal or sensitive data retained beyond defined retention periods increases breach exposure and compliance risk.",
+          "Publicly accessible cloud storage buckets could expose sensitive enterprise or customer data."
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "Applications using unpatched third-party libraries are vulnerable to known exploits.",
+          "Employees using unsanctioned applications introduce unmanaged security and compliance risk.",
+          "Employees without adequate security awareness training are susceptible to phishing attacks.",
+          "Excessive standing privileges for employees increase the risk of intentional or accidental data misuse.",
+          "Flat network architecture allows lateral movement of attackers once a foothold is established.",
+          "Insufficient endpoint protection increases exposure to ransomware attacks that could encrypt critical business data.",
+          "Insufficient password complexity and rotation requirements increase susceptibility to credential attacks.",
+          "Lack of tested, redundant backups increases risk of permanent data loss during a disaster.",
+          "Legacy systems no longer receiving security updates remain exposed to known vulnerabilities.",
+          "Personal or sensitive data retained beyond defined retention periods increases breach exposure and compliance risk.",
+          "Privileged account actions not logged or reviewed could allow malicious activity to go undetected.",
+          "Processing personal data without valid recorded consent could violate DPDP obligations.",
+          "Publicly accessible cloud storage buckets could expose sensitive enterprise or customer data.",
+          "Sensitive data transmitted without encryption could be intercepted by malicious actors on the network.",
+          "Systems not patched within SLA windows remain exposed to known exploitable vulnerabilities.",
+          "Transferring personal data outside approved jurisdictions without safeguards may violate data protection law.",
+          "Untested incident response procedures may delay containment and recovery during a security incident.",
+          "Vendor contracts lacking explicit data protection obligations weaken enforceability of security expectations.",
+          "Vendors without adequate security certifications may mishandle data shared with them during service delivery.",
+          "Weak access controls could allow unauthorized personnel to reach production environments and sensitive data."
+        ]
+      },
+      "BusinessImpact": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 20,
+        "unique_ratio": 0.0667,
+        "is_id_like_name": false,
+        "sample_values": [
+          "Data breach and regulatory penalties",
+          "Account compromise",
+          "Operational downtime and financial loss",
+          "Undetected data breach or fraud",
+          "Regulatory penalties and data subject complaints",
+          "Account takeover and lateral movement",
+          "Regulatory non-compliance",
+          "Data breach and compliance violation"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "Account compromise",
+          "Account takeover and lateral movement",
+          "Application compromise and data loss",
+          "Business continuity disruption",
+          "Data breach and compliance violation",
+          "Data breach and regulatory penalties",
+          "Data leakage through ungoverned channels",
+          "Extended breach impact and higher recovery cost",
+          "Increased attack surface",
+          "Increased likelihood of successful cyberattack",
+          "Limited recourse in case of vendor breach",
+          "Loss of confidential business and customer data",
+          "Operational downtime and financial loss",
+          "Regulatory fines and legal action",
+          "Regulatory non-compliance",
+          "Regulatory penalties and data subject complaints",
+          "Reputational damage and contractual liability",
+          "Unauthorized data disclosure or sabotage",
+          "Undetected data breach or fraud",
+          "Wider blast radius during a security incident"
+        ]
+      },
+      "Likelihood": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 3,
+        "unique_ratio": 0.01,
+        "is_id_like_name": false,
+        "sample_values": [
+          "Medium",
+          "High",
+          "Low"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "High",
+          "Low",
+          "Medium"
+        ]
+      },
+      "Severity": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 4,
+        "unique_ratio": 0.0133,
+        "is_id_like_name": false,
+        "sample_values": [
+          "High",
+          "Critical",
+          "Low",
+          "Medium"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "Critical",
+          "High",
+          "Low",
+          "Medium"
+        ]
+      },
+      "OwnerDepartment": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 11,
+        "unique_ratio": 0.0367,
+        "is_id_like_name": false,
+        "sample_values": [
+          "Engineering",
+          "Internal Audit",
+          "Procurement",
+          "Risk Management",
+          "Human Resources",
+          "Operations",
+          "Finance",
+          "Data & Analytics"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "Data & Analytics",
+          "Engineering",
+          "Finance",
+          "Human Resources",
+          "Information Security",
+          "Information Technology",
+          "Internal Audit",
+          "Legal & Compliance",
+          "Operations",
+          "Procurement",
+          "Risk Management"
+        ]
+      },
+      "MappedControlID": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 185,
+        "unique_ratio": 0.6167,
+        "is_id_like_name": true,
+        "sample_values": [
+          "CTRL-81425",
+          "CTRL-70828",
+          "CTRL-85132",
+          "CTRL-85413",
+          "CTRL-16493",
+          "CTRL-89368",
+          "CTRL-23452",
+          "CTRL-33033"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": false
+      },
+      "CurrentStatus": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 5,
+        "unique_ratio": 0.0167,
+        "is_id_like_name": false,
+        "sample_values": [
+          "Mitigated",
+          "Open",
+          "In Remediation",
+          "Closed",
+          "Accepted"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "Accepted",
+          "Closed",
+          "In Remediation",
+          "Mitigated",
+          "Open"
+        ]
+      }
+    },
+    "sample_records": [
+      {
+        "RiskID": "RISK-77463",
+        "RiskName": "Unauthorized Access to Production Systems",
+        "Description": "Weak access controls could allow unauthorized personnel to reach production environments and sensitive data.",
+        "BusinessImpact": "Data breach and regulatory penalties",
+        "Likelihood": "Medium",
+        "Severity": "High",
+        "OwnerDepartment": "Engineering",
+        "MappedControlID": "CTRL-81425",
+        "CurrentStatus": "Mitigated"
+      },
+      {
+        "RiskID": "RISK-96518",
+        "RiskName": "Weak Password Policy Enforcement",
+        "Description": "Insufficient password complexity and rotation requirements increase susceptibility to credential attacks.",
+        "BusinessImpact": "Account compromise",
+        "Likelihood": "High",
+        "Severity": "Critical",
+        "OwnerDepartment": "Internal Audit",
+        "MappedControlID": "CTRL-70828",
+        "CurrentStatus": "Open"
+      },
+      {
+        "RiskID": "RISK-66453",
+        "RiskName": "Ransomware Infection on Endpoints",
+        "Description": "Insufficient endpoint protection increases exposure to ransomware attacks that could encrypt critical business data.",
+        "BusinessImpact": "Operational downtime and financial loss",
+        "Likelihood": "Low",
+        "Severity": "Low",
+        "OwnerDepartment": "Procurement",
+        "MappedControlID": "CTRL-85132",
+        "CurrentStatus": "In Remediation"
+      }
+    ]
+  },
+  "dataset9_audit_logs.csv": {
+    "file": "dataset9_audit_logs.csv",
+    "rows": 10000,
+    "columns": [
+      "LogID",
+      "Timestamp",
+      "EmployeeID",
+      "ApplicationID",
+      "Action",
+      "IPAddress",
+      "GeoLocation",
+      "Result",
+      "RiskScore"
+    ],
+    "n_columns": 9,
+    "duplicate_full_rows": 0,
+    "pk_candidates": [
+      "LogID"
+    ],
+    "columns_info": {
+      "LogID": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 10000,
+        "unique_ratio": 1.0,
+        "is_id_like_name": true,
+        "sample_values": [
+          "LOG1193774",
+          "LOG9589961",
+          "LOG1150188",
+          "LOG9606015",
+          "LOG6711656",
+          "LOG6627598",
+          "LOG9037695",
+          "LOG2689419"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": false
+      },
+      "Timestamp": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 9993,
+        "unique_ratio": 0.9993,
+        "is_id_like_name": false,
+        "sample_values": [
+          "2026-07-22 14:48:48",
+          "2026-08-02 18:06:38",
+          "2026-07-17 19:45:15",
+          "2026-06-19 19:56:58",
+          "2026-05-24 04:33:34",
+          "2026-06-13 18:30:04",
+          "2026-06-20 11:41:52",
+          "2026-06-23 13:50:11"
+        ],
+        "date_parse_fraction": 1.0,
+        "looks_like_date": true,
+        "looks_like_enum": false
+      },
+      "EmployeeID": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 449,
+        "unique_ratio": 0.0449,
+        "is_id_like_name": true,
+        "sample_values": [
+          "EMP0205",
+          "EMP0149",
+          "EMP0020",
+          "EMP0457",
+          "EMP0184",
+          "EMP0325",
+          "EMP0479",
+          "EMP0081"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": false
+      },
+      "ApplicationID": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 100,
+        "unique_ratio": 0.01,
+        "is_id_like_name": true,
+        "sample_values": [
+          "APP5360",
+          "APP2184",
+          "APP9581",
+          "APP4393",
+          "APP1984",
+          "APP4193",
+          "APP2306",
+          "APP2989"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": false
+      },
+      "Action": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 18,
+        "unique_ratio": 0.0018,
+        "is_id_like_name": false,
+        "sample_values": [
+          "Permission Change",
+          "Data Export",
+          "Privilege Escalation Request",
+          "File Download",
+          "Login",
+          "Record Modified",
+          "Record Viewed",
+          "Password Change"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "API Key Created",
+          "Configuration Change",
+          "Data Export",
+          "Failed Login Attempt",
+          "File Delete",
+          "File Download",
+          "File Upload",
+          "Login",
+          "Logout",
+          "MFA Challenge",
+          "Password Change",
+          "Permission Change",
+          "Privilege Escalation Request",
+          "Record Modified",
+          "Record Viewed",
+          "Report Generated",
+          "User Account Created",
+          "User Account Disabled"
+        ]
+      },
+      "IPAddress": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 2749,
+        "unique_ratio": 0.2749,
+        "is_id_like_name": false,
+        "sample_values": [
+          "223.190.12.91",
+          "85.25.67.55",
+          "104.174.65.131",
+          "81.100.14.233",
+          "104.174.65.132",
+          "182.68.9.189",
+          "81.100.14.84",
+          "85.25.67.188"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": false
+      },
+      "GeoLocation": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 12,
+        "unique_ratio": 0.0012,
+        "is_id_like_name": false,
+        "sample_values": [
+          "Mumbai, India",
+          "Frankfurt, Germany",
+          "Austin, USA",
+          "London, UK",
+          "Gurugram, India",
+          "Pune, India",
+          "New York, USA",
+          "Bengaluru, India"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "Austin, USA",
+          "Bengaluru, India",
+          "Chennai, India",
+          "Frankfurt, Germany",
+          "Gurugram, India",
+          "Hyderabad, India",
+          "London, UK",
+          "Mumbai, India",
+          "New York, USA",
+          "Pune, India",
+          "Singapore, SG",
+          "Unknown Location"
+        ]
+      },
+      "Result": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 2,
+        "unique_ratio": 0.0002,
+        "is_id_like_name": false,
+        "sample_values": [
+          "Success",
+          "Failure"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": true,
+        "enum_values": [
+          "Failure",
+          "Success"
+        ]
+      },
+      "RiskScore": {
+        "null_count": 0,
+        "null_pct": 0.0,
+        "nunique": 79,
+        "unique_ratio": 0.0079,
+        "is_id_like_name": false,
+        "sample_values": [
+          "22",
+          "40",
+          "43",
+          "5",
+          "30",
+          "25",
+          "9",
+          "7"
+        ],
+        "date_parse_fraction": 0.0,
+        "looks_like_date": false,
+        "looks_like_enum": false
+      }
+    },
+    "sample_records": [
+      {
+        "LogID": "LOG1193774",
+        "Timestamp": "2026-07-22 14:48:48",
+        "EmployeeID": "EMP0205",
+        "ApplicationID": "APP5360",
+        "Action": "Permission Change",
+        "IPAddress": "223.190.12.91",
+        "GeoLocation": "Mumbai, India",
+        "Result": "Success",
+        "RiskScore": "22"
+      },
+      {
+        "LogID": "LOG9589961",
+        "Timestamp": "2026-08-02 18:06:38",
+        "EmployeeID": "EMP0149",
+        "ApplicationID": "APP2184",
+        "Action": "Data Export",
+        "IPAddress": "85.25.67.55",
+        "GeoLocation": "Frankfurt, Germany",
+        "Result": "Success",
+        "RiskScore": "40"
+      },
+      {
+        "LogID": "LOG1150188",
+        "Timestamp": "2026-07-17 19:45:15",
+        "EmployeeID": "EMP0020",
+        "ApplicationID": "APP9581",
+        "Action": "Privilege Escalation Request",
+        "IPAddress": "104.174.65.131",
+        "GeoLocation": "Austin, USA",
+        "Result": "Success",
+        "RiskScore": "43"
+      }
+    ]
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "accounting": {
+    "alerts_by_rule": {
+      "IA-003": 44
+    },
+    "auth_lines_read": 502698003,
+    "comparison_candidates": {
+      "max": 7550,
+      "min": 4366,
+      "records_with_fewer_than_3": 0
+    },
+    "engine_runs": 2335,
+    "ingested": {
+      "conflicts": 0,
+      "duplicates": 0,
+      "inserted": 459174,
+      "received": 459174,
+      "rejected": 0
+    },
+    "lines_kept": {
+      "cmp": 224608,
+      "rt": 234566
+    },
+    "not_evaluable": {
+      "IA-001": 0,
+      "IA-002": 184828,
+      "IA-003": 0,
+      "IA-004": 0,
+      "IA-005": 0
+    },
+    "windows": {
+      "cmp": 2119,
+      "rt": 216
+    },
+    "windows_excluded_for_size": {
+      "cmp": 0,
+      "rt": 0
+    }
+  },
+  "benchmark": "m2-lanl",
+  "benchmark_version": 1,
+  "metadata": {
+    "code_sha256": {
+      "research/scripts/lanl_extract.py": "f2b7c9bf931f2233a977b5cb790c89620757f3abc009f5bbb2daca8321aa7d90",
+      "research/scripts/run_lanl_benchmark.py": "1abde31b513c4d77fecc404ca35164ffd49d29b51032eeafa5fc6715b2ef36b0",
+      "sentinel-ai-backend/app/detections/engine.py": "af83c01cea454c08796dbc659da39d2687ce07ce8d4a4679015b725e8871a44e",
+      "sentinel-ai-backend/app/detections/rules.py": "aaa20178c579f581b1345eb5e148a0503eac536c84ce51b10bf4b9e328bdaca9",
+      "sentinel-ai-backend/app/events/adapters.py": "6ead18e497ddd75c4e415282c129fa5a7938bc14b22ad39738b8477b5ac20e92",
+      "sentinel-ai-backend/app/events/store.py": "bf24ae297818f7599fe23dbeefe4621f022ffafb07251f90b800900080eb7d3d"
+    },
+    "finished_at": "2026-11-17T19:15:27.532216+00:00",
+    "generated_at": "2026-11-17T18:33:12.766576+00:00",
+    "git": "not a git repository",
+    "inputs_sha256": {
+      "auth": "9c6b0cc261b0edd19324f6fd1839743224938a7f644ed202ca70bd70a89bf672",
+      "preregistration": "3d977e98ed5f17e5f3c1b370dcffddbe19efcf5bd7ca43ad8c0c258ed8cdd82c",
+      "redteam": "606635837c684ad11e464075ecf97bc5df325ff7d7f64614d2d8c8af18051669"
+    },
+    "packages": {
+      "aiosqlite": "0.22.1",
+      "alembic": "1.20.1",
+      "pydantic": "2.14.3",
+      "sqlalchemy": "2.1.9"
+    },
+    "platform": "Windows-11-10.0.26220-SP0",
+    "python": "3.12.10"
+  },
+  "parameters": {
+    "draws": 3,
+    "max_events_per_run": 50000,
+    "scoring_region_seconds": [
+      -1800,
+      3600
+    ],
+    "seed": 20261117,
+    "window_seconds": [
+      -3600,
+      3600
+    ]
+  },
+  "prediction_p1": {
+    "held": true,
+    "registered": "strict recall below 0.10"
+  },
+  "primary": {
+    "comparison_alert_rate": {
+      "alerts": 12,
+      "per_10000_successful_logons": 2.021,
+      "per_1000_windows": 5.5944,
+      "successful_logons": 59377,
+      "windows": 2145
+    },
+    "strict_recall": {
+      "detected": 5,
+      "evaluable": 701,
+      "recall": 0.0071,
+      "wilson_95": [
+        0.0031,
+        0.0166
+      ]
+    }
+  },
+  "red_team": {
+    "classes": {
+      "a": 14,
+      "c": 701
+    },
+    "distinct_records": 715,
+    "lines": 749
+  },
+  "rule_versions": {
+    "IA-001": 1,
+    "IA-002": 1,
+    "IA-003": 1,
+    "IA-004": 1,
+    "IA-005": 1
+  },
+  "secondary": {
+    "failures_before_record": {
+      "all": {
+        "0": 513,
+        "1-4": 170,
+        "5+": 32
+      },
+      "evaluable": {
+        "0": 502,
+        "1-4": 168,
+        "5+": 31
+      }
+    },
+    "ia003_unlabelled_alerts_on_red_team_accounts": 22
+  }
+}

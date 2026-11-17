@@ -1,0 +1,909 @@
+{
+  "benchmark": "gate3-detections",
+  "benchmark_version": 1,
+  "evaluator_version": 1,
+  "fixtures": {
+    "identity-access-boundary-v1": {
+      "all_rules": {
+        "alerts": 5,
+        "fn": 3,
+        "fp": 0,
+        "fp_by_kind": {},
+        "missed": [
+          "B-12",
+          "B-13",
+          "B-14"
+        ],
+        "precision": 1.0,
+        "recall": 0.625,
+        "tp": 5
+      },
+      "comparisons": {
+        "legacy_failure_only": {
+          "flagged": 29,
+          "flagged_by_kind": {
+            "context": 29
+          },
+          "scenarios_flagged": [
+            "B-01",
+            "B-02",
+            "B-03",
+            "B-04",
+            "B-05",
+            "B-15"
+          ],
+          "trigger_events_flagged": 0,
+          "triggers_total": 8
+        },
+        "naive": {
+          "IA-001": {
+            "alerts": 4,
+            "fn": 0,
+            "fp": 3,
+            "fp_by_kind": {
+              "context": 3
+            },
+            "missed": [],
+            "precision": 0.25,
+            "recall": 1.0,
+            "tp": 1
+          },
+          "IA-002": {
+            "alerts": 29,
+            "fn": 1,
+            "fp": 29,
+            "fp_by_kind": {
+              "context": 29
+            },
+            "missed": [
+              "B-14"
+            ],
+            "precision": 0.0,
+            "recall": 0.0,
+            "tp": 0
+          },
+          "IA-003": {
+            "alerts": 6,
+            "fn": 0,
+            "fp": 3,
+            "fp_by_kind": {
+              "decoy": 3
+            },
+            "missed": [],
+            "precision": 0.5,
+            "recall": 1.0,
+            "tp": 3
+          },
+          "IA-004": {
+            "alerts": 3,
+            "fn": 0,
+            "fp": 1,
+            "fp_by_kind": {
+              "decoy": 1
+            },
+            "missed": [],
+            "precision": 0.6666666666666666,
+            "recall": 1.0,
+            "tp": 2
+          },
+          "IA-005": {
+            "alerts": 1,
+            "fn": 0,
+            "fp": 0,
+            "fp_by_kind": {},
+            "missed": [],
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 1
+          }
+        }
+      },
+      "conformance": [
+        {
+          "as_pre_registered": true,
+          "expected_alerts": 0,
+          "known_miss": true,
+          "note": "The source omits attributes.privileged, so the grant is not evaluable.",
+          "observed_alerts": 0,
+          "rule": "IA-001",
+          "scenario": "B-13"
+        },
+        {
+          "as_pre_registered": true,
+          "expected_alerts": 0,
+          "known_miss": true,
+          "note": "The source omits attributes.mfa_used, so the privileged sign-in is not evaluable.",
+          "observed_alerts": 0,
+          "rule": "IA-002",
+          "scenario": "B-14"
+        },
+        {
+          "as_pre_registered": true,
+          "expected_alerts": 0,
+          "known_miss": false,
+          "note": "",
+          "observed_alerts": 0,
+          "rule": "IA-003",
+          "scenario": "B-01"
+        },
+        {
+          "as_pre_registered": true,
+          "expected_alerts": 1,
+          "known_miss": false,
+          "note": "",
+          "observed_alerts": 1,
+          "rule": "IA-003",
+          "scenario": "B-02"
+        },
+        {
+          "as_pre_registered": true,
+          "expected_alerts": 0,
+          "known_miss": false,
+          "note": "",
+          "observed_alerts": 0,
+          "rule": "IA-003",
+          "scenario": "B-03"
+        },
+        {
+          "as_pre_registered": true,
+          "expected_alerts": 1,
+          "known_miss": false,
+          "note": "",
+          "observed_alerts": 1,
+          "rule": "IA-003",
+          "scenario": "B-04"
+        },
+        {
+          "as_pre_registered": true,
+          "expected_alerts": 0,
+          "known_miss": false,
+          "note": "",
+          "observed_alerts": 0,
+          "rule": "IA-003",
+          "scenario": "B-05"
+        },
+        {
+          "as_pre_registered": true,
+          "expected_alerts": 1,
+          "known_miss": false,
+          "note": "Two successes after the burst; only the first alerts.",
+          "observed_alerts": 1,
+          "rule": "IA-003",
+          "scenario": "B-15"
+        },
+        {
+          "as_pre_registered": true,
+          "expected_alerts": 0,
+          "known_miss": false,
+          "note": "",
+          "observed_alerts": 0,
+          "rule": "IA-004",
+          "scenario": "B-09"
+        },
+        {
+          "as_pre_registered": true,
+          "expected_alerts": 1,
+          "known_miss": false,
+          "note": "",
+          "observed_alerts": 1,
+          "rule": "IA-004",
+          "scenario": "B-10"
+        },
+        {
+          "as_pre_registered": true,
+          "expected_alerts": 0,
+          "known_miss": false,
+          "note": "",
+          "observed_alerts": 0,
+          "rule": "IA-004",
+          "scenario": "B-11"
+        },
+        {
+          "as_pre_registered": true,
+          "expected_alerts": 0,
+          "known_miss": true,
+          "note": "The disable is in a different source from the sign-in; runs see one source at a time.",
+          "observed_alerts": 0,
+          "rule": "IA-004",
+          "scenario": "B-12"
+        },
+        {
+          "as_pre_registered": true,
+          "expected_alerts": 1,
+          "known_miss": false,
+          "note": "Access exactly 60 minutes after the grant: inside the window.",
+          "observed_alerts": 1,
+          "rule": "IA-005",
+          "scenario": "B-06"
+        },
+        {
+          "as_pre_registered": true,
+          "expected_alerts": 0,
+          "known_miss": false,
+          "note": "",
+          "observed_alerts": 0,
+          "rule": "IA-005",
+          "scenario": "B-07"
+        },
+        {
+          "as_pre_registered": true,
+          "expected_alerts": 0,
+          "known_miss": false,
+          "note": "",
+          "observed_alerts": 0,
+          "rule": "IA-005",
+          "scenario": "B-08"
+        }
+      ],
+      "events": 53,
+      "files": {
+        "events-hr.jsonl": "c60992ed749e2ebb3625edccc8d5766f50e32c076274ce8dc152191d22effe21",
+        "events.jsonl": "97ea4de3dc0f9ef266dbf4c0c49cee02945f78247686e16485500e1ecb3905dc",
+        "labels.jsonl": "6f91c649256e5f5eaebfd80defb0ddfffb7c14068f084ca651b9bf5a75fe0f22"
+      },
+      "fixture": "identity-access-boundary-v1",
+      "ingestion": {
+        "events-hr.jsonl": {
+          "conflicts": 0,
+          "duplicates": 0,
+          "inserted": 1,
+          "received": 1,
+          "rejected": 0
+        },
+        "events.jsonl": {
+          "conflicts": 0,
+          "duplicates": 0,
+          "inserted": 52,
+          "received": 52,
+          "rejected": 0
+        }
+      },
+      "rules": {
+        "IA-001": {
+          "alerts": 0,
+          "family": "privilege_grant_without_approval",
+          "fn": 1,
+          "fp": 0,
+          "fp_by_kind": {},
+          "missed": [
+            "B-13"
+          ],
+          "not_evaluable": 1,
+          "precision": null,
+          "recall": 0.0,
+          "tp": 0
+        },
+        "IA-002": {
+          "alerts": 0,
+          "family": "privileged_login_without_mfa",
+          "fn": 1,
+          "fp": 0,
+          "fp_by_kind": {},
+          "missed": [
+            "B-14"
+          ],
+          "not_evaluable": 1,
+          "precision": null,
+          "recall": 0.0,
+          "tp": 0
+        },
+        "IA-003": {
+          "alerts": 3,
+          "family": "failed_privileged_logins_then_success",
+          "fn": 0,
+          "fp": 0,
+          "fp_by_kind": {},
+          "missed": [],
+          "not_evaluable": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 3
+        },
+        "IA-004": {
+          "alerts": 1,
+          "family": "activity_by_disabled_account",
+          "fn": 1,
+          "fp": 0,
+          "fp_by_kind": {},
+          "missed": [
+            "B-12"
+          ],
+          "not_evaluable": 0,
+          "precision": 1.0,
+          "recall": 0.5,
+          "tp": 1
+        },
+        "IA-005": {
+          "alerts": 1,
+          "family": "permission_change_then_sensitive_access",
+          "fn": 0,
+          "fp": 0,
+          "fp_by_kind": {},
+          "missed": [],
+          "not_evaluable": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 1
+        }
+      },
+      "scenarios": {
+        "B-01": {
+          "alerted_by": [],
+          "family": "failed_privileged_logins_then_success",
+          "label": "benign"
+        },
+        "B-02": {
+          "alerted_by": [
+            "IA-003"
+          ],
+          "family": "failed_privileged_logins_then_success",
+          "label": "suspicious"
+        },
+        "B-03": {
+          "alerted_by": [],
+          "family": "failed_privileged_logins_then_success",
+          "label": "benign"
+        },
+        "B-04": {
+          "alerted_by": [
+            "IA-003"
+          ],
+          "family": "failed_privileged_logins_then_success",
+          "label": "suspicious"
+        },
+        "B-05": {
+          "alerted_by": [],
+          "family": "failed_privileged_logins_then_success",
+          "label": "benign"
+        },
+        "B-06": {
+          "alerted_by": [
+            "IA-005"
+          ],
+          "family": "permission_change_then_sensitive_access",
+          "label": "suspicious"
+        },
+        "B-07": {
+          "alerted_by": [],
+          "family": "permission_change_then_sensitive_access",
+          "label": "benign"
+        },
+        "B-08": {
+          "alerted_by": [],
+          "family": "permission_change_then_sensitive_access",
+          "label": "benign"
+        },
+        "B-09": {
+          "alerted_by": [],
+          "family": "activity_by_disabled_account",
+          "label": "benign"
+        },
+        "B-10": {
+          "alerted_by": [
+            "IA-004"
+          ],
+          "family": "activity_by_disabled_account",
+          "label": "suspicious"
+        },
+        "B-11": {
+          "alerted_by": [],
+          "family": "activity_by_disabled_account",
+          "label": "benign"
+        },
+        "B-12": {
+          "alerted_by": [],
+          "family": "activity_by_disabled_account",
+          "label": "suspicious"
+        },
+        "B-13": {
+          "alerted_by": [],
+          "family": "privilege_grant_without_approval",
+          "label": "suspicious"
+        },
+        "B-14": {
+          "alerted_by": [],
+          "family": "privileged_login_without_mfa",
+          "label": "suspicious"
+        },
+        "B-15": {
+          "alerted_by": [
+            "IA-003"
+          ],
+          "family": "failed_privileged_logins_then_success",
+          "label": "suspicious"
+        }
+      },
+      "trigger_events": 8
+    },
+    "identity-access-v1": {
+      "all_rules": {
+        "alerts": 7,
+        "fn": 0,
+        "fp": 0,
+        "fp_by_kind": {},
+        "missed": [],
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 7
+      },
+      "comparisons": {
+        "legacy_failure_only": {
+          "flagged": 35,
+          "flagged_by_kind": {
+            "background": 13,
+            "context": 20,
+            "decoy": 2
+          },
+          "scenarios_flagged": [
+            "N00",
+            "S02-B3",
+            "S03-B1",
+            "S03-B2",
+            "S03-B3",
+            "S03-P1",
+            "S04-B2"
+          ],
+          "trigger_events_flagged": 0,
+          "triggers_total": 7
+        },
+        "naive": {
+          "IA-001": {
+            "alerts": 7,
+            "fn": 0,
+            "fp": 5,
+            "fp_by_kind": {
+              "context": 3,
+              "decoy": 2
+            },
+            "missed": [],
+            "precision": 0.2857142857142857,
+            "recall": 1.0,
+            "tp": 2
+          },
+          "IA-002": {
+            "alerts": 38,
+            "fn": 0,
+            "fp": 37,
+            "fp_by_kind": {
+              "background": 13,
+              "context": 20,
+              "decoy": 3,
+              "other_family_trigger": 1
+            },
+            "missed": [],
+            "precision": 0.02631578947368421,
+            "recall": 1.0,
+            "tp": 1
+          },
+          "IA-003": {
+            "alerts": 17,
+            "fn": 0,
+            "fp": 16,
+            "fp_by_kind": {
+              "background": 13,
+              "decoy": 3
+            },
+            "missed": [],
+            "precision": 0.058823529411764705,
+            "recall": 1.0,
+            "tp": 1
+          },
+          "IA-004": {
+            "alerts": 4,
+            "fn": 0,
+            "fp": 2,
+            "fp_by_kind": {
+              "decoy": 2
+            },
+            "missed": [],
+            "precision": 0.5,
+            "recall": 1.0,
+            "tp": 2
+          },
+          "IA-005": {
+            "alerts": 2,
+            "fn": 0,
+            "fp": 1,
+            "fp_by_kind": {
+              "decoy": 1
+            },
+            "missed": [],
+            "precision": 0.5,
+            "recall": 1.0,
+            "tp": 1
+          }
+        }
+      },
+      "conformance": [
+        {
+          "as_pre_registered": true,
+          "expected_alerts": 1,
+          "known_miss": false,
+          "note": "",
+          "observed_alerts": 1,
+          "rule": "IA-001",
+          "scenario": "S01-P1"
+        },
+        {
+          "as_pre_registered": true,
+          "expected_alerts": 1,
+          "known_miss": false,
+          "note": "",
+          "observed_alerts": 1,
+          "rule": "IA-001",
+          "scenario": "S01-P2"
+        },
+        {
+          "as_pre_registered": true,
+          "expected_alerts": 0,
+          "known_miss": false,
+          "note": "",
+          "observed_alerts": 0,
+          "rule": "IA-001",
+          "scenario": "S01-B1"
+        },
+        {
+          "as_pre_registered": true,
+          "expected_alerts": 0,
+          "known_miss": false,
+          "note": "",
+          "observed_alerts": 0,
+          "rule": "IA-001",
+          "scenario": "S01-B2"
+        },
+        {
+          "as_pre_registered": true,
+          "expected_alerts": 1,
+          "known_miss": false,
+          "note": "",
+          "observed_alerts": 1,
+          "rule": "IA-002",
+          "scenario": "S02-P1"
+        },
+        {
+          "as_pre_registered": true,
+          "expected_alerts": 0,
+          "known_miss": false,
+          "note": "",
+          "observed_alerts": 0,
+          "rule": "IA-002",
+          "scenario": "S02-B1"
+        },
+        {
+          "as_pre_registered": true,
+          "expected_alerts": 0,
+          "known_miss": false,
+          "note": "",
+          "observed_alerts": 0,
+          "rule": "IA-002",
+          "scenario": "S02-B2"
+        },
+        {
+          "as_pre_registered": true,
+          "expected_alerts": 0,
+          "known_miss": false,
+          "note": "",
+          "observed_alerts": 0,
+          "rule": "IA-002",
+          "scenario": "S02-B3"
+        },
+        {
+          "as_pre_registered": true,
+          "expected_alerts": 1,
+          "known_miss": false,
+          "note": "",
+          "observed_alerts": 1,
+          "rule": "IA-003",
+          "scenario": "S03-P1"
+        },
+        {
+          "as_pre_registered": true,
+          "expected_alerts": 0,
+          "known_miss": false,
+          "note": "",
+          "observed_alerts": 0,
+          "rule": "IA-003",
+          "scenario": "S03-B1"
+        },
+        {
+          "as_pre_registered": true,
+          "expected_alerts": 0,
+          "known_miss": false,
+          "note": "",
+          "observed_alerts": 0,
+          "rule": "IA-003",
+          "scenario": "S03-B2"
+        },
+        {
+          "as_pre_registered": true,
+          "expected_alerts": 0,
+          "known_miss": false,
+          "note": "",
+          "observed_alerts": 0,
+          "rule": "IA-003",
+          "scenario": "S03-B3"
+        },
+        {
+          "as_pre_registered": true,
+          "expected_alerts": 2,
+          "known_miss": false,
+          "note": "A sign-in and a confidential read, two days after the disable: one alert each.",
+          "observed_alerts": 2,
+          "rule": "IA-004",
+          "scenario": "S04-P1"
+        },
+        {
+          "as_pre_registered": true,
+          "expected_alerts": 0,
+          "known_miss": false,
+          "note": "",
+          "observed_alerts": 0,
+          "rule": "IA-004",
+          "scenario": "S04-B1"
+        },
+        {
+          "as_pre_registered": true,
+          "expected_alerts": 0,
+          "known_miss": false,
+          "note": "",
+          "observed_alerts": 0,
+          "rule": "IA-004",
+          "scenario": "S04-B2"
+        },
+        {
+          "as_pre_registered": true,
+          "expected_alerts": 1,
+          "known_miss": false,
+          "note": "",
+          "observed_alerts": 1,
+          "rule": "IA-005",
+          "scenario": "S05-P1"
+        },
+        {
+          "as_pre_registered": true,
+          "expected_alerts": 0,
+          "known_miss": false,
+          "note": "",
+          "observed_alerts": 0,
+          "rule": "IA-005",
+          "scenario": "S05-B1"
+        },
+        {
+          "as_pre_registered": true,
+          "expected_alerts": 0,
+          "known_miss": false,
+          "note": "",
+          "observed_alerts": 0,
+          "rule": "IA-005",
+          "scenario": "S05-B2"
+        }
+      ],
+      "events": 194,
+      "files": {
+        "events.jsonl": "9c9e1b7f8f0053b58c8987d45f4118a92e8db46f209900f0fb6893aaa4112e5f",
+        "labels.jsonl": "25a1d2cb5ab4ebb36066eff57a9215e67f8fdc8873c8c3ba3a13190ad59dd24b",
+        "malformed.jsonl": "383daa0b76cd1e589eb2fac91688de9e8d82311a5e90545d8c3da12e6e9ca37e",
+        "replay-conflict.jsonl": "c24e1a71983a13e4940cbc46bec8c2f3a52a831962b14ff2c2130e4b965b0fbe"
+      },
+      "fixture": "identity-access-v1",
+      "ingestion": {
+        "events.jsonl": {
+          "conflicts": 0,
+          "duplicates": 3,
+          "inserted": 194,
+          "received": 197,
+          "rejected": 0
+        }
+      },
+      "rules": {
+        "IA-001": {
+          "alerts": 2,
+          "family": "privilege_grant_without_approval",
+          "fn": 0,
+          "fp": 0,
+          "fp_by_kind": {},
+          "missed": [],
+          "not_evaluable": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 2
+        },
+        "IA-002": {
+          "alerts": 1,
+          "family": "privileged_login_without_mfa",
+          "fn": 0,
+          "fp": 0,
+          "fp_by_kind": {},
+          "missed": [],
+          "not_evaluable": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 1
+        },
+        "IA-003": {
+          "alerts": 1,
+          "family": "failed_privileged_logins_then_success",
+          "fn": 0,
+          "fp": 0,
+          "fp_by_kind": {},
+          "missed": [],
+          "not_evaluable": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 1
+        },
+        "IA-004": {
+          "alerts": 2,
+          "family": "activity_by_disabled_account",
+          "fn": 0,
+          "fp": 0,
+          "fp_by_kind": {},
+          "missed": [],
+          "not_evaluable": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 2
+        },
+        "IA-005": {
+          "alerts": 1,
+          "family": "permission_change_then_sensitive_access",
+          "fn": 0,
+          "fp": 0,
+          "fp_by_kind": {},
+          "missed": [],
+          "not_evaluable": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 1
+        }
+      },
+      "scenarios": {
+        "N00": {
+          "alerted_by": [],
+          "family": "background",
+          "label": "benign"
+        },
+        "S01-B1": {
+          "alerted_by": [],
+          "family": "privilege_grant_without_approval",
+          "label": "benign"
+        },
+        "S01-B2": {
+          "alerted_by": [],
+          "family": "privilege_grant_without_approval",
+          "label": "benign"
+        },
+        "S01-P1": {
+          "alerted_by": [
+            "IA-001"
+          ],
+          "family": "privilege_grant_without_approval",
+          "label": "suspicious"
+        },
+        "S01-P2": {
+          "alerted_by": [
+            "IA-001"
+          ],
+          "family": "privilege_grant_without_approval",
+          "label": "suspicious"
+        },
+        "S02-B1": {
+          "alerted_by": [],
+          "family": "privileged_login_without_mfa",
+          "label": "benign"
+        },
+        "S02-B2": {
+          "alerted_by": [],
+          "family": "privileged_login_without_mfa",
+          "label": "benign"
+        },
+        "S02-B3": {
+          "alerted_by": [],
+          "family": "privileged_login_without_mfa",
+          "label": "benign"
+        },
+        "S02-P1": {
+          "alerted_by": [
+            "IA-002"
+          ],
+          "family": "privileged_login_without_mfa",
+          "label": "suspicious"
+        },
+        "S03-B1": {
+          "alerted_by": [],
+          "family": "failed_privileged_logins_then_success",
+          "label": "benign"
+        },
+        "S03-B2": {
+          "alerted_by": [],
+          "family": "failed_privileged_logins_then_success",
+          "label": "benign"
+        },
+        "S03-B3": {
+          "alerted_by": [],
+          "family": "failed_privileged_logins_then_success",
+          "label": "benign"
+        },
+        "S03-P1": {
+          "alerted_by": [
+            "IA-003"
+          ],
+          "family": "failed_privileged_logins_then_success",
+          "label": "suspicious"
+        },
+        "S04-B1": {
+          "alerted_by": [],
+          "family": "activity_by_disabled_account",
+          "label": "benign"
+        },
+        "S04-B2": {
+          "alerted_by": [],
+          "family": "activity_by_disabled_account",
+          "label": "benign"
+        },
+        "S04-P1": {
+          "alerted_by": [
+            "IA-004"
+          ],
+          "family": "activity_by_disabled_account",
+          "label": "suspicious"
+        },
+        "S05-B1": {
+          "alerted_by": [],
+          "family": "permission_change_then_sensitive_access",
+          "label": "benign"
+        },
+        "S05-B2": {
+          "alerted_by": [],
+          "family": "permission_change_then_sensitive_access",
+          "label": "benign"
+        },
+        "S05-P1": {
+          "alerted_by": [
+            "IA-005"
+          ],
+          "family": "permission_change_then_sensitive_access",
+          "label": "suspicious"
+        }
+      },
+      "trigger_events": 7
+    }
+  },
+  "metadata": {
+    "generated_at": "2026-11-17T09:48:48.313543+00:00",
+    "git": "not a git repository",
+    "platform": "Windows-11-10.0.26220-SP0",
+    "python": "3.12.10",
+    "run_ids": [
+      "4e40e131-956f-4180-b757-b365c1863dbc",
+      "af4d53f0-c804-4874-9451-da1dbf76dfb5",
+      "a9da3366-2a3c-4423-823d-81f39491f759",
+      "ce316514-ce25-4ede-912b-15e057f89b0b",
+      "edca1e5b-a05b-4168-961d-691be418a88f",
+      "68cc7b96-3125-485f-a0bb-cec0db1b7224"
+    ]
+  },
+  "replay": {
+    "alerts_created_on_rerun": 0,
+    "events_inserted_on_reingest": 0
+  },
+  "rule_versions": {
+    "IA-001": 1,
+    "IA-002": 1,
+    "IA-003": 1,
+    "IA-004": 1,
+    "IA-005": 1
+  },
+  "summary": {
+    "conformance": {
+      "as_pre_registered": 33,
+      "vectors": 33
+    },
+    "known_misses": [
+      "IA-001 B-13",
+      "IA-002 B-14",
+      "IA-004 B-12"
+    ]
+  },
+  "synthetic_only": true
+}

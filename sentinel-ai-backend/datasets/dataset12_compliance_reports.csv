@@ -1,0 +1,101 @@
+ReportID,Framework,GeneratedDate,OverallScore,CriticalFindings,HighFindings,MediumFindings,LowFindings,ComplianceStatus
+RPT-34567,ISO 27001,2025-11-22,88,0,0,3,3,Substantially Compliant
+RPT-23965,NIST,2025-08-23,87,0,1,2,1,Substantially Compliant
+RPT-55543,DPDP,2026-03-14,58,0,4,6,0,Partially Compliant
+RPT-25632,SOC2,2025-12-29,79,0,2,2,3,Substantially Compliant
+RPT-87946,CIS Controls,2026-05-15,53,2,1,5,2,Partially Compliant
+RPT-94634,ISO 27001,2026-04-12,85,0,1,2,3,Substantially Compliant
+RPT-70681,NIST,2025-12-02,80,0,3,0,2,Substantially Compliant
+RPT-41078,DPDP,2026-06-04,63,0,3,6,1,Partially Compliant
+RPT-19766,SOC2,2025-11-13,35,2,5,3,2,Non-Compliant
+RPT-79757,CIS Controls,2026-05-14,59,1,3,3,2,Partially Compliant
+RPT-88279,ISO 27001,2026-03-13,81,0,2,1,4,Substantially Compliant
+RPT-14284,NIST,2026-04-07,42,2,3,5,1,Non-Compliant
+RPT-59740,DPDP,2026-02-03,82,0,1,4,0,Substantially Compliant
+RPT-50954,SOC2,2025-09-13,71,1,1,3,2,Substantially Compliant
+RPT-83162,CIS Controls,2026-04-02,65,1,3,1,2,Partially Compliant
+RPT-45340,ISO 27001,2026-06-25,92,0,0,2,2,Compliant
+RPT-95027,NIST,2025-10-28,67,2,1,1,0,Partially Compliant
+RPT-90586,DPDP,2026-05-23,36,2,4,5,1,Non-Compliant
+RPT-65989,SOC2,2025-11-15,61,0,4,4,3,Partially Compliant
+RPT-32558,CIS Controls,2026-05-20,73,0,3,3,0,Substantially Compliant
+RPT-82981,ISO 27001,2026-04-26,82,0,2,1,3,Substantially Compliant
+RPT-13206,NIST,2025-08-25,86,1,0,0,2,Substantially Compliant
+RPT-39025,DPDP,2026-01-17,76,1,2,0,0,Substantially Compliant
+RPT-83320,SOC2,2025-12-17,66,1,2,3,1,Partially Compliant
+RPT-67171,CIS Controls,2025-09-08,91,0,1,0,3,Compliant
+RPT-79164,ISO 27001,2026-05-16,67,0,4,3,0,Partially Compliant
+RPT-94199,NIST,2026-07-29,82,0,1,4,0,Substantially Compliant
+RPT-34837,DPDP,2026-06-19,53,0,5,5,2,Partially Compliant
+RPT-38320,SOC2,2025-09-01,50,2,3,2,2,Partially Compliant
+RPT-64773,CIS Controls,2025-11-30,79,1,1,1,0,Substantially Compliant
+RPT-10899,ISO 27001,2026-05-05,57,3,1,0,1,Partially Compliant
+RPT-58058,NIST,2026-03-20,48,2,2,4,4,Non-Compliant
+RPT-39156,DPDP,2026-07-01,61,1,3,3,0,Partially Compliant
+RPT-64257,SOC2,2025-10-27,83,1,0,1,2,Substantially Compliant
+RPT-47553,CIS Controls,2025-09-19,95,0,0,1,2,Compliant
+RPT-11627,ISO 27001,2026-07-22,71,0,4,1,2,Substantially Compliant
+RPT-84861,NIST,2026-03-16,59,2,2,1,2,Partially Compliant
+RPT-27705,DPDP,2026-04-17,46,2,4,1,3,Non-Compliant
+RPT-88813,SOC2,2026-04-08,84,0,1,3,1,Substantially Compliant
+RPT-21300,CIS Controls,2025-10-29,85,0,2,0,3,Substantially Compliant
+RPT-60906,ISO 27001,2026-05-02,94,0,0,1,3,Compliant
+RPT-70605,NIST,2026-03-31,94,0,0,1,3,Compliant
+RPT-75637,DPDP,2026-02-18,78,0,3,1,1,Substantially Compliant
+RPT-41135,SOC2,2026-07-07,39,3,1,6,1,Non-Compliant
+RPT-16022,CIS Controls,2026-01-13,52,1,3,5,3,Partially Compliant
+RPT-48189,ISO 27001,2026-03-10,83,0,2,1,2,Substantially Compliant
+RPT-33673,NIST,2026-06-24,70,0,2,5,3,Substantially Compliant
+RPT-82351,DPDP,2025-10-09,69,2,1,0,1,Partially Compliant
+RPT-81669,SOC2,2025-08-07,77,1,1,1,2,Substantially Compliant
+RPT-26061,CIS Controls,2025-11-24,68,0,2,5,5,Partially Compliant
+RPT-13463,ISO 27001,2026-07-10,54,2,2,3,1,Partially Compliant
+RPT-59746,NIST,2026-06-02,62,1,2,4,2,Partially Compliant
+RPT-56211,DPDP,2026-04-25,85,0,2,1,0,Substantially Compliant
+RPT-21831,SOC2,2025-10-26,46,1,5,3,3,Non-Compliant
+RPT-71761,CIS Controls,2026-01-29,62,1,2,4,2,Partially Compliant
+RPT-34523,ISO 27001,2026-07-15,84,0,1,3,1,Substantially Compliant
+RPT-18706,NIST,2025-08-14,62,1,3,1,5,Partially Compliant
+RPT-23921,DPDP,2026-07-31,56,1,4,2,2,Partially Compliant
+RPT-65304,SOC2,2026-01-29,93,0,0,2,1,Compliant
+RPT-27226,CIS Controls,2026-06-30,55,2,2,2,3,Partially Compliant
+RPT-53317,ISO 27001,2026-02-13,62,1,1,5,5,Partially Compliant
+RPT-21966,NIST,2026-04-28,91,0,0,3,0,Compliant
+RPT-12979,DPDP,2025-10-25,68,0,3,4,2,Partially Compliant
+RPT-51227,SOC2,2025-09-19,76,0,3,2,0,Substantially Compliant
+RPT-47924,CIS Controls,2026-07-09,86,0,1,2,2,Substantially Compliant
+RPT-98151,ISO 27001,2025-09-17,65,1,3,0,5,Partially Compliant
+RPT-53189,NIST,2026-07-09,87,0,1,2,1,Substantially Compliant
+RPT-45670,DPDP,2025-10-20,88,0,1,2,0,Substantially Compliant
+RPT-16761,SOC2,2026-05-11,61,1,3,3,0,Partially Compliant
+RPT-35799,CIS Controls,2026-04-18,84,0,1,2,4,Substantially Compliant
+RPT-29633,ISO 27001,2025-08-20,80,0,1,4,2,Substantially Compliant
+RPT-63337,NIST,2025-12-03,39,2,3,6,1,Non-Compliant
+RPT-66014,DPDP,2025-09-12,73,1,1,3,0,Substantially Compliant
+RPT-98543,SOC2,2025-12-17,75,1,1,2,1,Substantially Compliant
+RPT-66098,CIS Controls,2025-09-25,58,1,1,7,3,Partially Compliant
+RPT-60220,ISO 27001,2025-12-22,79,0,2,2,3,Substantially Compliant
+RPT-53873,NIST,2026-02-18,82,0,1,3,3,Substantially Compliant
+RPT-88299,DPDP,2026-07-11,55,0,5,5,0,Partially Compliant
+RPT-78259,SOC2,2025-08-25,88,0,1,1,3,Substantially Compliant
+RPT-48693,CIS Controls,2026-01-18,63,2,1,1,4,Partially Compliant
+RPT-83169,ISO 27001,2025-12-21,79,0,1,4,3,Substantially Compliant
+RPT-38254,NIST,2025-11-10,65,2,1,1,2,Partially Compliant
+RPT-71825,DPDP,2025-08-18,78,0,2,3,1,Substantially Compliant
+RPT-39315,SOC2,2025-11-15,84,0,2,1,1,Substantially Compliant
+RPT-52142,CIS Controls,2025-09-19,65,0,4,2,5,Partially Compliant
+RPT-66763,ISO 27001,2025-09-09,61,0,3,6,3,Partially Compliant
+RPT-42075,NIST,2026-05-10,83,0,2,1,2,Substantially Compliant
+RPT-44081,DPDP,2026-06-29,95,0,0,1,2,Compliant
+RPT-69503,SOC2,2026-02-23,47,2,3,3,2,Non-Compliant
+RPT-79838,CIS Controls,2025-08-22,72,0,3,2,4,Substantially Compliant
+RPT-36395,ISO 27001,2025-10-15,80,0,2,2,2,Substantially Compliant
+RPT-50340,NIST,2026-03-20,84,1,0,1,1,Substantially Compliant
+RPT-70345,DPDP,2026-07-02,71,0,3,3,2,Substantially Compliant
+RPT-70110,SOC2,2025-12-02,56,2,2,2,2,Partially Compliant
+RPT-30180,CIS Controls,2026-06-26,52,0,6,3,3,Partially Compliant
+RPT-88148,ISO 27001,2026-07-12,79,1,1,1,0,Substantially Compliant
+RPT-62469,NIST,2026-05-17,58,1,3,3,3,Partially Compliant
+RPT-65446,DPDP,2026-07-22,86,0,1,2,2,Substantially Compliant
+RPT-81993,SOC2,2025-10-20,77,0,3,1,2,Substantially Compliant
+RPT-16863,CIS Controls,2025-12-13,60,1,2,5,1,Partially Compliant

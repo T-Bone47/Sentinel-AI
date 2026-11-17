@@ -1,0 +1,301 @@
+DataID,ApplicationID,DataCategory,PurposeOfProcessing,RetentionPeriod,ThirdPartySharing,EncryptionEnabled,ConsentRequired
+DPDP-80925,APP9673,Health and Medical Records,Legal and Statutory Obligations,2 Years,FALSE,TRUE,FALSE
+DPDP-55571,APP7390,Location Data,Marketing and Communications,2 Years,FALSE,TRUE,TRUE
+DPDP-41582,APP9680,Employee Government ID (PAN/Aadhaar),Vendor Payment Processing,7 Years,FALSE,TRUE,TRUE
+DPDP-79017,APP7845,"Employee Financial Details (Salary, Bank Account)",Payroll Processing,5 Years,TRUE,TRUE,TRUE
+DPDP-50780,APP9740,Authentication Credentials,Payroll Processing,6 Months,FALSE,TRUE,TRUE
+DPDP-53036,APP1630,Vendor Contact and Banking Details,Legal and Statutory Obligations,5 Years,FALSE,TRUE,TRUE
+DPDP-55259,APP5632,"Employee Personal Details (Name, DOB, Address)",Customer Relationship Management,1 Year,FALSE,TRUE,TRUE
+DPDP-87137,APP5430,Device and IP Address Data,Analytics and Product Improvement,6 Months,FALSE,TRUE,FALSE
+DPDP-13279,APP3542,Background Verification Records,Access Control and Authentication,6 Months,FALSE,TRUE,FALSE
+DPDP-66174,APP6202,Employee Government ID (PAN/Aadhaar),Payroll Processing,7 Years,TRUE,TRUE,TRUE
+DPDP-18368,APP2604,Health and Medical Records,Fraud Detection,3 Years,TRUE,TRUE,TRUE
+DPDP-87939,APP4265,Employee Contact Information,Performance Management,5 Years,FALSE,TRUE,FALSE
+DPDP-79511,APP3606,Customer Contact Information,Customer Relationship Management,1 Year,FALSE,TRUE,TRUE
+DPDP-92303,APP6210,Authentication Credentials,Recruitment and Hiring,5 Years,FALSE,TRUE,TRUE
+DPDP-15609,APP2306,Location Data,Regulatory Compliance Reporting,3 Years,TRUE,TRUE,TRUE
+DPDP-76866,APP6399,Employee Government ID (PAN/Aadhaar),Recruitment and Hiring,7 Years,FALSE,TRUE,FALSE
+DPDP-24345,APP1900,Customer Financial Details (Payment Card Data),Payment Processing,5 Years,FALSE,TRUE,FALSE
+DPDP-79687,APP6709,Marketing Preference Data,Legal and Statutory Obligations,3 Years,FALSE,FALSE,TRUE
+DPDP-69725,APP4358,Vendor Contact and Banking Details,Customer Support Service Delivery,1 Year,TRUE,TRUE,FALSE
+DPDP-55461,APP7390,Vendor Contact and Banking Details,Recruitment and Hiring,1 Year,FALSE,TRUE,FALSE
+DPDP-94742,APP3408,Customer Financial Details (Payment Card Data),Regulatory Compliance Reporting,5 Years,FALSE,TRUE,TRUE
+DPDP-67120,APP5066,Device and IP Address Data,Marketing and Communications,7 Years,FALSE,FALSE,FALSE
+DPDP-66360,APP1029,Customer Transaction History,Employee Onboarding,5 Years,FALSE,TRUE,TRUE
+DPDP-88655,APP9680,Employee Government ID (PAN/Aadhaar),Marketing and Communications,2 Years,FALSE,FALSE,TRUE
+DPDP-47728,APP8899,Marketing Preference Data,Access Control and Authentication,5 Years,TRUE,FALSE,TRUE
+DPDP-77266,APP2184,Authentication Credentials,Performance Management,2 Years,FALSE,TRUE,FALSE
+DPDP-17667,APP1166,"Employee Financial Details (Salary, Bank Account)",Performance Management,6 Months,FALSE,TRUE,FALSE
+DPDP-16438,APP3408,Location Data,Recruitment and Hiring,2 Years,FALSE,TRUE,TRUE
+DPDP-83549,APP8861,Location Data,Access Control and Authentication,1 Year,FALSE,TRUE,TRUE
+DPDP-76949,APP7096,Authentication Credentials,Employee Onboarding,7 Years,FALSE,FALSE,TRUE
+DPDP-70544,APP3843,Customer Financial Details (Payment Card Data),Fraud Detection,6 Months,FALSE,FALSE,TRUE
+DPDP-73478,APP5632,Customer Contact Information,Performance Management,7 Years,TRUE,TRUE,TRUE
+DPDP-98855,APP1166,Job Applicant Resume Data,Employee Onboarding,6 Months,FALSE,TRUE,FALSE
+DPDP-95396,APP9767,Biometric Data (Fingerprint/Facial Recognition),Performance Management,7 Years,FALSE,TRUE,FALSE
+DPDP-59593,APP9546,Customer Contact Information,Employee Onboarding,1 Year,TRUE,TRUE,FALSE
+DPDP-13321,APP8419,"Employee Financial Details (Salary, Bank Account)",Employee Onboarding,7 Years,FALSE,TRUE,TRUE
+DPDP-61281,APP3993,Job Applicant Resume Data,Marketing and Communications,7 Years,FALSE,FALSE,FALSE
+DPDP-97005,APP2744,Customer Transaction History,Customer Support Service Delivery,Duration of Employment + 3 Years,FALSE,FALSE,TRUE
+DPDP-76953,APP1065,"Employee Financial Details (Salary, Bank Account)",Regulatory Compliance Reporting,3 Years,TRUE,TRUE,TRUE
+DPDP-96814,APP6081,Location Data,Employee Onboarding,7 Years,FALSE,FALSE,TRUE
+DPDP-87464,APP8419,Customer Financial Details (Payment Card Data),Fraud Detection,5 Years,FALSE,TRUE,TRUE
+DPDP-55198,APP6870,"Employee Personal Details (Name, DOB, Address)",Analytics and Product Improvement,2 Years,FALSE,TRUE,TRUE
+DPDP-89849,APP2208,Marketing Preference Data,Payment Processing,2 Years,FALSE,FALSE,FALSE
+DPDP-46906,APP6660,Vendor Contact and Banking Details,Marketing and Communications,7 Years,FALSE,TRUE,TRUE
+DPDP-85812,APP1536,Device and IP Address Data,Fraud Detection,3 Years,FALSE,FALSE,FALSE
+DPDP-57142,APP4666,Employee Contact Information,Legal and Statutory Obligations,1 Year,FALSE,TRUE,TRUE
+DPDP-62395,APP6399,Vendor Contact and Banking Details,Payroll Processing,3 Years,FALSE,TRUE,FALSE
+DPDP-22911,APP5103,Customer Contact Information,Legal and Statutory Obligations,3 Years,FALSE,TRUE,TRUE
+DPDP-77240,APP1700,Authentication Credentials,Access Control and Authentication,2 Years,FALSE,TRUE,TRUE
+DPDP-74234,APP3805,Job Applicant Resume Data,Payroll Processing,1 Year,FALSE,TRUE,FALSE
+DPDP-19158,APP5510,Health and Medical Records,Vendor Payment Processing,Duration of Employment + 3 Years,FALSE,TRUE,FALSE
+DPDP-50922,APP2533,Customer Transaction History,Fraud Detection,2 Years,FALSE,TRUE,TRUE
+DPDP-49458,APP6784,Employee Contact Information,Employee Onboarding,7 Years,FALSE,FALSE,TRUE
+DPDP-72604,APP2482,"Employee Personal Details (Name, DOB, Address)",Access Control and Authentication,3 Years,FALSE,TRUE,FALSE
+DPDP-95372,APP2242,Marketing Preference Data,Marketing and Communications,5 Years,FALSE,TRUE,TRUE
+DPDP-61633,APP7447,Customer Financial Details (Payment Card Data),Vendor Payment Processing,2 Years,FALSE,TRUE,TRUE
+DPDP-94955,APP7712,Background Verification Records,Employee Onboarding,5 Years,FALSE,TRUE,TRUE
+DPDP-22503,APP4391,Background Verification Records,Performance Management,Duration of Employment + 3 Years,FALSE,TRUE,FALSE
+DPDP-95240,APP3843,Location Data,Regulatory Compliance Reporting,7 Years,TRUE,FALSE,TRUE
+DPDP-37455,APP2306,Background Verification Records,Payment Processing,3 Years,TRUE,TRUE,TRUE
+DPDP-33660,APP3843,Authentication Credentials,Fraud Detection,6 Months,TRUE,TRUE,TRUE
+DPDP-19354,APP2396,Marketing Preference Data,Marketing and Communications,7 Years,TRUE,FALSE,FALSE
+DPDP-31326,APP8735,Customer Contact Information,Employee Onboarding,3 Years,TRUE,TRUE,TRUE
+DPDP-52993,APP6532,Job Applicant Resume Data,Recruitment and Hiring,Duration of Employment + 3 Years,FALSE,FALSE,FALSE
+DPDP-92000,APP2482,Location Data,Customer Relationship Management,2 Years,FALSE,TRUE,TRUE
+DPDP-86076,APP4301,"Employee Personal Details (Name, DOB, Address)",Marketing and Communications,7 Years,TRUE,TRUE,TRUE
+DPDP-75073,APP4391,"Employee Personal Details (Name, DOB, Address)",Analytics and Product Improvement,6 Months,FALSE,FALSE,FALSE
+DPDP-11306,APP6784,Employee Contact Information,Performance Management,1 Year,TRUE,TRUE,FALSE
+DPDP-80062,APP2306,Location Data,Customer Support Service Delivery,5 Years,FALSE,TRUE,TRUE
+DPDP-72478,APP3805,Health and Medical Records,Fraud Detection,2 Years,FALSE,TRUE,TRUE
+DPDP-95266,APP1630,Customer Transaction History,Payroll Processing,1 Year,TRUE,FALSE,TRUE
+DPDP-76821,APP9417,Vendor Contact and Banking Details,Marketing and Communications,1 Year,FALSE,TRUE,FALSE
+DPDP-72939,APP7845,Device and IP Address Data,Recruitment and Hiring,Duration of Employment + 3 Years,TRUE,TRUE,TRUE
+DPDP-71228,APP6532,Marketing Preference Data,Recruitment and Hiring,3 Years,FALSE,FALSE,FALSE
+DPDP-50084,APP3719,Health and Medical Records,Customer Relationship Management,2 Years,FALSE,TRUE,TRUE
+DPDP-81695,APP9822,Employee Contact Information,Customer Relationship Management,1 Year,TRUE,TRUE,TRUE
+DPDP-12921,APP2242,Customer Financial Details (Payment Card Data),Analytics and Product Improvement,5 Years,FALSE,TRUE,TRUE
+DPDP-37822,APP3542,Vendor Contact and Banking Details,Customer Relationship Management,1 Year,TRUE,TRUE,TRUE
+DPDP-24156,APP7235,Location Data,Fraud Detection,5 Years,TRUE,TRUE,FALSE
+DPDP-58059,APP4193,Job Applicant Resume Data,Analytics and Product Improvement,5 Years,FALSE,TRUE,FALSE
+DPDP-41764,APP3843,Marketing Preference Data,Regulatory Compliance Reporting,Duration of Employment + 3 Years,TRUE,TRUE,TRUE
+DPDP-57422,APP1536,Biometric Data (Fingerprint/Facial Recognition),Customer Relationship Management,1 Year,FALSE,TRUE,FALSE
+DPDP-65661,APP2208,Background Verification Records,Payment Processing,Duration of Employment + 3 Years,FALSE,TRUE,FALSE
+DPDP-71585,APP3993,Customer Financial Details (Payment Card Data),Access Control and Authentication,6 Months,FALSE,TRUE,FALSE
+DPDP-71446,APP5830,"Employee Personal Details (Name, DOB, Address)",Vendor Payment Processing,1 Year,FALSE,FALSE,TRUE
+DPDP-63003,APP7845,Employee Government ID (PAN/Aadhaar),Fraud Detection,Duration of Employment + 3 Years,FALSE,FALSE,FALSE
+DPDP-81554,APP3408,"Employee Financial Details (Salary, Bank Account)",Customer Support Service Delivery,5 Years,TRUE,TRUE,FALSE
+DPDP-85696,APP8899,Customer Contact Information,Vendor Payment Processing,5 Years,TRUE,FALSE,TRUE
+DPDP-74552,APP6092,Authentication Credentials,Customer Relationship Management,3 Years,FALSE,TRUE,TRUE
+DPDP-65363,APP1700,Biometric Data (Fingerprint/Facial Recognition),Marketing and Communications,2 Years,TRUE,TRUE,FALSE
+DPDP-61866,APP4265,Customer Transaction History,Customer Relationship Management,3 Years,FALSE,FALSE,FALSE
+DPDP-81709,APP3324,Employee Government ID (PAN/Aadhaar),Customer Relationship Management,3 Years,FALSE,TRUE,TRUE
+DPDP-52583,APP8952,Customer Transaction History,Customer Support Service Delivery,5 Years,TRUE,TRUE,TRUE
+DPDP-38881,APP6210,"Employee Personal Details (Name, DOB, Address)",Vendor Payment Processing,3 Years,FALSE,TRUE,TRUE
+DPDP-95029,APP1847,Customer Contact Information,Vendor Payment Processing,5 Years,TRUE,FALSE,TRUE
+DPDP-92738,APP2825,Background Verification Records,Regulatory Compliance Reporting,6 Months,FALSE,TRUE,FALSE
+DPDP-53088,APP3993,Biometric Data (Fingerprint/Facial Recognition),Customer Relationship Management,Duration of Employment + 3 Years,FALSE,TRUE,TRUE
+DPDP-96670,APP6660,Customer Transaction History,Payment Processing,3 Years,TRUE,TRUE,TRUE
+DPDP-83694,APP8952,Location Data,Employee Onboarding,6 Months,FALSE,TRUE,TRUE
+DPDP-10707,APP2825,"Employee Financial Details (Salary, Bank Account)",Marketing and Communications,3 Years,FALSE,TRUE,TRUE
+DPDP-87540,APP4301,Vendor Contact and Banking Details,Fraud Detection,5 Years,FALSE,TRUE,FALSE
+DPDP-21361,APP2533,Employee Government ID (PAN/Aadhaar),Payment Processing,Duration of Employment + 3 Years,FALSE,TRUE,TRUE
+DPDP-98772,APP2242,Vendor Contact and Banking Details,Fraud Detection,1 Year,FALSE,TRUE,TRUE
+DPDP-40457,APP5510,Background Verification Records,Vendor Payment Processing,2 Years,FALSE,TRUE,TRUE
+DPDP-30857,APP1700,Authentication Credentials,Vendor Payment Processing,2 Years,TRUE,TRUE,TRUE
+DPDP-93636,APP9740,Vendor Contact and Banking Details,Legal and Statutory Obligations,6 Months,FALSE,TRUE,TRUE
+DPDP-51884,APP7845,Device and IP Address Data,Vendor Payment Processing,1 Year,TRUE,TRUE,TRUE
+DPDP-41143,APP5632,Customer Contact Information,Recruitment and Hiring,Duration of Employment + 3 Years,TRUE,TRUE,TRUE
+DPDP-58638,APP1536,Customer Contact Information,Vendor Payment Processing,6 Months,TRUE,TRUE,TRUE
+DPDP-30712,APP4188,Marketing Preference Data,Customer Relationship Management,5 Years,FALSE,FALSE,TRUE
+DPDP-96302,APP6210,Employee Contact Information,Recruitment and Hiring,5 Years,TRUE,FALSE,FALSE
+DPDP-10558,APP3843,Health and Medical Records,Customer Relationship Management,2 Years,FALSE,TRUE,TRUE
+DPDP-21776,APP6081,"Employee Financial Details (Salary, Bank Account)",Performance Management,3 Years,FALSE,TRUE,TRUE
+DPDP-94559,APP5981,Device and IP Address Data,Customer Relationship Management,3 Years,TRUE,TRUE,FALSE
+DPDP-16727,APP4193,Marketing Preference Data,Employee Onboarding,2 Years,FALSE,TRUE,FALSE
+DPDP-97263,APP2306,Customer Support Interaction Records,Analytics and Product Improvement,2 Years,FALSE,TRUE,TRUE
+DPDP-30691,APP8198,Customer Financial Details (Payment Card Data),Legal and Statutory Obligations,6 Months,TRUE,TRUE,TRUE
+DPDP-79235,APP9581,Employee Government ID (PAN/Aadhaar),Legal and Statutory Obligations,6 Months,FALSE,TRUE,TRUE
+DPDP-77302,APP7088,Customer Transaction History,Legal and Statutory Obligations,7 Years,TRUE,FALSE,FALSE
+DPDP-28603,APP4666,Authentication Credentials,Payment Processing,2 Years,FALSE,FALSE,FALSE
+DPDP-30108,APP6915,"Employee Personal Details (Name, DOB, Address)",Payroll Processing,7 Years,FALSE,TRUE,FALSE
+DPDP-33381,APP5066,"Employee Financial Details (Salary, Bank Account)",Marketing and Communications,7 Years,FALSE,TRUE,FALSE
+DPDP-76399,APP4393,"Employee Financial Details (Salary, Bank Account)",Recruitment and Hiring,Duration of Employment + 3 Years,FALSE,TRUE,FALSE
+DPDP-98333,APP2989,Customer Transaction History,Recruitment and Hiring,7 Years,TRUE,FALSE,TRUE
+DPDP-27962,APP3269,Device and IP Address Data,Fraud Detection,7 Years,FALSE,TRUE,FALSE
+DPDP-12554,APP7088,Marketing Preference Data,Payment Processing,6 Months,TRUE,TRUE,TRUE
+DPDP-12038,APP9741,Marketing Preference Data,Customer Relationship Management,1 Year,FALSE,TRUE,TRUE
+DPDP-33617,APP3805,Job Applicant Resume Data,Marketing and Communications,2 Years,FALSE,TRUE,TRUE
+DPDP-51391,APP5510,Employee Government ID (PAN/Aadhaar),Regulatory Compliance Reporting,2 Years,FALSE,TRUE,FALSE
+DPDP-56411,APP5103,Background Verification Records,Marketing and Communications,1 Year,FALSE,TRUE,TRUE
+DPDP-17378,APP8495,Job Applicant Resume Data,Legal and Statutory Obligations,1 Year,TRUE,TRUE,TRUE
+DPDP-48716,APP3805,Background Verification Records,Customer Support Service Delivery,1 Year,FALSE,TRUE,FALSE
+DPDP-39325,APP2744,Device and IP Address Data,Fraud Detection,2 Years,FALSE,FALSE,TRUE
+DPDP-24684,APP3324,Authentication Credentials,Payroll Processing,3 Years,FALSE,TRUE,TRUE
+DPDP-53665,APP8967,Vendor Contact and Banking Details,Legal and Statutory Obligations,3 Years,FALSE,TRUE,FALSE
+DPDP-13268,APP8899,Authentication Credentials,Marketing and Communications,1 Year,FALSE,TRUE,FALSE
+DPDP-49714,APP3269,Vendor Contact and Banking Details,Performance Management,5 Years,FALSE,TRUE,FALSE
+DPDP-23469,APP6202,Device and IP Address Data,Regulatory Compliance Reporting,Duration of Employment + 3 Years,FALSE,FALSE,TRUE
+DPDP-11462,APP5001,Background Verification Records,Analytics and Product Improvement,2 Years,FALSE,TRUE,FALSE
+DPDP-66381,APP8861,"Employee Financial Details (Salary, Bank Account)",Analytics and Product Improvement,1 Year,FALSE,TRUE,FALSE
+DPDP-77414,APP6915,Device and IP Address Data,Analytics and Product Improvement,1 Year,TRUE,TRUE,FALSE
+DPDP-10806,APP6399,Biometric Data (Fingerprint/Facial Recognition),Vendor Payment Processing,2 Years,FALSE,TRUE,TRUE
+DPDP-82484,APP4469,Employee Contact Information,Regulatory Compliance Reporting,5 Years,FALSE,TRUE,TRUE
+DPDP-16873,APP1700,Biometric Data (Fingerprint/Facial Recognition),Payment Processing,5 Years,FALSE,TRUE,TRUE
+DPDP-65887,APP2208,Location Data,Customer Support Service Delivery,7 Years,FALSE,FALSE,TRUE
+DPDP-25896,APP9417,Customer Financial Details (Payment Card Data),Analytics and Product Improvement,1 Year,TRUE,TRUE,TRUE
+DPDP-64226,APP2482,Location Data,Performance Management,2 Years,FALSE,TRUE,TRUE
+DPDP-57983,APP4391,"Employee Financial Details (Salary, Bank Account)",Legal and Statutory Obligations,5 Years,FALSE,TRUE,TRUE
+DPDP-40719,APP4193,Customer Contact Information,Fraud Detection,2 Years,FALSE,TRUE,TRUE
+DPDP-87056,APP6210,Device and IP Address Data,Analytics and Product Improvement,6 Months,FALSE,FALSE,FALSE
+DPDP-61395,APP8861,Customer Financial Details (Payment Card Data),Regulatory Compliance Reporting,2 Years,FALSE,TRUE,TRUE
+DPDP-49863,APP3542,Marketing Preference Data,Payment Processing,1 Year,FALSE,FALSE,TRUE
+DPDP-96899,APP4391,"Employee Personal Details (Name, DOB, Address)",Marketing and Communications,6 Months,TRUE,FALSE,TRUE
+DPDP-29889,APP8899,Customer Support Interaction Records,Analytics and Product Improvement,5 Years,FALSE,TRUE,TRUE
+DPDP-41075,APP3719,Background Verification Records,Employee Onboarding,2 Years,FALSE,TRUE,TRUE
+DPDP-75659,APP6784,Marketing Preference Data,Customer Relationship Management,7 Years,FALSE,TRUE,TRUE
+DPDP-93555,APP3805,Location Data,Payroll Processing,6 Months,FALSE,TRUE,FALSE
+DPDP-27107,APP1630,Employee Government ID (PAN/Aadhaar),Vendor Payment Processing,3 Years,FALSE,TRUE,TRUE
+DPDP-84289,APP5360,Customer Transaction History,Marketing and Communications,1 Year,FALSE,TRUE,TRUE
+DPDP-47929,APP1029,Device and IP Address Data,Performance Management,7 Years,FALSE,FALSE,FALSE
+DPDP-14362,APP9417,Authentication Credentials,Payment Processing,6 Months,TRUE,TRUE,TRUE
+DPDP-59625,APP3542,Employee Contact Information,Analytics and Product Improvement,2 Years,TRUE,FALSE,TRUE
+DPDP-20119,APP2208,Employee Government ID (PAN/Aadhaar),Regulatory Compliance Reporting,1 Year,FALSE,FALSE,FALSE
+DPDP-61970,APP2242,Background Verification Records,Regulatory Compliance Reporting,2 Years,FALSE,TRUE,FALSE
+DPDP-10000,APP2533,Job Applicant Resume Data,Vendor Payment Processing,5 Years,FALSE,TRUE,FALSE
+DPDP-75869,APP8419,Employee Contact Information,Customer Support Service Delivery,1 Year,FALSE,TRUE,FALSE
+DPDP-87153,APP8735,Health and Medical Records,Payment Processing,3 Years,TRUE,TRUE,FALSE
+DPDP-19667,APP3805,"Employee Financial Details (Salary, Bank Account)",Employee Onboarding,6 Months,FALSE,TRUE,TRUE
+DPDP-99298,APP9680,Customer Contact Information,Performance Management,2 Years,FALSE,FALSE,TRUE
+DPDP-83879,APP4393,Authentication Credentials,Customer Relationship Management,7 Years,FALSE,TRUE,FALSE
+DPDP-54297,APP5001,"Employee Personal Details (Name, DOB, Address)",Access Control and Authentication,2 Years,FALSE,TRUE,FALSE
+DPDP-53603,APP8861,Biometric Data (Fingerprint/Facial Recognition),Access Control and Authentication,7 Years,FALSE,TRUE,TRUE
+DPDP-50198,APP8967,Customer Transaction History,Employee Onboarding,5 Years,FALSE,FALSE,TRUE
+DPDP-56202,APP1536,Employee Contact Information,Access Control and Authentication,2 Years,TRUE,FALSE,FALSE
+DPDP-62340,APP2744,Employee Government ID (PAN/Aadhaar),Payroll Processing,7 Years,FALSE,TRUE,FALSE
+DPDP-52855,APP6870,Biometric Data (Fingerprint/Facial Recognition),Marketing and Communications,6 Months,TRUE,TRUE,FALSE
+DPDP-44438,APP8735,Employee Contact Information,Payroll Processing,Duration of Employment + 3 Years,FALSE,TRUE,FALSE
+DPDP-96590,APP4469,"Employee Financial Details (Salary, Bank Account)",Payroll Processing,2 Years,FALSE,TRUE,FALSE
+DPDP-61207,APP5510,Device and IP Address Data,Recruitment and Hiring,3 Years,FALSE,FALSE,FALSE
+DPDP-89957,APP6915,Vendor Contact and Banking Details,Performance Management,2 Years,FALSE,TRUE,TRUE
+DPDP-96208,APP8952,Device and IP Address Data,Payment Processing,5 Years,TRUE,TRUE,TRUE
+DPDP-92453,APP8419,Health and Medical Records,Customer Support Service Delivery,Duration of Employment + 3 Years,FALSE,TRUE,FALSE
+DPDP-81257,APP5049,Job Applicant Resume Data,Customer Relationship Management,7 Years,TRUE,TRUE,FALSE
+DPDP-58162,APP5049,Job Applicant Resume Data,Access Control and Authentication,2 Years,TRUE,TRUE,TRUE
+DPDP-64946,APP1536,Background Verification Records,Performance Management,1 Year,FALSE,TRUE,FALSE
+DPDP-87911,APP5001,Biometric Data (Fingerprint/Facial Recognition),Marketing and Communications,5 Years,TRUE,TRUE,FALSE
+DPDP-87349,APP8073,Biometric Data (Fingerprint/Facial Recognition),Vendor Payment Processing,7 Years,FALSE,TRUE,FALSE
+DPDP-35130,APP9822,Employee Government ID (PAN/Aadhaar),Customer Support Service Delivery,7 Years,FALSE,TRUE,FALSE
+DPDP-85265,APP7447,Employee Government ID (PAN/Aadhaar),Recruitment and Hiring,6 Months,FALSE,TRUE,TRUE
+DPDP-28088,APP1029,Health and Medical Records,Marketing and Communications,2 Years,FALSE,TRUE,FALSE
+DPDP-65568,APP2834,Health and Medical Records,Access Control and Authentication,Duration of Employment + 3 Years,FALSE,TRUE,FALSE
+DPDP-68010,APP9546,Employee Contact Information,Access Control and Authentication,Duration of Employment + 3 Years,FALSE,TRUE,TRUE
+DPDP-56086,APP7088,Customer Support Interaction Records,Access Control and Authentication,6 Months,TRUE,TRUE,TRUE
+DPDP-78392,APP2184,Employee Government ID (PAN/Aadhaar),Analytics and Product Improvement,2 Years,FALSE,TRUE,TRUE
+DPDP-56492,APP2744,Biometric Data (Fingerprint/Facial Recognition),Performance Management,6 Months,FALSE,TRUE,TRUE
+DPDP-45011,APP3324,Customer Contact Information,Payment Processing,7 Years,FALSE,TRUE,TRUE
+DPDP-42934,APP3606,Marketing Preference Data,Employee Onboarding,Duration of Employment + 3 Years,FALSE,FALSE,TRUE
+DPDP-15842,APP1700,Vendor Contact and Banking Details,Customer Relationship Management,Duration of Employment + 3 Years,FALSE,TRUE,TRUE
+DPDP-16770,APP5066,Health and Medical Records,Payment Processing,1 Year,FALSE,TRUE,TRUE
+DPDP-54995,APP8073,Customer Contact Information,Marketing and Communications,1 Year,FALSE,FALSE,TRUE
+DPDP-75564,APP6399,Authentication Credentials,Customer Relationship Management,7 Years,FALSE,TRUE,FALSE
+DPDP-96040,APP5830,"Employee Personal Details (Name, DOB, Address)",Legal and Statutory Obligations,2 Years,FALSE,TRUE,TRUE
+DPDP-10215,APP1536,Vendor Contact and Banking Details,Vendor Payment Processing,2 Years,FALSE,TRUE,TRUE
+DPDP-90312,APP8073,Customer Contact Information,Employee Onboarding,3 Years,FALSE,TRUE,TRUE
+DPDP-55565,APP3719,Marketing Preference Data,Customer Support Service Delivery,Duration of Employment + 3 Years,FALSE,FALSE,TRUE
+DPDP-56405,APP2208,Employee Government ID (PAN/Aadhaar),Vendor Payment Processing,7 Years,TRUE,FALSE,FALSE
+DPDP-24943,APP5981,Authentication Credentials,Customer Support Service Delivery,7 Years,FALSE,TRUE,FALSE
+DPDP-35874,APP4848,"Employee Financial Details (Salary, Bank Account)",Regulatory Compliance Reporting,6 Months,FALSE,TRUE,FALSE
+DPDP-15054,APP6660,Customer Support Interaction Records,Payroll Processing,Duration of Employment + 3 Years,TRUE,TRUE,TRUE
+DPDP-74981,APP7845,Employee Government ID (PAN/Aadhaar),Customer Relationship Management,3 Years,FALSE,FALSE,TRUE
+DPDP-76444,APP5981,"Employee Personal Details (Name, DOB, Address)",Employee Onboarding,2 Years,TRUE,TRUE,TRUE
+DPDP-75002,APP6915,Customer Transaction History,Payroll Processing,2 Years,TRUE,FALSE,TRUE
+DPDP-52469,APP4391,Background Verification Records,Marketing and Communications,6 Months,FALSE,TRUE,TRUE
+DPDP-70679,APP3408,Employee Contact Information,Payment Processing,5 Years,FALSE,TRUE,TRUE
+DPDP-44070,APP8073,Marketing Preference Data,Payroll Processing,3 Years,FALSE,FALSE,TRUE
+DPDP-79681,APP1166,Job Applicant Resume Data,Payment Processing,1 Year,FALSE,TRUE,TRUE
+DPDP-10655,APP6709,Vendor Contact and Banking Details,Customer Relationship Management,5 Years,FALSE,TRUE,TRUE
+DPDP-20728,APP1700,Job Applicant Resume Data,Payment Processing,6 Months,FALSE,FALSE,TRUE
+DPDP-23378,APP9740,Employee Contact Information,Recruitment and Hiring,5 Years,FALSE,TRUE,FALSE
+DPDP-64002,APP9546,Authentication Credentials,Vendor Payment Processing,7 Years,TRUE,TRUE,FALSE
+DPDP-42055,APP1900,Customer Support Interaction Records,Vendor Payment Processing,2 Years,TRUE,TRUE,FALSE
+DPDP-70535,APP3843,Marketing Preference Data,Customer Support Service Delivery,Duration of Employment + 3 Years,TRUE,TRUE,TRUE
+DPDP-16329,APP7447,Employee Contact Information,Vendor Payment Processing,7 Years,FALSE,FALSE,FALSE
+DPDP-68560,APP2242,Employee Government ID (PAN/Aadhaar),Payroll Processing,2 Years,FALSE,TRUE,FALSE
+DPDP-19313,APP9740,Authentication Credentials,Vendor Payment Processing,7 Years,FALSE,TRUE,FALSE
+DPDP-48917,APP2608,Marketing Preference Data,Legal and Statutory Obligations,Duration of Employment + 3 Years,TRUE,TRUE,TRUE
+DPDP-26592,APP4265,Job Applicant Resume Data,Fraud Detection,6 Months,FALSE,TRUE,FALSE
+DPDP-88841,APP3542,Customer Contact Information,Vendor Payment Processing,3 Years,TRUE,TRUE,TRUE
+DPDP-54299,APP5510,Biometric Data (Fingerprint/Facial Recognition),Recruitment and Hiring,6 Months,FALSE,TRUE,TRUE
+DPDP-61626,APP2608,Employee Contact Information,Customer Support Service Delivery,Duration of Employment + 3 Years,TRUE,FALSE,TRUE
+DPDP-76010,APP8952,Background Verification Records,Legal and Statutory Obligations,7 Years,TRUE,TRUE,FALSE
+DPDP-86628,APP2350,"Employee Personal Details (Name, DOB, Address)",Employee Onboarding,7 Years,TRUE,TRUE,TRUE
+DPDP-29092,APP1700,Employee Contact Information,Payment Processing,Duration of Employment + 3 Years,FALSE,TRUE,TRUE
+DPDP-74854,APP2825,Vendor Contact and Banking Details,Fraud Detection,2 Years,FALSE,TRUE,FALSE
+DPDP-19866,APP5830,Employee Government ID (PAN/Aadhaar),Payment Processing,5 Years,FALSE,TRUE,TRUE
+DPDP-94235,APP4188,Authentication Credentials,Customer Support Service Delivery,1 Year,FALSE,TRUE,FALSE
+DPDP-60724,APP4358,"Employee Financial Details (Salary, Bank Account)",Payroll Processing,5 Years,FALSE,TRUE,TRUE
+DPDP-15812,APP2604,Device and IP Address Data,Payment Processing,2 Years,FALSE,TRUE,FALSE
+DPDP-36629,APP5632,Customer Financial Details (Payment Card Data),Fraud Detection,5 Years,FALSE,TRUE,TRUE
+DPDP-33700,APP3324,Device and IP Address Data,Payroll Processing,3 Years,FALSE,TRUE,FALSE
+DPDP-37770,APP3805,Customer Support Interaction Records,Customer Support Service Delivery,3 Years,FALSE,FALSE,TRUE
+DPDP-86378,APP1847,Device and IP Address Data,Payroll Processing,5 Years,FALSE,FALSE,TRUE
+DPDP-43410,APP5001,Biometric Data (Fingerprint/Facial Recognition),Analytics and Product Improvement,Duration of Employment + 3 Years,TRUE,TRUE,FALSE
+DPDP-67518,APP1700,Authentication Credentials,Analytics and Product Improvement,1 Year,FALSE,TRUE,TRUE
+DPDP-82722,APP9680,Customer Financial Details (Payment Card Data),Recruitment and Hiring,5 Years,FALSE,TRUE,TRUE
+DPDP-64234,APP9822,Device and IP Address Data,Legal and Statutory Obligations,2 Years,TRUE,FALSE,TRUE
+DPDP-36590,APP3269,Customer Financial Details (Payment Card Data),Performance Management,1 Year,FALSE,TRUE,TRUE
+DPDP-41134,APP9740,Employee Government ID (PAN/Aadhaar),Fraud Detection,2 Years,FALSE,TRUE,FALSE
+DPDP-17916,APP3542,Job Applicant Resume Data,Regulatory Compliance Reporting,Duration of Employment + 3 Years,TRUE,TRUE,TRUE
+DPDP-36100,APP7845,Health and Medical Records,Analytics and Product Improvement,3 Years,FALSE,TRUE,FALSE
+DPDP-35094,APP1029,Background Verification Records,Regulatory Compliance Reporting,5 Years,FALSE,TRUE,TRUE
+DPDP-55445,APP1338,Marketing Preference Data,Analytics and Product Improvement,5 Years,FALSE,FALSE,TRUE
+DPDP-10341,APP5830,Biometric Data (Fingerprint/Facial Recognition),Analytics and Product Improvement,Duration of Employment + 3 Years,FALSE,TRUE,TRUE
+DPDP-58636,APP9740,"Employee Personal Details (Name, DOB, Address)",Customer Support Service Delivery,1 Year,TRUE,TRUE,TRUE
+DPDP-18229,APP4451,"Employee Financial Details (Salary, Bank Account)",Analytics and Product Improvement,5 Years,FALSE,TRUE,TRUE
+DPDP-35331,APP4265,Location Data,Customer Relationship Management,5 Years,TRUE,TRUE,FALSE
+DPDP-42606,APP5510,Customer Contact Information,Regulatory Compliance Reporting,7 Years,TRUE,TRUE,FALSE
+DPDP-91821,APP8073,Customer Transaction History,Fraud Detection,3 Years,TRUE,FALSE,TRUE
+DPDP-58231,APP7390,Customer Financial Details (Payment Card Data),Customer Relationship Management,3 Years,FALSE,TRUE,TRUE
+DPDP-84403,APP8431,"Employee Financial Details (Salary, Bank Account)",Payment Processing,Duration of Employment + 3 Years,FALSE,TRUE,FALSE
+DPDP-62635,APP8735,Biometric Data (Fingerprint/Facial Recognition),Performance Management,3 Years,FALSE,TRUE,TRUE
+DPDP-29496,APP1984,Customer Financial Details (Payment Card Data),Recruitment and Hiring,5 Years,FALSE,TRUE,TRUE
+DPDP-66809,APP6660,Authentication Credentials,Regulatory Compliance Reporting,5 Years,FALSE,TRUE,FALSE
+DPDP-99575,APP1984,Marketing Preference Data,Payment Processing,7 Years,TRUE,TRUE,TRUE
+DPDP-93017,APP5360,Job Applicant Resume Data,Marketing and Communications,1 Year,FALSE,TRUE,TRUE
+DPDP-62346,APP6210,Biometric Data (Fingerprint/Facial Recognition),Payment Processing,6 Months,FALSE,TRUE,FALSE
+DPDP-10220,APP6870,Customer Transaction History,Performance Management,3 Years,FALSE,FALSE,TRUE
+DPDP-92751,APP1065,Customer Transaction History,Employee Onboarding,2 Years,FALSE,TRUE,TRUE
+DPDP-73894,APP6709,Customer Contact Information,Performance Management,Duration of Employment + 3 Years,FALSE,FALSE,TRUE
+DPDP-29149,APP9417,Marketing Preference Data,Employee Onboarding,Duration of Employment + 3 Years,FALSE,TRUE,TRUE
+DPDP-18412,APP9822,Device and IP Address Data,Recruitment and Hiring,Duration of Employment + 3 Years,FALSE,TRUE,TRUE
+DPDP-35557,APP3805,Biometric Data (Fingerprint/Facial Recognition),Payment Processing,5 Years,FALSE,TRUE,TRUE
+DPDP-90789,APP5830,"Employee Personal Details (Name, DOB, Address)",Vendor Payment Processing,6 Months,TRUE,FALSE,FALSE
+DPDP-38980,APP9767,Vendor Contact and Banking Details,Vendor Payment Processing,6 Months,TRUE,TRUE,TRUE
+DPDP-21410,APP5632,Authentication Credentials,Payroll Processing,7 Years,FALSE,TRUE,TRUE
+DPDP-76447,APP6784,"Employee Financial Details (Salary, Bank Account)",Access Control and Authentication,2 Years,FALSE,TRUE,FALSE
+DPDP-24244,APP8198,Customer Financial Details (Payment Card Data),Employee Onboarding,2 Years,FALSE,TRUE,TRUE
+DPDP-31828,APP1410,Background Verification Records,Performance Management,Duration of Employment + 3 Years,FALSE,TRUE,FALSE
+DPDP-42242,APP1338,Customer Support Interaction Records,Payroll Processing,6 Months,FALSE,TRUE,FALSE
+DPDP-57878,APP9605,Health and Medical Records,Employee Onboarding,3 Years,TRUE,TRUE,FALSE
+DPDP-14330,APP4393,Marketing Preference Data,Regulatory Compliance Reporting,Duration of Employment + 3 Years,FALSE,TRUE,TRUE
+DPDP-29289,APP6202,Customer Financial Details (Payment Card Data),Employee Onboarding,Duration of Employment + 3 Years,TRUE,TRUE,TRUE
+DPDP-51593,APP8431,Background Verification Records,Employee Onboarding,Duration of Employment + 3 Years,FALSE,TRUE,TRUE
+DPDP-43469,APP7235,Employee Government ID (PAN/Aadhaar),Recruitment and Hiring,2 Years,FALSE,TRUE,TRUE
+DPDP-19636,APP5001,"Employee Personal Details (Name, DOB, Address)",Legal and Statutory Obligations,6 Months,FALSE,TRUE,FALSE
+DPDP-74564,APP4451,Location Data,Customer Support Service Delivery,Duration of Employment + 3 Years,FALSE,TRUE,TRUE
+DPDP-40260,APP1700,"Employee Financial Details (Salary, Bank Account)",Access Control and Authentication,5 Years,TRUE,TRUE,FALSE
+DPDP-50253,APP2744,Biometric Data (Fingerprint/Facial Recognition),Regulatory Compliance Reporting,3 Years,FALSE,TRUE,TRUE
+DPDP-54428,APP2604,Device and IP Address Data,Fraud Detection,3 Years,FALSE,TRUE,FALSE
+DPDP-36344,APP1166,Marketing Preference Data,Access Control and Authentication,7 Years,FALSE,FALSE,TRUE
+DPDP-98373,APP6532,Authentication Credentials,Customer Relationship Management,1 Year,FALSE,TRUE,FALSE
+DPDP-80115,APP5830,Authentication Credentials,Customer Relationship Management,3 Years,TRUE,TRUE,TRUE
+DPDP-69362,APP5430,Employee Contact Information,Employee Onboarding,6 Months,TRUE,TRUE,TRUE
+DPDP-39205,APP2825,Biometric Data (Fingerprint/Facial Recognition),Fraud Detection,3 Years,FALSE,TRUE,TRUE
+DPDP-18927,APP7235,Location Data,Marketing and Communications,7 Years,TRUE,FALSE,TRUE
+DPDP-92301,APP4265,"Employee Financial Details (Salary, Bank Account)",Customer Relationship Management,Duration of Employment + 3 Years,FALSE,TRUE,FALSE
+DPDP-19236,APP3324,Customer Contact Information,Legal and Statutory Obligations,3 Years,FALSE,TRUE,TRUE
+DPDP-92774,APP5049,"Employee Personal Details (Name, DOB, Address)",Recruitment and Hiring,1 Year,TRUE,TRUE,FALSE
+DPDP-22823,APP8431,Authentication Credentials,Customer Support Service Delivery,3 Years,FALSE,TRUE,TRUE
+DPDP-91650,APP4358,Authentication Credentials,Vendor Payment Processing,7 Years,FALSE,TRUE,FALSE

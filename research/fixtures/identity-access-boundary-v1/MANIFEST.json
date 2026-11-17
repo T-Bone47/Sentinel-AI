@@ -1,0 +1,161 @@
+{
+  "fixture": "identity-access-boundary-v1",
+  "synthetic": true,
+  "description": "Hand-placed edge cases for the five detection rules, including three known misses. Not a sample of real activity.",
+  "generator": {
+    "script": "research/scripts/build_boundary_fixture.py",
+    "version": 1,
+    "seed": 20261118
+  },
+  "adapter": "sentinel.native",
+  "sources": {
+    "events.jsonl": "identity-access-boundary-v1",
+    "events-hr.jsonl": "identity-access-boundary-v1-hr"
+  },
+  "files": {
+    "events.jsonl": {
+      "sha256": "97ea4de3dc0f9ef266dbf4c0c49cee02945f78247686e16485500e1ecb3905dc",
+      "bytes": 18154,
+      "lines": 52
+    },
+    "events-hr.jsonl": {
+      "sha256": "c60992ed749e2ebb3625edccc8d5766f50e32c076274ce8dc152191d22effe21",
+      "bytes": 294,
+      "lines": 1
+    },
+    "labels.jsonl": {
+      "sha256": "6f91c649256e5f5eaebfd80defb0ddfffb7c14068f084ca651b9bf5a75fe0f22",
+      "bytes": 5127,
+      "lines": 53
+    }
+  },
+  "expected": {
+    "events.jsonl": {
+      "received": 52,
+      "inserted": 52,
+      "duplicates": 0,
+      "conflicts": 0,
+      "rejected": 0,
+      "reject_reasons": {}
+    },
+    "events-hr.jsonl": {
+      "received": 1,
+      "inserted": 1,
+      "duplicates": 0,
+      "conflicts": 0,
+      "rejected": 0,
+      "reject_reasons": {}
+    }
+  },
+  "label_counts": {
+    "benign": 26,
+    "suspicious": 27
+  },
+  "scenarios": [
+    {
+      "id": "B-01",
+      "family": "failed_privileged_logins_then_success",
+      "label": "benign",
+      "events": 5,
+      "summary": "Four failed sign-ins, then a success: one short of the threshold."
+    },
+    {
+      "id": "B-02",
+      "family": "failed_privileged_logins_then_success",
+      "label": "suspicious",
+      "events": 6,
+      "summary": "Five failed sign-ins, the first exactly 30 minutes before the success."
+    },
+    {
+      "id": "B-03",
+      "family": "failed_privileged_logins_then_success",
+      "label": "benign",
+      "events": 6,
+      "summary": "As B-02, but the first failure is 30 minutes and 1 second before the success."
+    },
+    {
+      "id": "B-04",
+      "family": "failed_privileged_logins_then_success",
+      "label": "suspicious",
+      "events": 6,
+      "summary": "Five failed sign-ins from five different addresses, then a success."
+    },
+    {
+      "id": "B-05",
+      "family": "failed_privileged_logins_then_success",
+      "label": "benign",
+      "events": 6,
+      "summary": "Five failed sign-ins by one account, then a success by a different account."
+    },
+    {
+      "id": "B-06",
+      "family": "permission_change_then_sensitive_access",
+      "label": "suspicious",
+      "events": 2,
+      "summary": "An unapproved grant, then a restricted export exactly 60 minutes later."
+    },
+    {
+      "id": "B-07",
+      "family": "permission_change_then_sensitive_access",
+      "label": "benign",
+      "events": 2,
+      "summary": "As B-06, but the export is 60 minutes and 1 second after the grant."
+    },
+    {
+      "id": "B-08",
+      "family": "permission_change_then_sensitive_access",
+      "label": "benign",
+      "events": 2,
+      "summary": "An unapproved grant to one principal, then a restricted export by another."
+    },
+    {
+      "id": "B-09",
+      "family": "activity_by_disabled_account",
+      "label": "benign",
+      "events": 2,
+      "summary": "A sign-in at the same instant as the disable: not after it."
+    },
+    {
+      "id": "B-10",
+      "family": "activity_by_disabled_account",
+      "label": "suspicious",
+      "events": 2,
+      "summary": "A sign-in two hours after the disable, written earlier in the file than the disable."
+    },
+    {
+      "id": "B-11",
+      "family": "activity_by_disabled_account",
+      "label": "benign",
+      "events": 3,
+      "summary": "Disabled, re-enabled without an approval reference, then a sign-in."
+    },
+    {
+      "id": "B-12",
+      "family": "activity_by_disabled_account",
+      "label": "suspicious",
+      "events": 2,
+      "summary": "The disable is recorded by a separate HR source; the sign-in three hours later by the identity provider."
+    },
+    {
+      "id": "B-13",
+      "family": "privilege_grant_without_approval",
+      "label": "suspicious",
+      "events": 1,
+      "summary": "An administrative role granted without approval, where the source omits the privileged flag."
+    },
+    {
+      "id": "B-14",
+      "family": "privileged_login_without_mfa",
+      "label": "suspicious",
+      "events": 1,
+      "summary": "A privileged sign-in where the source omits whether a second factor was used."
+    },
+    {
+      "id": "B-15",
+      "family": "failed_privileged_logins_then_success",
+      "label": "suspicious",
+      "events": 7,
+      "summary": "Five failed sign-ins, then two successes a minute apart."
+    }
+  ]
+}

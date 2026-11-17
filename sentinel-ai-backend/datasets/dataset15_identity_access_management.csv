@@ -1,0 +1,501 @@
+UserID,EmployeeID,Role,Privileges,PrivilegedAccount,MFAEnabled,InactiveDays,LastPrivilegeReview
+USR20944,EMP0001,Sales User,Read: CRM Records; Write: Sales Opportunities,FALSE,FALSE,2,2025-12-05
+USR72655,EMP0002,DevOps Engineer,Read: Infrastructure; Write: Infrastructure; Deploy: Production Environment; Admin: CI/CD Pipeline,FALSE,TRUE,11,2026-02-05
+USR98309,EMP0003,Product User,Read: Product Roadmap; Write: Feature Requests,FALSE,TRUE,0,2026-06-02
+USR59069,EMP0004,Network Administrator,Admin: Network Devices; Admin: VPN Gateway,TRUE,TRUE,1,2026-07-29
+USR46912,EMP0005,Engineering Manager,Read: Source Code; Approve: Pull Requests; Admin: Team Repository,TRUE,TRUE,24,2026-01-26
+USR96387,EMP0006,SOC Analyst,Read: SIEM Alerts; Write: Incident Tickets,FALSE,TRUE,15,2026-04-22
+USR35867,EMP0007,HR User,Read: Employee Records; Write: Leave Requests,FALSE,TRUE,12,2025-09-19
+USR81525,EMP0008,System Administrator,Admin: Servers; Admin: Backup Systems,TRUE,TRUE,2,2026-06-17
+USR14247,EMP0009,System Administrator,Admin: Servers; Admin: Backup Systems,TRUE,FALSE,13,2025-09-24
+USR31220,EMP0010,Security Analyst,Read: Security Logs; Read: SIEM Alerts; Write: Incident Tickets,FALSE,TRUE,20,2026-04-28
+USR17788,EMP0011,Procurement Manager,Read: Vendor Records; Approve: Purchase Orders,TRUE,TRUE,19,2025-09-08
+USR30465,EMP0012,Developer,Read: Source Code; Write: Source Code; Deploy: Staging Environment,FALSE,TRUE,172,2026-07-07
+USR10643,EMP0013,CISO,Admin: Security Program; Read: All Security Data; Approve: Security Exceptions,TRUE,TRUE,25,2026-08-01
+USR35256,EMP0014,Operations User,Read: Operations Dashboard; Write: Incident Reports,FALSE,TRUE,13,2026-04-19
+USR19605,EMP0015,Security Analyst,Read: Security Logs; Read: SIEM Alerts; Write: Incident Tickets,FALSE,TRUE,2,2025-07-18
+USR24614,EMP0016,Finance Manager,Read: Financial Records; Approve: Payments; Write: Budget Reports,TRUE,TRUE,235,2026-07-23
+USR31090,EMP0017,IT Manager,Admin: IT Systems; Approve: Access Requests,TRUE,FALSE,1,2025-12-08
+USR50142,EMP0018,Sales Manager,Read: CRM Records; Approve: Discounts,TRUE,FALSE,9,2025-08-12
+USR32221,EMP0019,Engineering Manager,Read: Source Code; Approve: Pull Requests; Admin: Team Repository,TRUE,FALSE,8,2025-11-10
+USR40323,EMP0020,Product User,Read: Product Roadmap; Write: Feature Requests,TRUE,FALSE,15,2025-12-23
+USR34284,EMP0021,Product User,Read: Product Roadmap; Write: Feature Requests,FALSE,FALSE,8,2025-09-26
+USR33542,EMP0022,Product Manager,Read: Product Roadmap; Approve: Feature Prioritization,TRUE,TRUE,216,2026-06-09
+USR51530,EMP0023,Compliance Manager,Read: Compliance Reports; Approve: Remediation Plans,TRUE,FALSE,19,2026-03-18
+USR72763,EMP0024,Audit Manager,Read: Audit Logs; Approve: Audit Plans,TRUE,TRUE,7,2025-10-07
+USR27903,EMP0025,QA Tester,Read: Source Code; Write: Test Environment,FALSE,TRUE,10,2026-07-01
+USR82098,EMP0026,CISO,Admin: Security Program; Read: All Security Data; Approve: Security Exceptions,TRUE,TRUE,4,2026-02-12
+USR61279,EMP0027,QA Tester,Read: Source Code; Write: Test Environment,FALSE,TRUE,24,2025-08-03
+USR21465,EMP0028,Support Administrator,Admin: Support Platform,TRUE,TRUE,85,2025-07-11
+USR59317,EMP0029,DevOps Engineer,Read: Infrastructure; Write: Infrastructure; Deploy: Production Environment; Admin: CI/CD Pipeline,FALSE,TRUE,7,2026-02-14
+USR48670,EMP0030,Security Administrator,Admin: Security Tools; Admin: Firewall Rules; Admin: EDR Console,TRUE,TRUE,8,2026-01-19
+USR38457,EMP0031,Support Agent,Read: Customer Tickets; Write: Ticket Responses,FALSE,TRUE,25,2026-05-25
+USR16904,EMP0032,HR Manager,Read: Employee Records; Approve: HR Actions,TRUE,TRUE,4,2026-05-25
+USR37714,EMP0033,Engineering Manager,Read: Source Code; Approve: Pull Requests; Admin: Team Repository,TRUE,FALSE,2,2026-07-04
+USR35238,EMP0034,QA Tester,Read: Source Code; Write: Test Environment,FALSE,TRUE,25,2026-08-01
+USR92316,EMP0035,Campaign Administrator,Admin: Marketing Platform,TRUE,TRUE,18,2026-01-08
+USR88812,EMP0036,Procurement User,Read: Vendor Records; Write: Purchase Orders,FALSE,TRUE,21,2025-10-02
+USR79908,EMP0037,Sales User,Read: CRM Records; Write: Sales Opportunities,FALSE,FALSE,24,2025-11-29
+USR45596,EMP0038,Support Administrator,Admin: Support Platform,TRUE,FALSE,20,2025-11-27
+USR68953,EMP0039,Product Manager,Read: Product Roadmap; Approve: Feature Prioritization,TRUE,FALSE,15,2026-04-27
+USR53001,EMP0040,IT Manager,Admin: IT Systems; Approve: Access Requests,TRUE,TRUE,11,2025-07-26
+USR10398,EMP0041,System Administrator,Admin: Servers; Admin: Backup Systems,TRUE,TRUE,70,2025-10-11
+USR55006,EMP0042,Product Manager,Read: Product Roadmap; Approve: Feature Prioritization,TRUE,TRUE,11,2026-05-11
+USR16694,EMP0043,Developer,Read: Source Code; Write: Source Code; Deploy: Staging Environment,TRUE,FALSE,14,2025-10-13
+USR61129,EMP0044,QA Tester,Read: Source Code; Write: Test Environment,FALSE,TRUE,21,2025-12-08
+USR10850,EMP0045,Support Administrator,Admin: Support Platform,TRUE,TRUE,15,2025-10-24
+USR57997,EMP0046,Support Team Lead,Read: Customer Tickets; Approve: Escalations,FALSE,FALSE,7,2026-01-17
+USR95688,EMP0047,Developer,Read: Source Code; Write: Source Code; Deploy: Staging Environment,FALSE,TRUE,4,2026-02-23
+USR92722,EMP0048,Network Administrator,Admin: Network Devices; Admin: VPN Gateway,TRUE,TRUE,19,2026-07-16
+USR14138,EMP0049,DevOps Engineer,Read: Infrastructure; Write: Infrastructure; Deploy: Production Environment; Admin: CI/CD Pipeline,FALSE,FALSE,16,2026-01-16
+USR76440,EMP0050,IT Manager,Admin: IT Systems; Approve: Access Requests,TRUE,TRUE,7,2025-10-31
+USR87228,EMP0051,Engineering Manager,Read: Source Code; Approve: Pull Requests; Admin: Team Repository,TRUE,TRUE,11,2026-06-21
+USR73427,EMP0052,Product User,Read: Product Roadmap; Write: Feature Requests,FALSE,TRUE,8,2026-02-27
+USR14002,EMP0053,Data Engineer,Read: Data Pipelines; Write: Data Pipelines; Admin: ETL Jobs,FALSE,TRUE,1,2025-10-21
+USR72401,EMP0054,Support Agent,Read: Customer Tickets; Write: Ticket Responses,TRUE,TRUE,1,2025-12-12
+USR22541,EMP0055,CRM Administrator,Admin: CRM System; Write: CRM Records,TRUE,TRUE,9,2026-04-21
+USR56068,EMP0056,Data Engineer,Read: Data Pipelines; Write: Data Pipelines; Admin: ETL Jobs,FALSE,TRUE,17,2026-01-31
+USR57332,EMP0057,System Administrator,Admin: Servers; Admin: Backup Systems,TRUE,FALSE,19,2026-04-08
+USR11045,EMP0058,Developer,Read: Source Code; Write: Source Code; Deploy: Staging Environment,FALSE,TRUE,5,2026-03-11
+USR98770,EMP0059,Network Administrator,Admin: Network Devices; Admin: VPN Gateway,TRUE,FALSE,4,2026-04-01
+USR11665,EMP0060,Marketing Manager,Read: Campaign Data; Approve: Campaign Budget,TRUE,FALSE,8,2026-07-16
+USR81081,EMP0061,Operations Manager,Read: Operations Dashboard; Approve: Operational Changes,TRUE,TRUE,17,2026-01-08
+USR12359,EMP0062,Developer,Read: Source Code; Write: Source Code; Deploy: Staging Environment,FALSE,TRUE,22,2026-04-21
+USR82117,EMP0063,Accounts Administrator,Admin: Accounting System; Write: Ledger Entries,TRUE,TRUE,20,2025-09-09
+USR94045,EMP0064,IT Administrator,Admin: Active Directory; Admin: Endpoint Management,TRUE,TRUE,23,2025-08-19
+USR20319,EMP0065,DevOps Engineer,Read: Infrastructure; Write: Infrastructure; Deploy: Production Environment; Admin: CI/CD Pipeline,FALSE,TRUE,4,2025-08-18
+USR17209,EMP0066,Support Team Lead,Read: Customer Tickets; Approve: Escalations,TRUE,FALSE,9,2025-08-16
+USR96693,EMP0067,Marketing User,Read: Campaign Data; Write: Content,FALSE,TRUE,7,2026-05-22
+USR19707,EMP0068,Support Administrator,Admin: Support Platform,TRUE,TRUE,18,2026-01-25
+USR24871,EMP0069,Developer,Read: Source Code; Write: Source Code; Deploy: Staging Environment,FALSE,TRUE,59,2025-10-25
+USR38017,EMP0070,Security Analyst,Read: Security Logs; Read: SIEM Alerts; Write: Incident Tickets,FALSE,FALSE,6,2026-05-30
+USR73608,EMP0071,Compliance User,Read: Compliance Reports; Write: Findings,FALSE,TRUE,11,2026-03-06
+USR76461,EMP0072,IT Administrator,Admin: Active Directory; Admin: Endpoint Management,TRUE,FALSE,17,2025-11-07
+USR94597,EMP0073,Product Manager,Read: Product Roadmap; Approve: Feature Prioritization,TRUE,TRUE,6,2025-11-11
+USR43165,EMP0074,Engineering Manager,Read: Source Code; Approve: Pull Requests; Admin: Team Repository,TRUE,TRUE,10,2026-03-26
+USR72327,EMP0075,Audit Manager,Read: Audit Logs; Approve: Audit Plans,TRUE,TRUE,21,2025-11-14
+USR22174,EMP0076,CFO,Admin: Financial Systems; Approve: Financial Reports,TRUE,TRUE,4,2026-05-07
+USR77782,EMP0077,QA Tester,Read: Source Code; Write: Test Environment,TRUE,TRUE,0,2025-09-20
+USR86358,EMP0078,DevOps Engineer,Read: Infrastructure; Write: Infrastructure; Deploy: Production Environment; Admin: CI/CD Pipeline,FALSE,TRUE,6,2026-03-19
+USR78943,EMP0079,Procurement Manager,Read: Vendor Records; Approve: Purchase Orders,TRUE,FALSE,65,2025-12-21
+USR60038,EMP0080,Developer,Read: Source Code; Write: Source Code; Deploy: Staging Environment,FALSE,FALSE,25,2026-01-15
+USR24299,EMP0081,DevOps Engineer,Read: Infrastructure; Write: Infrastructure; Deploy: Production Environment; Admin: CI/CD Pipeline,FALSE,TRUE,2,2025-11-08
+USR39295,EMP0082,HR User,Read: Employee Records; Write: Leave Requests,FALSE,TRUE,13,2026-05-26
+USR35017,EMP0083,Sales User,Read: CRM Records; Write: Sales Opportunities,FALSE,TRUE,21,2026-01-25
+USR59630,EMP0084,CRM Administrator,Admin: CRM System; Write: CRM Records,TRUE,TRUE,351,2026-05-18
+USR79392,EMP0085,Marketing User,Read: Campaign Data; Write: Content,FALSE,TRUE,17,2026-02-18
+USR17589,EMP0086,HR Manager,Read: Employee Records; Approve: HR Actions,TRUE,TRUE,2,2026-01-28
+USR46902,EMP0087,Accounts Administrator,Admin: Accounting System; Write: Ledger Entries,TRUE,FALSE,308,2025-12-30
+USR87635,EMP0088,CRM Administrator,Admin: CRM System; Write: CRM Records,TRUE,TRUE,23,2026-02-09
+USR88452,EMP0089,Support Team Lead,Read: Customer Tickets; Approve: Escalations,FALSE,TRUE,7,2025-09-11
+USR41589,EMP0090,System Administrator,Admin: Servers; Admin: Backup Systems,TRUE,TRUE,25,2025-12-20
+USR39776,EMP0091,Marketing Manager,Read: Campaign Data; Approve: Campaign Budget,TRUE,FALSE,14,2026-04-30
+USR60843,EMP0092,Data Engineer,Read: Data Pipelines; Write: Data Pipelines; Admin: ETL Jobs,FALSE,TRUE,36,2026-01-13
+USR17355,EMP0093,Operations User,Read: Operations Dashboard; Write: Incident Reports,FALSE,TRUE,19,2026-03-11
+USR29709,EMP0094,Finance Manager,Read: Financial Records; Approve: Payments; Write: Budget Reports,TRUE,TRUE,17,2026-04-09
+USR81276,EMP0095,Finance User,Read: Financial Records; Write: Expense Reports,FALSE,TRUE,8,2026-05-20
+USR15115,EMP0096,Operations Manager,Read: Operations Dashboard; Approve: Operational Changes,TRUE,TRUE,13,2026-03-09
+USR93579,EMP0097,HR Administrator,Admin: HRIS; Write: Employee Records,TRUE,TRUE,4,2026-07-06
+USR82300,EMP0098,Sales Manager,Read: CRM Records; Approve: Discounts,TRUE,TRUE,2,2025-12-04
+USR31530,EMP0099,DevOps Engineer,Read: Infrastructure; Write: Infrastructure; Deploy: Production Environment; Admin: CI/CD Pipeline,FALSE,TRUE,4,2026-05-10
+USR56294,EMP0100,Developer,Read: Source Code; Write: Source Code; Deploy: Staging Environment,FALSE,TRUE,1,2026-01-19
+USR75941,EMP0101,DevOps Engineer,Read: Infrastructure; Write: Infrastructure; Deploy: Production Environment; Admin: CI/CD Pipeline,FALSE,TRUE,21,2026-05-04
+USR80321,EMP0102,Audit User,Read: Audit Logs; Write: Audit Findings,FALSE,TRUE,7,2026-03-10
+USR26296,EMP0103,Procurement Manager,Read: Vendor Records; Approve: Purchase Orders,TRUE,TRUE,6,2025-07-16
+USR34625,EMP0104,Sales User,Read: CRM Records; Write: Sales Opportunities,FALSE,FALSE,2,2026-01-27
+USR90462,EMP0105,Campaign Administrator,Admin: Marketing Platform,TRUE,TRUE,6,2025-10-30
+USR12786,EMP0106,Support Agent,Read: Customer Tickets; Write: Ticket Responses,FALSE,TRUE,0,2025-07-03
+USR12850,EMP0107,Product User,Read: Product Roadmap; Write: Feature Requests,FALSE,FALSE,1,2026-03-31
+USR59109,EMP0108,Operations User,Read: Operations Dashboard; Write: Incident Reports,FALSE,TRUE,3,2025-08-13
+USR48274,EMP0109,Sales User,Read: CRM Records; Write: Sales Opportunities,FALSE,TRUE,13,2025-08-13
+USR60249,EMP0110,Marketing User,Read: Campaign Data; Write: Content,FALSE,FALSE,3,2025-10-15
+USR29320,EMP0111,Engineering Manager,Read: Source Code; Approve: Pull Requests; Admin: Team Repository,TRUE,TRUE,22,2026-03-23
+USR53601,EMP0112,Security Analyst,Read: Security Logs; Read: SIEM Alerts; Write: Incident Tickets,FALSE,TRUE,4,2026-02-18
+USR56475,EMP0113,CRM Administrator,Admin: CRM System; Write: CRM Records,TRUE,TRUE,17,2025-09-27
+USR82877,EMP0114,CRM Administrator,Admin: CRM System; Write: CRM Records,TRUE,TRUE,13,2025-09-21
+USR99249,EMP0115,HR Administrator,Admin: HRIS; Write: Employee Records,TRUE,FALSE,21,2026-02-26
+USR67153,EMP0116,Support Administrator,Admin: Support Platform,TRUE,TRUE,13,2025-08-23
+USR78931,EMP0117,Risk Analyst,Read: Risk Register; Write: Risk Assessments,TRUE,TRUE,20,2026-01-06
+USR72851,EMP0118,Support Agent,Read: Customer Tickets; Write: Ticket Responses,FALSE,TRUE,6,2025-07-17
+USR73850,EMP0119,Procurement Manager,Read: Vendor Records; Approve: Purchase Orders,TRUE,TRUE,11,2025-10-29
+USR79698,EMP0120,System Administrator,Admin: Servers; Admin: Backup Systems,TRUE,TRUE,18,2026-07-11
+USR64340,EMP0121,Security Analyst,Read: Security Logs; Read: SIEM Alerts; Write: Incident Tickets,FALSE,TRUE,3,2025-07-20
+USR11547,EMP0122,Compliance User,Read: Compliance Reports; Write: Findings,FALSE,TRUE,25,2026-05-02
+USR62403,EMP0123,Finance User,Read: Financial Records; Write: Expense Reports,TRUE,FALSE,1,2026-01-01
+USR38062,EMP0124,Security Administrator,Admin: Security Tools; Admin: Firewall Rules; Admin: EDR Console,TRUE,FALSE,12,2025-08-03
+USR39186,EMP0125,Risk Analyst,Read: Risk Register; Write: Risk Assessments,FALSE,TRUE,1,2026-07-21
+USR65636,EMP0126,Marketing User,Read: Campaign Data; Write: Content,FALSE,FALSE,4,2025-12-17
+USR72400,EMP0127,Data Engineer,Read: Data Pipelines; Write: Data Pipelines; Admin: ETL Jobs,FALSE,TRUE,23,2025-07-03
+USR85460,EMP0128,IT Manager,Admin: IT Systems; Approve: Access Requests,TRUE,TRUE,25,2025-08-06
+USR99239,EMP0129,Network Administrator,Admin: Network Devices; Admin: VPN Gateway,TRUE,FALSE,18,2026-02-27
+USR74619,EMP0130,QA Tester,Read: Source Code; Write: Test Environment,FALSE,TRUE,3,2025-12-20
+USR94547,EMP0131,Product Manager,Read: Product Roadmap; Approve: Feature Prioritization,TRUE,TRUE,12,2025-10-12
+USR33483,EMP0132,Network Administrator,Admin: Network Devices; Admin: VPN Gateway,TRUE,FALSE,15,2025-07-31
+USR24285,EMP0133,Engineering Manager,Read: Source Code; Approve: Pull Requests; Admin: Team Repository,TRUE,TRUE,18,2026-02-18
+USR14389,EMP0134,DevOps Engineer,Read: Infrastructure; Write: Infrastructure; Deploy: Production Environment; Admin: CI/CD Pipeline,FALSE,TRUE,11,2025-07-14
+USR89350,EMP0135,QA Tester,Read: Source Code; Write: Test Environment,FALSE,TRUE,20,2025-09-20
+USR33633,EMP0136,CRM Administrator,Admin: CRM System; Write: CRM Records,TRUE,TRUE,5,2026-03-25
+USR18196,EMP0137,Risk Analyst,Read: Risk Register; Write: Risk Assessments,FALSE,TRUE,16,2026-04-20
+USR85471,EMP0138,Support Agent,Read: Customer Tickets; Write: Ticket Responses,FALSE,TRUE,21,2026-01-04
+USR70200,EMP0139,Product User,Read: Product Roadmap; Write: Feature Requests,FALSE,TRUE,10,2026-05-29
+USR58221,EMP0140,Security Analyst,Read: Security Logs; Read: SIEM Alerts; Write: Incident Tickets,FALSE,TRUE,22,2026-01-25
+USR69945,EMP0141,Compliance User,Read: Compliance Reports; Write: Findings,FALSE,FALSE,20,2026-06-16
+USR81477,EMP0142,HR User,Read: Employee Records; Write: Leave Requests,FALSE,TRUE,8,2026-01-25
+USR80289,EMP0143,SOC Analyst,Read: SIEM Alerts; Write: Incident Tickets,FALSE,TRUE,0,2026-01-27
+USR95601,EMP0144,HR User,Read: Employee Records; Write: Leave Requests,FALSE,TRUE,5,2025-09-27
+USR45316,EMP0145,Executive User,Read: Executive Dashboard,FALSE,TRUE,17,2026-05-28
+USR79115,EMP0146,Developer,Read: Source Code; Write: Source Code; Deploy: Staging Environment,FALSE,TRUE,35,2025-10-20
+USR54452,EMP0147,Developer,Read: Source Code; Write: Source Code; Deploy: Staging Environment,TRUE,TRUE,1,2026-06-17
+USR67934,EMP0148,Security Administrator,Admin: Security Tools; Admin: Firewall Rules; Admin: EDR Console,TRUE,TRUE,25,2026-01-22
+USR73704,EMP0149,Sales Manager,Read: CRM Records; Approve: Discounts,TRUE,TRUE,12,2026-06-25
+USR56222,EMP0150,Engineering Manager,Read: Source Code; Approve: Pull Requests; Admin: Team Repository,TRUE,TRUE,11,2026-07-28
+USR14783,EMP0151,Support Team Lead,Read: Customer Tickets; Approve: Escalations,FALSE,FALSE,14,2026-02-02
+USR83025,EMP0152,Marketing User,Read: Campaign Data; Write: Content,FALSE,TRUE,8,2025-07-09
+USR77171,EMP0153,Accounts Administrator,Admin: Accounting System; Write: Ledger Entries,TRUE,TRUE,75,2025-12-30
+USR61121,EMP0154,Sales User,Read: CRM Records; Write: Sales Opportunities,FALSE,TRUE,23,2025-07-23
+USR41547,EMP0155,Data Engineer,Read: Data Pipelines; Write: Data Pipelines; Admin: ETL Jobs,TRUE,TRUE,5,2026-01-29
+USR21428,EMP0156,Operations Manager,Read: Operations Dashboard; Approve: Operational Changes,TRUE,TRUE,17,2025-09-03
+USR69302,EMP0157,Engineering Manager,Read: Source Code; Approve: Pull Requests; Admin: Team Repository,TRUE,TRUE,0,2025-12-07
+USR34718,EMP0158,Database Administrator,Admin: Databases; Read: All Schemas,TRUE,TRUE,8,2026-01-07
+USR62879,EMP0159,CISO,Admin: Security Program; Read: All Security Data; Approve: Security Exceptions,TRUE,TRUE,25,2026-03-14
+USR24601,EMP0160,Security Analyst,Read: Security Logs; Read: SIEM Alerts; Write: Incident Tickets,FALSE,FALSE,24,2026-03-28
+USR74410,EMP0161,System Administrator,Admin: Servers; Admin: Backup Systems,TRUE,FALSE,9,2026-02-27
+USR54069,EMP0162,Database Administrator,Admin: Databases; Read: All Schemas,TRUE,TRUE,24,2025-10-19
+USR87209,EMP0163,IT Administrator,Admin: Active Directory; Admin: Endpoint Management,TRUE,FALSE,350,2025-09-21
+USR18884,EMP0164,Network Administrator,Admin: Network Devices; Admin: VPN Gateway,TRUE,FALSE,15,2026-05-21
+USR81139,EMP0165,CRM Administrator,Admin: CRM System; Write: CRM Records,TRUE,FALSE,2,2025-09-25
+USR51203,EMP0166,Procurement User,Read: Vendor Records; Write: Purchase Orders,FALSE,TRUE,24,2025-09-01
+USR26092,EMP0167,Sales Manager,Read: CRM Records; Approve: Discounts,TRUE,TRUE,22,2026-02-14
+USR87299,EMP0168,Product Manager,Read: Product Roadmap; Approve: Feature Prioritization,TRUE,TRUE,25,2026-01-15
+USR99649,EMP0169,Security Analyst,Read: Security Logs; Read: SIEM Alerts; Write: Incident Tickets,FALSE,TRUE,2,2025-10-26
+USR20407,EMP0170,Audit User,Read: Audit Logs; Write: Audit Findings,FALSE,FALSE,0,2025-09-17
+USR59322,EMP0171,DevOps Engineer,Read: Infrastructure; Write: Infrastructure; Deploy: Production Environment; Admin: CI/CD Pipeline,FALSE,TRUE,9,2026-02-28
+USR68346,EMP0172,CFO,Admin: Financial Systems; Approve: Financial Reports,TRUE,TRUE,20,2026-07-29
+USR97446,EMP0173,Operations User,Read: Operations Dashboard; Write: Incident Reports,FALSE,TRUE,360,2025-11-02
+USR80352,EMP0174,System Administrator,Admin: Servers; Admin: Backup Systems,TRUE,FALSE,18,2025-07-09
+USR54473,EMP0175,Campaign Administrator,Admin: Marketing Platform,TRUE,FALSE,1,2025-07-19
+USR27650,EMP0176,QA Tester,Read: Source Code; Write: Test Environment,FALSE,FALSE,14,2026-05-29
+USR25534,EMP0177,Procurement User,Read: Vendor Records; Write: Purchase Orders,FALSE,TRUE,58,2026-02-27
+USR40694,EMP0178,QA Tester,Read: Source Code; Write: Test Environment,FALSE,TRUE,15,2026-02-25
+USR13603,EMP0179,Security Analyst,Read: Security Logs; Read: SIEM Alerts; Write: Incident Tickets,FALSE,TRUE,18,2026-03-08
+USR25391,EMP0180,HR Manager,Read: Employee Records; Approve: HR Actions,TRUE,TRUE,23,2026-07-20
+USR46378,EMP0181,CRM Administrator,Admin: CRM System; Write: CRM Records,TRUE,TRUE,16,2025-10-15
+USR71478,EMP0182,Support Administrator,Admin: Support Platform,TRUE,FALSE,327,2026-04-10
+USR74045,EMP0183,Database Administrator,Admin: Databases; Read: All Schemas,TRUE,TRUE,24,2026-04-17
+USR46262,EMP0184,CRM Administrator,Admin: CRM System; Write: CRM Records,TRUE,TRUE,5,2025-10-15
+USR51959,EMP0185,Security Administrator,Admin: Security Tools; Admin: Firewall Rules; Admin: EDR Console,TRUE,FALSE,19,2025-11-12
+USR80300,EMP0186,Operations Manager,Read: Operations Dashboard; Approve: Operational Changes,TRUE,TRUE,16,2025-07-17
+USR46048,EMP0187,Risk Manager,Read: Risk Register; Approve: Risk Treatment Plans,TRUE,TRUE,23,2025-07-28
+USR80131,EMP0188,Campaign Administrator,Admin: Marketing Platform,TRUE,TRUE,21,2026-03-19
+USR87780,EMP0189,Accounts Administrator,Admin: Accounting System; Write: Ledger Entries,TRUE,TRUE,9,2025-08-06
+USR24131,EMP0190,Finance Manager,Read: Financial Records; Approve: Payments; Write: Budget Reports,TRUE,TRUE,17,2025-09-26
+USR92616,EMP0191,System Administrator,Admin: Servers; Admin: Backup Systems,TRUE,TRUE,257,2025-09-05
+USR82452,EMP0192,Data Engineer,Read: Data Pipelines; Write: Data Pipelines; Admin: ETL Jobs,FALSE,TRUE,0,2025-11-10
+USR53545,EMP0193,DevOps Engineer,Read: Infrastructure; Write: Infrastructure; Deploy: Production Environment; Admin: CI/CD Pipeline,FALSE,TRUE,11,2025-08-07
+USR87889,EMP0194,Engineering Manager,Read: Source Code; Approve: Pull Requests; Admin: Team Repository,TRUE,TRUE,11,2025-08-02
+USR55024,EMP0195,Developer,Read: Source Code; Write: Source Code; Deploy: Staging Environment,FALSE,TRUE,11,2026-07-23
+USR96365,EMP0196,HR User,Read: Employee Records; Write: Leave Requests,FALSE,TRUE,6,2026-05-05
+USR48503,EMP0197,Developer,Read: Source Code; Write: Source Code; Deploy: Staging Environment,FALSE,TRUE,253,2025-07-30
+USR84762,EMP0198,CFO,Admin: Financial Systems; Approve: Financial Reports,TRUE,TRUE,20,2025-08-17
+USR18776,EMP0199,Procurement User,Read: Vendor Records; Write: Purchase Orders,FALSE,FALSE,5,2025-11-12
+USR96192,EMP0200,Sales User,Read: CRM Records; Write: Sales Opportunities,FALSE,TRUE,4,2025-09-27
+USR37110,EMP0201,Campaign Administrator,Admin: Marketing Platform,TRUE,TRUE,1,2025-11-16
+USR10790,EMP0202,Finance Manager,Read: Financial Records; Approve: Payments; Write: Budget Reports,TRUE,FALSE,10,2026-04-25
+USR93697,EMP0203,System Administrator,Admin: Servers; Admin: Backup Systems,TRUE,TRUE,14,2026-02-09
+USR49770,EMP0204,IT Administrator,Admin: Active Directory; Admin: Endpoint Management,TRUE,TRUE,4,2025-08-19
+USR30969,EMP0205,Risk Manager,Read: Risk Register; Approve: Risk Treatment Plans,TRUE,TRUE,0,2025-10-07
+USR20097,EMP0206,Support Administrator,Admin: Support Platform,TRUE,TRUE,13,2025-07-11
+USR30480,EMP0207,Data Analyst,Read: Data Warehouse; Write: Reports,FALSE,TRUE,25,2025-09-07
+USR42103,EMP0208,Legal Administrator,Admin: Contract Repository; Read: Legal Documents,TRUE,TRUE,24,2025-07-18
+USR18588,EMP0209,CFO,Admin: Financial Systems; Approve: Financial Reports,TRUE,TRUE,0,2026-07-10
+USR35903,EMP0210,Marketing Manager,Read: Campaign Data; Approve: Campaign Budget,TRUE,TRUE,21,2025-09-28
+USR77839,EMP0211,DevOps Engineer,Read: Infrastructure; Write: Infrastructure; Deploy: Production Environment; Admin: CI/CD Pipeline,FALSE,TRUE,2,2026-06-02
+USR35087,EMP0212,Marketing Manager,Read: Campaign Data; Approve: Campaign Budget,TRUE,TRUE,14,2026-01-16
+USR30545,EMP0213,Legal Administrator,Admin: Contract Repository; Read: Legal Documents,TRUE,TRUE,19,2025-07-29
+USR67682,EMP0214,HR Manager,Read: Employee Records; Approve: HR Actions,TRUE,TRUE,0,2025-08-16
+USR81554,EMP0215,QA Tester,Read: Source Code; Write: Test Environment,FALSE,TRUE,23,2026-06-13
+USR50953,EMP0216,CRM Administrator,Admin: CRM System; Write: CRM Records,TRUE,TRUE,25,2026-06-19
+USR63035,EMP0217,Campaign Administrator,Admin: Marketing Platform,TRUE,TRUE,16,2026-07-16
+USR99651,EMP0218,CRM Administrator,Admin: CRM System; Write: CRM Records,TRUE,TRUE,52,2025-07-11
+USR98965,EMP0219,Compliance User,Read: Compliance Reports; Write: Findings,TRUE,FALSE,4,2026-06-12
+USR82800,EMP0220,Risk Analyst,Read: Risk Register; Write: Risk Assessments,FALSE,TRUE,7,2025-11-15
+USR35151,EMP0221,DevOps Engineer,Read: Infrastructure; Write: Infrastructure; Deploy: Production Environment; Admin: CI/CD Pipeline,FALSE,TRUE,20,2026-07-07
+USR24781,EMP0222,DevOps Engineer,Read: Infrastructure; Write: Infrastructure; Deploy: Production Environment; Admin: CI/CD Pipeline,FALSE,TRUE,22,2025-11-09
+USR55696,EMP0223,Accounts Administrator,Admin: Accounting System; Write: Ledger Entries,TRUE,FALSE,16,2026-04-08
+USR26687,EMP0224,IT Manager,Admin: IT Systems; Approve: Access Requests,TRUE,TRUE,17,2026-02-15
+USR95614,EMP0225,Audit User,Read: Audit Logs; Write: Audit Findings,FALSE,TRUE,187,2026-05-22
+USR62137,EMP0226,CRM Administrator,Admin: CRM System; Write: CRM Records,TRUE,TRUE,7,2025-10-26
+USR81265,EMP0227,Operations User,Read: Operations Dashboard; Write: Incident Reports,FALSE,TRUE,16,2026-06-28
+USR57521,EMP0228,Product User,Read: Product Roadmap; Write: Feature Requests,FALSE,TRUE,5,2026-03-31
+USR46428,EMP0229,Operations Manager,Read: Operations Dashboard; Approve: Operational Changes,TRUE,TRUE,12,2026-05-15
+USR18629,EMP0230,DevOps Engineer,Read: Infrastructure; Write: Infrastructure; Deploy: Production Environment; Admin: CI/CD Pipeline,FALSE,TRUE,13,2026-07-28
+USR48788,EMP0231,System Owner,Admin: Executive Systems; Approve: Strategic Access,TRUE,TRUE,14,2025-11-01
+USR52304,EMP0232,CISO,Admin: Security Program; Read: All Security Data; Approve: Security Exceptions,TRUE,TRUE,14,2026-02-21
+USR66452,EMP0233,Support Agent,Read: Customer Tickets; Write: Ticket Responses,TRUE,TRUE,5,2026-06-22
+USR44805,EMP0234,HR User,Read: Employee Records; Write: Leave Requests,FALSE,FALSE,74,2026-04-08
+USR88731,EMP0235,Support Agent,Read: Customer Tickets; Write: Ticket Responses,FALSE,FALSE,17,2025-08-14
+USR89903,EMP0236,QA Tester,Read: Source Code; Write: Test Environment,FALSE,TRUE,10,2025-07-12
+USR58440,EMP0237,DevOps Engineer,Read: Infrastructure; Write: Infrastructure; Deploy: Production Environment; Admin: CI/CD Pipeline,FALSE,TRUE,193,2026-06-04
+USR91387,EMP0238,Product Manager,Read: Product Roadmap; Approve: Feature Prioritization,TRUE,TRUE,24,2025-10-09
+USR59451,EMP0239,Risk Manager,Read: Risk Register; Approve: Risk Treatment Plans,TRUE,TRUE,10,2026-04-04
+USR25091,EMP0240,HR Administrator,Admin: HRIS; Write: Employee Records,TRUE,TRUE,19,2026-06-28
+USR53673,EMP0241,DevOps Engineer,Read: Infrastructure; Write: Infrastructure; Deploy: Production Environment; Admin: CI/CD Pipeline,FALSE,TRUE,18,2026-06-16
+USR38412,EMP0242,Operations Manager,Read: Operations Dashboard; Approve: Operational Changes,TRUE,TRUE,4,2026-06-25
+USR88707,EMP0243,Support Administrator,Admin: Support Platform,TRUE,TRUE,25,2026-01-31
+USR78760,EMP0244,Sales User,Read: CRM Records; Write: Sales Opportunities,FALSE,TRUE,20,2025-11-03
+USR39676,EMP0245,Sales Manager,Read: CRM Records; Approve: Discounts,TRUE,TRUE,24,2025-12-15
+USR15012,EMP0246,Executive User,Read: Executive Dashboard,FALSE,TRUE,3,2025-09-04
+USR12864,EMP0247,Support Agent,Read: Customer Tickets; Write: Ticket Responses,FALSE,TRUE,10,2026-06-11
+USR98939,EMP0248,Legal Administrator,Admin: Contract Repository; Read: Legal Documents,TRUE,TRUE,3,2025-09-12
+USR24984,EMP0249,Data Analyst,Read: Data Warehouse; Write: Reports,FALSE,TRUE,5,2026-02-16
+USR69348,EMP0250,Audit Manager,Read: Audit Logs; Approve: Audit Plans,TRUE,FALSE,145,2025-10-07
+USR43781,EMP0251,Risk Manager,Read: Risk Register; Approve: Risk Treatment Plans,TRUE,TRUE,25,2026-02-14
+USR49837,EMP0252,Operations User,Read: Operations Dashboard; Write: Incident Reports,FALSE,TRUE,19,2026-05-30
+USR48038,EMP0253,Operations Manager,Read: Operations Dashboard; Approve: Operational Changes,TRUE,TRUE,2,2026-04-25
+USR74247,EMP0254,Engineering Manager,Read: Source Code; Approve: Pull Requests; Admin: Team Repository,TRUE,TRUE,3,2026-07-29
+USR47699,EMP0255,Data Engineer,Read: Data Pipelines; Write: Data Pipelines; Admin: ETL Jobs,FALSE,TRUE,2,2025-10-04
+USR96400,EMP0256,CFO,Admin: Financial Systems; Approve: Financial Reports,TRUE,TRUE,172,2026-05-13
+USR75779,EMP0257,QA Tester,Read: Source Code; Write: Test Environment,FALSE,TRUE,170,2026-01-31
+USR51297,EMP0258,Engineering Manager,Read: Source Code; Approve: Pull Requests; Admin: Team Repository,TRUE,TRUE,1,2026-04-14
+USR34864,EMP0259,QA Tester,Read: Source Code; Write: Test Environment,FALSE,TRUE,59,2026-06-29
+USR21927,EMP0260,Support Agent,Read: Customer Tickets; Write: Ticket Responses,FALSE,TRUE,7,2025-10-03
+USR55390,EMP0261,Finance User,Read: Financial Records; Write: Expense Reports,FALSE,FALSE,39,2026-01-14
+USR40804,EMP0262,Sales Manager,Read: CRM Records; Approve: Discounts,TRUE,TRUE,21,2026-06-04
+USR42646,EMP0263,Analytics Manager,Read: Data Warehouse; Approve: Analytics Access,TRUE,FALSE,10,2026-05-12
+USR83385,EMP0264,Finance Manager,Read: Financial Records; Approve: Payments; Write: Budget Reports,TRUE,TRUE,23,2026-07-29
+USR53911,EMP0265,Procurement User,Read: Vendor Records; Write: Purchase Orders,FALSE,FALSE,18,2026-05-28
+USR34368,EMP0266,Engineering Manager,Read: Source Code; Approve: Pull Requests; Admin: Team Repository,TRUE,TRUE,7,2026-02-25
+USR68344,EMP0267,Engineering Manager,Read: Source Code; Approve: Pull Requests; Admin: Team Repository,TRUE,TRUE,24,2026-05-27
+USR66469,EMP0268,Finance Manager,Read: Financial Records; Approve: Payments; Write: Budget Reports,TRUE,TRUE,0,2025-09-14
+USR57424,EMP0269,Sales User,Read: CRM Records; Write: Sales Opportunities,FALSE,FALSE,22,2025-08-08
+USR28506,EMP0270,Security Administrator,Admin: Security Tools; Admin: Firewall Rules; Admin: EDR Console,TRUE,TRUE,78,2026-01-25
+USR32249,EMP0271,HR User,Read: Employee Records; Write: Leave Requests,FALSE,TRUE,8,2025-09-01
+USR85765,EMP0272,Developer,Read: Source Code; Write: Source Code; Deploy: Staging Environment,FALSE,FALSE,3,2026-03-30
+USR97045,EMP0273,DevOps Engineer,Read: Infrastructure; Write: Infrastructure; Deploy: Production Environment; Admin: CI/CD Pipeline,FALSE,FALSE,8,2026-01-12
+USR34135,EMP0274,Sales User,Read: CRM Records; Write: Sales Opportunities,FALSE,TRUE,14,2025-08-07
+USR59654,EMP0275,Data Analyst,Read: Data Warehouse; Write: Reports,FALSE,TRUE,8,2026-06-13
+USR98198,EMP0276,SOC Analyst,Read: SIEM Alerts; Write: Incident Tickets,FALSE,TRUE,9,2026-06-20
+USR43022,EMP0277,Compliance Manager,Read: Compliance Reports; Approve: Remediation Plans,TRUE,TRUE,5,2026-03-30
+USR32379,EMP0278,Support Agent,Read: Customer Tickets; Write: Ticket Responses,FALSE,TRUE,19,2025-07-25
+USR53147,EMP0279,IT Administrator,Admin: Active Directory; Admin: Endpoint Management,TRUE,TRUE,23,2026-02-01
+USR65035,EMP0280,Product User,Read: Product Roadmap; Write: Feature Requests,FALSE,TRUE,5,2025-11-29
+USR80237,EMP0281,Developer,Read: Source Code; Write: Source Code; Deploy: Staging Environment,FALSE,FALSE,12,2026-02-16
+USR36485,EMP0282,Sales User,Read: CRM Records; Write: Sales Opportunities,FALSE,FALSE,15,2025-09-14
+USR91910,EMP0283,Risk Analyst,Read: Risk Register; Write: Risk Assessments,FALSE,TRUE,363,2026-07-01
+USR82311,EMP0284,Product Manager,Read: Product Roadmap; Approve: Feature Prioritization,TRUE,TRUE,52,2025-08-03
+USR42625,EMP0285,Operations User,Read: Operations Dashboard; Write: Incident Reports,FALSE,TRUE,21,2025-08-09
+USR74078,EMP0286,Support Team Lead,Read: Customer Tickets; Approve: Escalations,FALSE,TRUE,250,2026-07-21
+USR14015,EMP0287,Product Manager,Read: Product Roadmap; Approve: Feature Prioritization,TRUE,FALSE,20,2025-09-24
+USR64563,EMP0288,Support Team Lead,Read: Customer Tickets; Approve: Escalations,FALSE,TRUE,16,2025-08-11
+USR38186,EMP0289,DevOps Engineer,Read: Infrastructure; Write: Infrastructure; Deploy: Production Environment; Admin: CI/CD Pipeline,FALSE,TRUE,8,2026-05-26
+USR22009,EMP0290,IT Manager,Admin: IT Systems; Approve: Access Requests,TRUE,TRUE,15,2026-04-19
+USR30429,EMP0291,Support Administrator,Admin: Support Platform,TRUE,TRUE,0,2025-12-22
+USR15324,EMP0292,Developer,Read: Source Code; Write: Source Code; Deploy: Staging Environment,FALSE,TRUE,12,2025-10-30
+USR76829,EMP0293,Support Team Lead,Read: Customer Tickets; Approve: Escalations,FALSE,FALSE,61,2025-08-15
+USR91217,EMP0294,Developer,Read: Source Code; Write: Source Code; Deploy: Staging Environment,FALSE,TRUE,19,2025-07-12
+USR51593,EMP0295,HR Administrator,Admin: HRIS; Write: Employee Records,TRUE,FALSE,11,2026-03-17
+USR58295,EMP0296,Compliance Manager,Read: Compliance Reports; Approve: Remediation Plans,TRUE,FALSE,0,2025-08-24
+USR98268,EMP0297,Finance User,Read: Financial Records; Write: Expense Reports,FALSE,TRUE,12,2025-07-07
+USR46265,EMP0298,Product User,Read: Product Roadmap; Write: Feature Requests,FALSE,TRUE,21,2025-12-08
+USR15800,EMP0299,Support Agent,Read: Customer Tickets; Write: Ticket Responses,FALSE,TRUE,6,2025-07-25
+USR10098,EMP0300,IT Manager,Admin: IT Systems; Approve: Access Requests,TRUE,TRUE,23,2026-05-24
+USR65896,EMP0301,Engineering Manager,Read: Source Code; Approve: Pull Requests; Admin: Team Repository,TRUE,TRUE,346,2026-07-21
+USR67268,EMP0302,Support Team Lead,Read: Customer Tickets; Approve: Escalations,FALSE,TRUE,2,2026-03-13
+USR92042,EMP0303,Support Agent,Read: Customer Tickets; Write: Ticket Responses,FALSE,TRUE,23,2025-11-23
+USR79430,EMP0304,Support Team Lead,Read: Customer Tickets; Approve: Escalations,FALSE,TRUE,1,2026-07-11
+USR92261,EMP0305,Data Engineer,Read: Data Pipelines; Write: Data Pipelines; Admin: ETL Jobs,FALSE,TRUE,148,2026-02-05
+USR51408,EMP0306,Support Team Lead,Read: Customer Tickets; Approve: Escalations,FALSE,TRUE,4,2025-10-19
+USR26755,EMP0307,Engineering Manager,Read: Source Code; Approve: Pull Requests; Admin: Team Repository,TRUE,TRUE,18,2025-07-26
+USR93105,EMP0308,System Owner,Admin: Executive Systems; Approve: Strategic Access,TRUE,FALSE,15,2026-01-07
+USR62497,EMP0309,HR User,Read: Employee Records; Write: Leave Requests,FALSE,TRUE,5,2025-11-05
+USR50381,EMP0310,Developer,Read: Source Code; Write: Source Code; Deploy: Staging Environment,FALSE,TRUE,12,2026-02-26
+USR96639,EMP0311,Engineering Manager,Read: Source Code; Approve: Pull Requests; Admin: Team Repository,TRUE,TRUE,14,2026-01-10
+USR38127,EMP0312,Sales User,Read: CRM Records; Write: Sales Opportunities,FALSE,TRUE,13,2025-10-15
+USR92155,EMP0313,Analytics Manager,Read: Data Warehouse; Approve: Analytics Access,TRUE,FALSE,15,2025-10-19
+USR25804,EMP0314,HR Manager,Read: Employee Records; Approve: HR Actions,TRUE,TRUE,15,2025-11-08
+USR27590,EMP0315,DevOps Engineer,Read: Infrastructure; Write: Infrastructure; Deploy: Production Environment; Admin: CI/CD Pipeline,FALSE,FALSE,4,2026-02-11
+USR98959,EMP0316,Analytics Manager,Read: Data Warehouse; Approve: Analytics Access,TRUE,FALSE,13,2025-10-08
+USR94434,EMP0317,Support Team Lead,Read: Customer Tickets; Approve: Escalations,FALSE,TRUE,10,2026-01-07
+USR23592,EMP0318,Security Analyst,Read: Security Logs; Read: SIEM Alerts; Write: Incident Tickets,FALSE,TRUE,16,2026-02-03
+USR58865,EMP0319,Engineering Manager,Read: Source Code; Approve: Pull Requests; Admin: Team Repository,TRUE,TRUE,17,2026-03-17
+USR77058,EMP0320,Security Administrator,Admin: Security Tools; Admin: Firewall Rules; Admin: EDR Console,TRUE,TRUE,13,2025-09-30
+USR50143,EMP0321,IT Manager,Admin: IT Systems; Approve: Access Requests,TRUE,FALSE,6,2026-04-08
+USR77191,EMP0322,Support Agent,Read: Customer Tickets; Write: Ticket Responses,FALSE,TRUE,24,2025-12-25
+USR92521,EMP0323,Campaign Administrator,Admin: Marketing Platform,TRUE,TRUE,12,2025-08-10
+USR29690,EMP0324,DevOps Engineer,Read: Infrastructure; Write: Infrastructure; Deploy: Production Environment; Admin: CI/CD Pipeline,TRUE,TRUE,1,2025-10-08
+USR39929,EMP0325,Executive User,Read: Executive Dashboard,FALSE,TRUE,20,2026-03-03
+USR25546,EMP0326,System Administrator,Admin: Servers; Admin: Backup Systems,TRUE,FALSE,13,2026-05-18
+USR64014,EMP0327,CRM Administrator,Admin: CRM System; Write: CRM Records,TRUE,TRUE,22,2026-06-21
+USR52402,EMP0328,Engineering Manager,Read: Source Code; Approve: Pull Requests; Admin: Team Repository,TRUE,TRUE,20,2025-07-07
+USR54401,EMP0329,Sales Manager,Read: CRM Records; Approve: Discounts,TRUE,TRUE,5,2025-07-05
+USR81669,EMP0330,Sales User,Read: CRM Records; Write: Sales Opportunities,FALSE,FALSE,22,2025-10-26
+USR78389,EMP0331,Engineering Manager,Read: Source Code; Approve: Pull Requests; Admin: Team Repository,TRUE,FALSE,21,2025-08-01
+USR99396,EMP0332,IT Manager,Admin: IT Systems; Approve: Access Requests,TRUE,TRUE,38,2025-12-22
+USR77596,EMP0333,Support Administrator,Admin: Support Platform,TRUE,FALSE,3,2026-07-02
+USR22411,EMP0334,Operations User,Read: Operations Dashboard; Write: Incident Reports,FALSE,TRUE,19,2026-04-02
+USR42192,EMP0335,Data Analyst,Read: Data Warehouse; Write: Reports,FALSE,TRUE,0,2025-12-15
+USR63342,EMP0336,Campaign Administrator,Admin: Marketing Platform,TRUE,TRUE,8,2026-07-12
+USR70613,EMP0337,Product Manager,Read: Product Roadmap; Approve: Feature Prioritization,TRUE,TRUE,24,2025-12-22
+USR92705,EMP0338,Security Administrator,Admin: Security Tools; Admin: Firewall Rules; Admin: EDR Console,TRUE,TRUE,8,2025-08-27
+USR41314,EMP0339,Sales User,Read: CRM Records; Write: Sales Opportunities,FALSE,TRUE,7,2026-03-17
+USR79741,EMP0340,Engineering Manager,Read: Source Code; Approve: Pull Requests; Admin: Team Repository,TRUE,TRUE,11,2026-03-05
+USR48770,EMP0341,Compliance Manager,Read: Compliance Reports; Approve: Remediation Plans,TRUE,TRUE,20,2026-06-12
+USR25105,EMP0342,QA Tester,Read: Source Code; Write: Test Environment,FALSE,TRUE,117,2026-01-12
+USR21188,EMP0343,Compliance Manager,Read: Compliance Reports; Approve: Remediation Plans,TRUE,FALSE,18,2026-04-10
+USR61060,EMP0344,Support Administrator,Admin: Support Platform,TRUE,TRUE,25,2026-04-01
+USR69712,EMP0345,Engineering Manager,Read: Source Code; Approve: Pull Requests; Admin: Team Repository,TRUE,TRUE,5,2026-01-04
+USR46538,EMP0346,Analytics Manager,Read: Data Warehouse; Approve: Analytics Access,TRUE,FALSE,18,2026-04-25
+USR39424,EMP0347,DevOps Engineer,Read: Infrastructure; Write: Infrastructure; Deploy: Production Environment; Admin: CI/CD Pipeline,FALSE,TRUE,9,2026-01-27
+USR73799,EMP0348,Finance User,Read: Financial Records; Write: Expense Reports,FALSE,TRUE,17,2026-03-16
+USR85258,EMP0349,Audit User,Read: Audit Logs; Write: Audit Findings,FALSE,TRUE,16,2026-03-31
+USR33940,EMP0350,QA Tester,Read: Source Code; Write: Test Environment,FALSE,TRUE,19,2026-02-28
+USR37711,EMP0351,Operations User,Read: Operations Dashboard; Write: Incident Reports,FALSE,TRUE,21,2026-06-12
+USR62117,EMP0352,Marketing Manager,Read: Campaign Data; Approve: Campaign Budget,TRUE,TRUE,20,2025-12-14
+USR98261,EMP0353,Risk Manager,Read: Risk Register; Approve: Risk Treatment Plans,TRUE,TRUE,3,2025-08-13
+USR69091,EMP0354,Audit User,Read: Audit Logs; Write: Audit Findings,FALSE,FALSE,15,2026-03-05
+USR96484,EMP0355,Data Engineer,Read: Data Pipelines; Write: Data Pipelines; Admin: ETL Jobs,FALSE,FALSE,8,2025-09-19
+USR67846,EMP0356,DevOps Engineer,Read: Infrastructure; Write: Infrastructure; Deploy: Production Environment; Admin: CI/CD Pipeline,FALSE,TRUE,22,2026-06-28
+USR75058,EMP0357,Support Team Lead,Read: Customer Tickets; Approve: Escalations,FALSE,TRUE,6,2025-09-17
+USR97108,EMP0358,DevOps Engineer,Read: Infrastructure; Write: Infrastructure; Deploy: Production Environment; Admin: CI/CD Pipeline,FALSE,TRUE,0,2025-11-10
+USR74557,EMP0359,Sales User,Read: CRM Records; Write: Sales Opportunities,FALSE,TRUE,3,2025-11-17
+USR36501,EMP0360,SOC Analyst,Read: SIEM Alerts; Write: Incident Tickets,FALSE,TRUE,17,2025-07-08
+USR53128,EMP0361,Sales Manager,Read: CRM Records; Approve: Discounts,TRUE,FALSE,10,2026-02-15
+USR92046,EMP0362,HR Administrator,Admin: HRIS; Write: Employee Records,TRUE,TRUE,1,2026-06-16
+USR45769,EMP0363,Operations User,Read: Operations Dashboard; Write: Incident Reports,FALSE,TRUE,32,2026-06-16
+USR28481,EMP0364,Network Administrator,Admin: Network Devices; Admin: VPN Gateway,TRUE,TRUE,8,2026-01-24
+USR19332,EMP0365,Network Administrator,Admin: Network Devices; Admin: VPN Gateway,TRUE,TRUE,12,2026-06-20
+USR64467,EMP0366,Risk Manager,Read: Risk Register; Approve: Risk Treatment Plans,TRUE,TRUE,22,2026-01-28
+USR74226,EMP0367,CRM Administrator,Admin: CRM System; Write: CRM Records,TRUE,TRUE,8,2025-07-17
+USR49537,EMP0368,Operations Manager,Read: Operations Dashboard; Approve: Operational Changes,TRUE,TRUE,17,2026-05-05
+USR68610,EMP0369,Marketing User,Read: Campaign Data; Write: Content,FALSE,TRUE,14,2026-04-09
+USR38710,EMP0370,Operations Manager,Read: Operations Dashboard; Approve: Operational Changes,TRUE,FALSE,5,2026-01-11
+USR12142,EMP0371,Audit Manager,Read: Audit Logs; Approve: Audit Plans,TRUE,TRUE,21,2026-07-06
+USR79238,EMP0372,QA Tester,Read: Source Code; Write: Test Environment,FALSE,TRUE,359,2025-12-27
+USR36779,EMP0373,DevOps Engineer,Read: Infrastructure; Write: Infrastructure; Deploy: Production Environment; Admin: CI/CD Pipeline,FALSE,FALSE,16,2025-11-04
+USR15815,EMP0374,Developer,Read: Source Code; Write: Source Code; Deploy: Staging Environment,FALSE,TRUE,14,2025-07-30
+USR93480,EMP0375,DevOps Engineer,Read: Infrastructure; Write: Infrastructure; Deploy: Production Environment; Admin: CI/CD Pipeline,FALSE,TRUE,311,2025-10-28
+USR22883,EMP0376,HR Manager,Read: Employee Records; Approve: HR Actions,TRUE,FALSE,9,2025-07-26
+USR55557,EMP0377,Compliance User,Read: Compliance Reports; Write: Findings,FALSE,TRUE,17,2025-08-31
+USR24269,EMP0378,DevOps Engineer,Read: Infrastructure; Write: Infrastructure; Deploy: Production Environment; Admin: CI/CD Pipeline,FALSE,TRUE,19,2026-06-30
+USR93080,EMP0379,Operations User,Read: Operations Dashboard; Write: Incident Reports,FALSE,TRUE,17,2026-03-27
+USR14032,EMP0380,Data Analyst,Read: Data Warehouse; Write: Reports,FALSE,TRUE,14,2025-11-15
+USR18807,EMP0381,Finance Manager,Read: Financial Records; Approve: Payments; Write: Budget Reports,TRUE,FALSE,25,2026-01-11
+USR29280,EMP0382,Sales User,Read: CRM Records; Write: Sales Opportunities,FALSE,FALSE,17,2026-06-15
+USR14725,EMP0383,Finance Manager,Read: Financial Records; Approve: Payments; Write: Budget Reports,TRUE,FALSE,365,2025-08-04
+USR26678,EMP0384,Sales User,Read: CRM Records; Write: Sales Opportunities,FALSE,TRUE,16,2026-01-27
+USR98397,EMP0385,Support Administrator,Admin: Support Platform,TRUE,TRUE,24,2025-10-09
+USR47192,EMP0386,Security Administrator,Admin: Security Tools; Admin: Firewall Rules; Admin: EDR Console,TRUE,FALSE,2,2026-06-11
+USR97821,EMP0387,CRM Administrator,Admin: CRM System; Write: CRM Records,TRUE,FALSE,10,2025-10-01
+USR68230,EMP0388,Risk Analyst,Read: Risk Register; Write: Risk Assessments,FALSE,FALSE,18,2026-02-06
+USR42943,EMP0389,Support Administrator,Admin: Support Platform,TRUE,TRUE,21,2025-09-28
+USR99454,EMP0390,SOC Analyst,Read: SIEM Alerts; Write: Incident Tickets,TRUE,TRUE,4,2026-04-29
+USR96514,EMP0391,DevOps Engineer,Read: Infrastructure; Write: Infrastructure; Deploy: Production Environment; Admin: CI/CD Pipeline,FALSE,TRUE,23,2026-05-14
+USR86447,EMP0392,Procurement User,Read: Vendor Records; Write: Purchase Orders,TRUE,TRUE,15,2026-02-08
+USR21729,EMP0393,Developer,Read: Source Code; Write: Source Code; Deploy: Staging Environment,FALSE,TRUE,13,2025-12-12
+USR35077,EMP0394,HR Administrator,Admin: HRIS; Write: Employee Records,TRUE,TRUE,84,2025-07-11
+USR71836,EMP0395,Marketing Manager,Read: Campaign Data; Approve: Campaign Budget,TRUE,TRUE,22,2026-05-03
+USR94335,EMP0396,Finance Manager,Read: Financial Records; Approve: Payments; Write: Budget Reports,TRUE,TRUE,2,2026-07-25
+USR82634,EMP0397,Compliance User,Read: Compliance Reports; Write: Findings,FALSE,FALSE,19,2026-03-15
+USR51118,EMP0398,Marketing Manager,Read: Campaign Data; Approve: Campaign Budget,TRUE,FALSE,11,2026-05-11
+USR17935,EMP0399,Support Administrator,Admin: Support Platform,TRUE,TRUE,23,2026-07-21
+USR11830,EMP0400,Product User,Read: Product Roadmap; Write: Feature Requests,FALSE,TRUE,106,2026-01-02
+USR97974,EMP0401,Support Agent,Read: Customer Tickets; Write: Ticket Responses,FALSE,TRUE,14,2025-11-13
+USR57555,EMP0402,Sales User,Read: CRM Records; Write: Sales Opportunities,FALSE,FALSE,23,2026-05-23
+USR74496,EMP0403,DevOps Engineer,Read: Infrastructure; Write: Infrastructure; Deploy: Production Environment; Admin: CI/CD Pipeline,FALSE,TRUE,17,2025-11-22
+USR72530,EMP0404,QA Tester,Read: Source Code; Write: Test Environment,FALSE,TRUE,15,2026-01-01
+USR81095,EMP0405,Security Administrator,Admin: Security Tools; Admin: Firewall Rules; Admin: EDR Console,TRUE,TRUE,2,2025-12-12
+USR74514,EMP0406,Accounts Administrator,Admin: Accounting System; Write: Ledger Entries,TRUE,TRUE,183,2025-08-15
+USR54181,EMP0407,System Administrator,Admin: Servers; Admin: Backup Systems,TRUE,TRUE,14,2025-11-18
+USR81010,EMP0408,Developer,Read: Source Code; Write: Source Code; Deploy: Staging Environment,FALSE,TRUE,6,2026-06-19
+USR17628,EMP0409,Developer,Read: Source Code; Write: Source Code; Deploy: Staging Environment,FALSE,TRUE,16,2025-11-16
+USR28634,EMP0410,QA Tester,Read: Source Code; Write: Test Environment,FALSE,TRUE,25,2025-08-22
+USR65051,EMP0411,Support Team Lead,Read: Customer Tickets; Approve: Escalations,FALSE,TRUE,9,2025-10-02
+USR21722,EMP0412,Support Team Lead,Read: Customer Tickets; Approve: Escalations,FALSE,FALSE,21,2026-05-13
+USR28661,EMP0413,IT Administrator,Admin: Active Directory; Admin: Endpoint Management,TRUE,TRUE,2,2025-12-08
+USR84071,EMP0414,Marketing User,Read: Campaign Data; Write: Content,FALSE,TRUE,11,2026-05-31
+USR88807,EMP0415,Operations User,Read: Operations Dashboard; Write: Incident Reports,TRUE,TRUE,10,2026-01-19
+USR72786,EMP0416,Sales User,Read: CRM Records; Write: Sales Opportunities,FALSE,TRUE,8,2025-08-11
+USR50282,EMP0417,Campaign Administrator,Admin: Marketing Platform,TRUE,FALSE,18,2025-11-03
+USR98813,EMP0418,Campaign Administrator,Admin: Marketing Platform,TRUE,TRUE,23,2025-09-25
+USR68764,EMP0419,SOC Analyst,Read: SIEM Alerts; Write: Incident Tickets,FALSE,TRUE,22,2026-01-19
+USR60739,EMP0420,Operations Manager,Read: Operations Dashboard; Approve: Operational Changes,TRUE,TRUE,17,2026-04-15
+USR39692,EMP0421,HR User,Read: Employee Records; Write: Leave Requests,FALSE,TRUE,18,2025-08-22
+USR87908,EMP0422,Analytics Manager,Read: Data Warehouse; Approve: Analytics Access,TRUE,FALSE,21,2025-10-04
+USR87469,EMP0423,CISO,Admin: Security Program; Read: All Security Data; Approve: Security Exceptions,TRUE,TRUE,10,2026-05-06
+USR52423,EMP0424,Procurement User,Read: Vendor Records; Write: Purchase Orders,FALSE,TRUE,24,2025-08-26
+USR54045,EMP0425,CRM Administrator,Admin: CRM System; Write: CRM Records,TRUE,TRUE,6,2025-08-23
+USR10994,EMP0426,Developer,Read: Source Code; Write: Source Code; Deploy: Staging Environment,FALSE,TRUE,8,2026-01-17
+USR92269,EMP0427,Data Engineer,Read: Data Pipelines; Write: Data Pipelines; Admin: ETL Jobs,FALSE,TRUE,22,2026-01-15
+USR52686,EMP0428,Sales Manager,Read: CRM Records; Approve: Discounts,TRUE,TRUE,0,2026-01-13
+USR89084,EMP0429,QA Tester,Read: Source Code; Write: Test Environment,FALSE,TRUE,346,2025-07-16
+USR14778,EMP0430,Marketing User,Read: Campaign Data; Write: Content,FALSE,FALSE,2,2026-03-05
+USR73177,EMP0431,Marketing User,Read: Campaign Data; Write: Content,FALSE,TRUE,21,2025-10-30
+USR10028,EMP0432,Operations User,Read: Operations Dashboard; Write: Incident Reports,FALSE,TRUE,9,2026-04-24
+USR32283,EMP0433,SOC Analyst,Read: SIEM Alerts; Write: Incident Tickets,FALSE,TRUE,12,2025-11-16
+USR88013,EMP0434,Marketing User,Read: Campaign Data; Write: Content,FALSE,TRUE,19,2026-06-19
+USR60215,EMP0435,QA Tester,Read: Source Code; Write: Test Environment,FALSE,TRUE,21,2026-04-01
+USR46132,EMP0436,Network Administrator,Admin: Network Devices; Admin: VPN Gateway,TRUE,FALSE,4,2025-08-28
+USR39820,EMP0437,IT Administrator,Admin: Active Directory; Admin: Endpoint Management,TRUE,TRUE,6,2026-04-27
+USR69816,EMP0438,QA Tester,Read: Source Code; Write: Test Environment,FALSE,TRUE,18,2025-12-21
+USR65111,EMP0439,System Administrator,Admin: Servers; Admin: Backup Systems,TRUE,FALSE,330,2025-10-29
+USR56026,EMP0440,Product Manager,Read: Product Roadmap; Approve: Feature Prioritization,TRUE,FALSE,8,2026-04-29
+USR77598,EMP0441,Campaign Administrator,Admin: Marketing Platform,TRUE,TRUE,24,2026-07-19
+USR33872,EMP0442,HR Administrator,Admin: HRIS; Write: Employee Records,TRUE,TRUE,21,2026-03-24
+USR23230,EMP0443,Operations User,Read: Operations Dashboard; Write: Incident Reports,FALSE,TRUE,11,2025-10-08
+USR49938,EMP0444,Procurement Manager,Read: Vendor Records; Approve: Purchase Orders,TRUE,TRUE,14,2026-05-20
+USR58977,EMP0445,Engineering Manager,Read: Source Code; Approve: Pull Requests; Admin: Team Repository,TRUE,TRUE,19,2026-03-26
+USR72730,EMP0446,Analytics Manager,Read: Data Warehouse; Approve: Analytics Access,TRUE,TRUE,21,2026-01-21
+USR88533,EMP0447,QA Tester,Read: Source Code; Write: Test Environment,FALSE,TRUE,2,2026-01-28
+USR93002,EMP0448,Database Administrator,Admin: Databases; Read: All Schemas,TRUE,TRUE,13,2026-06-29
+USR15352,EMP0449,Audit Manager,Read: Audit Logs; Approve: Audit Plans,TRUE,TRUE,10,2025-09-14
+USR20434,EMP0450,Security Administrator,Admin: Security Tools; Admin: Firewall Rules; Admin: EDR Console,TRUE,TRUE,165,2026-01-08
+USR69097,EMP0451,Support Administrator,Admin: Support Platform,TRUE,TRUE,18,2026-01-26
+USR33205,EMP0452,QA Tester,Read: Source Code; Write: Test Environment,FALSE,TRUE,14,2026-03-26
+USR12630,EMP0453,Marketing User,Read: Campaign Data; Write: Content,TRUE,FALSE,13,2025-09-29
+USR51871,EMP0454,Developer,Read: Source Code; Write: Source Code; Deploy: Staging Environment,FALSE,TRUE,51,2025-07-11
+USR68584,EMP0455,DevOps Engineer,Read: Infrastructure; Write: Infrastructure; Deploy: Production Environment; Admin: CI/CD Pipeline,FALSE,TRUE,9,2026-07-22
+USR32251,EMP0456,Support Agent,Read: Customer Tickets; Write: Ticket Responses,FALSE,FALSE,2,2025-09-24
+USR82873,EMP0457,QA Tester,Read: Source Code; Write: Test Environment,FALSE,FALSE,17,2025-09-27
+USR64880,EMP0458,Sales Manager,Read: CRM Records; Approve: Discounts,TRUE,TRUE,20,2026-01-09
+USR23127,EMP0459,Network Administrator,Admin: Network Devices; Admin: VPN Gateway,TRUE,TRUE,0,2026-03-18
+USR94462,EMP0460,Data Analyst,Read: Data Warehouse; Write: Reports,FALSE,TRUE,25,2026-05-05
+USR95678,EMP0461,Database Administrator,Admin: Databases; Read: All Schemas,TRUE,TRUE,6,2025-07-21
+USR38552,EMP0462,Sales User,Read: CRM Records; Write: Sales Opportunities,FALSE,TRUE,181,2026-06-05
+USR48242,EMP0463,Sales User,Read: CRM Records; Write: Sales Opportunities,FALSE,FALSE,11,2026-06-03
+USR33883,EMP0464,Product User,Read: Product Roadmap; Write: Feature Requests,FALSE,TRUE,11,2025-12-12
+USR68128,EMP0465,CISO,Admin: Security Program; Read: All Security Data; Approve: Security Exceptions,TRUE,TRUE,23,2025-08-16
+USR47511,EMP0466,Sales Manager,Read: CRM Records; Approve: Discounts,TRUE,FALSE,22,2026-08-02
+USR98373,EMP0467,Engineering Manager,Read: Source Code; Approve: Pull Requests; Admin: Team Repository,TRUE,TRUE,20,2026-01-23
+USR82440,EMP0468,Network Administrator,Admin: Network Devices; Admin: VPN Gateway,TRUE,FALSE,14,2026-05-29
+USR66949,EMP0469,DevOps Engineer,Read: Infrastructure; Write: Infrastructure; Deploy: Production Environment; Admin: CI/CD Pipeline,FALSE,TRUE,79,2026-07-24
+USR88291,EMP0470,Sales Manager,Read: CRM Records; Approve: Discounts,TRUE,TRUE,9,2026-06-03
+USR68894,EMP0471,HR Manager,Read: Employee Records; Approve: HR Actions,TRUE,TRUE,9,2025-08-15
+USR33756,EMP0472,Support Agent,Read: Customer Tickets; Write: Ticket Responses,FALSE,FALSE,11,2025-11-24
+USR65383,EMP0473,DevOps Engineer,Read: Infrastructure; Write: Infrastructure; Deploy: Production Environment; Admin: CI/CD Pipeline,FALSE,TRUE,16,2025-07-13
+USR23281,EMP0474,Product Manager,Read: Product Roadmap; Approve: Feature Prioritization,TRUE,TRUE,4,2026-05-28
+USR64305,EMP0475,Security Administrator,Admin: Security Tools; Admin: Firewall Rules; Admin: EDR Console,TRUE,TRUE,15,2025-08-27
+USR16490,EMP0476,CRM Administrator,Admin: CRM System; Write: CRM Records,TRUE,TRUE,0,2026-03-15
+USR91410,EMP0477,Network Administrator,Admin: Network Devices; Admin: VPN Gateway,TRUE,TRUE,2,2026-04-27
+USR32185,EMP0478,Data Analyst,Read: Data Warehouse; Write: Reports,FALSE,TRUE,24,2026-03-21
+USR44660,EMP0479,System Administrator,Admin: Servers; Admin: Backup Systems,TRUE,TRUE,4,2026-05-24
+USR46901,EMP0480,Engineering Manager,Read: Source Code; Approve: Pull Requests; Admin: Team Repository,TRUE,TRUE,10,2025-12-16
+USR31591,EMP0481,IT Manager,Admin: IT Systems; Approve: Access Requests,TRUE,FALSE,13,2026-01-24
+USR91252,EMP0482,DevOps Engineer,Read: Infrastructure; Write: Infrastructure; Deploy: Production Environment; Admin: CI/CD Pipeline,FALSE,FALSE,15,2026-05-29
+USR68279,EMP0483,DevOps Engineer,Read: Infrastructure; Write: Infrastructure; Deploy: Production Environment; Admin: CI/CD Pipeline,FALSE,TRUE,1,2026-03-07
+USR46873,EMP0484,System Administrator,Admin: Servers; Admin: Backup Systems,TRUE,FALSE,6,2026-01-26
+USR71229,EMP0485,Support Administrator,Admin: Support Platform,TRUE,TRUE,7,2025-08-23
+USR53578,EMP0486,DevOps Engineer,Read: Infrastructure; Write: Infrastructure; Deploy: Production Environment; Admin: CI/CD Pipeline,FALSE,FALSE,8,2025-07-14
+USR75170,EMP0487,QA Tester,Read: Source Code; Write: Test Environment,FALSE,FALSE,326,2025-08-07
+USR40344,EMP0488,Operations Manager,Read: Operations Dashboard; Approve: Operational Changes,TRUE,TRUE,1,2025-09-28
+USR39420,EMP0489,IT Administrator,Admin: Active Directory; Admin: Endpoint Management,TRUE,TRUE,13,2026-07-16
+USR14527,EMP0490,Finance User,Read: Financial Records; Write: Expense Reports,FALSE,FALSE,7,2025-07-27
+USR90079,EMP0491,Support Administrator,Admin: Support Platform,TRUE,TRUE,13,2025-08-26
+USR55750,EMP0492,QA Tester,Read: Source Code; Write: Test Environment,FALSE,TRUE,14,2025-10-27
+USR22327,EMP0493,Product Manager,Read: Product Roadmap; Approve: Feature Prioritization,TRUE,TRUE,45,2026-01-14
+USR65700,EMP0494,Support Administrator,Admin: Support Platform,TRUE,TRUE,13,2025-12-16
+USR13419,EMP0495,Engineering Manager,Read: Source Code; Approve: Pull Requests; Admin: Team Repository,TRUE,FALSE,24,2026-07-06
+USR40553,EMP0496,Data Analyst,Read: Data Warehouse; Write: Reports,FALSE,TRUE,23,2026-06-16
+USR71925,EMP0497,Product Manager,Read: Product Roadmap; Approve: Feature Prioritization,TRUE,TRUE,11,2025-10-25
+USR99923,EMP0498,Risk Manager,Read: Risk Register; Approve: Risk Treatment Plans,TRUE,FALSE,18,2026-03-16
+USR89505,EMP0499,CRM Administrator,Admin: CRM System; Write: CRM Records,TRUE,TRUE,21,2025-12-14
+USR69474,EMP0500,Finance User,Read: Financial Records; Write: Expense Reports,FALSE,FALSE,25,2026-05-28

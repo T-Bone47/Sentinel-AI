@@ -1,0 +1,501 @@
+EmployeeID,FirstName,LastName,Email,Department,Designation,ManagerID,OfficeLocation,EmploymentType,JoiningDate,PasswordLength,PasswordLastChanged,MFAEnabled,AccountStatus,DeviceID,LastLogin
+EMP0001,Harish,Arora,harish.arora@meridianfintech.example,Sales,Sales Manager,EMP0231,"Bengaluru, IN",Part-Time,2020-11-21,8,2025-10-30,FALSE,Active,DEV0001,2026-08-04 23:47:42
+EMP0002,Sneha,Thompson,sneha.thompson@meridianfintech.example,Engineering,DevOps Engineer,EMP0408,"Hyderabad, IN",Part-Time,2026-04-29,10,2026-06-27,TRUE,Active,DEV0002,2026-08-07 09:32:19
+EMP0003,Fang,Liu,fang.liu@meridianfintech.example,Product Management,Senior Product Manager,EMP0231,"Austin, US",Part-Time,2019-04-26,12,2020-06-05,TRUE,Active,DEV0003,2026-07-30 21:47:57
+EMP0004,Priya,Anderson,priya.anderson@meridianfintech.example,Information Technology,IT Manager,EMP0145,"London, UK",Intern,2016-01-02,10,2019-03-21,TRUE,Active,DEV0004,2026-08-02 20:20:29
+EMP0005,Rekha,Wu,rekha.wu@meridianfintech.example,Engineering,Principal Engineer,EMP0145,"Mumbai, IN",Contract,2021-04-22,16,2022-11-27,TRUE,Active,DEV0005,2026-08-03 20:39:21
+EMP0006,Aryan,Smith,aryan.smith@meridianfintech.example,Information Security,GRC Analyst,EMP0475,"Chennai, IN",Full-Time,2025-01-16,8,2025-05-31,TRUE,Active,DEV0006,2026-07-31 19:54:49
+EMP0007,Rohan,Xu,rohan.xu@meridianfintech.example,Human Resources,HR Business Partner,EMP0142,Remote - India,Contract,2018-03-07,14,2025-10-23,TRUE,Active,DEV0007,2026-07-26 20:44:00
+EMP0008,Bilal,Joshi,bilal.joshi@meridianfintech.example,Information Technology,IT Manager,EMP0468,"Mumbai, IN",Full-Time,2025-01-06,14,2026-06-15,TRUE,Active,DEV0008,2026-08-07 03:29:08
+EMP0009,Preeti,Hussain,preeti.hussain@meridianfintech.example,Information Technology,Database Administrator,EMP0332,"Singapore, SG",Full-Time,2026-03-17,12,2026-06-13,FALSE,Active,DEV0009,2026-08-07 05:47:55
+EMP0010,James,Zhou,james.zhou@meridianfintech.example,Information Security,Security Engineer,EMP0338,"Mumbai, IN",Intern,2023-02-24,10,2025-12-03,TRUE,Active,DEV0010,2026-07-31 02:45:18
+EMP0011,Rahul,Jones,rahul.jones@meridianfintech.example,Procurement,Vendor Manager,EMP0231,"Gurugram, IN",Contract,2016-11-26,8,2017-09-09,TRUE,Active,DEV0011,2026-08-04 06:04:26
+EMP0012,Divya,Jackson,divya.jackson@meridianfintech.example,Engineering,QA Engineer,EMP0078,"New York, US",Full-Time,2016-09-12,8,2025-05-04,TRUE,Disabled,DEV0012,2025-08-17 18:24:30
+EMP0013,Aarav,Perez,aarav.perez@meridianfintech.example,Information Security,Security Engineer,EMP0320,"Austin, US",Intern,2025-12-31,16,2026-03-06,TRUE,Active,DEV0013,2026-08-05 19:57:14
+EMP0014,David,Nambiar,david.nambiar@meridianfintech.example,Operations,COO,EMP0246,"Austin, US",Full-Time,2016-04-28,12,2019-10-08,TRUE,Active,DEV0014,2026-08-04 05:53:29
+EMP0015,Aadhya,Rashid,aadhya.rashid@meridianfintech.example,Information Security,Security Analyst,EMP0338,"Austin, US",Contract,2022-04-30,14,2022-04-30,TRUE,Active,DEV0015,2026-08-06 14:11:03
+EMP0016,Varun,Harris,varun.harris@meridianfintech.example,Finance,Finance Controller,EMP0145,"Mumbai, IN",Full-Time,2019-08-31,10,2023-04-02,TRUE,Disabled,DEV0016,2026-03-10 08:53:05
+EMP0017,James,Gupta,james.gupta@meridianfintech.example,Information Technology,Cloud Engineer,EMP0468,"London, UK",Full-Time,2026-04-10,8,2026-07-29,FALSE,Active,DEV0017,2026-08-05 00:15:12
+EMP0018,Aditya,Kapoor,aditya.kapoor@meridianfintech.example,Sales,Account Manager,EMP0226,"Pune, IN",Full-Time,2023-07-05,8,2026-03-01,FALSE,Active,DEV0018,2026-07-28 11:10:38
+EMP0019,Rachel,Chatterjee,rachel.chatterjee@meridianfintech.example,Engineering,Site Reliability Engineer,EMP0147,"Pune, IN",Full-Time,2017-03-18,12,2017-04-16,FALSE,Active,DEV0019,2026-08-07 12:25:45
+EMP0020,Sneha,Shah,sneha.shah@meridianfintech.example,Product Management,Associate Product Manager,EMP0464,"Hyderabad, IN",Part-Time,2024-08-30,10,2024-09-04,FALSE,Active,DEV0020,2026-07-24 11:34:27
+EMP0021,Hui,White,hui.white@meridianfintech.example,Product Management,Product Manager,EMP0464,"London, UK",Part-Time,2019-10-29,8,2023-09-17,FALSE,Active,DEV0021,2026-07-29 20:57:53
+EMP0022,Sonia,Kapoor,sonia.kapoor@meridianfintech.example,Product Management,VP Product,EMP0003,"Pune, IN",Part-Time,2021-11-07,14,2024-01-12,TRUE,Disabled,DEV0022,2026-04-11 14:27:52
+EMP0023,Mohammed,Jones,mohammed.jones@meridianfintech.example,Legal & Compliance,Data Protection Officer,EMP0145,"Mumbai, IN",Intern,2026-06-25,8,2026-06-25,FALSE,Active,DEV0023,2026-07-31 18:39:42
+EMP0024,Praveen,Martin,praveen.martin@meridianfintech.example,Internal Audit,Internal Auditor,EMP0250,"New York, US",Intern,2019-08-24,8,2024-06-20,TRUE,Active,DEV0024,2026-07-29 08:56:38
+EMP0025,Yan,Miller,yan.miller@meridianfintech.example,Engineering,QA Engineer,EMP0467,"Bengaluru, IN",Contract,2026-05-21,8,2026-05-21,TRUE,Active,DEV0025,2026-08-05 07:44:30
+EMP0026,Li,Ansari,li.ansari@meridianfintech.example,Information Security,CISO,EMP0231,"Bengaluru, IN",Full-Time,2019-04-20,8,2023-07-15,TRUE,Active,DEV0026,2026-08-02 11:30:35
+EMP0027,Matthew,Lee,matthew.lee@meridianfintech.example,Engineering,DevOps Engineer,EMP0111,Remote - US,Contract,2019-09-16,10,2026-06-09,TRUE,Active,DEV0027,2026-07-25 23:12:20
+EMP0028,Saanvi,Rashid,saanvi.rashid@meridianfintech.example,Customer Support,Customer Success Manager,EMP0231,"Mumbai, IN",Full-Time,2024-04-13,12,2025-07-20,TRUE,Suspended,DEV0028,2026-07-15 19:18:06
+EMP0029,Pooja,Wilson,pooja.wilson@meridianfintech.example,Engineering,Senior Software Engineer,EMP0495,"Gurugram, IN",Full-Time,2019-05-23,8,2026-05-30,TRUE,Active,DEV0029,2026-07-24 17:18:44
+EMP0030,Aadhya,Ansari,aadhya.ansari@meridianfintech.example,Information Security,Security Analyst,EMP0320,"Bengaluru, IN",Contract,2019-03-10,12,2024-05-14,TRUE,Active,DEV0030,2026-07-24 08:55:30
+EMP0031,Diya,Patel,diya.patel@meridianfintech.example,Customer Support,Customer Support Manager,EMP0106,"New York, US",Full-Time,2022-06-21,14,2025-11-06,TRUE,Active,DEV0031,2026-08-02 09:05:15
+EMP0032,Saanvi,Yang,saanvi.yang@meridianfintech.example,Human Resources,Chief Human Resources Officer,EMP0145,"Singapore, SG",Intern,2022-12-08,8,2026-05-08,TRUE,Active,DEV0032,2026-07-31 09:55:37
+EMP0033,Nisha,Taylor,nisha.taylor@meridianfintech.example,Engineering,QA Engineer,EMP0340,"Singapore, SG",Full-Time,2022-11-02,14,2022-11-02,FALSE,Active,DEV0033,2026-07-27 08:42:05
+EMP0034,Ishita,Smith,ishita.smith@meridianfintech.example,Engineering,Senior Software Engineer,EMP0495,"London, UK",Full-Time,2017-10-03,8,2021-08-01,TRUE,Active,DEV0034,2026-07-28 01:14:18
+EMP0035,Fatima,Davis,fatima.davis@meridianfintech.example,Marketing,Brand Manager,EMP0145,"Hyderabad, IN",Part-Time,2018-08-14,10,2026-04-27,TRUE,Active,DEV0035,2026-08-07 06:27:07
+EMP0036,Joseph,Nambiar,joseph.nambiar@meridianfintech.example,Procurement,Procurement Manager,EMP0103,"Pune, IN",Full-Time,2025-04-08,8,2025-04-08,TRUE,Active,DEV0036,2026-08-02 23:52:36
+EMP0037,Suresh,Wu,suresh.wu@meridianfintech.example,Sales,Sales Executive,EMP0476,"New York, US",Part-Time,2019-05-30,14,2023-07-07,FALSE,Active,DEV0037,2026-07-31 14:05:38
+EMP0038,Sai,Zhao,sai.zhao@meridianfintech.example,Customer Support,Support Team Lead,EMP0182,"Singapore, SG",Full-Time,2016-04-15,8,2018-07-26,FALSE,Active,DEV0038,2026-08-02 18:01:48
+EMP0039,Jun,Jones,jun.jones@meridianfintech.example,Product Management,Product Manager,EMP0020,"Pune, IN",Full-Time,2021-10-26,14,2025-12-17,FALSE,Active,DEV0039,2026-08-02 13:40:52
+EMP0040,David,Singh,david.singh@meridianfintech.example,Information Technology,IT Manager,EMP0004,"Gurugram, IN",Full-Time,2019-09-27,10,2026-07-07,TRUE,Active,DEV0040,2026-07-30 22:31:18
+EMP0041,Hui,Wang,hui.wang@meridianfintech.example,Information Technology,Database Administrator,EMP0008,"Bengaluru, IN",Full-Time,2016-12-26,10,2018-10-30,TRUE,Suspended,DEV0041,2026-06-29 16:52:00
+EMP0042,Hui,Iqbal,hui.iqbal@meridianfintech.example,Product Management,VP Product,EMP0474,"Austin, US",Full-Time,2018-02-07,12,2022-01-21,TRUE,Active,DEV0042,2026-07-31 01:13:17
+EMP0043,Emily,Mukherjee,emily.mukherjee@meridianfintech.example,Engineering,Engineering Manager,EMP0455,"New York, US",Part-Time,2021-06-08,8,2021-06-08,FALSE,Active,DEV0043,2026-07-27 22:10:19
+EMP0044,Emily,Verma,emily.verma@meridianfintech.example,Engineering,QA Engineer,EMP0391,"Austin, US",Full-Time,2018-07-09,16,2019-04-10,TRUE,Active,DEV0044,2026-08-06 04:31:59
+EMP0045,Ayesha,Wilson,ayesha.wilson@meridianfintech.example,Customer Support,Support Team Lead,EMP0260,"Austin, US",Intern,2021-05-30,12,2023-09-26,TRUE,Active,DEV0045,2026-07-27 19:32:47
+EMP0046,Kiara,Patel,kiara.patel@meridianfintech.example,Customer Support,Support Team Lead,EMP0288,"Austin, US",Full-Time,2026-06-23,16,2026-07-03,FALSE,Active,DEV0046,2026-07-28 18:37:42
+EMP0047,David,Kapoor,david.kapoor@meridianfintech.example,Engineering,DevOps Engineer,EMP0455,"London, UK",Full-Time,2019-11-14,10,2025-03-10,TRUE,Active,DEV0047,2026-08-07 10:55:12
+EMP0048,Yan,Smith,yan.smith@meridianfintech.example,Information Technology,Database Administrator,EMP0468,"Austin, US",Full-Time,2025-08-07,16,2026-02-25,TRUE,Active,DEV0048,2026-08-04 12:24:42
+EMP0049,Ming,Kapoor,ming.kapoor@meridianfintech.example,Engineering,DevOps Engineer,EMP0005,"Bengaluru, IN",Full-Time,2021-08-19,12,2024-09-21,FALSE,Active,DEV0049,2026-07-31 03:33:58
+EMP0050,Sonia,Verma,sonia.verma@meridianfintech.example,Information Technology,Cloud Engineer,EMP0468,"Pune, IN",Full-Time,2025-10-07,14,2025-10-07,TRUE,Active,DEV0050,2026-07-28 10:39:44
+EMP0051,Priyanka,Kumar,priyanka.kumar@meridianfintech.example,Engineering,Site Reliability Engineer,EMP0454,"Gurugram, IN",Intern,2023-07-25,16,2025-12-28,TRUE,Active,DEV0051,2026-08-04 15:55:34
+EMP0052,Arjun,Patel,arjun.patel@meridianfintech.example,Product Management,Associate Product Manager,EMP0238,Remote - India,Part-Time,2026-04-30,10,2026-04-30,TRUE,Active,DEV0052,2026-07-25 20:45:55
+EMP0053,Dhruv,Wu,dhruv.wu@meridianfintech.example,Data & Analytics,Data Engineer,EMP0313,Remote - US,Full-Time,2026-02-17,8,2026-02-17,TRUE,Active,DEV0053,2026-07-29 11:27:09
+EMP0054,Karan,Hussain,karan.hussain@meridianfintech.example,Customer Support,Customer Support Manager,EMP0385,"Singapore, SG",Part-Time,2024-11-20,8,2024-12-14,TRUE,Active,DEV0054,2026-07-30 19:43:15
+EMP0055,John,Bose,john.bose@meridianfintech.example,Sales,Account Manager,EMP0330,"New York, US",Part-Time,2018-11-06,12,2020-11-11,TRUE,Active,DEV0055,2026-07-31 09:43:34
+EMP0056,Ishita,Shah,ishita.shah@meridianfintech.example,Data & Analytics,Analytics Manager,EMP0308,"Gurugram, IN",Contract,2019-05-10,14,2023-10-04,TRUE,Active,DEV0056,2026-07-28 06:24:54
+EMP0057,Michael,Joshi,michael.joshi@meridianfintech.example,Information Technology,System Administrator,EMP0407,"Austin, US",Contract,2020-01-10,12,2023-04-26,FALSE,Active,DEV0057,2026-08-06 21:25:17
+EMP0058,Vivaan,Menon,vivaan.menon@meridianfintech.example,Engineering,QA Engineer,EMP0111,Remote - US,Full-Time,2025-05-04,10,2025-08-24,TRUE,Active,DEV0058,2026-08-03 06:39:16
+EMP0059,Jun,Das,jun.das@meridianfintech.example,Information Technology,Cloud Engineer,EMP0040,"Hyderabad, IN",Part-Time,2023-04-01,8,2024-09-24,FALSE,Active,DEV0059,2026-07-29 23:08:05
+EMP0060,Rajesh,Moore,rajesh.moore@meridianfintech.example,Marketing,Brand Manager,EMP0035,"Pune, IN",Full-Time,2017-06-25,16,2023-01-19,FALSE,Active,DEV0060,2026-08-01 08:53:10
+EMP0061,Nikhil,Ali,nikhil.ali@meridianfintech.example,Operations,COO,EMP0415,Remote - US,Intern,2019-10-19,16,2020-04-16,TRUE,Active,DEV0061,2026-08-05 07:55:43
+EMP0062,Zainab,Zhang,zainab.zhang@meridianfintech.example,Engineering,Site Reliability Engineer,EMP0408,"London, UK",Full-Time,2017-01-04,16,2021-06-05,TRUE,Active,DEV0062,2026-07-31 11:43:47
+EMP0063,Jun,Brown,jun.brown@meridianfintech.example,Finance,Accounts Payable Specialist,EMP0268,"Austin, US",Intern,2023-02-28,10,2023-08-10,TRUE,Active,DEV0063,2026-08-02 17:20:58
+EMP0064,Megan,Nambiar,megan.nambiar@meridianfintech.example,Information Technology,Cloud Engineer,EMP0332,"Hyderabad, IN",Part-Time,2025-03-28,12,2026-06-29,TRUE,Active,DEV0064,2026-07-24 01:19:31
+EMP0065,Diya,Mehta,diya.mehta@meridianfintech.example,Engineering,Senior Software Engineer,EMP0111,"London, UK",Full-Time,2020-05-10,12,2024-02-28,TRUE,Active,DEV0065,2026-08-01 13:37:47
+EMP0066,Mohammed,Kapoor,mohammed.kapoor@meridianfintech.example,Customer Support,Customer Support Manager,EMP0046,Remote - India,Full-Time,2025-05-07,12,2026-06-15,FALSE,Active,DEV0066,2026-08-04 11:13:28
+EMP0067,Rekha,Smith,rekha.smith@meridianfintech.example,Marketing,Marketing Manager,EMP0369,"Hyderabad, IN",Part-Time,2020-02-13,12,2024-01-09,TRUE,Active,DEV0067,2026-07-25 14:05:42
+EMP0068,Tanvi,Gupta,tanvi.gupta@meridianfintech.example,Customer Support,Support Associate,EMP0344,"Gurugram, IN",Full-Time,2017-05-30,16,2023-05-02,TRUE,Active,DEV0068,2026-08-01 06:37:13
+EMP0069,Isha,Jackson,isha.jackson@meridianfintech.example,Engineering,Site Reliability Engineer,EMP0307,"Pune, IN",Intern,2026-02-05,12,2026-02-05,TRUE,Suspended,DEV0069,2026-05-25 17:16:51
+EMP0070,Priya,Chatterjee,priya.chatterjee@meridianfintech.example,Information Security,GRC Analyst,EMP0338,"Bengaluru, IN",Full-Time,2016-03-01,10,2024-11-09,FALSE,Active,DEV0070,2026-07-24 05:16:03
+EMP0071,Aadhya,Yang,aadhya.yang@meridianfintech.example,Legal & Compliance,Regulatory Affairs Specialist,EMP0141,"Hyderabad, IN",Part-Time,2016-09-17,12,2021-01-10,TRUE,Active,DEV0071,2026-07-25 14:32:14
+EMP0072,Megan,Nair,megan.nair@meridianfintech.example,Information Technology,Cloud Engineer,EMP0407,Remote - India,Contract,2019-05-20,12,2026-03-20,FALSE,Active,DEV0072,2026-07-31 12:27:43
+EMP0073,Ananya,Ansari,ananya.ansari@meridianfintech.example,Product Management,VP Product,EMP0131,"Hyderabad, IN",Full-Time,2019-08-12,12,2020-08-30,TRUE,Active,DEV0073,2026-08-03 18:35:45
+EMP0074,Sanjay,Harris,sanjay.harris@meridianfintech.example,Engineering,QA Engineer,EMP0328,"London, UK",Full-Time,2021-02-01,12,2025-10-29,TRUE,Active,DEV0074,2026-08-06 20:41:56
+EMP0075,Yusuf,Pillai,yusuf.pillai@meridianfintech.example,Internal Audit,Audit Manager,EMP0246,"New York, US",Full-Time,2020-08-21,10,2025-01-31,TRUE,Active,DEV0075,2026-07-29 13:20:42
+EMP0076,Nikhil,White,nikhil.white@meridianfintech.example,Finance,Accounts Manager,EMP0383,Remote - India,Full-Time,2016-10-01,8,2025-04-29,TRUE,Active,DEV0076,2026-08-04 23:23:51
+EMP0077,Aadhya,Rao,aadhya.rao@meridianfintech.example,Engineering,QA Engineer,EMP0211,"London, UK",Contract,2019-09-12,14,2020-05-15,TRUE,Active,DEV0077,2026-08-05 13:55:58
+EMP0078,Zainab,Menon,zainab.menon@meridianfintech.example,Engineering,Engineering Manager,EMP0292,"Singapore, SG",Full-Time,2019-12-11,8,2025-06-25,TRUE,Active,DEV0078,2026-07-31 07:54:06
+EMP0079,Ashok,White,ashok.white@meridianfintech.example,Procurement,Procurement Specialist,EMP0011,"Chennai, IN",Contract,2018-07-15,16,2022-10-24,FALSE,Suspended,DEV0079,2026-07-19 00:38:59
+EMP0080,Hui,Jones,hui.jones@meridianfintech.example,Engineering,Software Engineer,EMP0356,"Pune, IN",Full-Time,2023-11-18,16,2024-09-24,FALSE,Active,DEV0080,2026-07-26 04:36:42
+EMP0081,Kavya,Patel,kavya.patel@meridianfintech.example,Engineering,Senior Software Engineer,EMP0340,Remote - US,Part-Time,2026-07-01,8,2026-07-10,TRUE,Active,DEV0081,2026-07-26 11:19:46
+EMP0082,Sanjay,Kumar,sanjay.kumar@meridianfintech.example,Human Resources,HR Executive,EMP0394,"Pune, IN",Full-Time,2024-06-17,12,2024-06-17,TRUE,Active,DEV0082,2026-08-03 13:31:38
+EMP0083,Rekha,Yang,rekha.yang@meridianfintech.example,Sales,Sales Manager,EMP0088,"Mumbai, IN",Intern,2021-09-29,8,2024-11-14,TRUE,Active,DEV0083,2026-08-03 18:31:33
+EMP0084,Fang,Taylor,fang.taylor@meridianfintech.example,Sales,Sales Executive,EMP0245,"Mumbai, IN",Full-Time,2022-09-20,8,2022-09-20,TRUE,Disabled,DEV0084,2025-10-16 08:18:20
+EMP0085,Saanvi,Sharma,saanvi.sharma@meridianfintech.example,Marketing,Brand Manager,EMP0105,Remote - US,Full-Time,2017-12-20,8,2021-04-07,TRUE,Active,DEV0085,2026-08-01 21:51:22
+EMP0086,Rohan,Zhang,rohan.zhang@meridianfintech.example,Human Resources,HR Executive,EMP0032,"Austin, US",Full-Time,2021-02-26,8,2024-07-06,TRUE,Active,DEV0086,2026-08-04 20:26:18
+EMP0087,Diya,Wang,diya.wang@meridianfintech.example,Finance,Financial Analyst,EMP0264,"Gurugram, IN",Full-Time,2024-12-26,12,2026-07-31,FALSE,Disabled,DEV0087,2025-09-21 13:54:06
+EMP0088,Karan,Zhao,karan.zhao@meridianfintech.example,Sales,Business Development Manager,EMP0114,"Austin, US",Contract,2016-11-18,12,2025-10-05,TRUE,Active,DEV0088,2026-07-29 05:04:32
+EMP0089,Wei,Chatterjee,wei.chatterjee@meridianfintech.example,Customer Support,Customer Success Manager,EMP0278,"Gurugram, IN",Full-Time,2024-02-27,16,2024-10-29,TRUE,Active,DEV0089,2026-07-27 05:38:09
+EMP0090,Omar,Shah,omar.shah@meridianfintech.example,Information Technology,System Administrator,EMP0004,Remote - India,Full-Time,2021-03-15,16,2026-01-13,TRUE,Active,DEV0090,2026-08-03 20:39:20
+EMP0091,Chen,Thomas,chen.thomas@meridianfintech.example,Marketing,Content Strategist,EMP0414,"New York, US",Full-Time,2021-04-04,12,2024-05-25,FALSE,Active,DEV0091,2026-07-29 16:04:19
+EMP0092,Preeti,Zhou,preeti.zhou@meridianfintech.example,Data & Analytics,Data Analyst,EMP0127,"Bengaluru, IN",Full-Time,2025-04-29,10,2025-04-29,TRUE,Suspended,DEV0092,2026-05-20 19:38:32
+EMP0093,Harish,Sun,harish.sun@meridianfintech.example,Operations,Operations Analyst,EMP0415,"New York, US",Intern,2022-05-30,14,2023-01-21,TRUE,Active,DEV0093,2026-07-26 01:28:06
+EMP0094,Anil,Kumar,anil.kumar@meridianfintech.example,Finance,Accounts Payable Specialist,EMP0076,Remote - India,Full-Time,2016-06-09,8,2023-12-08,TRUE,Active,DEV0094,2026-08-01 19:10:23
+EMP0095,Naveen,Davis,naveen.davis@meridianfintech.example,Finance,CFO,EMP0381,"Austin, US",Intern,2019-10-17,14,2025-09-14,TRUE,Active,DEV0095,2026-07-29 02:21:06
+EMP0096,Sarah,Clark,sarah.clark@meridianfintech.example,Operations,COO,EMP0415,"Chennai, IN",Part-Time,2025-07-20,14,2026-04-17,TRUE,Active,DEV0096,2026-08-03 04:58:22
+EMP0097,Manoj,Zhang,manoj.zhang@meridianfintech.example,Human Resources,HR Manager,EMP0394,"Singapore, SG",Part-Time,2026-07-09,8,2026-07-09,TRUE,Active,DEV0097,2026-07-29 04:42:44
+EMP0098,Ahmed,Hussain,ahmed.hussain@meridianfintech.example,Sales,Sales Executive,EMP0083,Remote - India,Part-Time,2020-09-30,12,2024-01-22,TRUE,Active,DEV0098,2026-07-27 10:49:31
+EMP0099,Pooja,Nambiar,pooja.nambiar@meridianfintech.example,Engineering,Senior Software Engineer,EMP0307,"Pune, IN",Full-Time,2019-04-26,16,2020-02-19,TRUE,Active,DEV0099,2026-08-04 16:02:42
+EMP0100,Anil,Mukherjee,anil.mukherjee@meridianfintech.example,Engineering,QA Engineer,EMP0147,"Austin, US",Full-Time,2017-10-26,8,2026-04-29,TRUE,Active,DEV0100,2026-08-07 05:46:28
+EMP0101,Sai,Liu,sai.liu@meridianfintech.example,Engineering,Engineering Manager,EMP0157,Remote - India,Part-Time,2018-08-30,12,2024-11-05,TRUE,Active,DEV0101,2026-07-31 07:34:15
+EMP0102,Manoj,Khan,manoj.khan@meridianfintech.example,Internal Audit,Internal Auditor,EMP0449,"Gurugram, IN",Part-Time,2026-02-12,12,2026-04-30,TRUE,Active,DEV0102,2026-08-01 13:10:52
+EMP0103,Sneha,Das,sneha.das@meridianfintech.example,Procurement,Vendor Manager,EMP0036,"Bengaluru, IN",Part-Time,2021-05-22,16,2025-03-01,TRUE,Active,DEV0103,2026-08-06 16:54:07
+EMP0104,Suresh,Kumar,suresh.kumar@meridianfintech.example,Sales,Account Manager,EMP0165,"Chennai, IN",Full-Time,2026-02-25,12,2026-03-17,FALSE,Active,DEV0104,2026-08-07 07:52:28
+EMP0105,Ashok,Reddy,ashok.reddy@meridianfintech.example,Marketing,Brand Manager,EMP0085,"Bengaluru, IN",Full-Time,2021-08-18,10,2023-08-24,TRUE,Active,DEV0105,2026-07-27 00:20:59
+EMP0106,Dhruv,Jackson,dhruv.jackson@meridianfintech.example,Customer Support,Customer Success Manager,EMP0333,"Pune, IN",Full-Time,2019-03-21,16,2024-04-19,TRUE,Active,DEV0106,2026-08-04 15:28:39
+EMP0107,Aarav,Kumar,aarav.kumar@meridianfintech.example,Product Management,Product Manager,EMP0039,"Chennai, IN",Full-Time,2025-05-13,8,2026-07-16,FALSE,Active,DEV0107,2026-07-30 03:49:18
+EMP0108,Rahul,Anderson,rahul.anderson@meridianfintech.example,Operations,Operations Analyst,EMP0014,"Bengaluru, IN",Full-Time,2020-09-15,14,2026-06-09,TRUE,Active,DEV0108,2026-07-31 19:34:01
+EMP0109,Chen,Qureshi,chen.qureshi@meridianfintech.example,Sales,Business Development Manager,EMP0387,"Mumbai, IN",Part-Time,2017-08-11,10,2021-10-25,TRUE,Active,DEV0109,2026-08-02 13:11:42
+EMP0110,Fang,Kumar,fang.kumar@meridianfintech.example,Marketing,CMO,EMP0398,"Gurugram, IN",Full-Time,2026-02-24,12,2026-04-28,FALSE,Active,DEV0110,2026-07-30 15:02:40
+EMP0111,Harish,White,harish.white@meridianfintech.example,Engineering,Engineering Manager,EMP0438,Remote - US,Full-Time,2020-01-02,16,2020-10-03,TRUE,Active,DEV0111,2026-08-03 03:49:37
+EMP0112,Ahmed,Jackson,ahmed.jackson@meridianfintech.example,Information Security,SOC Analyst,EMP0320,"Bengaluru, IN",Full-Time,2022-02-14,10,2026-07-25,TRUE,Active,DEV0112,2026-08-03 14:44:30
+EMP0113,Chen,Khanna,chen.khanna@meridianfintech.example,Sales,Account Manager,EMP0361,"Hyderabad, IN",Part-Time,2024-09-14,12,2024-09-14,TRUE,Active,DEV0113,2026-07-27 01:20:59
+EMP0114,Manoj,Qureshi,manoj.qureshi@meridianfintech.example,Sales,VP Sales,EMP0416,"London, UK",Full-Time,2018-11-03,8,2026-06-13,TRUE,Active,DEV0114,2026-08-06 01:55:41
+EMP0115,Rakesh,Jones,rakesh.jones@meridianfintech.example,Human Resources,HR Executive,EMP0097,"Gurugram, IN",Full-Time,2025-12-22,12,2026-03-27,FALSE,Active,DEV0115,2026-07-26 15:44:31
+EMP0116,Naveen,Farooqui,naveen.farooqui@meridianfintech.example,Customer Support,Support Team Lead,EMP0299,"Hyderabad, IN",Part-Time,2020-10-04,8,2024-10-29,TRUE,Active,DEV0116,2026-08-01 09:20:06
+EMP0117,Kabir,Moore,kabir.moore@meridianfintech.example,Risk Management,Chief Risk Officer,EMP0145,"Chennai, IN",Full-Time,2020-12-31,12,2024-10-11,TRUE,Active,DEV0117,2026-07-31 01:46:55
+EMP0118,Sunil,Zhao,sunil.zhao@meridianfintech.example,Customer Support,Support Team Lead,EMP0260,Remote - India,Intern,2026-06-24,8,2026-06-24,TRUE,Active,DEV0118,2026-08-04 21:10:01
+EMP0119,Myra,Wu,myra.wu@meridianfintech.example,Procurement,Procurement Specialist,EMP0011,"Pune, IN",Full-Time,2018-08-24,16,2025-03-27,TRUE,Active,DEV0119,2026-08-02 01:38:09
+EMP0120,Jun,Zhou,jun.zhou@meridianfintech.example,Information Technology,Network Engineer,EMP0407,"Gurugram, IN",Full-Time,2024-07-22,8,2024-10-08,TRUE,Active,DEV0120,2026-08-03 08:15:07
+EMP0121,Vihaan,Khanna,vihaan.khanna@meridianfintech.example,Information Security,CISO,EMP0475,"London, UK",Full-Time,2026-03-30,12,2026-03-30,TRUE,Active,DEV0121,2026-07-31 06:39:18
+EMP0122,Xin,Ansari,xin.ansari@meridianfintech.example,Legal & Compliance,Legal Counsel,EMP0296,"Hyderabad, IN",Full-Time,2025-07-25,8,2026-04-08,TRUE,Active,DEV0122,2026-07-25 21:54:20
+EMP0123,Fang,Lee,fang.lee@meridianfintech.example,Finance,Treasury Analyst,EMP0500,"Hyderabad, IN",Contract,2022-01-29,10,2026-06-29,FALSE,Active,DEV0123,2026-08-07 22:40:11
+EMP0124,Ramesh,Qureshi,ramesh.qureshi@meridianfintech.example,Information Security,SOC Analyst,EMP0320,"Hyderabad, IN",Full-Time,2024-11-18,8,2025-04-29,FALSE,Active,DEV0124,2026-08-01 18:23:29
+EMP0125,Megan,Singh,megan.singh@meridianfintech.example,Risk Management,Risk Analyst,EMP0366,"Chennai, IN",Full-Time,2024-01-15,14,2026-05-31,TRUE,Active,DEV0125,2026-08-02 02:08:20
+EMP0126,Li,Shah,li.shah@meridianfintech.example,Marketing,Brand Manager,EMP0323,"New York, US",Part-Time,2021-10-20,10,2022-06-10,FALSE,Active,DEV0126,2026-08-03 18:11:49
+EMP0127,Aadhya,Zhao,aadhya.zhao@meridianfintech.example,Data & Analytics,Chief Data Officer,EMP0427,"Bengaluru, IN",Intern,2017-05-23,12,2018-09-19,TRUE,Active,DEV0127,2026-08-07 22:14:22
+EMP0128,Daniel,Davis,daniel.davis@meridianfintech.example,Information Technology,IT Support Engineer,EMP0407,"Chennai, IN",Full-Time,2023-02-14,12,2024-07-16,TRUE,Active,DEV0128,2026-08-01 02:32:41
+EMP0129,Riya,Kapoor,riya.kapoor@meridianfintech.example,Information Technology,System Administrator,EMP0004,Remote - India,Contract,2024-01-30,12,2025-11-22,FALSE,Active,DEV0129,2026-08-06 00:05:02
+EMP0130,Li,Brown,li.brown@meridianfintech.example,Engineering,Principal Engineer,EMP0230,"Mumbai, IN",Intern,2022-06-01,12,2025-06-19,TRUE,Active,DEV0130,2026-08-03 17:18:41
+EMP0131,Vikram,Ali,vikram.ali@meridianfintech.example,Product Management,Associate Product Manager,EMP0493,Remote - India,Full-Time,2019-05-03,12,2019-10-26,TRUE,Active,DEV0131,2026-07-30 15:29:13
+EMP0132,Anil,Bose,anil.bose@meridianfintech.example,Information Technology,Network Engineer,EMP0008,Remote - US,Full-Time,2024-03-26,16,2025-12-08,FALSE,Active,DEV0132,2026-07-29 16:35:06
+EMP0133,Deepak,Smith,deepak.smith@meridianfintech.example,Engineering,DevOps Engineer,EMP0211,"Hyderabad, IN",Full-Time,2021-01-15,8,2022-08-01,TRUE,Active,DEV0133,2026-07-30 19:26:15
+EMP0134,Ishita,Moore,ishita.moore@meridianfintech.example,Engineering,QA Engineer,EMP0340,Remote - US,Full-Time,2018-02-16,16,2019-10-15,TRUE,Active,DEV0134,2026-07-31 09:31:01
+EMP0135,Aryan,Zhang,aryan.zhang@meridianfintech.example,Engineering,QA Engineer,EMP0455,"New York, US",Full-Time,2018-05-31,12,2021-12-16,TRUE,Active,DEV0135,2026-08-02 20:43:30
+EMP0136,Suresh,Rashid,suresh.rashid@meridianfintech.example,Sales,Sales Executive,EMP0282,"Hyderabad, IN",Full-Time,2017-07-02,10,2025-02-27,TRUE,Active,DEV0136,2026-07-24 12:03:36
+EMP0137,Sarah,Arora,sarah.arora@meridianfintech.example,Risk Management,Risk Manager,EMP0251,"London, UK",Full-Time,2016-10-28,12,2021-08-27,TRUE,Active,DEV0137,2026-08-06 19:43:39
+EMP0138,Saanvi,Mukherjee,saanvi.mukherjee@meridianfintech.example,Customer Support,Support Associate,EMP0118,"Austin, US",Full-Time,2024-11-29,10,2026-01-18,TRUE,Active,DEV0138,2026-08-01 12:32:02
+EMP0139,Sai,Iyer,sai.iyer@meridianfintech.example,Product Management,Associate Product Manager,EMP0168,Remote - US,Full-Time,2025-01-06,12,2026-06-16,TRUE,Active,DEV0139,2026-08-01 04:20:59
+EMP0140,Megan,Thomas,megan.thomas@meridianfintech.example,Information Security,SOC Analyst,EMP0320,"Austin, US",Contract,2024-04-16,16,2025-09-04,TRUE,Active,DEV0140,2026-08-01 17:31:45
+EMP0141,Jessica,Anderson,jessica.anderson@meridianfintech.example,Legal & Compliance,Chief Compliance Officer,EMP0213,"Bengaluru, IN",Full-Time,2019-09-18,14,2020-03-24,FALSE,Active,DEV0141,2026-08-05 23:55:44
+EMP0142,Chen,Reddy,chen.reddy@meridianfintech.example,Human Resources,Chief Human Resources Officer,EMP0394,"New York, US",Full-Time,2026-01-22,16,2026-05-25,TRUE,Active,DEV0142,2026-07-31 05:33:40
+EMP0143,Zainab,Harris,zainab.harris@meridianfintech.example,Information Security,SOC Analyst,EMP0232,Remote - India,Full-Time,2016-05-09,12,2026-05-09,TRUE,Active,DEV0143,2026-07-29 13:09:26
+EMP0144,Xin,Ghosh,xin.ghosh@meridianfintech.example,Human Resources,HR Business Partner,EMP0394,"London, UK",Intern,2022-11-09,12,2026-04-20,TRUE,Active,DEV0144,2026-07-26 16:13:35
+EMP0145,Sanjay,Ali,sanjay.ali@meridianfintech.example,Executive,Chief Technology Officer,,"Gurugram, IN",Full-Time,2021-02-25,12,2024-11-03,TRUE,Active,DEV0145,2026-08-06 23:43:41
+EMP0146,Xin,Brown,xin.brown@meridianfintech.example,Engineering,QA Engineer,EMP0408,"New York, US",Full-Time,2026-05-06,10,2026-06-29,TRUE,Suspended,DEV0146,2026-06-16 09:45:13
+EMP0147,Deepak,Ali,deepak.ali@meridianfintech.example,Engineering,Engineering Manager,EMP0215,"London, UK",Intern,2024-02-03,10,2025-08-12,TRUE,Active,DEV0147,2026-07-30 12:52:22
+EMP0148,Yusuf,Bose,yusuf.bose@meridianfintech.example,Information Security,Security Engineer,EMP0121,"Bengaluru, IN",Full-Time,2026-06-18,10,2026-06-18,TRUE,Active,DEV0148,2026-07-27 17:17:59
+EMP0149,Sarah,Jones,sarah.jones@meridianfintech.example,Sales,Account Manager,EMP0416,"Hyderabad, IN",Contract,2024-04-22,12,2025-05-05,TRUE,Active,DEV0149,2026-08-01 07:40:14
+EMP0150,Reyansh,Mehta,reyansh.mehta@meridianfintech.example,Engineering,DevOps Engineer,EMP0292,"Gurugram, IN",Part-Time,2021-04-18,8,2022-07-18,TRUE,Active,DEV0150,2026-08-07 05:26:41
+EMP0151,James,Ali,james.ali@meridianfintech.example,Customer Support,Customer Success Manager,EMP0046,"Chennai, IN",Full-Time,2019-03-15,14,2019-08-31,FALSE,Active,DEV0151,2026-08-02 07:34:47
+EMP0152,Zainab,Iyer,zainab.iyer@meridianfintech.example,Marketing,Content Strategist,EMP0175,"Austin, US",Intern,2017-12-21,8,2026-05-19,TRUE,Active,DEV0152,2026-08-07 23:55:59
+EMP0153,Rajesh,Iyer,rajesh.iyer@meridianfintech.example,Finance,Financial Analyst,EMP0198,"Chennai, IN",Contract,2022-10-04,8,2023-11-18,TRUE,Suspended,DEV0153,2026-07-17 16:31:56
+EMP0154,Kiara,Malik,kiara.malik@meridianfintech.example,Sales,VP Sales,EMP0466,"Chennai, IN",Full-Time,2025-01-25,8,2025-12-05,TRUE,Active,DEV0154,2026-07-28 22:11:00
+EMP0155,Ahmed,Martin,ahmed.martin@meridianfintech.example,Data & Analytics,Data Scientist,EMP0335,"Singapore, SG",Part-Time,2024-06-28,8,2024-12-25,TRUE,Active,DEV0155,2026-07-30 13:32:20
+EMP0156,Aryan,Wang,aryan.wang@meridianfintech.example,Operations,Operations Analyst,EMP0014,"Pune, IN",Full-Time,2021-05-09,10,2023-10-14,TRUE,Active,DEV0156,2026-07-31 08:21:19
+EMP0157,Olivia,Verma,olivia.verma@meridianfintech.example,Engineering,Engineering Manager,EMP0445,Remote - India,Full-Time,2023-10-08,8,2023-10-08,TRUE,Active,DEV0157,2026-07-26 12:43:32
+EMP0158,Fatima,Taylor,fatima.taylor@meridianfintech.example,Data & Analytics,Data Analyst,EMP0305,Remote - India,Full-Time,2020-02-14,12,2022-06-23,TRUE,Active,DEV0158,2026-07-26 14:47:38
+EMP0159,Naveen,Yang,naveen.yang@meridianfintech.example,Information Security,GRC Analyst,EMP0121,"London, UK",Full-Time,2024-06-29,12,2025-03-23,TRUE,Active,DEV0159,2026-08-02 02:33:28
+EMP0160,Matthew,Thompson,matthew.thompson@meridianfintech.example,Information Security,Security Analyst,EMP0320,"Singapore, SG",Full-Time,2016-09-09,16,2022-02-21,FALSE,Active,DEV0160,2026-08-01 04:10:20
+EMP0161,Daniel,Wu,daniel.wu@meridianfintech.example,Information Technology,IT Support Engineer,EMP0332,Remote - India,Full-Time,2024-01-15,12,2026-07-26,FALSE,Active,DEV0161,2026-07-24 14:08:32
+EMP0162,Shreya,Xu,shreya.xu@meridianfintech.example,Data & Analytics,Chief Data Officer,EMP0313,"Bengaluru, IN",Contract,2021-03-08,14,2024-06-16,TRUE,Active,DEV0162,2026-08-06 00:47:13
+EMP0163,Olivia,Shah,olivia.shah@meridianfintech.example,Information Technology,IT Support Engineer,EMP0468,"Austin, US",Full-Time,2023-11-08,8,2026-01-13,FALSE,Disabled,DEV0163,2025-09-11 15:02:18
+EMP0164,Divya,Khanna,divya.khanna@meridianfintech.example,Information Technology,System Administrator,EMP0468,Remote - India,Part-Time,2023-03-30,12,2025-02-05,FALSE,Active,DEV0164,2026-08-06 12:24:05
+EMP0165,Tao,Iqbal,tao.iqbal@meridianfintech.example,Sales,Account Manager,EMP0244,Remote - India,Intern,2019-11-25,8,2021-01-01,FALSE,Active,DEV0165,2026-07-26 23:14:53
+EMP0166,Aarav,Gupta,aarav.gupta@meridianfintech.example,Procurement,Vendor Manager,EMP0444,"New York, US",Part-Time,2024-01-24,12,2026-05-18,TRUE,Active,DEV0166,2026-07-27 14:22:09
+EMP0167,Amit,Arora,amit.arora@meridianfintech.example,Sales,Sales Executive,EMP0339,"Bengaluru, IN",Intern,2023-05-28,12,2026-06-13,TRUE,Active,DEV0167,2026-07-24 07:13:04
+EMP0168,Dhruv,Iyer,dhruv.iyer@meridianfintech.example,Product Management,VP Product,EMP0238,"Singapore, SG",Part-Time,2023-11-20,16,2023-11-20,TRUE,Active,DEV0168,2026-07-31 07:34:13
+EMP0169,Bilal,Rao,bilal.rao@meridianfintech.example,Information Security,SOC Analyst,EMP0338,"London, UK",Full-Time,2018-08-17,16,2026-03-16,TRUE,Active,DEV0169,2026-08-05 21:52:20
+EMP0170,Myra,Farooqui,myra.farooqui@meridianfintech.example,Internal Audit,Internal Auditor,EMP0075,"Austin, US",Full-Time,2019-02-01,8,2025-03-30,FALSE,Active,DEV0170,2026-08-07 05:40:43
+EMP0171,Nisha,Sheikh,nisha.sheikh@meridianfintech.example,Engineering,Software Engineer,EMP0230,"Gurugram, IN",Part-Time,2023-07-12,12,2025-12-10,TRUE,Active,DEV0171,2026-07-26 09:24:11
+EMP0172,Bilal,Rashid,bilal.rashid@meridianfintech.example,Finance,CFO,EMP0297,"Mumbai, IN",Intern,2018-07-12,10,2025-12-08,TRUE,Active,DEV0172,2026-07-24 17:26:26
+EMP0173,Sarah,Hussain,sarah.hussain@meridianfintech.example,Operations,Operations Manager,EMP0363,"Austin, US",Full-Time,2018-11-10,8,2021-09-14,TRUE,Disabled,DEV0173,2026-02-12 02:34:46
+EMP0174,Pooja,Menon,pooja.menon@meridianfintech.example,Information Technology,Network Engineer,EMP0468,"Austin, US",Part-Time,2022-10-13,12,2022-10-13,FALSE,Active,DEV0174,2026-08-05 18:46:42
+EMP0175,Sarah,Pillai,sarah.pillai@meridianfintech.example,Marketing,Brand Manager,EMP0212,"Mumbai, IN",Intern,2026-03-04,10,2026-06-05,FALSE,Active,DEV0175,2026-08-07 06:47:07
+EMP0176,Hassan,Ali,hassan.ali@meridianfintech.example,Engineering,Senior Software Engineer,EMP0078,Remote - US,Contract,2023-11-22,8,2025-03-23,FALSE,Active,DEV0176,2026-08-05 09:24:29
+EMP0177,Andrew,Perez,andrew.perez@meridianfintech.example,Procurement,Vendor Manager,EMP0199,"Chennai, IN",Full-Time,2021-10-01,12,2026-03-24,TRUE,Suspended,DEV0177,2026-07-08 10:58:13
+EMP0178,Naveen,Thomas,naveen.thomas@meridianfintech.example,Engineering,DevOps Engineer,EMP0340,"Bengaluru, IN",Contract,2025-09-09,8,2025-09-09,TRUE,Active,DEV0178,2026-08-02 18:46:26
+EMP0179,Rajesh,Kapoor,rajesh.kapoor@meridianfintech.example,Information Security,SOC Analyst,EMP0026,"Gurugram, IN",Full-Time,2020-04-04,12,2022-10-03,TRUE,Active,DEV0179,2026-08-03 10:16:48
+EMP0180,David,Ansari,david.ansari@meridianfintech.example,Human Resources,HR Business Partner,EMP0097,"Pune, IN",Part-Time,2024-11-30,10,2024-12-12,TRUE,Active,DEV0180,2026-07-26 17:41:03
+EMP0181,Matthew,Iyer,matthew.iyer@meridianfintech.example,Sales,Sales Executive,EMP0339,Remote - India,Full-Time,2024-07-27,8,2026-04-24,TRUE,Active,DEV0181,2026-07-25 22:09:00
+EMP0182,Tanvi,Malik,tanvi.malik@meridianfintech.example,Customer Support,Customer Support Manager,EMP0278,"Gurugram, IN",Full-Time,2022-12-05,14,2025-09-27,FALSE,Disabled,DEV0182,2026-04-13 00:00:34
+EMP0183,Emily,Liu,emily.liu@meridianfintech.example,Data & Analytics,Data Analyst,EMP0427,"Bengaluru, IN",Contract,2024-02-06,10,2025-08-10,TRUE,Active,DEV0183,2026-08-03 13:51:58
+EMP0184,Priya,Joshi,priya.joshi@meridianfintech.example,Sales,Sales Executive,EMP0387,"London, UK",Full-Time,2018-09-14,8,2024-12-13,TRUE,Active,DEV0184,2026-07-28 12:05:23
+EMP0185,Kavya,Xu,kavya.xu@meridianfintech.example,Information Security,Penetration Tester,EMP0338,"Mumbai, IN",Part-Time,2018-07-14,10,2025-09-02,FALSE,Active,DEV0185,2026-08-06 20:48:02
+EMP0186,Praveen,Harris,praveen.harris@meridianfintech.example,Operations,Facilities Coordinator,EMP0014,"Bengaluru, IN",Part-Time,2016-02-08,14,2017-12-02,TRUE,Active,DEV0186,2026-08-03 10:36:54
+EMP0187,Dhruv,Hussain,dhruv.hussain@meridianfintech.example,Risk Management,Risk Analyst,EMP0117,"Mumbai, IN",Full-Time,2026-02-08,16,2026-04-15,TRUE,Active,DEV0187,2026-08-07 02:43:59
+EMP0188,Amit,Iqbal,amit.iqbal@meridianfintech.example,Marketing,CMO,EMP0210,Remote - India,Full-Time,2018-01-04,16,2021-07-12,TRUE,Active,DEV0188,2026-07-26 22:52:25
+EMP0189,Rohan,Anderson,rohan.anderson@meridianfintech.example,Finance,Accounts Manager,EMP0016,"Singapore, SG",Full-Time,2022-05-10,16,2026-06-18,TRUE,Active,DEV0189,2026-07-30 23:08:50
+EMP0190,Xin,Kumar,xin.kumar@meridianfintech.example,Finance,Accounts Payable Specialist,EMP0268,Remote - US,Full-Time,2016-08-07,8,2020-11-25,TRUE,Active,DEV0190,2026-08-02 19:38:25
+EMP0191,Imran,Moore,imran.moore@meridianfintech.example,Information Technology,IT Support Engineer,EMP0468,Remote - India,Full-Time,2024-10-14,12,2026-07-08,TRUE,Disabled,DEV0191,2026-03-16 05:43:37
+EMP0192,Hui,Harris,hui.harris@meridianfintech.example,Data & Analytics,Data Analyst,EMP0275,"Singapore, SG",Full-Time,2024-12-12,8,2024-12-12,TRUE,Active,DEV0192,2026-08-04 20:09:47
+EMP0193,Harish,Thomas,harish.thomas@meridianfintech.example,Engineering,Engineering Manager,EMP0005,"Hyderabad, IN",Full-Time,2016-01-22,10,2020-12-26,TRUE,Active,DEV0193,2026-07-26 02:11:27
+EMP0194,Anjali,Qureshi,anjali.qureshi@meridianfintech.example,Engineering,DevOps Engineer,EMP0356,"Hyderabad, IN",Full-Time,2017-01-02,10,2023-03-21,TRUE,Active,DEV0194,2026-07-29 12:00:18
+EMP0195,Divya,Clark,divya.clark@meridianfintech.example,Engineering,Site Reliability Engineer,EMP0311,"Hyderabad, IN",Part-Time,2026-02-08,12,2026-05-05,TRUE,Active,DEV0195,2026-07-30 05:08:17
+EMP0196,Vikram,Jones,vikram.jones@meridianfintech.example,Human Resources,HR Business Partner,EMP0394,"Pune, IN",Full-Time,2017-11-15,12,2020-02-05,TRUE,Active,DEV0196,2026-07-25 11:16:15
+EMP0197,Zainab,Sheikh,zainab.sheikh@meridianfintech.example,Engineering,QA Engineer,EMP0272,"Singapore, SG",Full-Time,2021-02-18,8,2022-07-09,TRUE,Disabled,DEV0197,2026-01-24 19:24:51
+EMP0198,Rakesh,Wu,rakesh.wu@meridianfintech.example,Finance,Finance Controller,EMP0396,"Austin, US",Intern,2025-03-27,16,2026-05-22,TRUE,Active,DEV0198,2026-08-04 06:30:20
+EMP0199,Priya,Zhang,priya.zhang@meridianfintech.example,Procurement,Vendor Manager,EMP0036,"Chennai, IN",Part-Time,2023-10-17,14,2025-10-02,FALSE,Active,DEV0199,2026-07-29 12:17:52
+EMP0200,Priyanka,Thompson,priyanka.thompson@meridianfintech.example,Sales,Sales Executive,EMP0245,"Singapore, SG",Full-Time,2022-08-22,12,2023-01-04,TRUE,Active,DEV0200,2026-08-04 14:45:13
+EMP0201,Rekha,Wilson,rekha.wilson@meridianfintech.example,Marketing,Marketing Executive,EMP0126,"Austin, US",Part-Time,2021-08-07,8,2024-05-25,TRUE,Active,DEV0201,2026-08-04 13:50:24
+EMP0202,Rohan,Zhou,rohan.zhou@meridianfintech.example,Finance,Accounts Payable Specialist,EMP0016,"New York, US",Contract,2020-06-29,12,2025-09-06,FALSE,Active,DEV0202,2026-07-30 17:02:50
+EMP0203,Ramesh,Rashid,ramesh.rashid@meridianfintech.example,Information Technology,Database Administrator,EMP0004,Remote - India,Full-Time,2017-03-23,16,2019-10-14,TRUE,Active,DEV0203,2026-08-03 19:02:36
+EMP0204,Li,Wang,li.wang@meridianfintech.example,Information Technology,Network Engineer,EMP0468,"Austin, US",Full-Time,2016-02-13,8,2018-11-25,TRUE,Active,DEV0204,2026-08-01 18:44:36
+EMP0205,Ritika,Zhou,ritika.zhou@meridianfintech.example,Risk Management,Risk Manager,EMP0137,"Austin, US",Full-Time,2024-08-29,14,2026-07-18,TRUE,Active,DEV0205,2026-07-25 09:26:58
+EMP0206,Kabir,Chatterjee,kabir.chatterjee@meridianfintech.example,Customer Support,Customer Success Manager,EMP0045,"Gurugram, IN",Full-Time,2019-11-06,12,2021-04-27,TRUE,Active,DEV0206,2026-07-25 14:46:44
+EMP0207,Anjali,Thomas,anjali.thomas@meridianfintech.example,Data & Analytics,Data Analyst,EMP0313,"Chennai, IN",Full-Time,2025-01-31,14,2025-04-28,TRUE,Active,DEV0207,2026-07-25 21:51:10
+EMP0208,Ahmed,Johnson,ahmed.johnson@meridianfintech.example,Legal & Compliance,Regulatory Affairs Specialist,EMP0377,"Pune, IN",Contract,2017-10-17,10,2023-04-13,TRUE,Active,DEV0208,2026-08-05 12:40:11
+EMP0209,Neha,Zhao,neha.zhao@meridianfintech.example,Finance,CFO,EMP0189,"Bengaluru, IN",Part-Time,2022-11-20,8,2024-07-09,TRUE,Active,DEV0209,2026-08-04 06:13:17
+EMP0210,Bilal,Patel,bilal.patel@meridianfintech.example,Marketing,CMO,EMP0060,"Hyderabad, IN",Intern,2025-10-11,12,2025-10-11,TRUE,Active,DEV0210,2026-07-25 08:42:55
+EMP0211,David,Hussain,david.hussain@meridianfintech.example,Engineering,Principal Engineer,EMP0495,"Gurugram, IN",Contract,2020-05-10,12,2024-05-26,TRUE,Active,DEV0211,2026-08-06 14:39:11
+EMP0212,Jun,Anderson,jun.anderson@meridianfintech.example,Marketing,CMO,EMP0035,"Singapore, SG",Full-Time,2023-07-15,8,2024-10-03,TRUE,Active,DEV0212,2026-07-26 11:44:09
+EMP0213,William,Clark,william.clark@meridianfintech.example,Legal & Compliance,Chief Compliance Officer,EMP0296,"Singapore, SG",Full-Time,2022-06-12,12,2024-05-16,TRUE,Active,DEV0213,2026-08-04 20:59:11
+EMP0214,Sarah,Chopra,sarah.chopra@meridianfintech.example,Human Resources,HR Business Partner,EMP0240,"Chennai, IN",Full-Time,2018-02-05,10,2023-01-22,TRUE,Active,DEV0214,2026-07-24 15:08:12
+EMP0215,Harish,Malik,harish.malik@meridianfintech.example,Engineering,Principal Engineer,EMP0111,"New York, US",Full-Time,2023-09-05,12,2025-05-01,TRUE,Active,DEV0215,2026-07-26 02:36:01
+EMP0216,Omar,Nambiar,omar.nambiar@meridianfintech.example,Sales,Sales Manager,EMP0149,"Bengaluru, IN",Full-Time,2018-07-09,12,2021-03-28,TRUE,Active,DEV0216,2026-08-04 15:35:32
+EMP0217,Diya,Chatterjee,diya.chatterjee@meridianfintech.example,Marketing,Marketing Manager,EMP0434,"London, UK",Intern,2020-02-11,12,2020-06-19,TRUE,Active,DEV0217,2026-07-27 13:06:47
+EMP0218,Ming,Johnson,ming.johnson@meridianfintech.example,Sales,Sales Manager,EMP0463,"Bengaluru, IN",Full-Time,2018-12-12,10,2018-12-23,TRUE,Suspended,DEV0218,2026-06-08 06:51:47
+EMP0219,Hannah,Lee,hannah.lee@meridianfintech.example,Legal & Compliance,Regulatory Affairs Specialist,EMP0377,Remote - India,Full-Time,2017-11-10,12,2018-07-25,FALSE,Active,DEV0219,2026-08-05 01:36:22
+EMP0220,Andrew,Miller,andrew.miller@meridianfintech.example,Risk Management,Chief Risk Officer,EMP0283,"London, UK",Full-Time,2019-08-18,14,2022-04-13,TRUE,Active,DEV0220,2026-08-06 16:57:43
+EMP0221,Dhruv,Das,dhruv.das@meridianfintech.example,Engineering,Site Reliability Engineer,EMP0480,"Austin, US",Full-Time,2019-02-09,16,2026-05-10,TRUE,Active,DEV0221,2026-07-27 04:45:20
+EMP0222,Karan,Zhang,karan.zhang@meridianfintech.example,Engineering,DevOps Engineer,EMP0211,"Pune, IN",Contract,2023-02-03,10,2026-07-09,TRUE,Active,DEV0222,2026-08-03 02:25:32
+EMP0223,Hassan,Miller,hassan.miller@meridianfintech.example,Finance,Treasury Analyst,EMP0500,"Gurugram, IN",Full-Time,2026-03-06,10,2026-08-06,FALSE,Active,DEV0223,2026-07-25 23:29:40
+EMP0224,Fang,Perez,fang.perez@meridianfintech.example,Information Technology,IT Support Engineer,EMP0468,"London, UK",Full-Time,2018-06-11,12,2020-05-17,TRUE,Active,DEV0224,2026-07-28 10:35:36
+EMP0225,Anil,Menon,anil.menon@meridianfintech.example,Internal Audit,Internal Auditor,EMP0354,"Hyderabad, IN",Part-Time,2024-10-15,16,2026-07-30,TRUE,Disabled,DEV0225,2025-10-26 14:29:00
+EMP0226,Nisha,Sinha,nisha.sinha@meridianfintech.example,Sales,Account Manager,EMP0382,Remote - India,Full-Time,2017-10-13,16,2026-07-02,TRUE,Active,DEV0226,2026-07-25 11:42:57
+EMP0227,Ming,Chopra,ming.chopra@meridianfintech.example,Operations,Operations Analyst,EMP0334,"Austin, US",Part-Time,2019-06-05,14,2026-05-02,TRUE,Active,DEV0227,2026-08-04 03:00:13
+EMP0228,Michael,Shah,michael.shah@meridianfintech.example,Product Management,Associate Product Manager,EMP0400,"Singapore, SG",Full-Time,2021-10-28,14,2025-12-28,TRUE,Active,DEV0228,2026-08-06 03:55:27
+EMP0229,Xin,Mukherjee,xin.mukherjee@meridianfintech.example,Operations,Facilities Coordinator,EMP0014,"Hyderabad, IN",Full-Time,2020-04-18,8,2021-02-23,TRUE,Active,DEV0229,2026-07-28 04:24:49
+EMP0230,Bilal,Das,bilal.das@meridianfintech.example,Engineering,Principal Engineer,EMP0043,Remote - India,Full-Time,2016-10-07,12,2022-04-26,TRUE,Active,DEV0230,2026-07-31 11:46:13
+EMP0231,Chen,Kapoor,chen.kapoor@meridianfintech.example,Executive,Chief Technology Officer,EMP0145,"Singapore, SG",Part-Time,2020-12-17,16,2022-06-08,TRUE,Active,DEV0231,2026-08-05 03:37:46
+EMP0232,Harish,Lee,harish.lee@meridianfintech.example,Information Security,CISO,EMP0338,"Gurugram, IN",Intern,2017-07-26,8,2020-02-09,TRUE,Active,DEV0232,2026-08-02 19:46:38
+EMP0233,Suresh,Reddy,suresh.reddy@meridianfintech.example,Customer Support,Support Team Lead,EMP0306,"Mumbai, IN",Contract,2022-10-21,12,2023-01-22,TRUE,Active,DEV0233,2026-07-24 07:31:24
+EMP0234,Diya,Smith,diya.smith@meridianfintech.example,Human Resources,HR Business Partner,EMP0142,Remote - India,Contract,2016-10-17,12,2025-12-19,FALSE,Suspended,DEV0234,2026-06-18 04:24:55
+EMP0235,Jessica,Yang,jessica.yang@meridianfintech.example,Customer Support,Support Team Lead,EMP0306,"London, UK",Part-Time,2017-12-08,16,2022-04-14,FALSE,Active,DEV0235,2026-07-24 18:04:00
+EMP0236,Varun,Pillai,varun.pillai@meridianfintech.example,Engineering,Software Engineer,EMP0230,"Bengaluru, IN",Intern,2020-06-18,12,2023-03-19,TRUE,Active,DEV0236,2026-07-30 13:44:25
+EMP0237,Kabir,Rashid,kabir.rashid@meridianfintech.example,Engineering,QA Engineer,EMP0495,"Singapore, SG",Full-Time,2019-02-10,8,2022-06-23,TRUE,Disabled,DEV0237,2025-10-25 17:20:25
+EMP0238,Hannah,Patel,hannah.patel@meridianfintech.example,Product Management,Senior Product Manager,EMP0003,Remote - US,Full-Time,2024-03-08,16,2025-05-03,TRUE,Active,DEV0238,2026-07-30 03:29:39
+EMP0239,Rachel,Rao,rachel.rao@meridianfintech.example,Risk Management,Risk Manager,EMP0283,Remote - India,Part-Time,2023-05-19,14,2023-12-26,TRUE,Active,DEV0239,2026-08-04 00:10:31
+EMP0240,Ashok,Farooqui,ashok.farooqui@meridianfintech.example,Human Resources,Chief Human Resources Officer,EMP0097,Remote - US,Full-Time,2017-11-14,10,2018-06-04,TRUE,Active,DEV0240,2026-08-04 03:49:57
+EMP0241,Vihaan,Jackson,vihaan.jackson@meridianfintech.example,Engineering,Site Reliability Engineer,EMP0328,"Austin, US",Full-Time,2021-11-15,8,2023-12-14,TRUE,Active,DEV0241,2026-07-25 15:29:32
+EMP0242,Ramesh,Rao,ramesh.rao@meridianfintech.example,Operations,Facilities Coordinator,EMP0363,"Singapore, SG",Full-Time,2020-02-15,8,2022-11-10,TRUE,Active,DEV0242,2026-08-03 23:07:14
+EMP0243,Ahmed,Qureshi,ahmed.qureshi@meridianfintech.example,Customer Support,Support Associate,EMP0299,"Bengaluru, IN",Intern,2025-09-04,8,2025-09-08,TRUE,Active,DEV0243,2026-08-07 04:11:59
+EMP0244,Arjun,Yang,arjun.yang@meridianfintech.example,Sales,Account Manager,EMP0001,"Gurugram, IN",Full-Time,2020-08-31,14,2023-08-03,TRUE,Active,DEV0244,2026-07-29 03:32:43
+EMP0245,Reyansh,Bhatia,reyansh.bhatia@meridianfintech.example,Sales,Account Manager,EMP0282,"London, UK",Full-Time,2026-03-28,8,2026-04-18,TRUE,Active,DEV0245,2026-07-29 02:35:29
+EMP0246,Vivaan,White,vivaan.white@meridianfintech.example,Executive,Chief Operating Officer,EMP0325,"Chennai, IN",Contract,2024-10-18,10,2025-05-11,TRUE,Active,DEV0246,2026-07-31 06:46:57
+EMP0247,Joseph,Johnson,joseph.johnson@meridianfintech.example,Customer Support,Customer Success Manager,EMP0045,"Bengaluru, IN",Full-Time,2016-04-07,8,2022-01-27,TRUE,Active,DEV0247,2026-08-07 00:21:00
+EMP0248,Omar,Harris,omar.harris@meridianfintech.example,Legal & Compliance,Data Protection Officer,EMP0296,"Hyderabad, IN",Full-Time,2021-12-10,8,2025-09-16,TRUE,Active,DEV0248,2026-07-26 22:17:05
+EMP0249,Sai,Krishnan,sai.krishnan@meridianfintech.example,Data & Analytics,Chief Data Officer,EMP0056,"Austin, US",Part-Time,2026-01-16,10,2026-05-03,TRUE,Active,DEV0249,2026-07-26 20:52:25
+EMP0250,Rohan,Rao,rohan.rao@meridianfintech.example,Internal Audit,Audit Manager,EMP0354,Remote - India,Full-Time,2018-08-27,10,2020-12-05,FALSE,Disabled,DEV0250,2026-02-24 22:53:47
+EMP0251,Sanjay,Thomas,sanjay.thomas@meridianfintech.example,Risk Management,Risk Manager,EMP0137,"Chennai, IN",Full-Time,2016-11-01,8,2017-07-11,TRUE,Active,DEV0251,2026-07-26 03:10:28
+EMP0252,Preeti,Thomas,preeti.thomas@meridianfintech.example,Operations,Facilities Coordinator,EMP0061,"Hyderabad, IN",Contract,2020-01-07,16,2022-04-30,TRUE,Active,DEV0252,2026-08-06 03:05:10
+EMP0253,Tao,Anderson,tao.anderson@meridianfintech.example,Operations,Operations Analyst,EMP0173,"Mumbai, IN",Intern,2025-08-09,10,2025-08-09,TRUE,Active,DEV0253,2026-07-29 12:32:03
+EMP0254,Varun,Bhatia,varun.bhatia@meridianfintech.example,Engineering,Software Engineer,EMP0043,"Austin, US",Intern,2021-01-26,12,2023-10-21,TRUE,Active,DEV0254,2026-08-05 04:07:00
+EMP0255,Krishna,Nambiar,krishna.nambiar@meridianfintech.example,Data & Analytics,Data Engineer,EMP0427,"Mumbai, IN",Intern,2020-06-28,10,2020-12-10,TRUE,Active,DEV0255,2026-08-06 02:01:04
+EMP0256,Sneha,Wu,sneha.wu@meridianfintech.example,Finance,Accounts Manager,EMP0076,"Hyderabad, IN",Intern,2025-04-20,16,2025-12-06,TRUE,Disabled,DEV0256,2025-09-01 05:59:36
+EMP0257,Swati,Zhang,swati.zhang@meridianfintech.example,Engineering,DevOps Engineer,EMP0005,"Bengaluru, IN",Full-Time,2023-08-30,12,2023-12-20,TRUE,Disabled,DEV0257,2025-12-25 08:28:56
+EMP0258,Anika,Iyer,anika.iyer@meridianfintech.example,Engineering,QA Engineer,EMP0438,"Singapore, SG",Contract,2018-10-03,14,2021-04-23,TRUE,Active,DEV0258,2026-07-31 01:05:17
+EMP0259,Harish,Das,harish.das@meridianfintech.example,Engineering,DevOps Engineer,EMP0328,"Mumbai, IN",Part-Time,2025-12-02,16,2026-06-23,TRUE,Suspended,DEV0259,2026-07-17 00:24:50
+EMP0260,Ayesha,Perez,ayesha.perez@meridianfintech.example,Customer Support,Customer Support Manager,EMP0247,"London, UK",Intern,2021-06-08,10,2026-06-26,TRUE,Active,DEV0260,2026-07-29 19:14:01
+EMP0261,Imran,Miller,imran.miller@meridianfintech.example,Finance,Financial Analyst,EMP0189,"New York, US",Contract,2020-01-04,16,2026-07-20,FALSE,Suspended,DEV0261,2026-05-21 07:42:15
+EMP0262,Siddharth,Rashid,siddharth.rashid@meridianfintech.example,Sales,Sales Executive,EMP0382,"Mumbai, IN",Contract,2025-06-29,16,2026-02-02,TRUE,Active,DEV0262,2026-08-06 05:11:15
+EMP0263,Hannah,Thomas,hannah.thomas@meridianfintech.example,Data & Analytics,Data Scientist,EMP0427,"Singapore, SG",Full-Time,2023-11-21,14,2024-12-21,FALSE,Active,DEV0263,2026-08-02 06:53:51
+EMP0264,John,Iqbal,john.iqbal@meridianfintech.example,Finance,Finance Controller,EMP0268,"Pune, IN",Full-Time,2016-06-04,8,2016-08-18,TRUE,Active,DEV0264,2026-08-01 15:00:21
+EMP0265,Megan,Sinha,megan.sinha@meridianfintech.example,Procurement,Procurement Specialist,EMP0166,"Gurugram, IN",Part-Time,2017-12-27,16,2026-06-21,FALSE,Active,DEV0265,2026-07-26 18:45:58
+EMP0266,Myra,Chatterjee,myra.chatterjee@meridianfintech.example,Engineering,Site Reliability Engineer,EMP0467,"London, UK",Intern,2020-02-03,8,2024-03-10,TRUE,Active,DEV0266,2026-08-02 03:21:19
+EMP0267,Sanjay,Das,sanjay.das@meridianfintech.example,Engineering,Senior Software Engineer,EMP0230,Remote - US,Full-Time,2024-11-17,14,2026-05-15,TRUE,Active,DEV0267,2026-08-01 22:56:59
+EMP0268,Megan,Perez,megan.perez@meridianfintech.example,Finance,Accounts Manager,EMP0076,Remote - India,Contract,2025-02-18,8,2026-01-23,TRUE,Active,DEV0268,2026-07-26 05:46:00
+EMP0269,Yan,Zhang,yan.zhang@meridianfintech.example,Sales,Business Development Manager,EMP0359,"Bengaluru, IN",Full-Time,2022-10-03,10,2026-07-15,FALSE,Active,DEV0269,2026-08-02 03:59:31
+EMP0270,Myra,Jackson,myra.jackson@meridianfintech.example,Information Security,GRC Analyst,EMP0475,"Hyderabad, IN",Full-Time,2019-11-21,10,2020-11-18,TRUE,Suspended,DEV0270,2026-06-20 14:00:16
+EMP0271,Meera,Johnson,meera.johnson@meridianfintech.example,Human Resources,HR Executive,EMP0142,"Gurugram, IN",Full-Time,2024-10-28,8,2024-10-28,TRUE,Active,DEV0271,2026-07-30 05:56:26
+EMP0272,John,Harris,john.harris@meridianfintech.example,Engineering,Engineering Manager,EMP0101,"London, UK",Full-Time,2017-02-19,16,2022-05-18,FALSE,Active,DEV0272,2026-08-05 21:14:10
+EMP0273,Anjali,Shah,anjali.shah@meridianfintech.example,Engineering,Site Reliability Engineer,EMP0480,"Bengaluru, IN",Full-Time,2016-03-23,10,2018-12-05,FALSE,Active,DEV0273,2026-07-26 12:10:46
+EMP0274,Rohan,Singh,rohan.singh@meridianfintech.example,Sales,Sales Manager,EMP0327,"Singapore, SG",Contract,2026-01-06,12,2026-08-03,TRUE,Active,DEV0274,2026-08-02 13:10:03
+EMP0275,Meera,Arora,meera.arora@meridianfintech.example,Data & Analytics,Analytics Manager,EMP0127,Remote - US,Contract,2024-02-05,14,2025-06-27,TRUE,Active,DEV0275,2026-07-25 01:25:36
+EMP0276,Emily,Ansari,emily.ansari@meridianfintech.example,Information Security,SOC Analyst,EMP0121,"Bengaluru, IN",Full-Time,2016-01-16,12,2016-12-24,TRUE,Active,DEV0276,2026-08-02 15:12:06
+EMP0277,Vihaan,Ghosh,vihaan.ghosh@meridianfintech.example,Legal & Compliance,Legal Counsel,EMP0377,Remote - India,Full-Time,2026-06-18,12,2026-06-18,TRUE,Active,DEV0277,2026-07-31 21:16:05
+EMP0278,Li,Iqbal,li.iqbal@meridianfintech.example,Customer Support,Customer Support Manager,EMP0247,"Pune, IN",Full-Time,2025-12-05,12,2026-01-14,TRUE,Active,DEV0278,2026-07-31 14:16:14
+EMP0279,Siddharth,Rao,siddharth.rao@meridianfintech.example,Information Technology,System Administrator,EMP0407,Remote - US,Part-Time,2017-01-31,8,2024-06-29,TRUE,Active,DEV0279,2026-08-05 18:14:35
+EMP0280,Krishna,Clark,krishna.clark@meridianfintech.example,Product Management,VP Product,EMP0298,"London, UK",Part-Time,2025-09-20,12,2026-04-16,TRUE,Active,DEV0280,2026-07-30 22:02:32
+EMP0281,Emma,Farooqui,emma.farooqui@meridianfintech.example,Engineering,Site Reliability Engineer,EMP0211,"Singapore, SG",Part-Time,2022-12-15,8,2022-12-15,FALSE,Active,DEV0281,2026-07-26 06:51:12
+EMP0282,Aadhya,Nair,aadhya.nair@meridianfintech.example,Sales,VP Sales,EMP0463,"Hyderabad, IN",Part-Time,2020-11-18,8,2021-08-28,FALSE,Active,DEV0282,2026-08-07 23:58:51
+EMP0283,Ishaan,Singh,ishaan.singh@meridianfintech.example,Risk Management,Risk Manager,EMP0117,"London, UK",Full-Time,2022-03-11,10,2026-07-02,TRUE,Disabled,DEV0283,2025-08-13 22:39:37
+EMP0284,Daniel,Yang,daniel.yang@meridianfintech.example,Product Management,Product Manager,EMP0493,"Austin, US",Full-Time,2017-08-30,12,2023-08-06,TRUE,Suspended,DEV0284,2026-05-21 03:36:49
+EMP0285,Dhruv,Davis,dhruv.davis@meridianfintech.example,Operations,COO,EMP0420,"Austin, US",Full-Time,2020-04-17,14,2025-06-11,TRUE,Active,DEV0285,2026-07-26 08:25:09
+EMP0286,Amy,Wang,amy.wang@meridianfintech.example,Customer Support,Support Associate,EMP0151,"Austin, US",Full-Time,2023-09-29,8,2023-09-29,TRUE,Disabled,DEV0286,2026-02-13 00:21:52
+EMP0287,Vikram,Taylor,vikram.taylor@meridianfintech.example,Product Management,Senior Product Manager,EMP0284,"New York, US",Intern,2023-10-22,14,2023-10-22,FALSE,Active,DEV0287,2026-07-28 23:28:49
+EMP0288,Sanjay,Jones,sanjay.jones@meridianfintech.example,Customer Support,Customer Support Manager,EMP0344,"Singapore, SG",Part-Time,2016-12-31,8,2020-12-14,TRUE,Active,DEV0288,2026-08-04 15:48:33
+EMP0289,Naveen,Rao,naveen.rao@meridianfintech.example,Engineering,QA Engineer,EMP0480,"Pune, IN",Full-Time,2019-06-28,14,2024-09-06,TRUE,Active,DEV0289,2026-08-01 18:01:11
+EMP0290,Pooja,Sinha,pooja.sinha@meridianfintech.example,Information Technology,IT Support Engineer,EMP0407,"Mumbai, IN",Full-Time,2021-02-12,8,2025-01-16,TRUE,Active,DEV0290,2026-08-06 14:32:25
+EMP0291,Wei,Banerjee,wei.banerjee@meridianfintech.example,Customer Support,Support Associate,EMP0046,"Mumbai, IN",Full-Time,2021-06-25,12,2026-01-02,TRUE,Active,DEV0291,2026-08-02 17:22:22
+EMP0292,Ishita,Brown,ishita.brown@meridianfintech.example,Engineering,Principal Engineer,EMP0005,Remote - US,Full-Time,2019-03-13,8,2023-05-03,TRUE,Active,DEV0292,2026-08-05 06:54:14
+EMP0293,Li,Nambiar,li.nambiar@meridianfintech.example,Customer Support,Customer Success Manager,EMP0399,"Chennai, IN",Part-Time,2020-08-04,12,2020-08-04,FALSE,Suspended,DEV0293,2026-05-10 15:58:08
+EMP0294,Li,Bhatia,li.bhatia@meridianfintech.example,Engineering,QA Engineer,EMP0157,"Bengaluru, IN",Full-Time,2018-10-30,12,2021-06-05,TRUE,Active,DEV0294,2026-07-28 13:57:24
+EMP0295,Ashok,Xu,ashok.xu@meridianfintech.example,Human Resources,Talent Acquisition Specialist,EMP0471,"Mumbai, IN",Full-Time,2019-05-22,14,2024-11-02,FALSE,Active,DEV0295,2026-07-25 00:32:42
+EMP0296,Vikram,Joshi,vikram.joshi@meridianfintech.example,Legal & Compliance,Chief Compliance Officer,EMP0248,"Hyderabad, IN",Full-Time,2019-02-06,14,2022-08-24,FALSE,Active,DEV0296,2026-08-04 20:19:12
+EMP0297,Anika,Farooqui,anika.farooqui@meridianfintech.example,Finance,Accounts Manager,EMP0490,"Bengaluru, IN",Intern,2025-08-12,16,2026-06-16,TRUE,Active,DEV0297,2026-08-04 00:41:31
+EMP0298,Rajesh,Brown,rajesh.brown@meridianfintech.example,Product Management,VP Product,EMP0284,"Austin, US",Full-Time,2024-04-05,8,2025-01-23,TRUE,Active,DEV0298,2026-08-03 17:40:50
+EMP0299,James,Perez,james.perez@meridianfintech.example,Customer Support,Support Team Lead,EMP0182,"Pune, IN",Intern,2023-05-17,12,2024-01-06,TRUE,Active,DEV0299,2026-08-04 08:46:51
+EMP0300,Sarah,Khanna,sarah.khanna@meridianfintech.example,Information Technology,Cloud Engineer,EMP0040,"Gurugram, IN",Part-Time,2016-12-31,8,2019-12-26,TRUE,Active,DEV0300,2026-07-30 10:23:16
+EMP0301,Olivia,Wilson,olivia.wilson@meridianfintech.example,Engineering,DevOps Engineer,EMP0292,"Hyderabad, IN",Full-Time,2016-08-07,16,2023-02-11,TRUE,Disabled,DEV0301,2025-09-12 15:56:12
+EMP0302,Robert,Banerjee,robert.banerjee@meridianfintech.example,Customer Support,Customer Support Manager,EMP0317,"London, UK",Full-Time,2020-08-19,8,2021-09-09,TRUE,Active,DEV0302,2026-07-30 18:57:58
+EMP0303,Sonia,Bose,sonia.bose@meridianfintech.example,Customer Support,Support Team Lead,EMP0151,Remote - US,Full-Time,2024-09-25,8,2026-06-25,TRUE,Active,DEV0303,2026-08-03 01:00:28
+EMP0304,Amit,Ghosh,amit.ghosh@meridianfintech.example,Customer Support,Customer Success Manager,EMP0399,"Singapore, SG",Intern,2017-10-10,12,2025-10-22,TRUE,Active,DEV0304,2026-08-02 13:40:27
+EMP0305,Kavya,Huang,kavya.huang@meridianfintech.example,Data & Analytics,Analytics Manager,EMP0313,"Austin, US",Full-Time,2016-06-03,12,2018-03-27,TRUE,Disabled,DEV0305,2026-01-18 16:12:01
+EMP0306,Jun,Sharma,jun.sharma@meridianfintech.example,Customer Support,Customer Success Manager,EMP0066,"Mumbai, IN",Part-Time,2025-11-01,10,2025-11-16,TRUE,Active,DEV0306,2026-08-02 09:10:04
+EMP0307,Sai,Anderson,sai.anderson@meridianfintech.example,Engineering,Engineering Manager,EMP0445,"New York, US",Part-Time,2021-11-01,12,2026-06-24,TRUE,Active,DEV0307,2026-07-26 10:57:31
+EMP0308,Sunil,Arora,sunil.arora@meridianfintech.example,Executive,Chief Operating Officer,EMP0231,"Austin, US",Full-Time,2018-07-24,8,2026-02-26,FALSE,Active,DEV0308,2026-07-24 18:32:10
+EMP0309,Saanvi,Thompson,saanvi.thompson@meridianfintech.example,Human Resources,HR Executive,EMP0394,"Austin, US",Part-Time,2018-11-13,16,2023-12-31,TRUE,Active,DEV0309,2026-07-24 21:06:41
+EMP0310,Aditya,Menon,aditya.menon@meridianfintech.example,Engineering,Principal Engineer,EMP0356,"Hyderabad, IN",Full-Time,2020-12-24,12,2021-05-21,TRUE,Active,DEV0310,2026-07-26 06:44:43
+EMP0311,Chen,Verma,chen.verma@meridianfintech.example,Engineering,Engineering Manager,EMP0272,"Austin, US",Part-Time,2017-02-17,14,2022-11-02,TRUE,Active,DEV0311,2026-07-26 13:53:57
+EMP0312,Ananya,Qureshi,ananya.qureshi@meridianfintech.example,Sales,Business Development Manager,EMP0055,"Hyderabad, IN",Full-Time,2017-04-11,16,2018-03-12,TRUE,Active,DEV0312,2026-08-05 08:53:33
+EMP0313,Sneha,Perez,sneha.perez@meridianfintech.example,Data & Analytics,Analytics Manager,EMP0346,"Chennai, IN",Full-Time,2016-06-10,12,2021-07-26,FALSE,Active,DEV0313,2026-07-31 10:15:00
+EMP0314,Vivaan,Singh,vivaan.singh@meridianfintech.example,Human Resources,HR Executive,EMP0097,"Singapore, SG",Part-Time,2021-07-16,8,2022-01-04,TRUE,Active,DEV0314,2026-08-04 03:57:16
+EMP0315,Li,Krishnan,li.krishnan@meridianfintech.example,Engineering,DevOps Engineer,EMP0391,"Chennai, IN",Full-Time,2021-03-16,8,2022-02-13,FALSE,Active,DEV0315,2026-08-06 09:23:51
+EMP0316,Jun,Thomas,jun.thomas@meridianfintech.example,Data & Analytics,Analytics Manager,EMP0305,Remote - US,Full-Time,2017-01-24,16,2025-07-03,FALSE,Active,DEV0316,2026-07-26 21:41:10
+EMP0317,Rakesh,Perez,rakesh.perez@meridianfintech.example,Customer Support,Customer Support Manager,EMP0116,"Singapore, SG",Full-Time,2025-11-07,14,2025-11-07,TRUE,Active,DEV0317,2026-07-25 12:25:29
+EMP0318,Siddharth,Clark,siddharth.clark@meridianfintech.example,Information Security,GRC Analyst,EMP0475,"New York, US",Intern,2020-09-23,14,2021-11-14,TRUE,Active,DEV0318,2026-07-24 05:06:26
+EMP0319,Hannah,Ali,hannah.ali@meridianfintech.example,Engineering,Site Reliability Engineer,EMP0215,"Singapore, SG",Part-Time,2020-11-29,8,2026-06-19,TRUE,Active,DEV0319,2026-08-06 21:56:53
+EMP0320,Mohammed,Mukherjee,mohammed.mukherjee@meridianfintech.example,Information Security,CISO,EMP0475,"New York, US",Full-Time,2025-12-14,12,2026-03-28,TRUE,Active,DEV0320,2026-07-29 00:45:55
+EMP0321,Jun,Hussain,jun.hussain@meridianfintech.example,Information Technology,Cloud Engineer,EMP0407,"Singapore, SG",Part-Time,2022-05-03,8,2025-10-03,FALSE,Active,DEV0321,2026-08-04 22:39:06
+EMP0322,Swati,Johnson,swati.johnson@meridianfintech.example,Customer Support,Customer Support Manager,EMP0412,"Gurugram, IN",Part-Time,2023-08-02,14,2025-02-27,TRUE,Active,DEV0322,2026-08-07 19:03:00
+EMP0323,Li,Malhotra,li.malhotra@meridianfintech.example,Marketing,CMO,EMP0067,"New York, US",Intern,2021-07-23,16,2022-11-09,TRUE,Active,DEV0323,2026-07-27 10:17:03
+EMP0324,Robert,Nambiar,robert.nambiar@meridianfintech.example,Engineering,QA Engineer,EMP0438,Remote - India,Full-Time,2020-07-09,16,2022-08-20,TRUE,Active,DEV0324,2026-08-02 14:05:54
+EMP0325,John,Zhou,john.zhou@meridianfintech.example,Executive,Chief Financial Officer,EMP0145,"Hyderabad, IN",Full-Time,2024-05-10,14,2024-05-10,TRUE,Active,DEV0325,2026-08-01 17:00:52
+EMP0326,Aryan,Anderson,aryan.anderson@meridianfintech.example,Information Technology,Database Administrator,EMP0004,"London, UK",Full-Time,2023-05-05,14,2025-07-23,FALSE,Active,DEV0326,2026-07-24 07:54:29
+EMP0327,Rakesh,Khan,rakesh.khan@meridianfintech.example,Sales,Sales Manager,EMP0109,Remote - US,Full-Time,2017-04-12,8,2025-07-08,TRUE,Active,DEV0327,2026-07-29 20:51:18
+EMP0328,Emily,Farooqui,emily.farooqui@meridianfintech.example,Engineering,Engineering Manager,EMP0272,Remote - US,Full-Time,2016-07-06,8,2021-07-09,TRUE,Active,DEV0328,2026-08-04 13:06:16
+EMP0329,Pooja,Banerjee,pooja.banerjee@meridianfintech.example,Sales,VP Sales,EMP0466,"Mumbai, IN",Full-Time,2025-03-31,16,2025-07-15,TRUE,Active,DEV0329,2026-07-30 01:59:40
+EMP0330,Jun,Banerjee,jun.banerjee@meridianfintech.example,Sales,VP Sales,EMP0329,"New York, US",Part-Time,2022-08-10,12,2022-10-03,FALSE,Active,DEV0330,2026-08-04 01:35:59
+EMP0331,Swati,Ali,swati.ali@meridianfintech.example,Engineering,QA Engineer,EMP0272,"Pune, IN",Part-Time,2022-06-27,8,2026-02-05,FALSE,Active,DEV0331,2026-08-03 19:38:56
+EMP0332,Sanjay,Malik,sanjay.malik@meridianfintech.example,Information Technology,IT Manager,EMP0040,"Austin, US",Contract,2026-04-09,14,2026-05-08,TRUE,Suspended,DEV0332,2026-06-15 14:51:08
+EMP0333,Kiara,Liu,kiara.liu@meridianfintech.example,Customer Support,Support Team Lead,EMP0322,Remote - US,Contract,2025-08-26,10,2026-05-04,FALSE,Active,DEV0333,2026-07-27 06:39:45
+EMP0334,Rajesh,Lee,rajesh.lee@meridianfintech.example,Operations,Operations Manager,EMP0415,Remote - US,Part-Time,2026-05-24,12,2026-05-24,TRUE,Active,DEV0334,2026-08-05 11:35:30
+EMP0335,Olivia,Yang,olivia.yang@meridianfintech.example,Data & Analytics,Chief Data Officer,EMP0127,"Chennai, IN",Intern,2020-09-26,16,2020-09-26,TRUE,Active,DEV0335,2026-07-26 01:42:03
+EMP0336,Sneha,Jones,sneha.jones@meridianfintech.example,Marketing,Content Strategist,EMP0060,"Chennai, IN",Part-Time,2018-10-23,8,2018-10-23,TRUE,Active,DEV0336,2026-08-05 17:02:22
+EMP0337,Anjali,Joshi,anjali.joshi@meridianfintech.example,Product Management,Associate Product Manager,EMP0238,Remote - US,Part-Time,2022-04-17,12,2023-05-02,TRUE,Active,DEV0337,2026-08-04 09:44:42
+EMP0338,Reyansh,Harris,reyansh.harris@meridianfintech.example,Information Security,CISO,EMP0232,"Austin, US",Intern,2026-04-19,12,2026-04-19,TRUE,Active,DEV0338,2026-08-02 14:53:14
+EMP0339,Wei,White,wei.white@meridianfintech.example,Sales,Business Development Manager,EMP0382,"London, UK",Part-Time,2022-10-07,8,2026-05-09,TRUE,Active,DEV0339,2026-07-31 05:43:04
+EMP0340,Neha,Bhatia,neha.bhatia@meridianfintech.example,Engineering,Principal Engineer,EMP0272,"London, UK",Full-Time,2020-03-25,8,2024-10-21,TRUE,Active,DEV0340,2026-07-26 18:54:16
+EMP0341,Aarav,Jackson,aarav.jackson@meridianfintech.example,Legal & Compliance,Chief Compliance Officer,EMP0141,Remote - US,Full-Time,2016-06-12,8,2026-05-31,TRUE,Active,DEV0341,2026-08-07 20:39:53
+EMP0342,Hui,Anderson,hui.anderson@meridianfintech.example,Engineering,DevOps Engineer,EMP0292,"Singapore, SG",Contract,2020-01-06,8,2023-07-25,TRUE,Disabled,DEV0342,2026-04-30 02:50:32
+EMP0343,Ishita,Yang,ishita.yang@meridianfintech.example,Legal & Compliance,Regulatory Affairs Specialist,EMP0341,"London, UK",Full-Time,2017-01-11,10,2019-06-26,FALSE,Active,DEV0343,2026-07-29 11:18:13
+EMP0344,Bilal,Hussain,bilal.hussain@meridianfintech.example,Customer Support,Customer Support Manager,EMP0206,"London, UK",Intern,2024-06-07,14,2024-06-07,TRUE,Active,DEV0344,2026-07-27 20:39:58
+EMP0345,Amy,Johnson,amy.johnson@meridianfintech.example,Engineering,Software Engineer,EMP0328,Remote - India,Full-Time,2020-04-11,16,2021-04-09,TRUE,Active,DEV0345,2026-07-28 00:58:33
+EMP0346,Yusuf,White,yusuf.white@meridianfintech.example,Data & Analytics,Chief Data Officer,EMP0316,"London, UK",Full-Time,2021-06-16,8,2024-04-29,FALSE,Active,DEV0346,2026-08-01 02:06:10
+EMP0347,Yusuf,Rashid,yusuf.rashid@meridianfintech.example,Engineering,QA Engineer,EMP0147,"Bengaluru, IN",Part-Time,2016-09-25,8,2023-07-08,TRUE,Active,DEV0347,2026-08-03 13:53:06
+EMP0348,Meera,Rashid,meera.rashid@meridianfintech.example,Finance,Treasury Analyst,EMP0264,Remote - US,Intern,2020-11-17,14,2020-11-17,TRUE,Active,DEV0348,2026-07-31 22:21:02
+EMP0349,Aryan,Shah,aryan.shah@meridianfintech.example,Internal Audit,Internal Auditor,EMP0075,"Pune, IN",Intern,2018-10-28,12,2018-10-28,TRUE,Active,DEV0349,2026-07-28 13:24:28
+EMP0350,Chen,Wang,chen.wang@meridianfintech.example,Engineering,DevOps Engineer,EMP0408,"Gurugram, IN",Full-Time,2020-05-14,14,2021-04-29,TRUE,Active,DEV0350,2026-08-02 02:48:47
+EMP0351,Olivia,Nair,olivia.nair@meridianfintech.example,Operations,Operations Analyst,EMP0443,"Gurugram, IN",Contract,2017-03-10,10,2025-10-29,TRUE,Active,DEV0351,2026-07-28 14:24:25
+EMP0352,Hui,Reddy,hui.reddy@meridianfintech.example,Marketing,Brand Manager,EMP0434,"Pune, IN",Contract,2018-06-19,8,2026-05-17,TRUE,Active,DEV0352,2026-08-01 09:40:09
+EMP0353,Vikram,White,vikram.white@meridianfintech.example,Risk Management,Risk Analyst,EMP0205,"London, UK",Intern,2022-03-23,8,2022-09-10,TRUE,Active,DEV0353,2026-07-30 17:35:05
+EMP0354,Manoj,Ghosh,manoj.ghosh@meridianfintech.example,Internal Audit,Chief Audit Executive,EMP0449,Remote - US,Part-Time,2019-11-09,8,2023-08-18,FALSE,Active,DEV0354,2026-07-26 05:11:14
+EMP0355,Megan,Williams,megan.williams@meridianfintech.example,Data & Analytics,Data Engineer,EMP0460,"Hyderabad, IN",Full-Time,2023-07-11,16,2026-03-07,FALSE,Active,DEV0355,2026-08-07 17:29:41
+EMP0356,Emily,Shah,emily.shah@meridianfintech.example,Engineering,Engineering Manager,EMP0130,Remote - India,Full-Time,2018-10-23,8,2020-03-19,TRUE,Active,DEV0356,2026-07-29 11:08:42
+EMP0357,Ming,Smith,ming.smith@meridianfintech.example,Customer Support,Support Associate,EMP0491,"Chennai, IN",Contract,2016-10-12,8,2019-07-25,TRUE,Active,DEV0357,2026-08-03 09:44:37
+EMP0358,Anika,Thompson,anika.thompson@meridianfintech.example,Engineering,Site Reliability Engineer,EMP0310,"Gurugram, IN",Full-Time,2017-11-21,8,2020-07-06,TRUE,Active,DEV0358,2026-08-04 20:27:17
+EMP0359,Ramesh,Das,ramesh.das@meridianfintech.example,Sales,Sales Manager,EMP0269,"New York, US",Full-Time,2020-12-29,10,2023-06-05,TRUE,Active,DEV0359,2026-08-03 19:05:53
+EMP0360,Amit,Das,amit.das@meridianfintech.example,Information Security,Penetration Tester,EMP0320,"Mumbai, IN",Full-Time,2024-03-23,14,2024-06-05,TRUE,Active,DEV0360,2026-08-06 16:40:01
+EMP0361,Olivia,Wang,olivia.wang@meridianfintech.example,Sales,Business Development Manager,EMP0327,"Mumbai, IN",Full-Time,2022-03-09,10,2025-01-18,FALSE,Active,DEV0361,2026-08-03 04:23:25
+EMP0362,Ritika,Wilson,ritika.wilson@meridianfintech.example,Human Resources,HR Manager,EMP0240,"New York, US",Contract,2021-09-21,8,2025-06-14,TRUE,Active,DEV0362,2026-07-27 19:43:10
+EMP0363,Bilal,Qureshi,bilal.qureshi@meridianfintech.example,Operations,Operations Manager,EMP0420,"New York, US",Full-Time,2018-01-03,12,2024-05-06,TRUE,Suspended,DEV0363,2026-07-09 11:02:14
+EMP0364,Omar,Ansari,omar.ansari@meridianfintech.example,Information Technology,System Administrator,EMP0407,"Hyderabad, IN",Full-Time,2020-02-22,8,2020-06-24,TRUE,Active,DEV0364,2026-08-05 11:24:30
+EMP0365,Sonia,Nair,sonia.nair@meridianfintech.example,Information Technology,IT Support Engineer,EMP0004,Remote - India,Full-Time,2017-02-26,14,2022-11-06,TRUE,Active,DEV0365,2026-08-04 08:37:34
+EMP0366,Jessica,Bhatia,jessica.bhatia@meridianfintech.example,Risk Management,Risk Manager,EMP0251,Remote - India,Full-Time,2020-02-05,12,2020-11-14,TRUE,Active,DEV0366,2026-08-07 07:33:25
+EMP0367,Sunil,Lee,sunil.lee@meridianfintech.example,Sales,VP Sales,EMP0269,"New York, US",Contract,2016-01-28,12,2025-11-21,TRUE,Active,DEV0367,2026-07-25 16:41:17
+EMP0368,Tanvi,Kapoor,tanvi.kapoor@meridianfintech.example,Operations,Operations Manager,EMP0096,"Pune, IN",Full-Time,2022-10-01,14,2026-08-01,TRUE,Active,DEV0368,2026-08-05 10:46:07
+EMP0369,Michael,Ali,michael.ali@meridianfintech.example,Marketing,Brand Manager,EMP0126,"Mumbai, IN",Contract,2017-10-22,14,2026-05-07,TRUE,Active,DEV0369,2026-07-26 18:37:10
+EMP0370,Kiara,Qureshi,kiara.qureshi@meridianfintech.example,Operations,Operations Analyst,EMP0420,"Singapore, SG",Full-Time,2016-08-17,8,2018-11-23,FALSE,Active,DEV0370,2026-07-30 19:36:40
+EMP0371,Aditya,Davis,aditya.davis@meridianfintech.example,Internal Audit,Internal Auditor,EMP0449,"Mumbai, IN",Full-Time,2022-10-20,12,2026-06-06,TRUE,Active,DEV0371,2026-08-02 04:50:37
+EMP0372,Yusuf,Khanna,yusuf.khanna@meridianfintech.example,Engineering,QA Engineer,EMP0111,Remote - India,Contract,2018-12-19,8,2026-02-14,TRUE,Disabled,DEV0372,2025-09-11 07:24:24
+EMP0373,Aadhya,Joshi,aadhya.joshi@meridianfintech.example,Engineering,Software Engineer,EMP0147,"Mumbai, IN",Contract,2025-08-21,12,2026-06-14,FALSE,Active,DEV0373,2026-07-26 15:57:39
+EMP0374,Laura,Iyer,laura.iyer@meridianfintech.example,Engineering,Site Reliability Engineer,EMP0328,"London, UK",Contract,2024-06-08,8,2024-07-09,TRUE,Active,DEV0374,2026-08-02 17:52:00
+EMP0375,Imran,Zhao,imran.zhao@meridianfintech.example,Engineering,QA Engineer,EMP0272,"Austin, US",Full-Time,2025-10-23,8,2026-05-31,TRUE,Disabled,DEV0375,2026-04-10 12:22:37
+EMP0376,Ahmed,Mehta,ahmed.mehta@meridianfintech.example,Human Resources,HR Business Partner,EMP0097,"Pune, IN",Full-Time,2021-05-08,16,2023-08-11,FALSE,Active,DEV0376,2026-08-02 17:26:16
+EMP0377,Pooja,Sharma,pooja.sharma@meridianfintech.example,Legal & Compliance,Compliance Officer,EMP0248,"Singapore, SG",Contract,2017-04-27,12,2017-04-27,TRUE,Active,DEV0377,2026-08-05 10:26:23
+EMP0378,Ananya,Kapoor,ananya.kapoor@meridianfintech.example,Engineering,DevOps Engineer,EMP0467,Remote - India,Contract,2018-11-04,10,2024-01-05,TRUE,Active,DEV0378,2026-07-28 21:25:48
+EMP0379,Meera,Liu,meera.liu@meridianfintech.example,Operations,Facilities Coordinator,EMP0173,"Pune, IN",Full-Time,2022-04-09,12,2024-09-17,TRUE,Active,DEV0379,2026-07-29 22:25:47
+EMP0380,Kiara,Banerjee,kiara.banerjee@meridianfintech.example,Data & Analytics,Data Engineer,EMP0460,"New York, US",Intern,2023-11-04,8,2023-11-04,TRUE,Active,DEV0380,2026-07-29 17:39:44
+EMP0381,Tao,Menon,tao.menon@meridianfintech.example,Finance,Accounts Manager,EMP0189,"Austin, US",Part-Time,2016-01-22,16,2017-01-08,FALSE,Active,DEV0381,2026-08-02 13:05:04
+EMP0382,Varun,Nambiar,varun.nambiar@meridianfintech.example,Sales,Sales Manager,EMP0269,"Hyderabad, IN",Contract,2016-06-03,14,2020-04-23,FALSE,Active,DEV0382,2026-08-03 16:18:45
+EMP0383,Laura,Rao,laura.rao@meridianfintech.example,Finance,Accounts Manager,EMP0095,Remote - India,Full-Time,2020-12-03,8,2022-04-06,FALSE,Disabled,DEV0383,2026-04-29 09:12:02
+EMP0384,Laura,Qureshi,laura.qureshi@meridianfintech.example,Sales,Business Development Manager,EMP0109,Remote - US,Full-Time,2022-11-24,8,2025-10-12,TRUE,Active,DEV0384,2026-07-24 05:05:17
+EMP0385,Imran,Wang,imran.wang@meridianfintech.example,Customer Support,Support Team Lead,EMP0066,Remote - India,Full-Time,2020-07-18,12,2022-03-31,TRUE,Active,DEV0385,2026-07-25 02:35:18
+EMP0386,Zainab,Lee,zainab.lee@meridianfintech.example,Information Security,Security Engineer,EMP0338,"Chennai, IN",Full-Time,2022-10-19,8,2024-07-20,FALSE,Active,DEV0386,2026-07-28 05:26:32
+EMP0387,Ananya,Shah,ananya.shah@meridianfintech.example,Sales,Business Development Manager,EMP0245,"Chennai, IN",Full-Time,2026-06-09,16,2026-07-05,FALSE,Active,DEV0387,2026-08-02 08:44:28
+EMP0388,Praveen,Ali,praveen.ali@meridianfintech.example,Risk Management,Risk Analyst,EMP0117,"Gurugram, IN",Intern,2021-02-22,14,2026-03-03,FALSE,Active,DEV0388,2026-07-31 03:16:04
+EMP0389,Praveen,Nambiar,praveen.nambiar@meridianfintech.example,Customer Support,Customer Success Manager,EMP0333,"Gurugram, IN",Full-Time,2026-04-09,12,2026-08-05,TRUE,Active,DEV0389,2026-07-28 02:25:43
+EMP0390,Hassan,Martin,hassan.martin@meridianfintech.example,Information Security,Security Analyst,EMP0338,"London, UK",Full-Time,2021-05-05,10,2024-12-19,TRUE,Active,DEV0390,2026-07-26 23:43:59
+EMP0391,Pooja,Sheikh,pooja.sheikh@meridianfintech.example,Engineering,Principal Engineer,EMP0230,"Mumbai, IN",Full-Time,2024-03-31,8,2025-06-27,TRUE,Active,DEV0391,2026-07-27 19:22:09
+EMP0392,Imran,Joshi,imran.joshi@meridianfintech.example,Procurement,Procurement Specialist,EMP0166,"Hyderabad, IN",Part-Time,2026-01-20,12,2026-08-06,TRUE,Active,DEV0392,2026-07-24 15:23:39
+EMP0393,Deepak,Sheikh,deepak.sheikh@meridianfintech.example,Engineering,QA Engineer,EMP0467,"Chennai, IN",Full-Time,2018-01-19,16,2023-09-25,TRUE,Active,DEV0393,2026-08-02 04:03:33
+EMP0394,Nisha,Ali,nisha.ali@meridianfintech.example,Human Resources,Chief Human Resources Officer,EMP0362,"Bengaluru, IN",Contract,2019-11-23,12,2026-04-29,TRUE,Suspended,DEV0394,2026-07-14 14:20:44
+EMP0395,Vivaan,Verma,vivaan.verma@meridianfintech.example,Marketing,Content Strategist,EMP0431,"Austin, US",Contract,2017-02-16,10,2021-01-21,TRUE,Active,DEV0395,2026-08-01 08:15:17
+EMP0396,James,Martin,james.martin@meridianfintech.example,Finance,Finance Controller,EMP0268,"Pune, IN",Full-Time,2020-10-02,8,2024-09-12,TRUE,Active,DEV0396,2026-08-06 12:17:28
+EMP0397,Neha,Mukherjee,neha.mukherjee@meridianfintech.example,Legal & Compliance,Regulatory Affairs Specialist,EMP0341,Remote - India,Full-Time,2025-02-16,8,2025-10-04,FALSE,Active,DEV0397,2026-08-06 12:12:09
+EMP0398,Ahmed,Kapoor,ahmed.kapoor@meridianfintech.example,Marketing,Brand Manager,EMP0441,"Bengaluru, IN",Full-Time,2020-09-22,12,2021-07-04,FALSE,Active,DEV0398,2026-08-01 17:46:20
+EMP0399,David,Anderson,david.anderson@meridianfintech.example,Customer Support,Support Team Lead,EMP0247,"London, UK",Intern,2022-05-14,8,2024-03-26,TRUE,Active,DEV0399,2026-07-27 08:30:53
+EMP0400,Chen,Mehta,chen.mehta@meridianfintech.example,Product Management,VP Product,EMP0228,Remote - US,Full-Time,2018-11-30,10,2022-01-15,TRUE,Disabled,DEV0400,2025-12-16 11:01:26
+EMP0401,Saanvi,Lee,saanvi.lee@meridianfintech.example,Customer Support,Customer Success Manager,EMP0066,"Singapore, SG",Contract,2023-04-15,14,2026-01-07,TRUE,Active,DEV0401,2026-07-29 10:43:32
+EMP0402,David,Zhou,david.zhou@meridianfintech.example,Sales,Sales Executive,EMP0359,"Austin, US",Contract,2019-03-19,12,2026-01-31,FALSE,Active,DEV0402,2026-08-03 10:26:40
+EMP0403,Megan,Wang,megan.wang@meridianfintech.example,Engineering,Site Reliability Engineer,EMP0292,"Hyderabad, IN",Full-Time,2017-10-25,10,2019-07-24,TRUE,Active,DEV0403,2026-08-04 08:38:41
+EMP0404,Priyanka,Jones,priyanka.jones@meridianfintech.example,Engineering,DevOps Engineer,EMP0111,"Gurugram, IN",Part-Time,2022-08-01,12,2024-07-11,TRUE,Active,DEV0404,2026-07-24 04:46:15
+EMP0405,Hui,Williams,hui.williams@meridianfintech.example,Information Security,GRC Analyst,EMP0232,Remote - US,Part-Time,2016-11-23,8,2017-11-14,TRUE,Active,DEV0405,2026-08-07 15:35:03
+EMP0406,Vihaan,Zhang,vihaan.zhang@meridianfintech.example,Finance,Accounts Payable Specialist,EMP0264,"Hyderabad, IN",Full-Time,2018-12-11,12,2019-09-29,TRUE,Disabled,DEV0406,2026-02-22 09:14:15
+EMP0407,Ahmed,Davis,ahmed.davis@meridianfintech.example,Information Technology,IT Manager,EMP0332,Remote - India,Full-Time,2017-06-21,12,2026-05-28,TRUE,Active,DEV0407,2026-07-29 10:55:30
+EMP0408,Preeti,Iqbal,preeti.iqbal@meridianfintech.example,Engineering,Engineering Manager,EMP0211,"London, UK",Full-Time,2017-07-07,14,2023-01-18,TRUE,Active,DEV0408,2026-08-03 23:40:56
+EMP0409,Jessica,Zhao,jessica.zhao@meridianfintech.example,Engineering,QA Engineer,EMP0480,Remote - India,Part-Time,2021-12-26,10,2024-11-23,TRUE,Active,DEV0409,2026-07-25 14:19:23
+EMP0410,Divya,Brown,divya.brown@meridianfintech.example,Engineering,Senior Software Engineer,EMP0408,"Chennai, IN",Full-Time,2016-01-01,12,2025-02-21,TRUE,Active,DEV0410,2026-07-28 15:34:00
+EMP0411,Bilal,Ali,bilal.ali@meridianfintech.example,Customer Support,Support Team Lead,EMP0038,"Bengaluru, IN",Intern,2020-10-29,16,2023-04-14,TRUE,Active,DEV0411,2026-08-01 11:12:26
+EMP0412,Sarah,Zhao,sarah.zhao@meridianfintech.example,Customer Support,Customer Support Manager,EMP0046,"Mumbai, IN",Full-Time,2024-01-07,14,2026-03-09,FALSE,Active,DEV0412,2026-07-25 13:40:15
+EMP0413,Daniel,Jones,daniel.jones@meridianfintech.example,Information Technology,Network Engineer,EMP0332,Remote - India,Part-Time,2021-12-18,16,2024-01-07,TRUE,Active,DEV0413,2026-07-26 04:18:07
+EMP0414,Wei,Xu,wei.xu@meridianfintech.example,Marketing,CMO,EMP0085,"New York, US",Full-Time,2023-11-09,12,2025-10-04,TRUE,Active,DEV0414,2026-07-24 17:01:11
+EMP0415,Ananya,Davis,ananya.davis@meridianfintech.example,Operations,COO,EMP0061,"Pune, IN",Part-Time,2020-11-30,14,2020-11-30,TRUE,Active,DEV0415,2026-07-31 06:21:26
+EMP0416,Manoj,Sheikh,manoj.sheikh@meridianfintech.example,Sales,Sales Manager,EMP0384,"New York, US",Part-Time,2024-11-15,8,2025-11-07,TRUE,Active,DEV0416,2026-07-26 01:17:49
+EMP0417,Priyanka,Shah,priyanka.shah@meridianfintech.example,Marketing,CMO,EMP0085,"New York, US",Full-Time,2018-02-26,16,2020-10-21,FALSE,Active,DEV0417,2026-07-25 22:15:24
+EMP0418,Yusuf,Wu,yusuf.wu@meridianfintech.example,Marketing,Content Strategist,EMP0067,Remote - US,Full-Time,2018-03-26,12,2026-03-31,TRUE,Active,DEV0418,2026-07-27 15:24:43
+EMP0419,Manoj,Moore,manoj.moore@meridianfintech.example,Information Security,SOC Analyst,EMP0026,Remote - India,Part-Time,2016-06-21,14,2026-07-06,TRUE,Active,DEV0419,2026-07-31 20:19:12
+EMP0420,Ramesh,Menon,ramesh.menon@meridianfintech.example,Operations,Operations Manager,EMP0014,"Hyderabad, IN",Full-Time,2023-02-05,12,2024-10-26,TRUE,Active,DEV0420,2026-08-02 03:25:50
+EMP0421,Karan,Verma,karan.verma@meridianfintech.example,Human Resources,HR Executive,EMP0471,"Singapore, SG",Intern,2023-09-30,12,2026-05-22,TRUE,Active,DEV0421,2026-07-27 05:31:05
+EMP0422,Tao,Martin,tao.martin@meridianfintech.example,Data & Analytics,Data Analyst,EMP0275,"Bengaluru, IN",Full-Time,2023-03-25,8,2026-05-30,FALSE,Active,DEV0422,2026-07-27 10:35:50
+EMP0423,Li,Lee,li.lee@meridianfintech.example,Information Security,Security Architect,EMP0026,"New York, US",Part-Time,2018-03-01,8,2025-09-24,TRUE,Active,DEV0423,2026-07-28 01:31:45
+EMP0424,Joseph,Ansari,joseph.ansari@meridianfintech.example,Procurement,Procurement Specialist,EMP0011,"Singapore, SG",Full-Time,2022-02-04,10,2023-10-25,TRUE,Active,DEV0424,2026-08-06 19:58:55
+EMP0425,Emily,Malhotra,emily.malhotra@meridianfintech.example,Sales,Sales Executive,EMP0244,"London, UK",Full-Time,2021-01-14,10,2023-12-15,TRUE,Active,DEV0425,2026-08-05 20:32:24
+EMP0426,Mohammed,Khanna,mohammed.khanna@meridianfintech.example,Engineering,Software Engineer,EMP0111,"Singapore, SG",Intern,2020-01-31,16,2026-07-07,TRUE,Active,DEV0426,2026-08-01 12:12:33
+EMP0427,Tao,Sheikh,tao.sheikh@meridianfintech.example,Data & Analytics,Chief Data Officer,EMP0446,"Pune, IN",Contract,2019-03-05,10,2023-08-06,TRUE,Active,DEV0427,2026-08-01 21:04:02
+EMP0428,Aadhya,Bhatia,aadhya.bhatia@meridianfintech.example,Sales,Sales Executive,EMP0216,"Mumbai, IN",Full-Time,2021-06-11,8,2022-02-09,TRUE,Active,DEV0428,2026-07-30 21:31:33
+EMP0429,Amy,Williams,amy.williams@meridianfintech.example,Engineering,Software Engineer,EMP0111,"Gurugram, IN",Full-Time,2022-10-17,14,2022-10-17,TRUE,Disabled,DEV0429,2026-04-15 02:29:51
+EMP0430,Wei,Rao,wei.rao@meridianfintech.example,Marketing,Marketing Manager,EMP0434,"London, UK",Part-Time,2026-07-10,12,2026-07-10,FALSE,Active,DEV0430,2026-08-02 08:33:02
+EMP0431,Mohammed,Shah,mohammed.shah@meridianfintech.example,Marketing,Marketing Manager,EMP0105,"Hyderabad, IN",Full-Time,2026-02-26,8,2026-02-26,TRUE,Active,DEV0431,2026-07-27 06:33:42
+EMP0432,Karan,Bhatia,karan.bhatia@meridianfintech.example,Operations,Facilities Coordinator,EMP0096,Remote - US,Full-Time,2024-08-04,14,2026-01-03,TRUE,Active,DEV0432,2026-07-30 03:10:50
+EMP0433,Neha,Wang,neha.wang@meridianfintech.example,Information Security,Penetration Tester,EMP0338,"Gurugram, IN",Part-Time,2017-10-09,12,2023-09-24,TRUE,Active,DEV0433,2026-07-29 17:20:54
+EMP0434,Naveen,Liu,naveen.liu@meridianfintech.example,Marketing,Brand Manager,EMP0323,Remote - US,Full-Time,2022-10-28,8,2025-02-27,TRUE,Active,DEV0434,2026-08-01 23:16:23
+EMP0435,Anjali,Zhou,anjali.zhou@meridianfintech.example,Engineering,DevOps Engineer,EMP0005,"Bengaluru, IN",Part-Time,2016-05-21,10,2022-09-06,TRUE,Active,DEV0435,2026-08-07 09:00:19
+EMP0436,Ritika,Pillai,ritika.pillai@meridianfintech.example,Information Technology,Network Engineer,EMP0407,"Bengaluru, IN",Intern,2025-03-20,14,2025-10-10,FALSE,Active,DEV0436,2026-08-02 18:09:06
+EMP0437,Arjun,Xu,arjun.xu@meridianfintech.example,Information Technology,Network Engineer,EMP0332,"Pune, IN",Full-Time,2018-12-21,10,2024-07-12,TRUE,Active,DEV0437,2026-07-28 02:36:25
+EMP0438,Jessica,Pillai,jessica.pillai@meridianfintech.example,Engineering,Principal Engineer,EMP0078,"Hyderabad, IN",Part-Time,2019-08-22,16,2024-05-30,TRUE,Active,DEV0438,2026-08-04 22:36:52
+EMP0439,Dhruv,Anderson,dhruv.anderson@meridianfintech.example,Information Technology,IT Support Engineer,EMP0407,Remote - US,Intern,2022-06-18,12,2022-06-18,FALSE,Disabled,DEV0439,2026-01-25 11:56:52
+EMP0440,Swati,Yang,swati.yang@meridianfintech.example,Product Management,Product Manager,EMP0497,"Mumbai, IN",Part-Time,2023-04-27,16,2026-05-18,FALSE,Active,DEV0440,2026-08-03 12:03:19
+EMP0441,Matthew,Nair,matthew.nair@meridianfintech.example,Marketing,Marketing Manager,EMP0434,"London, UK",Contract,2017-09-04,10,2022-08-20,TRUE,Active,DEV0441,2026-08-03 23:25:28
+EMP0442,Bilal,Malik,bilal.malik@meridianfintech.example,Human Resources,HR Executive,EMP0032,"Mumbai, IN",Full-Time,2019-04-01,16,2023-06-04,TRUE,Active,DEV0442,2026-07-31 18:47:03
+EMP0443,Emily,Wang,emily.wang@meridianfintech.example,Operations,COO,EMP0368,"Hyderabad, IN",Full-Time,2021-08-17,12,2022-06-19,TRUE,Active,DEV0443,2026-07-27 15:25:41
+EMP0444,Emma,Sinha,emma.sinha@meridianfintech.example,Procurement,Procurement Manager,EMP0177,"Singapore, SG",Part-Time,2021-11-17,8,2023-09-20,TRUE,Active,DEV0444,2026-07-29 21:59:36
+EMP0445,Aryan,Chatterjee,aryan.chatterjee@meridianfintech.example,Engineering,Principal Engineer,EMP0391,"Austin, US",Full-Time,2020-02-05,10,2022-02-19,TRUE,Active,DEV0445,2026-07-24 09:10:22
+EMP0446,Megan,Wu,megan.wu@meridianfintech.example,Data & Analytics,Chief Data Officer,EMP0249,"Pune, IN",Full-Time,2016-07-02,16,2018-08-14,TRUE,Active,DEV0446,2026-08-05 23:54:05
+EMP0447,Diya,Menon,diya.menon@meridianfintech.example,Engineering,Senior Software Engineer,EMP0005,"Singapore, SG",Full-Time,2025-09-28,16,2025-10-22,TRUE,Active,DEV0447,2026-07-25 09:28:30
+EMP0448,Aditya,Jackson,aditya.jackson@meridianfintech.example,Data & Analytics,Data Engineer,EMP0162,Remote - US,Contract,2018-05-17,8,2024-02-17,TRUE,Active,DEV0448,2026-07-31 19:46:09
+EMP0449,Xin,Gupta,xin.gupta@meridianfintech.example,Internal Audit,Audit Manager,EMP0354,"Singapore, SG",Part-Time,2021-11-27,8,2023-11-13,TRUE,Active,DEV0449,2026-08-05 22:39:17
+EMP0450,Reyansh,Sun,reyansh.sun@meridianfintech.example,Information Security,GRC Analyst,EMP0320,"Bengaluru, IN",Full-Time,2020-05-10,14,2023-01-16,TRUE,Disabled,DEV0450,2026-02-07 03:01:18
+EMP0451,Ming,Clark,ming.clark@meridianfintech.example,Customer Support,Customer Success Manager,EMP0046,"Austin, US",Contract,2026-06-13,10,2026-06-13,TRUE,Active,DEV0451,2026-07-27 16:29:35
+EMP0452,Ayesha,Gupta,ayesha.gupta@meridianfintech.example,Engineering,Software Engineer,EMP0111,"Mumbai, IN",Contract,2019-06-02,10,2024-06-29,TRUE,Active,DEV0452,2026-07-29 21:22:22
+EMP0453,Chen,Anderson,chen.anderson@meridianfintech.example,Marketing,Content Strategist,EMP0430,"London, UK",Full-Time,2025-02-07,8,2026-07-05,FALSE,Active,DEV0453,2026-08-06 00:35:17
+EMP0454,Ritika,Kapoor,ritika.kapoor@meridianfintech.example,Engineering,Engineering Manager,EMP0445,"Austin, US",Part-Time,2017-07-16,8,2025-03-09,TRUE,Suspended,DEV0454,2026-06-07 13:15:36
+EMP0455,Anika,Huang,anika.huang@meridianfintech.example,Engineering,Engineering Manager,EMP0310,"Singapore, SG",Full-Time,2021-01-13,12,2022-06-24,TRUE,Active,DEV0455,2026-08-01 21:51:12
+EMP0456,Kiara,Taylor,kiara.taylor@meridianfintech.example,Customer Support,Customer Success Manager,EMP0451,"Austin, US",Intern,2017-08-17,14,2023-05-03,FALSE,Active,DEV0456,2026-08-01 17:46:07
+EMP0457,Neha,Thomas,neha.thomas@meridianfintech.example,Engineering,Site Reliability Engineer,EMP0408,"Pune, IN",Part-Time,2016-04-30,16,2019-07-29,FALSE,Active,DEV0457,2026-07-30 09:28:47
+EMP0458,Wei,Miller,wei.miller@meridianfintech.example,Sales,Account Manager,EMP0463,"Mumbai, IN",Full-Time,2017-06-22,8,2017-06-22,TRUE,Active,DEV0458,2026-07-28 19:36:39
+EMP0459,Isha,Krishnan,isha.krishnan@meridianfintech.example,Information Technology,System Administrator,EMP0468,Remote - India,Full-Time,2020-01-11,8,2025-05-06,TRUE,Active,DEV0459,2026-07-31 22:41:23
+EMP0460,Neha,Clark,neha.clark@meridianfintech.example,Data & Analytics,Analytics Manager,EMP0335,"New York, US",Full-Time,2017-11-01,8,2019-07-16,TRUE,Active,DEV0460,2026-07-24 08:26:14
+EMP0461,Hassan,Sinha,hassan.sinha@meridianfintech.example,Data & Analytics,Data Engineer,EMP0056,"Hyderabad, IN",Full-Time,2026-05-25,12,2026-06-05,TRUE,Active,DEV0461,2026-08-07 07:27:25
+EMP0462,Imran,Nair,imran.nair@meridianfintech.example,Sales,Business Development Manager,EMP0327,Remote - US,Intern,2020-04-07,14,2023-07-05,TRUE,Disabled,DEV0462,2026-05-08 16:41:56
+EMP0463,Fatima,Iyer,fatima.iyer@meridianfintech.example,Sales,Business Development Manager,EMP0165,"Hyderabad, IN",Full-Time,2021-02-14,16,2021-06-23,FALSE,Active,DEV0463,2026-08-01 12:47:02
+EMP0464,Daniel,Menon,daniel.menon@meridianfintech.example,Product Management,Associate Product Manager,EMP0021,"Chennai, IN",Full-Time,2020-06-18,10,2023-03-17,TRUE,Active,DEV0464,2026-08-02 01:44:33
+EMP0465,Myra,Sun,myra.sun@meridianfintech.example,Information Security,Security Architect,EMP0475,Remote - India,Full-Time,2017-01-05,14,2022-08-13,TRUE,Active,DEV0465,2026-08-07 22:34:08
+EMP0466,Priyanka,Liu,priyanka.liu@meridianfintech.example,Sales,Sales Manager,EMP0312,"New York, US",Full-Time,2018-01-02,12,2024-08-14,FALSE,Active,DEV0466,2026-08-07 14:05:16
+EMP0467,Sanjay,Malhotra,sanjay.malhotra@meridianfintech.example,Engineering,Principal Engineer,EMP0292,Remote - US,Full-Time,2017-01-08,8,2024-12-02,TRUE,Active,DEV0467,2026-08-01 22:24:46
+EMP0468,William,Malhotra,william.malhotra@meridianfintech.example,Information Technology,IT Manager,EMP0040,"London, UK",Full-Time,2016-06-28,16,2017-11-30,FALSE,Active,DEV0468,2026-08-03 04:10:55
+EMP0469,Myra,Bhatia,myra.bhatia@meridianfintech.example,Engineering,Site Reliability Engineer,EMP0111,Remote - US,Full-Time,2020-09-14,10,2023-06-21,TRUE,Suspended,DEV0469,2026-06-14 20:11:07
+EMP0470,Aadhya,Sinha,aadhya.sinha@meridianfintech.example,Sales,Sales Executive,EMP0466,"Singapore, SG",Intern,2018-11-02,8,2023-02-22,TRUE,Active,DEV0470,2026-08-05 00:38:56
+EMP0471,John,Smith,john.smith@meridianfintech.example,Human Resources,HR Manager,EMP0142,"Singapore, SG",Part-Time,2021-05-02,12,2025-08-07,TRUE,Active,DEV0471,2026-07-24 07:56:35
+EMP0472,Reyansh,Khanna,reyansh.khanna@meridianfintech.example,Customer Support,Customer Success Manager,EMP0247,"Bengaluru, IN",Part-Time,2019-11-30,8,2020-08-18,FALSE,Active,DEV0472,2026-08-06 19:19:21
+EMP0473,Aryan,Menon,aryan.menon@meridianfintech.example,Engineering,Software Engineer,EMP0078,"Austin, US",Full-Time,2017-10-22,14,2020-03-10,TRUE,Active,DEV0473,2026-08-02 18:50:35
+EMP0474,Priya,Xu,priya.xu@meridianfintech.example,Product Management,Senior Product Manager,EMP0298,"Bengaluru, IN",Full-Time,2024-08-13,10,2025-10-23,TRUE,Active,DEV0474,2026-07-25 13:53:35
+EMP0475,Ishaan,Wilson,ishaan.wilson@meridianfintech.example,Information Security,CISO,EMP0232,"Pune, IN",Full-Time,2023-10-16,16,2024-07-16,TRUE,Active,DEV0475,2026-07-27 22:13:39
+EMP0476,Krishna,Joshi,krishna.joshi@meridianfintech.example,Sales,Business Development Manager,EMP0001,Remote - US,Part-Time,2021-12-06,8,2026-06-05,TRUE,Active,DEV0476,2026-08-05 22:18:27
+EMP0477,Rachel,Thomas,rachel.thomas@meridianfintech.example,Information Technology,Network Engineer,EMP0332,"London, UK",Contract,2022-12-27,10,2022-12-27,TRUE,Active,DEV0477,2026-08-04 20:31:31
+EMP0478,Neha,Krishnan,neha.krishnan@meridianfintech.example,Data & Analytics,Data Scientist,EMP0313,"Mumbai, IN",Full-Time,2017-04-29,8,2022-03-20,TRUE,Active,DEV0478,2026-08-06 06:51:39
+EMP0479,Shreya,Liu,shreya.liu@meridianfintech.example,Information Technology,IT Support Engineer,EMP0040,"Gurugram, IN",Full-Time,2022-04-14,16,2025-07-29,TRUE,Active,DEV0479,2026-08-04 09:16:50
+EMP0480,Ishaan,Taylor,ishaan.taylor@meridianfintech.example,Engineering,Engineering Manager,EMP0111,"London, UK",Contract,2019-08-19,16,2019-08-19,TRUE,Active,DEV0480,2026-07-30 23:36:39
+EMP0481,Vihaan,Bhatia,vihaan.bhatia@meridianfintech.example,Information Technology,System Administrator,EMP0040,"Gurugram, IN",Intern,2019-10-16,14,2024-05-16,FALSE,Active,DEV0481,2026-08-03 04:30:09
+EMP0482,Chen,Xu,chen.xu@meridianfintech.example,Engineering,Site Reliability Engineer,EMP0391,"London, UK",Full-Time,2021-03-09,16,2025-08-23,FALSE,Active,DEV0482,2026-08-01 09:36:46
+EMP0483,Sarah,Rashid,sarah.rashid@meridianfintech.example,Engineering,Software Engineer,EMP0455,"Mumbai, IN",Contract,2023-09-08,10,2024-12-25,TRUE,Active,DEV0483,2026-08-06 00:21:24
+EMP0484,Chen,Rashid,chen.rashid@meridianfintech.example,Information Technology,System Administrator,EMP0040,"Singapore, SG",Contract,2020-05-14,8,2026-07-23,FALSE,Active,DEV0484,2026-08-04 10:45:02
+EMP0485,Siddharth,Liu,siddharth.liu@meridianfintech.example,Customer Support,Support Associate,EMP0333,"New York, US",Full-Time,2020-03-02,12,2023-05-24,TRUE,Active,DEV0485,2026-07-25 11:50:02
+EMP0486,Imran,Sinha,imran.sinha@meridianfintech.example,Engineering,Software Engineer,EMP0292,"New York, US",Contract,2016-04-12,16,2021-05-30,FALSE,Active,DEV0486,2026-07-29 15:46:55
+EMP0487,Matthew,Taylor,matthew.taylor@meridianfintech.example,Engineering,Site Reliability Engineer,EMP0480,"Gurugram, IN",Full-Time,2024-08-17,16,2024-08-17,FALSE,Disabled,DEV0487,2025-10-13 06:46:02
+EMP0488,Sonia,Clark,sonia.clark@meridianfintech.example,Operations,Operations Analyst,EMP0443,"Bengaluru, IN",Full-Time,2026-06-15,8,2026-06-15,TRUE,Active,DEV0488,2026-07-31 01:06:33
+EMP0489,Yusuf,Taylor,yusuf.taylor@meridianfintech.example,Information Technology,IT Support Engineer,EMP0008,"Singapore, SG",Intern,2019-07-02,14,2021-05-09,TRUE,Active,DEV0489,2026-07-28 17:20:49
+EMP0490,Rekha,Banerjee,rekha.banerjee@meridianfintech.example,Finance,Finance Controller,EMP0189,"Pune, IN",Full-Time,2019-01-25,8,2019-03-04,FALSE,Active,DEV0490,2026-07-25 06:34:22
+EMP0491,Emily,Thomas,emily.thomas@meridianfintech.example,Customer Support,Support Team Lead,EMP0031,"Pune, IN",Part-Time,2025-01-06,10,2026-07-06,TRUE,Active,DEV0491,2026-08-07 10:34:28
+EMP0492,Reyansh,Mukherjee,reyansh.mukherjee@meridianfintech.example,Engineering,Software Engineer,EMP0307,"New York, US",Part-Time,2016-07-25,8,2020-04-20,TRUE,Active,DEV0492,2026-07-26 22:38:57
+EMP0493,Hannah,Zhou,hannah.zhou@meridianfintech.example,Product Management,Senior Product Manager,EMP0073,"Chennai, IN",Full-Time,2025-03-02,8,2026-04-25,TRUE,Suspended,DEV0493,2026-07-07 18:08:05
+EMP0494,Yan,Sun,yan.sun@meridianfintech.example,Customer Support,Support Associate,EMP0389,"New York, US",Full-Time,2023-09-04,14,2026-04-30,TRUE,Active,DEV0494,2026-07-27 04:55:57
+EMP0495,Megan,Brown,megan.brown@meridianfintech.example,Engineering,Engineering Manager,EMP0455,"Austin, US",Full-Time,2023-11-05,14,2024-11-07,FALSE,Active,DEV0495,2026-07-31 15:01:04
+EMP0496,James,Chatterjee,james.chatterjee@meridianfintech.example,Data & Analytics,Data Scientist,EMP0427,"New York, US",Full-Time,2025-06-26,8,2025-10-17,TRUE,Active,DEV0496,2026-07-26 16:06:25
+EMP0497,Ayesha,Joshi,ayesha.joshi@meridianfintech.example,Product Management,Senior Product Manager,EMP0003,"London, UK",Part-Time,2016-10-17,16,2019-05-22,TRUE,Active,DEV0497,2026-07-30 07:39:15
+EMP0498,Michael,Clark,michael.clark@meridianfintech.example,Risk Management,Risk Analyst,EMP0239,"Gurugram, IN",Full-Time,2025-02-15,14,2026-06-12,FALSE,Active,DEV0498,2026-08-05 10:34:44
+EMP0499,Rahul,Bhatia,rahul.bhatia@meridianfintech.example,Sales,Sales Executive,EMP0001,Remote - US,Part-Time,2022-06-09,16,2024-09-23,TRUE,Active,DEV0499,2026-07-29 17:06:52
+EMP0500,Rekha,Bhatia,rekha.bhatia@meridianfintech.example,Finance,Finance Controller,EMP0396,"Austin, US",Full-Time,2022-09-16,8,2025-11-04,FALSE,Active,DEV0500,2026-07-30 10:31:41

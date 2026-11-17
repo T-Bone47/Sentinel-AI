@@ -1,0 +1,80 @@
+# Detection rule contract. Human-readable; the executable rule is in
+# sentinel-ai-backend/app/detections/rules.py. tests/test_gate3_detections.py
+# fails if id, version, title, severity, confidence, parameters or ATT&CK
+# techniques here differ from the code. Pre-registered 2026-11-17 (docs/PROGRESS.md).
+
+id = "IA-004"
+version = 1
+title = "Activity by a disabled account"
+status = "experimental"
+owner = "repository owner"
+fixture_family = "activity_by_disabled_account"
+severity = "high"
+severity_reason = "An account that should not work is being used: either the disable did not take effect, or someone is using the account who should not."
+confidence = "high"
+confidence_reason = "Both the disable and the activity are the source's own records, from the same source."
+description = "An account performs a successful action after it was disabled and before it was enabled again."
+limitations = [
+  "Same source only: when one system records the disable (for example HR) and another the activity (for example the identity provider), nothing fires (boundary case B-12).",
+  "Any re-enable ends the disabled period, approved or not. An unapproved re-enable needs a rule of its own (boundary case B-11).",
+  "Activity at the same instant as the disable is not treated as after it (boundary case B-09).",
+]
+
+[logic]
+fires_when = "A successful event whose actor is an account that a successful account.disable targeted strictly earlier, with no successful account.enable of that account in between."
+does_not_fire_when = [
+  "the account was enabled again first",
+  "the action failed (the disable did its job)",
+  "the action happened at the same instant as the disable",
+]
+not_evaluable_when = "A successful account.disable or account.enable event has no target."
+state_changes = "A disable or enable affects only events strictly after it. An enable at the same instant as an action does not precede it, so that action still alerts."
+alert = "One alert per successful action in the disabled period. Trigger: the action. Context: the disable that started the period."
+required_fields = ["action", "outcome", "actor.id", "target.id"]
+
+[parameters]
+
+[attack]
+status = "mapped"
+techniques = ["T1078"]
+rationale = "ATT&CK's valid-accounts technique covers adversaries using inactive accounts of people who have left the organisation, where no owner is present to notice. Activity by an offboarded, disabled account is consistent with it; a disable for another reason (for example leave) fits less well."
+reference = "https://attack.mitre.org/techniques/T1078/"
+checked = "2026-11-17 against ATT&CK content v20.1 (technique version 3.0)"
+
+[[test_vectors]]
+fixture = "identity-access-v1"
+scenario = "S04-P1"
+expected_alerts = 2
+note = "A sign-in and a confidential read, two days after the disable: one alert each."
+
+[[test_vectors]]
+fixture = "identity-access-v1"
+scenario = "S04-B1"
+expected_alerts = 0
+
+[[test_vectors]]
+fixture = "identity-access-v1"
+scenario = "S04-B2"
+expected_alerts = 0
+
+[[test_vectors]]
+fixture = "identity-access-boundary-v1"
+scenario = "B-09"
+expected_alerts = 0
+
+[[test_vectors]]
+fixture = "identity-access-boundary-v1"
+scenario = "B-10"
+expected_alerts = 1
+
+[[test_vectors]]
+fixture = "identity-access-boundary-v1"
+scenario = "B-11"
+expected_alerts = 0
+
+[[test_vectors]]
+fixture = "identity-access-boundary-v1"
+scenario = "B-12"
+expected_alerts = 0
+known_miss = true
+note = "The disable is in a different source from the sign-in; runs see one source at a time."

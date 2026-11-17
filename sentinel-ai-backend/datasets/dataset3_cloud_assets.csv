@@ -1,0 +1,301 @@
+ResourceID,CloudProvider,ResourceType,Region,OwnerEmployeeID,PublicAccess,EncryptionEnabled,LoggingEnabled,Criticality,RiskLevel
+AZR-RES-69151,Azure,Load Balancer,Southeast Asia,EMP0469,FALSE,TRUE,FALSE,Medium,Medium
+AWS-RES-35196,AWS,ELB Load Balancer,us-west-2,EMP0081,FALSE,TRUE,TRUE,Medium,Low
+AZR-RES-78464,Azure,Managed Disk,Southeast Asia,EMP0050,FALSE,FALSE,FALSE,Medium,High
+AWS-RES-33229,AWS,IAM Role,eu-west-1,EMP0255,FALSE,TRUE,FALSE,Low,Medium
+GCP-RES-56904,GCP,VPC Network,asia-south1,EMP0013,FALSE,TRUE,TRUE,High,Medium
+AWS-RES-48280,AWS,Lambda Function,us-east-1,EMP0228,FALSE,TRUE,TRUE,High,Medium
+AWS-RES-85081,AWS,CloudFront Distribution,us-east-1,EMP0169,FALSE,TRUE,TRUE,High,Medium
+AWS-RES-35971,AWS,EBS Volume,eu-west-1,EMP0062,FALSE,FALSE,FALSE,Critical,Critical
+AZR-RES-23767,Azure,Managed Disk,Central India,EMP0030,FALSE,FALSE,TRUE,Low,Medium
+AWS-RES-95346,AWS,RDS Database,us-west-2,EMP0467,FALSE,TRUE,TRUE,Low,Low
+AWS-RES-55476,AWS,ELB Load Balancer,us-east-1,EMP0356,FALSE,TRUE,TRUE,Critical,Medium
+GCP-RES-30552,GCP,Persistent Disk,asia-southeast1,EMP0254,FALSE,TRUE,TRUE,High,Medium
+GCP-RES-35530,GCP,Compute Engine Instance,asia-south1,EMP0440,FALSE,FALSE,TRUE,Critical,High
+AZR-RES-75482,Azure,Blob Storage,East US,EMP0207,FALSE,TRUE,TRUE,Medium,Low
+AWS-RES-40693,AWS,Lambda Function,eu-west-1,EMP0495,FALSE,TRUE,TRUE,Medium,Low
+AWS-RES-92260,AWS,ELB Load Balancer,us-east-1,EMP0008,TRUE,FALSE,TRUE,High,Critical
+GCP-RES-30024,GCP,IAM Service Account,asia-southeast1,EMP0479,FALSE,TRUE,TRUE,High,Medium
+AWS-RES-80645,AWS,Lambda Function,ap-south-1,EMP0321,FALSE,FALSE,TRUE,Medium,Medium
+AZR-RES-25739,Azure,Blob Storage,West Europe,EMP0448,FALSE,TRUE,TRUE,Medium,Low
+AZR-RES-82387,Azure,Azure AD Application,East US,EMP0179,FALSE,TRUE,TRUE,Low,Low
+AWS-RES-58799,AWS,CloudFront Distribution,us-west-2,EMP0164,FALSE,FALSE,TRUE,High,High
+GCP-RES-15920,GCP,Cloud SQL Instance,us-central1,EMP0446,FALSE,TRUE,FALSE,Medium,Medium
+GCP-RES-61919,GCP,Cloud SQL Instance,europe-west1,EMP0163,FALSE,FALSE,TRUE,Low,Medium
+AWS-RES-60650,AWS,EC2 Instance,ap-south-1,EMP0148,FALSE,TRUE,TRUE,Medium,Low
+AWS-RES-65898,AWS,DynamoDB Table,eu-west-1,EMP0178,FALSE,FALSE,FALSE,High,High
+AWS-RES-55430,AWS,RDS Database,us-east-1,EMP0130,FALSE,TRUE,TRUE,Medium,Low
+AZR-RES-37009,Azure,Function App,West Europe,EMP0081,FALSE,TRUE,FALSE,Medium,Medium
+AZR-RES-89285,Azure,Virtual Machine,West Europe,EMP0163,FALSE,FALSE,TRUE,Medium,Medium
+AWS-RES-59929,AWS,EBS Volume,us-west-2,EMP0081,FALSE,TRUE,TRUE,Medium,Low
+AWS-RES-39046,AWS,VPC,eu-west-1,EMP0318,FALSE,TRUE,TRUE,Critical,Medium
+GCP-RES-65029,GCP,VPC Network,us-central1,EMP0489,FALSE,TRUE,TRUE,Medium,Low
+AZR-RES-75084,Azure,Azure AD Application,Southeast Asia,EMP0121,TRUE,FALSE,TRUE,Low,High
+AWS-RES-57851,AWS,EC2 Instance,us-west-2,EMP0185,FALSE,TRUE,FALSE,Medium,Medium
+GCP-RES-54939,GCP,Persistent Disk,us-central1,EMP0022,FALSE,TRUE,FALSE,High,Medium
+AWS-RES-28678,AWS,Lambda Function,us-west-2,EMP0340,FALSE,TRUE,TRUE,Critical,Medium
+AZR-RES-98422,Azure,Function App,Southeast Asia,EMP0455,FALSE,TRUE,TRUE,High,Medium
+AZR-RES-74029,Azure,Azure AD Application,East US,EMP0010,FALSE,TRUE,FALSE,High,Medium
+AWS-RES-30261,AWS,CloudFront Distribution,ap-south-1,EMP0279,FALSE,FALSE,TRUE,Medium,Medium
+GCP-RES-55955,GCP,Cloud Storage Bucket,us-central1,EMP0193,FALSE,TRUE,FALSE,Medium,Medium
+AWS-RES-40433,AWS,DynamoDB Table,ap-south-1,EMP0135,FALSE,TRUE,FALSE,High,Medium
+AZR-RES-81633,Azure,Blob Storage,Central India,EMP0465,FALSE,TRUE,TRUE,Critical,Medium
+AWS-RES-94990,AWS,VPC,us-west-2,EMP0478,FALSE,TRUE,TRUE,Medium,Low
+AWS-RES-87854,AWS,EC2 Instance,ap-south-1,EMP0300,FALSE,TRUE,TRUE,Critical,Medium
+AWS-RES-92867,AWS,EC2 Instance,ap-southeast-1,EMP0162,FALSE,TRUE,TRUE,Medium,Low
+AWS-RES-25909,AWS,DynamoDB Table,us-west-2,EMP0155,TRUE,TRUE,TRUE,High,High
+AWS-RES-23291,AWS,DynamoDB Table,us-west-2,EMP0347,FALSE,FALSE,FALSE,Medium,High
+AWS-RES-48721,AWS,RDS Database,ap-south-1,EMP0232,FALSE,TRUE,FALSE,Medium,Medium
+GCP-RES-29217,GCP,Cloud Storage Bucket,asia-south1,EMP0174,FALSE,TRUE,TRUE,High,Medium
+AWS-RES-16787,AWS,CloudFront Distribution,us-west-2,EMP0155,FALSE,TRUE,TRUE,Medium,Low
+AZR-RES-86336,Azure,Blob Storage,East US,EMP0495,FALSE,TRUE,TRUE,High,Medium
+AWS-RES-25053,AWS,RDS Database,eu-west-1,EMP0484,TRUE,TRUE,TRUE,Medium,Medium
+GCP-RES-94778,GCP,IAM Service Account,asia-south1,EMP0143,FALSE,TRUE,TRUE,Low,Low
+AWS-RES-84077,AWS,EBS Volume,eu-west-1,EMP0307,FALSE,FALSE,TRUE,High,High
+AWS-RES-27541,AWS,Lambda Function,ap-southeast-1,EMP0486,FALSE,FALSE,TRUE,Medium,Medium
+AZR-RES-97303,Azure,Virtual Network,Southeast Asia,EMP0194,FALSE,FALSE,TRUE,Low,Medium
+AZR-RES-62168,Azure,Load Balancer,Central India,EMP0276,FALSE,TRUE,FALSE,Critical,High
+GCP-RES-89662,GCP,Persistent Disk,asia-south1,EMP0358,FALSE,FALSE,TRUE,Medium,Medium
+AZR-RES-24867,Azure,Azure SQL Database,Central India,EMP0266,FALSE,TRUE,TRUE,High,Medium
+GCP-RES-49226,GCP,Cloud Function,asia-south1,EMP0486,FALSE,TRUE,FALSE,Low,Medium
+AZR-RES-32015,Azure,Managed Disk,West Europe,EMP0386,FALSE,TRUE,TRUE,High,Medium
+AZR-RES-63578,Azure,Virtual Network,East US,EMP0347,FALSE,TRUE,TRUE,Critical,Medium
+AWS-RES-34515,AWS,Lambda Function,eu-west-1,EMP0465,FALSE,TRUE,FALSE,High,Medium
+AZR-RES-89745,Azure,Function App,East US,EMP0356,FALSE,TRUE,TRUE,Medium,Low
+AZR-RES-12121,Azure,Function App,West Europe,EMP0473,FALSE,FALSE,FALSE,Medium,High
+AWS-RES-81497,AWS,ELB Load Balancer,eu-west-1,EMP0006,FALSE,TRUE,FALSE,Low,Medium
+AZR-RES-69711,Azure,Virtual Machine,Central India,EMP0422,FALSE,TRUE,TRUE,High,Medium
+AWS-RES-49474,AWS,EBS Volume,ap-south-1,EMP0331,FALSE,FALSE,FALSE,Medium,High
+GCP-RES-12267,GCP,Cloud Storage Bucket,asia-southeast1,EMP0159,FALSE,TRUE,TRUE,Low,Low
+AWS-RES-36277,AWS,S3 Bucket,ap-south-1,EMP0335,FALSE,TRUE,TRUE,High,Medium
+GCP-RES-39940,GCP,Persistent Disk,europe-west1,EMP0127,FALSE,TRUE,FALSE,High,Medium
+GCP-RES-34171,GCP,VPC Network,us-central1,EMP0435,FALSE,TRUE,TRUE,Medium,Low
+AWS-RES-40257,AWS,EBS Volume,ap-south-1,EMP0081,FALSE,FALSE,TRUE,Medium,Medium
+AWS-RES-60043,AWS,S3 Bucket,ap-south-1,EMP0030,FALSE,TRUE,FALSE,Medium,Medium
+AZR-RES-57427,Azure,Azure SQL Database,East US,EMP0259,FALSE,TRUE,TRUE,Medium,Low
+AWS-RES-89312,AWS,EC2 Instance,us-east-1,EMP0020,FALSE,FALSE,TRUE,Critical,High
+AWS-RES-11996,AWS,CloudFront Distribution,eu-west-1,EMP0021,FALSE,FALSE,FALSE,Low,High
+AWS-RES-45372,AWS,Lambda Function,ap-south-1,EMP0480,FALSE,TRUE,TRUE,Medium,Low
+GCP-RES-55361,GCP,Persistent Disk,europe-west1,EMP0215,FALSE,TRUE,TRUE,Low,Low
+AZR-RES-52745,Azure,Virtual Network,Southeast Asia,EMP0478,FALSE,TRUE,TRUE,Low,Low
+AWS-RES-76942,AWS,DynamoDB Table,ap-southeast-1,EMP0159,TRUE,TRUE,FALSE,Medium,High
+AWS-RES-50078,AWS,DynamoDB Table,ap-southeast-1,EMP0319,FALSE,TRUE,FALSE,Critical,High
+GCP-RES-92306,GCP,Cloud Storage Bucket,europe-west1,EMP0292,FALSE,TRUE,TRUE,Medium,Low
+AZR-RES-98659,Azure,Azure SQL Database,East US,EMP0140,TRUE,FALSE,FALSE,Medium,Critical
+GCP-RES-52699,GCP,Compute Engine Instance,us-central1,EMP0423,FALSE,FALSE,TRUE,Critical,High
+AZR-RES-94023,Azure,Virtual Machine,West Europe,EMP0072,FALSE,TRUE,TRUE,Medium,Low
+AWS-RES-99654,AWS,Lambda Function,ap-south-1,EMP0326,FALSE,FALSE,TRUE,High,High
+GCP-RES-93137,GCP,Cloud SQL Instance,europe-west1,EMP0324,FALSE,FALSE,TRUE,High,High
+AWS-RES-41284,AWS,IAM Role,us-east-1,EMP0112,FALSE,FALSE,TRUE,Low,Medium
+AWS-RES-30402,AWS,VPC,ap-southeast-1,EMP0191,FALSE,TRUE,TRUE,High,Medium
+AZR-RES-13207,Azure,Azure AD Application,Southeast Asia,EMP0168,FALSE,FALSE,TRUE,Medium,Medium
+AZR-RES-21555,Azure,Managed Disk,Southeast Asia,EMP0174,FALSE,TRUE,FALSE,High,Medium
+AZR-RES-39245,Azure,Azure AD Application,West Europe,EMP0010,FALSE,TRUE,TRUE,Medium,Low
+AWS-RES-51508,AWS,EBS Volume,us-west-2,EMP0496,FALSE,FALSE,TRUE,Critical,High
+AZR-RES-29926,Azure,Virtual Network,East US,EMP0477,FALSE,TRUE,TRUE,High,Medium
+AWS-RES-53214,AWS,CloudFront Distribution,ap-south-1,EMP0467,FALSE,FALSE,FALSE,High,High
+AZR-RES-86466,Azure,Load Balancer,Central India,EMP0484,FALSE,TRUE,TRUE,Critical,Medium
+AWS-RES-82828,AWS,EBS Volume,us-west-2,EMP0004,FALSE,FALSE,TRUE,Low,Medium
+GCP-RES-57844,GCP,Compute Engine Instance,asia-southeast1,EMP0422,FALSE,TRUE,TRUE,High,Medium
+AWS-RES-29639,AWS,Lambda Function,eu-west-1,EMP0081,FALSE,TRUE,TRUE,High,Medium
+AWS-RES-47039,AWS,EC2 Instance,us-east-1,EMP0074,FALSE,FALSE,TRUE,Low,Medium
+AZR-RES-41727,Azure,Azure SQL Database,East US,EMP0179,FALSE,TRUE,TRUE,Medium,Low
+AZR-RES-66304,Azure,Blob Storage,West Europe,EMP0064,FALSE,TRUE,TRUE,Medium,Low
+AWS-RES-33475,AWS,Lambda Function,ap-southeast-1,EMP0255,FALSE,FALSE,FALSE,High,High
+GCP-RES-62661,GCP,Persistent Disk,asia-southeast1,EMP0148,FALSE,TRUE,TRUE,High,Medium
+AWS-RES-16748,AWS,S3 Bucket,eu-west-1,EMP0134,FALSE,TRUE,TRUE,Critical,Medium
+AWS-RES-76112,AWS,DynamoDB Table,eu-west-1,EMP0157,FALSE,TRUE,FALSE,Medium,Medium
+GCP-RES-38939,GCP,Cloud Storage Bucket,europe-west1,EMP0292,FALSE,TRUE,TRUE,High,Medium
+AWS-RES-93930,AWS,ELB Load Balancer,us-west-2,EMP0232,FALSE,TRUE,TRUE,High,Medium
+AWS-RES-70192,AWS,EC2 Instance,us-west-2,EMP0148,FALSE,FALSE,TRUE,Medium,Medium
+AZR-RES-96170,Azure,Azure AD Application,Central India,EMP0143,FALSE,TRUE,TRUE,High,Medium
+GCP-RES-59219,GCP,Cloud Function,asia-southeast1,EMP0048,FALSE,TRUE,TRUE,High,Medium
+AWS-RES-81460,AWS,VPC,ap-southeast-1,EMP0315,TRUE,FALSE,FALSE,Medium,Critical
+AWS-RES-78603,AWS,VPC,ap-southeast-1,EMP0044,FALSE,TRUE,TRUE,Critical,Medium
+AWS-RES-63897,AWS,DynamoDB Table,ap-southeast-1,EMP0065,FALSE,TRUE,TRUE,Low,Low
+AZR-RES-60925,Azure,Azure SQL Database,West Europe,EMP0043,FALSE,TRUE,TRUE,Medium,Low
+AWS-RES-45811,AWS,RDS Database,us-west-2,EMP0160,FALSE,TRUE,TRUE,High,Medium
+AWS-RES-17952,AWS,EC2 Instance,ap-southeast-1,EMP0059,TRUE,FALSE,TRUE,Critical,Critical
+AWS-RES-73227,AWS,EC2 Instance,ap-southeast-1,EMP0193,FALSE,TRUE,FALSE,Critical,High
+AZR-RES-12938,Azure,Function App,West Europe,EMP0459,FALSE,TRUE,TRUE,Medium,Low
+AZR-RES-84059,Azure,Blob Storage,East US,EMP0287,FALSE,TRUE,FALSE,Medium,Medium
+AWS-RES-15640,AWS,EC2 Instance,ap-southeast-1,EMP0254,TRUE,FALSE,TRUE,Medium,High
+AZR-RES-25168,Azure,Virtual Network,West Europe,EMP0436,FALSE,TRUE,TRUE,High,Medium
+AZR-RES-79240,Azure,Azure SQL Database,West Europe,EMP0050,FALSE,TRUE,TRUE,Low,Low
+AWS-RES-80081,AWS,EC2 Instance,ap-south-1,EMP0112,FALSE,TRUE,FALSE,Medium,Medium
+GCP-RES-59734,GCP,Compute Engine Instance,us-central1,EMP0468,FALSE,TRUE,TRUE,Critical,Medium
+AWS-RES-97072,AWS,CloudFront Distribution,eu-west-1,EMP0280,FALSE,FALSE,TRUE,Medium,Medium
+AWS-RES-13536,AWS,VPC,ap-south-1,EMP0039,FALSE,TRUE,TRUE,Low,Low
+AZR-RES-56909,Azure,Function App,Southeast Asia,EMP0215,FALSE,FALSE,TRUE,High,High
+GCP-RES-80992,GCP,Persistent Disk,asia-south1,EMP0050,FALSE,TRUE,TRUE,Medium,Low
+AZR-RES-80067,Azure,Virtual Network,Central India,EMP0292,FALSE,TRUE,TRUE,Low,Low
+GCP-RES-56913,GCP,Cloud Storage Bucket,us-central1,EMP0249,FALSE,TRUE,TRUE,Medium,Low
+AWS-RES-71663,AWS,Lambda Function,us-east-1,EMP0241,FALSE,TRUE,TRUE,Medium,Low
+AWS-RES-55272,AWS,DynamoDB Table,ap-south-1,EMP0129,FALSE,TRUE,TRUE,High,Medium
+AWS-RES-31157,AWS,Lambda Function,us-east-1,EMP0241,TRUE,TRUE,FALSE,High,High
+AWS-RES-76978,AWS,IAM Role,us-east-1,EMP0232,FALSE,TRUE,TRUE,High,Medium
+AWS-RES-66323,AWS,DynamoDB Table,ap-southeast-1,EMP0047,FALSE,TRUE,TRUE,High,Medium
+AZR-RES-66730,Azure,Function App,West Europe,EMP0266,FALSE,TRUE,TRUE,Medium,Low
+AWS-RES-44390,AWS,Lambda Function,us-east-1,EMP0111,FALSE,TRUE,TRUE,High,Medium
+GCP-RES-55326,GCP,Cloud SQL Instance,asia-southeast1,EMP0183,FALSE,TRUE,TRUE,High,Medium
+AWS-RES-13480,AWS,VPC,us-west-2,EMP0062,FALSE,TRUE,TRUE,Medium,Low
+AWS-RES-91199,AWS,IAM Role,ap-southeast-1,EMP0365,FALSE,TRUE,TRUE,Low,Low
+AWS-RES-82053,AWS,ELB Load Balancer,us-east-1,EMP0070,TRUE,TRUE,FALSE,Low,High
+AWS-RES-82675,AWS,S3 Bucket,ap-south-1,EMP0131,FALSE,TRUE,FALSE,High,Medium
+AZR-RES-14987,Azure,Blob Storage,Central India,EMP0413,FALSE,TRUE,TRUE,Critical,Medium
+AZR-RES-87277,Azure,Azure AD Application,West Europe,EMP0375,FALSE,FALSE,TRUE,High,High
+AWS-RES-35604,AWS,EBS Volume,us-east-1,EMP0043,FALSE,TRUE,FALSE,High,Medium
+AWS-RES-19360,AWS,IAM Role,us-west-2,EMP0164,FALSE,FALSE,TRUE,High,High
+GCP-RES-41517,GCP,Cloud SQL Instance,europe-west1,EMP0475,FALSE,TRUE,TRUE,Critical,Medium
+AWS-RES-42774,AWS,DynamoDB Table,us-west-2,EMP0230,FALSE,TRUE,TRUE,Low,Low
+GCP-RES-76863,GCP,Compute Engine Instance,us-central1,EMP0221,FALSE,FALSE,TRUE,Medium,Medium
+AWS-RES-56361,AWS,EBS Volume,ap-southeast-1,EMP0257,FALSE,TRUE,TRUE,Low,Low
+AWS-RES-78929,AWS,IAM Role,us-west-2,EMP0307,FALSE,TRUE,TRUE,High,Medium
+AZR-RES-94129,Azure,Azure AD Application,Southeast Asia,EMP0486,FALSE,TRUE,TRUE,High,Medium
+AWS-RES-11327,AWS,ELB Load Balancer,us-east-1,EMP0454,TRUE,TRUE,TRUE,Medium,Medium
+AWS-RES-23303,AWS,ELB Load Balancer,eu-west-1,EMP0408,FALSE,FALSE,FALSE,Low,High
+AWS-RES-43202,AWS,ELB Load Balancer,eu-west-1,EMP0305,FALSE,TRUE,TRUE,Critical,Medium
+AWS-RES-93057,AWS,ELB Load Balancer,us-west-2,EMP0224,TRUE,TRUE,FALSE,High,High
+AWS-RES-13938,AWS,RDS Database,ap-southeast-1,EMP0124,FALSE,TRUE,TRUE,Low,Low
+AZR-RES-71909,Azure,Load Balancer,East US,EMP0039,TRUE,FALSE,TRUE,Medium,High
+AWS-RES-63159,AWS,IAM Role,us-east-1,EMP0194,FALSE,TRUE,TRUE,Medium,Low
+GCP-RES-93140,GCP,Persistent Disk,us-central1,EMP0292,TRUE,FALSE,FALSE,Critical,Critical
+AZR-RES-20810,Azure,Azure AD Application,Central India,EMP0197,FALSE,TRUE,TRUE,High,Medium
+AWS-RES-79896,AWS,IAM Role,us-east-1,EMP0393,FALSE,TRUE,TRUE,Medium,Low
+AWS-RES-82996,AWS,EC2 Instance,ap-southeast-1,EMP0022,FALSE,TRUE,FALSE,Low,Medium
+AZR-RES-13902,Azure,Managed Disk,Southeast Asia,EMP0013,FALSE,FALSE,TRUE,High,High
+AZR-RES-13418,Azure,Function App,Central India,EMP0195,FALSE,FALSE,TRUE,Critical,High
+GCP-RES-22732,GCP,Compute Engine Instance,asia-south1,EMP0437,FALSE,TRUE,TRUE,Critical,Medium
+AWS-RES-96634,AWS,IAM Role,us-west-2,EMP0483,FALSE,FALSE,FALSE,Medium,High
+AWS-RES-51797,AWS,EC2 Instance,us-west-2,EMP0355,FALSE,TRUE,FALSE,High,Medium
+AWS-RES-17152,AWS,EBS Volume,us-west-2,EMP0185,FALSE,FALSE,FALSE,High,High
+AWS-RES-60093,AWS,VPC,us-east-1,EMP0081,FALSE,TRUE,TRUE,High,Medium
+AZR-RES-83920,Azure,Azure SQL Database,Southeast Asia,EMP0135,FALSE,TRUE,TRUE,Medium,Low
+AZR-RES-17923,Azure,Blob Storage,West Europe,EMP0489,FALSE,FALSE,FALSE,Medium,High
+GCP-RES-58232,GCP,Compute Engine Instance,europe-west1,EMP0489,FALSE,TRUE,TRUE,High,Medium
+GCP-RES-56475,GCP,Cloud Function,europe-west1,EMP0039,FALSE,TRUE,TRUE,High,Medium
+AWS-RES-52170,AWS,ELB Load Balancer,us-west-2,EMP0313,FALSE,TRUE,TRUE,Medium,Low
+AZR-RES-94286,Azure,Managed Disk,East US,EMP0050,FALSE,FALSE,TRUE,Critical,High
+AZR-RES-46885,Azure,Function App,West Europe,EMP0147,FALSE,FALSE,FALSE,Low,High
+AWS-RES-75403,AWS,S3 Bucket,eu-west-1,EMP0112,FALSE,TRUE,TRUE,High,Medium
+AZR-RES-82503,Azure,Function App,Southeast Asia,EMP0267,FALSE,FALSE,TRUE,High,High
+AZR-RES-55438,Azure,Blob Storage,West Europe,EMP0164,FALSE,TRUE,FALSE,Medium,Medium
+AWS-RES-99027,AWS,VPC,us-east-1,EMP0419,FALSE,TRUE,TRUE,Low,Low
+AZR-RES-48009,Azure,Load Balancer,Southeast Asia,EMP0452,FALSE,FALSE,FALSE,Low,High
+AWS-RES-18583,AWS,Lambda Function,us-east-1,EMP0474,FALSE,TRUE,TRUE,Critical,Medium
+AZR-RES-97297,Azure,Managed Disk,Central India,EMP0455,FALSE,TRUE,TRUE,Medium,Low
+AWS-RES-34907,AWS,ELB Load Balancer,eu-west-1,EMP0448,FALSE,TRUE,TRUE,Medium,Low
+AWS-RES-31935,AWS,DynamoDB Table,us-west-2,EMP0450,FALSE,TRUE,TRUE,High,Medium
+AZR-RES-16333,Azure,Load Balancer,East US,EMP0029,FALSE,TRUE,FALSE,High,Medium
+AZR-RES-25768,Azure,Virtual Network,West Europe,EMP0194,FALSE,TRUE,TRUE,High,Medium
+AZR-RES-45031,Azure,Function App,Central India,EMP0034,FALSE,TRUE,FALSE,Medium,Medium
+AWS-RES-38262,AWS,S3 Bucket,us-west-2,EMP0134,FALSE,TRUE,TRUE,Medium,Low
+AZR-RES-16509,Azure,Load Balancer,East US,EMP0311,FALSE,FALSE,FALSE,High,High
+AWS-RES-62392,AWS,DynamoDB Table,eu-west-1,EMP0193,FALSE,FALSE,TRUE,Low,Medium
+AWS-RES-23873,AWS,VPC,us-west-2,EMP0056,FALSE,FALSE,TRUE,High,High
+AZR-RES-71107,Azure,Virtual Network,Southeast Asia,EMP0446,FALSE,TRUE,FALSE,Low,Medium
+AZR-RES-72671,Azure,Virtual Network,Southeast Asia,EMP0222,FALSE,TRUE,TRUE,Medium,Low
+AWS-RES-33141,AWS,DynamoDB Table,us-west-2,EMP0280,FALSE,TRUE,TRUE,Medium,Low
+AWS-RES-46357,AWS,DynamoDB Table,us-west-2,EMP0009,FALSE,FALSE,TRUE,Critical,High
+AWS-RES-59947,AWS,EC2 Instance,ap-southeast-1,EMP0072,FALSE,TRUE,TRUE,Medium,Low
+AWS-RES-96584,AWS,DynamoDB Table,ap-southeast-1,EMP0311,TRUE,TRUE,TRUE,Critical,High
+AWS-RES-85934,AWS,EC2 Instance,us-east-1,EMP0496,FALSE,TRUE,TRUE,Medium,Low
+GCP-RES-48217,GCP,Cloud Storage Bucket,asia-southeast1,EMP0034,FALSE,TRUE,FALSE,Medium,Medium
+AWS-RES-39198,AWS,Lambda Function,us-west-2,EMP0100,FALSE,TRUE,TRUE,High,Medium
+GCP-RES-59740,GCP,Persistent Disk,asia-southeast1,EMP0080,FALSE,FALSE,TRUE,Medium,Medium
+AWS-RES-19179,AWS,RDS Database,eu-west-1,EMP0487,TRUE,FALSE,TRUE,High,Critical
+AZR-RES-95013,Azure,Virtual Machine,Southeast Asia,EMP0073,TRUE,TRUE,TRUE,Medium,Medium
+AZR-RES-15331,Azure,Virtual Machine,West Europe,EMP0230,FALSE,TRUE,TRUE,Medium,Low
+AZR-RES-17513,Azure,Virtual Machine,Southeast Asia,EMP0059,FALSE,FALSE,TRUE,Low,Medium
+GCP-RES-61448,GCP,Cloud Function,asia-southeast1,EMP0130,FALSE,TRUE,FALSE,Low,Medium
+AZR-RES-60650,Azure,Load Balancer,East US,EMP0050,FALSE,TRUE,TRUE,High,Medium
+AWS-RES-78397,AWS,VPC,us-west-2,EMP0287,FALSE,FALSE,TRUE,High,High
+AWS-RES-16223,AWS,DynamoDB Table,ap-southeast-1,EMP0120,TRUE,TRUE,TRUE,Medium,Medium
+AZR-RES-37172,Azure,Virtual Network,Southeast Asia,EMP0360,FALSE,TRUE,FALSE,Critical,High
+AWS-RES-28963,AWS,CloudFront Distribution,ap-south-1,EMP0259,FALSE,TRUE,FALSE,Medium,Medium
+AZR-RES-65165,Azure,Blob Storage,Southeast Asia,EMP0160,FALSE,TRUE,FALSE,High,Medium
+AWS-RES-60867,AWS,RDS Database,ap-south-1,EMP0238,FALSE,TRUE,TRUE,Medium,Low
+AWS-RES-73001,AWS,IAM Role,ap-southeast-1,EMP0134,FALSE,FALSE,TRUE,Medium,Medium
+AZR-RES-53209,Azure,Managed Disk,Southeast Asia,EMP0489,FALSE,FALSE,TRUE,Low,Medium
+AZR-RES-11521,Azure,Azure SQL Database,West Europe,EMP0460,FALSE,TRUE,TRUE,High,Medium
+AZR-RES-63719,Azure,Managed Disk,West Europe,EMP0486,FALSE,FALSE,FALSE,Medium,High
+AZR-RES-15956,Azure,Azure AD Application,East US,EMP0059,FALSE,TRUE,TRUE,Critical,Medium
+AZR-RES-97440,Azure,Virtual Machine,East US,EMP0410,FALSE,TRUE,TRUE,Medium,Low
+AWS-RES-29437,AWS,EBS Volume,ap-southeast-1,EMP0439,FALSE,FALSE,FALSE,Medium,High
+AWS-RES-23623,AWS,CloudFront Distribution,eu-west-1,EMP0150,FALSE,FALSE,TRUE,Critical,High
+AZR-RES-50498,Azure,Blob Storage,Central India,EMP0193,FALSE,TRUE,TRUE,Medium,Low
+AWS-RES-92408,AWS,EBS Volume,eu-west-1,EMP0195,FALSE,TRUE,TRUE,Medium,Low
+AWS-RES-47630,AWS,VPC,eu-west-1,EMP0275,FALSE,TRUE,TRUE,Low,Low
+AWS-RES-84430,AWS,IAM Role,us-east-1,EMP0080,FALSE,FALSE,TRUE,Medium,Medium
+GCP-RES-13439,GCP,Cloud Function,asia-south1,EMP0320,FALSE,FALSE,FALSE,High,High
+GCP-RES-74447,GCP,VPC Network,us-central1,EMP0163,TRUE,FALSE,TRUE,Low,High
+AZR-RES-78132,Azure,Virtual Network,West Europe,EMP0215,FALSE,TRUE,FALSE,Low,Medium
+AWS-RES-42638,AWS,Lambda Function,ap-southeast-1,EMP0450,FALSE,TRUE,TRUE,Medium,Low
+AWS-RES-21236,AWS,CloudFront Distribution,us-east-1,EMP0408,FALSE,TRUE,TRUE,High,Medium
+AZR-RES-48619,Azure,Azure SQL Database,Southeast Asia,EMP0495,FALSE,TRUE,FALSE,Medium,Medium
+AZR-RES-33212,Azure,Virtual Network,East US,EMP0006,FALSE,TRUE,TRUE,Medium,Low
+AZR-RES-60332,Azure,Virtual Network,Southeast Asia,EMP0026,FALSE,TRUE,TRUE,Low,Low
+GCP-RES-90993,GCP,Compute Engine Instance,europe-west1,EMP0157,FALSE,TRUE,FALSE,High,Medium
+AZR-RES-33474,Azure,Virtual Network,Southeast Asia,EMP0445,FALSE,TRUE,TRUE,High,Medium
+GCP-RES-93975,GCP,Persistent Disk,asia-southeast1,EMP0272,FALSE,TRUE,FALSE,Low,Medium
+GCP-RES-78168,GCP,Compute Engine Instance,europe-west1,EMP0150,FALSE,TRUE,FALSE,Medium,Medium
+AWS-RES-60330,AWS,ELB Load Balancer,us-west-2,EMP0445,FALSE,TRUE,TRUE,Critical,Medium
+AWS-RES-35362,AWS,VPC,ap-southeast-1,EMP0112,FALSE,TRUE,TRUE,Medium,Low
+AWS-RES-54272,AWS,S3 Bucket,us-east-1,EMP0158,FALSE,FALSE,TRUE,Critical,High
+GCP-RES-69937,GCP,IAM Service Account,asia-south1,EMP0446,FALSE,TRUE,TRUE,Medium,Low
+AWS-RES-76067,AWS,VPC,eu-west-1,EMP0124,FALSE,FALSE,TRUE,Medium,Medium
+AZR-RES-70547,Azure,Managed Disk,West Europe,EMP0052,FALSE,TRUE,FALSE,Medium,Medium
+AZR-RES-23129,Azure,Blob Storage,West Europe,EMP0331,FALSE,TRUE,TRUE,Critical,Medium
+AZR-RES-60629,Azure,Function App,West Europe,EMP0445,FALSE,TRUE,TRUE,High,Medium
+GCP-RES-16596,GCP,Cloud Storage Bucket,us-central1,EMP0112,TRUE,TRUE,TRUE,High,High
+GCP-RES-70395,GCP,IAM Service Account,asia-south1,EMP0203,FALSE,TRUE,TRUE,High,Medium
+AWS-RES-65839,AWS,DynamoDB Table,ap-southeast-1,EMP0171,FALSE,TRUE,TRUE,Medium,Low
+GCP-RES-21135,GCP,IAM Service Account,asia-south1,EMP0193,FALSE,TRUE,TRUE,Medium,Low
+AZR-RES-19924,Azure,Function App,East US,EMP0050,FALSE,TRUE,TRUE,High,Medium
+AZR-RES-39188,Azure,Azure AD Application,Central India,EMP0228,FALSE,FALSE,TRUE,Critical,High
+GCP-RES-47192,GCP,Compute Engine Instance,asia-southeast1,EMP0311,FALSE,FALSE,TRUE,Low,Medium
+AWS-RES-67060,AWS,RDS Database,eu-west-1,EMP0360,FALSE,TRUE,TRUE,High,Medium
+GCP-RES-25407,GCP,VPC Network,asia-southeast1,EMP0426,FALSE,TRUE,TRUE,High,Medium
+AWS-RES-11679,AWS,ELB Load Balancer,ap-south-1,EMP0409,FALSE,FALSE,TRUE,Medium,Medium
+AWS-RES-45674,AWS,DynamoDB Table,eu-west-1,EMP0320,TRUE,TRUE,FALSE,Medium,High
+AWS-RES-69513,AWS,Lambda Function,us-east-1,EMP0483,FALSE,FALSE,TRUE,High,High
+AZR-RES-99125,Azure,Managed Disk,Southeast Asia,EMP0319,FALSE,FALSE,TRUE,High,High
+AWS-RES-81583,AWS,RDS Database,ap-southeast-1,EMP0481,FALSE,TRUE,FALSE,Medium,Medium
+AZR-RES-26599,Azure,Azure AD Application,Central India,EMP0148,FALSE,TRUE,TRUE,Medium,Low
+AZR-RES-40821,Azure,Blob Storage,East US,EMP0044,TRUE,TRUE,TRUE,Medium,Medium
+AZR-RES-13248,Azure,Azure AD Application,East US,EMP0112,FALSE,FALSE,TRUE,Low,Medium
+AWS-RES-64985,AWS,ELB Load Balancer,us-west-2,EMP0130,FALSE,TRUE,TRUE,High,Medium
+AZR-RES-50107,Azure,Azure AD Application,Southeast Asia,EMP0457,FALSE,TRUE,TRUE,Medium,Low
+AWS-RES-33581,AWS,VPC,eu-west-1,EMP0482,FALSE,FALSE,TRUE,High,High
+AWS-RES-59240,AWS,DynamoDB Table,ap-south-1,EMP0195,FALSE,TRUE,TRUE,Medium,Low
+GCP-RES-70093,GCP,Compute Engine Instance,us-central1,EMP0459,TRUE,TRUE,FALSE,Medium,High
+AZR-RES-89540,Azure,Blob Storage,West Europe,EMP0457,TRUE,TRUE,TRUE,Medium,Medium
+AZR-RES-92411,Azure,Azure SQL Database,Southeast Asia,EMP0111,FALSE,TRUE,TRUE,High,Medium
+AWS-RES-60381,AWS,Lambda Function,us-east-1,EMP0320,FALSE,FALSE,TRUE,Medium,Medium
+AZR-RES-38337,Azure,Load Balancer,Southeast Asia,EMP0146,FALSE,TRUE,TRUE,Critical,Medium
+AWS-RES-43857,AWS,IAM Role,ap-south-1,EMP0012,FALSE,FALSE,TRUE,Medium,Medium
+AWS-RES-29466,AWS,EC2 Instance,ap-southeast-1,EMP0364,FALSE,FALSE,TRUE,Medium,Medium
+AZR-RES-68979,Azure,Function App,Central India,EMP0423,FALSE,TRUE,TRUE,Medium,Low
+GCP-RES-83866,GCP,VPC Network,europe-west1,EMP0002,FALSE,TRUE,TRUE,Critical,Medium
+AZR-RES-45041,Azure,Virtual Network,East US,EMP0078,TRUE,TRUE,TRUE,Critical,High
+AWS-RES-55763,AWS,EBS Volume,ap-south-1,EMP0460,FALSE,FALSE,FALSE,High,High
+AWS-RES-68229,AWS,EC2 Instance,eu-west-1,EMP0320,FALSE,TRUE,TRUE,Low,Low
+GCP-RES-54468,GCP,Cloud Function,europe-west1,EMP0002,FALSE,FALSE,TRUE,High,High
+AWS-RES-93652,AWS,VPC,ap-southeast-1,EMP0281,FALSE,FALSE,TRUE,High,High
+AZR-RES-88336,Azure,Managed Disk,Central India,EMP0128,TRUE,TRUE,TRUE,Medium,Medium
+AZR-RES-80757,Azure,Azure SQL Database,East US,EMP0121,FALSE,TRUE,FALSE,High,Medium
+AZR-RES-85011,Azure,Virtual Machine,West Europe,EMP0287,FALSE,TRUE,TRUE,Low,Low
+AZR-RES-64251,Azure,Azure SQL Database,Central India,EMP0280,TRUE,TRUE,TRUE,Medium,Medium
+GCP-RES-29597,GCP,Cloud Function,asia-southeast1,EMP0391,FALSE,FALSE,TRUE,Low,Medium
+AZR-RES-33882,Azure,Azure AD Application,Central India,EMP0492,FALSE,TRUE,TRUE,Medium,Low
+AZR-RES-68951,Azure,Virtual Network,Central India,EMP0006,FALSE,FALSE,TRUE,Medium,Medium
+GCP-RES-38723,GCP,IAM Service Account,asia-south1,EMP0012,FALSE,TRUE,TRUE,Low,Low
+GCP-RES-62284,GCP,Cloud SQL Instance,asia-south1,EMP0405,FALSE,TRUE,TRUE,Critical,Medium
+AWS-RES-86737,AWS,S3 Bucket,ap-southeast-1,EMP0391,TRUE,TRUE,TRUE,Medium,Medium
+AWS-RES-35502,AWS,RDS Database,eu-west-1,EMP0178,FALSE,TRUE,TRUE,High,Medium
+GCP-RES-87574,GCP,VPC Network,asia-southeast1,EMP0495,FALSE,FALSE,TRUE,Medium,Medium
+AZR-RES-55152,Azure,Function App,East US,EMP0022,FALSE,TRUE,TRUE,Low,Low
+AWS-RES-49207,AWS,DynamoDB Table,us-west-2,EMP0033,FALSE,TRUE,TRUE,Low,Low
+AZR-RES-45893,Azure,Managed Disk,East US,EMP0207,TRUE,FALSE,TRUE,High,Critical
+AZR-RES-68471,Azure,Virtual Machine,East US,EMP0008,FALSE,FALSE,TRUE,Low,Medium
+AZR-RES-83176,Azure,Managed Disk,Southeast Asia,EMP0326,FALSE,TRUE,TRUE,Low,Low

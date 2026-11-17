@@ -1,0 +1,1 @@
+{"source_event_id":"ia1-770c583e3a62","occurred_at":"2026-09-06T09:30:05Z","actor":{"type":"user","id":"lab-admin-01"},"target":{"type":"application","id":"lab-idp"},"action":"auth.login","source_action":"idp.signin","outcome":"success","src_ip":"203.0.113.200","attributes":{"mfa_used":true,"privileged":true,"auth_method":"password"}}

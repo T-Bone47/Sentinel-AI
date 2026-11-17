@@ -1,0 +1,52 @@
+RELATIONSHIP DISCOVERY — empirical value-overlap check
+For every ID-like column in every dataset, % of its non-null values
+found in every other dataset's candidate primary key.
+Only overlaps >= 50% are shown (weaker overlaps are noise, not FKs).
+
+dataset10_evidence_repository.csv        .ControlID            -> dataset7_compliance_controls.csv         .ControlID       | 217/217 matched (100.0%)
+dataset11_compliance_findings.csv        .ControlID            -> dataset7_compliance_controls.csv         .ControlID       | 193/193 matched (100.0%)
+dataset11_compliance_findings.csv        .EvidenceID           -> dataset10_evidence_repository.csv        .EvidenceID      | 218/218 matched (100.0%)
+dataset13_dpdp_personal_data_inventory.csv .ApplicationID        -> dataset4_applications.csv                .ApplicationID   | 93/93 matched (100.0%)
+dataset14_consent_records.csv            .EmployeeID           -> dataset1_enterprise_employees.csv        .EmployeeID      | 320/320 matched (100.0%)
+dataset14_consent_records.csv            .ApplicationID        -> dataset4_applications.csv                .ApplicationID   | 100/100 matched (100.0%)
+dataset15_identity_access_management.csv .EmployeeID           -> dataset1_enterprise_employees.csv        .EmployeeID      | 500/500 matched (100.0%)
+dataset1_enterprise_employees.csv        .DeviceID             -> dataset2_enterprise_devices.csv          .DeviceID        | 500/500 matched (100.0%)
+dataset2_enterprise_devices.csv          .EmployeeID           -> dataset1_enterprise_employees.csv        .EmployeeID      | 500/500 matched (100.0%)
+dataset3_cloud_assets.csv                .OwnerEmployeeID      -> dataset1_enterprise_employees.csv        .EmployeeID      | 172/172 matched (100.0%)
+dataset7_compliance_controls.csv         .PolicyID             -> dataset6_security_policies.csv           .PolicyID        | 96/96 matched (100.0%)
+dataset8_risk_register.csv               .MappedControlID      -> dataset7_compliance_controls.csv         .ControlID       | 185/185 matched (100.0%)
+dataset9_audit_logs.csv                  .EmployeeID           -> dataset1_enterprise_employees.csv        .EmployeeID      | 449/449 matched (100.0%)
+dataset9_audit_logs.csv                  .ApplicationID        -> dataset4_applications.csv                .ApplicationID   | 100/100 matched (100.0%)
+
+====================================================================================================
+ENUM-LEVEL (non-FK) SHARED VOCABULARIES — same category values reused across files
+====================================================================================================
+dataset11_compliance_findings.csv.Severity  ==  dataset2_enterprise_devices.csv.RiskLevel   (identical value sets: ['Critical', 'High', 'Low', 'Medium']...)
+dataset11_compliance_findings.csv.Severity  ==  dataset3_cloud_assets.csv.Criticality   (identical value sets: ['Critical', 'High', 'Low', 'Medium']...)
+dataset11_compliance_findings.csv.Severity  ==  dataset3_cloud_assets.csv.RiskLevel   (identical value sets: ['Critical', 'High', 'Low', 'Medium']...)
+dataset11_compliance_findings.csv.Severity  ==  dataset4_applications.csv.RiskLevel   (identical value sets: ['Critical', 'High', 'Low', 'Medium']...)
+dataset11_compliance_findings.csv.Severity  ==  dataset5_third_party_vendors.csv.RiskRating   (identical value sets: ['Critical', 'High', 'Low', 'Medium']...)
+dataset11_compliance_findings.csv.Severity  ==  dataset7_compliance_controls.csv.Severity   (identical value sets: ['Critical', 'High', 'Low', 'Medium']...)
+dataset11_compliance_findings.csv.Severity  ==  dataset8_risk_register.csv.Severity   (identical value sets: ['Critical', 'High', 'Low', 'Medium']...)
+dataset12_compliance_reports.csv.Framework  ==  dataset6_security_policies.csv.Framework   (identical value sets: ['CIS Controls', 'DPDP', 'ISO 27001', 'NIST', 'SOC2']...)
+dataset1_enterprise_employees.csv.Department  ==  dataset4_applications.csv.OwnerDepartment   (identical value sets: ['Customer Support', 'Data & Analytics', 'Engineering', 'Executive', 'Finance', 'Human Resources']...)
+dataset2_enterprise_devices.csv.RiskLevel  ==  dataset3_cloud_assets.csv.Criticality   (identical value sets: ['Critical', 'High', 'Low', 'Medium']...)
+dataset2_enterprise_devices.csv.RiskLevel  ==  dataset3_cloud_assets.csv.RiskLevel   (identical value sets: ['Critical', 'High', 'Low', 'Medium']...)
+dataset2_enterprise_devices.csv.RiskLevel  ==  dataset4_applications.csv.RiskLevel   (identical value sets: ['Critical', 'High', 'Low', 'Medium']...)
+dataset2_enterprise_devices.csv.RiskLevel  ==  dataset5_third_party_vendors.csv.RiskRating   (identical value sets: ['Critical', 'High', 'Low', 'Medium']...)
+dataset2_enterprise_devices.csv.RiskLevel  ==  dataset7_compliance_controls.csv.Severity   (identical value sets: ['Critical', 'High', 'Low', 'Medium']...)
+dataset2_enterprise_devices.csv.RiskLevel  ==  dataset8_risk_register.csv.Severity   (identical value sets: ['Critical', 'High', 'Low', 'Medium']...)
+dataset3_cloud_assets.csv.Criticality  ==  dataset4_applications.csv.RiskLevel   (identical value sets: ['Critical', 'High', 'Low', 'Medium']...)
+dataset3_cloud_assets.csv.Criticality  ==  dataset5_third_party_vendors.csv.RiskRating   (identical value sets: ['Critical', 'High', 'Low', 'Medium']...)
+dataset3_cloud_assets.csv.Criticality  ==  dataset7_compliance_controls.csv.Severity   (identical value sets: ['Critical', 'High', 'Low', 'Medium']...)
+dataset3_cloud_assets.csv.Criticality  ==  dataset8_risk_register.csv.Severity   (identical value sets: ['Critical', 'High', 'Low', 'Medium']...)
+dataset3_cloud_assets.csv.RiskLevel  ==  dataset4_applications.csv.RiskLevel   (identical value sets: ['Critical', 'High', 'Low', 'Medium']...)
+dataset3_cloud_assets.csv.RiskLevel  ==  dataset5_third_party_vendors.csv.RiskRating   (identical value sets: ['Critical', 'High', 'Low', 'Medium']...)
+dataset3_cloud_assets.csv.RiskLevel  ==  dataset7_compliance_controls.csv.Severity   (identical value sets: ['Critical', 'High', 'Low', 'Medium']...)
+dataset3_cloud_assets.csv.RiskLevel  ==  dataset8_risk_register.csv.Severity   (identical value sets: ['Critical', 'High', 'Low', 'Medium']...)
+dataset4_applications.csv.RiskLevel  ==  dataset5_third_party_vendors.csv.RiskRating   (identical value sets: ['Critical', 'High', 'Low', 'Medium']...)
+dataset4_applications.csv.RiskLevel  ==  dataset7_compliance_controls.csv.Severity   (identical value sets: ['Critical', 'High', 'Low', 'Medium']...)
+dataset4_applications.csv.RiskLevel  ==  dataset8_risk_register.csv.Severity   (identical value sets: ['Critical', 'High', 'Low', 'Medium']...)
+dataset5_third_party_vendors.csv.RiskRating  ==  dataset7_compliance_controls.csv.Severity   (identical value sets: ['Critical', 'High', 'Low', 'Medium']...)
+dataset5_third_party_vendors.csv.RiskRating  ==  dataset8_risk_register.csv.Severity   (identical value sets: ['Critical', 'High', 'Low', 'Medium']...)
+dataset7_compliance_controls.csv.Severity  ==  dataset8_risk_register.csv.Severity   (identical value sets: ['Critical', 'High', 'Low', 'Medium']...)

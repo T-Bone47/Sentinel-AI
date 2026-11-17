@@ -1,0 +1,101 @@
+VendorID,VendorName,ServiceCategory,ISO27001Certified,SOC2Certified,DPDPCompliant,RiskRating,ContractExpiry
+VEN7649,Ironclad Global,Cloud Hosting,TRUE,FALSE,TRUE,Low,2026-09-18
+VEN8864,Nimbus Global,HR & Payroll Services,TRUE,TRUE,FALSE,Medium,2026-12-13
+VEN9291,Sentinel Systems,Customer Support Tooling,TRUE,FALSE,FALSE,Medium,2029-01-19
+VEN9945,Apex Global,Background Verification,TRUE,TRUE,TRUE,Low,2027-08-21
+VEN9964,Clarity Systems,Recruitment Services,TRUE,FALSE,FALSE,Medium,2028-06-25
+VEN6711,Everline Analytics,Legal Services,FALSE,TRUE,FALSE,High,2027-08-29
+VEN9293,Zenith Consulting,IT Managed Services,TRUE,TRUE,TRUE,Low,2026-06-19
+VEN2862,Redshift Security,Email & Collaboration,TRUE,FALSE,FALSE,High,2028-04-16
+VEN5852,Lumen Consulting,Facilities Management,TRUE,FALSE,TRUE,Medium,2026-12-16
+VEN2487,Fortress Technologies,Legal Services,TRUE,TRUE,TRUE,Medium,2027-01-26
+VEN4250,Meridian Security,Legal Services,FALSE,FALSE,TRUE,Medium,2026-09-08
+VEN7686,Cascade Digital,Customer Support Tooling,FALSE,FALSE,FALSE,High,2026-09-28
+VEN2951,Bluewave Data Services,Software Development Outsourcing,FALSE,FALSE,FALSE,Critical,2028-11-09
+VEN9606,Coreline Networks,Logistics & Courier,TRUE,FALSE,TRUE,Low,2027-06-18
+VEN2779,Pinnacle Data Services,Payment Processing,TRUE,FALSE,TRUE,Medium,2026-11-08
+VEN1709,Fortress Global,Logistics & Courier,TRUE,TRUE,FALSE,High,2028-01-28
+VEN9641,Nimbus Technologies,Payment Processing,FALSE,TRUE,TRUE,Low,2026-07-15
+VEN9018,Quantum Infrastructure,Facilities Management,FALSE,TRUE,FALSE,Medium,2027-10-30
+VEN8513,Keystone Cloud Solutions,Background Verification,TRUE,FALSE,FALSE,Medium,2026-06-25
+VEN8926,Zenith Systems,Legal Services,TRUE,TRUE,FALSE,Medium,2027-06-23
+VEN8080,Novastack Software,Document Management,TRUE,TRUE,TRUE,Low,2028-03-05
+VEN8207,Pinnacle Group,Cybersecurity Services,TRUE,FALSE,FALSE,High,2028-08-15
+VEN5530,Redshift Systems,HR & Payroll Services,TRUE,TRUE,TRUE,Medium,2027-03-08
+VEN3523,Frontier Cloud Solutions,Logistics & Courier,TRUE,FALSE,TRUE,Low,2027-02-09
+VEN3110,Clarity Software,IT Managed Services,TRUE,TRUE,FALSE,Low,2027-03-08
+VEN1227,Stratus Global,Facilities Management,FALSE,FALSE,TRUE,High,2027-12-10
+VEN6619,Quantum Digital,Logistics & Courier,FALSE,TRUE,TRUE,Medium,2027-04-04
+VEN7868,Frontier Security,Legal Services,TRUE,FALSE,FALSE,High,2027-05-04
+VEN3039,Redshift Networks,Recruitment Services,TRUE,TRUE,TRUE,Low,2028-06-03
+VEN7056,Keystone Digital,Legal Services,TRUE,FALSE,FALSE,High,2028-06-13
+VEN4420,Silverline Global,Legal Services,TRUE,FALSE,FALSE,Medium,2026-11-19
+VEN7179,Silverline Software,Background Verification,FALSE,FALSE,TRUE,High,2027-06-09
+VEN8128,Vertex Technologies,Recruitment Services,TRUE,FALSE,TRUE,High,2027-06-06
+VEN8347,Meridian Data Services,Software Development Outsourcing,FALSE,FALSE,TRUE,Medium,2028-03-26
+VEN3021,Nimbus Consulting,Legal Services,TRUE,TRUE,FALSE,Medium,2027-02-12
+VEN1570,Meridian Cloud Solutions,Facilities Management,FALSE,TRUE,FALSE,Medium,2026-09-19
+VEN2237,Coreline Partners,Recruitment Services,TRUE,TRUE,FALSE,Medium,2027-09-04
+VEN5080,Cascade Group,Recruitment Services,FALSE,TRUE,FALSE,Critical,2026-09-25
+VEN8267,Frontier Software,Cloud Hosting,FALSE,TRUE,FALSE,Medium,2028-04-04
+VEN6678,Anchor Infrastructure,Marketing Automation,TRUE,TRUE,TRUE,Low,2027-09-21
+VEN3084,Quantum Software,HR & Payroll Services,TRUE,TRUE,TRUE,Low,2027-08-05
+VEN6051,Redshift Technologies,Logistics & Courier,TRUE,FALSE,FALSE,High,2028-06-04
+VEN9230,Orbital Data Services,Facilities Management,TRUE,FALSE,FALSE,Critical,2026-06-22
+VEN6496,Meridian Software,Background Verification,TRUE,TRUE,FALSE,High,2026-10-26
+VEN9031,Harbor Analytics,Customer Support Tooling,TRUE,FALSE,FALSE,Medium,2027-10-02
+VEN8542,Keystone Consulting,IT Managed Services,TRUE,FALSE,FALSE,High,2027-12-30
+VEN2610,Stratus Systems,Background Verification,TRUE,TRUE,FALSE,High,2028-03-03
+VEN5899,Clarity Data Services,HR & Payroll Services,TRUE,TRUE,FALSE,Medium,2027-12-17
+VEN6669,Coreline Data Services,HR & Payroll Services,TRUE,TRUE,TRUE,Medium,2027-04-29
+VEN2530,Orbital Digital,Data Analytics,FALSE,TRUE,TRUE,Medium,2027-11-12
+VEN1664,Summit Group,Marketing Automation,TRUE,TRUE,FALSE,Low,2027-09-11
+VEN5599,Stratus Group,Document Management,FALSE,TRUE,TRUE,Medium,2028-11-27
+VEN1586,Pinnacle Digital,Customer Support Tooling,FALSE,TRUE,TRUE,Low,2028-10-26
+VEN9321,Vertex Security,IT Managed Services,TRUE,FALSE,FALSE,High,2027-11-21
+VEN1831,Quantum Systems,Legal Services,TRUE,TRUE,FALSE,Low,2027-08-18
+VEN4023,Sentinel Software,Data Analytics,TRUE,TRUE,TRUE,Low,2026-09-14
+VEN4606,Summit Systems,Software Development Outsourcing,FALSE,TRUE,TRUE,Medium,2027-10-19
+VEN2496,Anchor Partners,Software Development Outsourcing,TRUE,TRUE,TRUE,Medium,2027-05-05
+VEN4332,Beacon Global,HR & Payroll Services,TRUE,FALSE,TRUE,Medium,2028-02-04
+VEN2997,Ironclad Security,IT Managed Services,TRUE,TRUE,FALSE,Medium,2027-08-12
+VEN8972,Nimbus Networks,Recruitment Services,TRUE,FALSE,FALSE,High,2027-02-04
+VEN2876,Anchor Technologies,Facilities Management,FALSE,FALSE,TRUE,High,2028-01-14
+VEN8285,Trident Infrastructure,Marketing Automation,TRUE,TRUE,FALSE,Medium,2028-03-17
+VEN5305,Bluewave Security,Email & Collaboration,FALSE,FALSE,FALSE,High,2027-08-25
+VEN9777,Orbital Group,Marketing Automation,FALSE,TRUE,TRUE,Medium,2028-03-16
+VEN2357,Vertex Global,Cybersecurity Services,FALSE,TRUE,FALSE,High,2028-06-23
+VEN5642,Clarity Networks,Cloud Hosting,TRUE,FALSE,FALSE,High,2027-09-28
+VEN7468,Stratus Labs,IT Managed Services,TRUE,TRUE,TRUE,Low,2028-09-01
+VEN2139,Coreline Group,Recruitment Services,TRUE,TRUE,TRUE,Low,2027-11-18
+VEN4157,Novastack Cloud Solutions,Software Development Outsourcing,TRUE,TRUE,TRUE,Medium,2028-05-17
+VEN5731,Northgate Global,IT Managed Services,FALSE,TRUE,FALSE,High,2028-03-20
+VEN4976,Frontier Networks,Marketing Automation,FALSE,TRUE,TRUE,Medium,2027-12-09
+VEN6328,Trident Partners,Facilities Management,FALSE,FALSE,FALSE,Critical,2027-11-11
+VEN6304,Vantage Infrastructure,Facilities Management,TRUE,FALSE,FALSE,High,2027-03-18
+VEN5790,Ironclad Analytics,Cloud Hosting,TRUE,FALSE,TRUE,Medium,2028-03-22
+VEN6782,Everline Group,Email & Collaboration,TRUE,TRUE,FALSE,Low,2027-08-30
+VEN1514,Fortress Systems,Email & Collaboration,FALSE,FALSE,FALSE,High,2027-04-08
+VEN1000,Northgate Labs,Background Verification,TRUE,TRUE,TRUE,Medium,2027-02-05
+VEN7675,Trident Systems,Data Analytics,TRUE,TRUE,TRUE,Low,2027-06-02
+VEN2331,Harbor Consulting,Email & Collaboration,TRUE,FALSE,TRUE,Medium,2026-07-28
+VEN6494,Coreline Systems,Marketing Automation,FALSE,FALSE,FALSE,High,2028-12-04
+VEN6307,Sentinel Global,Payment Processing,TRUE,FALSE,FALSE,High,2026-07-12
+VEN3920,Quantum Consulting,IT Managed Services,FALSE,TRUE,FALSE,High,2028-01-27
+VEN3187,Coreline Analytics,Software Development Outsourcing,TRUE,TRUE,TRUE,Medium,2027-04-05
+VEN4816,Coreline Infrastructure,Marketing Automation,TRUE,FALSE,TRUE,Low,2027-07-27
+VEN5084,Sentinel Analytics,Facilities Management,FALSE,FALSE,FALSE,Critical,2026-10-19
+VEN9188,Clarity Partners,Legal Services,TRUE,TRUE,FALSE,Low,2028-03-19
+VEN6100,Vertex Infrastructure,Software Development Outsourcing,TRUE,FALSE,TRUE,Medium,2028-05-19
+VEN5895,Sentinel Partners,Recruitment Services,TRUE,TRUE,FALSE,Medium,2027-11-18
+VEN6355,Frontier Digital,Marketing Automation,FALSE,FALSE,FALSE,Critical,2026-10-26
+VEN2786,Everline Networks,Data Analytics,TRUE,FALSE,FALSE,High,2028-08-11
+VEN1110,Sentinel Group,Logistics & Courier,FALSE,FALSE,FALSE,Critical,2028-04-10
+VEN2328,Everline Security,Recruitment Services,TRUE,TRUE,TRUE,Low,2027-07-30
+VEN4889,Redshift Cloud Solutions,Legal Services,FALSE,FALSE,TRUE,Medium,2026-12-16
+VEN8483,Quantum Data Services,IT Managed Services,TRUE,FALSE,FALSE,High,2028-03-31
+VEN7459,Novastack Networks,HR & Payroll Services,FALSE,TRUE,FALSE,Medium,2026-11-03
+VEN5181,Lumen Systems,Background Verification,TRUE,TRUE,TRUE,Medium,2028-12-19
+VEN4493,Vertex Cloud Solutions,Logistics & Courier,TRUE,TRUE,FALSE,Low,2028-12-28
+VEN4866,Frontier Group,Cloud Hosting,FALSE,TRUE,TRUE,High,2028-12-07
+VEN3511,Trident Digital,Recruitment Services,FALSE,TRUE,TRUE,Medium,2028-03-30

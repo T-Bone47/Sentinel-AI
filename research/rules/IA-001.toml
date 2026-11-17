@@ -1,0 +1,68 @@
+# Detection rule contract. Human-readable; the executable rule is in
+# sentinel-ai-backend/app/detections/rules.py. tests/test_gate3_detections.py
+# fails if id, version, title, severity, confidence, parameters or ATT&CK
+# techniques here differ from the code. Pre-registered 2026-11-17 (docs/PROGRESS.md).
+
+id = "IA-001"
+version = 1
+title = "Privileged access granted without approval"
+status = "experimental"
+owner = "repository owner"
+fixture_family = "privilege_grant_without_approval"
+severity = "high"
+severity_reason = "Administrative access granted outside the change process gives an account powers nobody approved."
+confidence = "medium"
+confidence_reason = "Only as good as the source's approval references: a source that never attaches them makes every privileged grant look unapproved."
+description = "A privileged role is granted and the source records no approval reference for it."
+limitations = [
+  "Depends on the source marking privileged grants (attributes.privileged). A grant without that attribute is not evaluable (boundary case B-13).",
+  "Treats any approval reference as valid; it cannot check that the referenced change exists or covers this grant.",
+  "Emergency (break-glass) grants approved after the fact look identical to unapproved ones.",
+]
+
+[logic]
+fires_when = "A successful privilege.grant event with attributes.privileged = true and no attributes.approval_ref."
+does_not_fire_when = [
+  "the grant carries an approval reference",
+  "attributes.privileged is false",
+  "the grant failed",
+]
+not_evaluable_when = "A successful privilege.grant event has no attributes.privileged."
+alert = "One alert per grant. Trigger: the grant. No context events."
+required_fields = ["action", "outcome", "actor.id", "target.id", "attributes.privileged", "attributes.approval_ref", "attributes.role"]
+
+[parameters]
+
+[attack]
+status = "mapped"
+techniques = ["T1098"]
+rationale = "ATT&CK describes account manipulation that grants access to additional roles or permissions as a route to privilege escalation. An unapproved privileged grant is consistent with it; it may equally be a process failure by a legitimate administrator."
+reference = "https://attack.mitre.org/techniques/T1098/"
+checked = "2026-11-17 against ATT&CK content v20.1 (technique version 2.8)"
+
+[[test_vectors]]
+fixture = "identity-access-v1"
+scenario = "S01-P1"
+expected_alerts = 1
+
+[[test_vectors]]
+fixture = "identity-access-v1"
+scenario = "S01-P2"
+expected_alerts = 1
+
+[[test_vectors]]
+fixture = "identity-access-v1"
+scenario = "S01-B1"
+expected_alerts = 0
+
+[[test_vectors]]
+fixture = "identity-access-v1"
+scenario = "S01-B2"
+expected_alerts = 0
+
+[[test_vectors]]
+fixture = "identity-access-boundary-v1"
+scenario = "B-13"
+expected_alerts = 0
+known_miss = true
+note = "The source omits attributes.privileged, so the grant is not evaluable."

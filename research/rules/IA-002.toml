@@ -1,0 +1,67 @@
+# Detection rule contract. Human-readable; the executable rule is in
+# sentinel-ai-backend/app/detections/rules.py. tests/test_gate3_detections.py
+# fails if id, version, title, severity, confidence, parameters or ATT&CK
+# techniques here differ from the code. Pre-registered 2026-11-17 (docs/PROGRESS.md).
+
+id = "IA-002"
+version = 1
+title = "Privileged sign-in without MFA"
+status = "experimental"
+owner = "repository owner"
+fixture_family = "privileged_login_without_mfa"
+severity = "medium"
+severity_reason = "A control failure that makes a privileged account easier to take over; by itself it is not evidence that anyone has."
+confidence = "high"
+confidence_reason = "Both facts come from the identity provider's own sign-in record, when it reports them."
+description = "A privileged session is opened without a second factor."
+limitations = [
+  "Fires only when the source states both attributes.privileged and attributes.mfa_used. A privileged sign-in that omits mfa_used is not evaluable (boundary case B-14).",
+  "Cannot tell an approved exception, such as a documented break-glass account, from a misconfiguration.",
+]
+
+[logic]
+fires_when = "A successful auth.login event with attributes.privileged = true and attributes.mfa_used = false."
+does_not_fire_when = [
+  "attributes.mfa_used is true",
+  "attributes.privileged is false",
+  "the sign-in failed",
+]
+not_evaluable_when = "A successful auth.login event lacks attributes.privileged, or is privileged and lacks attributes.mfa_used."
+alert = "One alert per sign-in. Trigger: the sign-in. No context events."
+required_fields = ["action", "outcome", "actor.id", "attributes.privileged", "attributes.mfa_used"]
+
+[parameters]
+
+[attack]
+status = "unmapped"
+techniques = []
+rationale = "A missing second factor is a control weakness, not an adversary technique."
+reference = ""
+checked = "2026-11-17"
+
+[[test_vectors]]
+fixture = "identity-access-v1"
+scenario = "S02-P1"
+expected_alerts = 1
+
+[[test_vectors]]
+fixture = "identity-access-v1"
+scenario = "S02-B1"
+expected_alerts = 0
+
+[[test_vectors]]
+fixture = "identity-access-v1"
+scenario = "S02-B2"
+expected_alerts = 0
+
+[[test_vectors]]
+fixture = "identity-access-v1"
+scenario = "S02-B3"
+expected_alerts = 0
+
+[[test_vectors]]
+fixture = "identity-access-boundary-v1"
+scenario = "B-14"
+expected_alerts = 0
+known_miss = true
+note = "The source omits attributes.mfa_used, so the privileged sign-in is not evaluable."

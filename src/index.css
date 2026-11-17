@@ -1,0 +1,377 @@
+/* --- MANAGED FONT IMPORTS START (do not edit manually) --- */
+/* INTERNAL USE NAME: Heading */
+@import url('https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* INTERNAL USE NAME: Mono */
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "tailwindcss";
+@config "../tailwind.config.js";
+/* --- MANAGED FONT IMPORTS END --- */
+
+/* @import url() FONT IMPORTS MUST ALWAYS BE AT THE VERY TOP OF THIS FILE, ABOVE THE TAILWIND IMPORTS — DO NOT DELETE THIS COMMENT */
+
+/* CRITICAL: THE FOLLOWING TAILWIND I
+
+/* END TAILWIND IMPORTS — ALL OTHER CSS MUST GO BELOW THIS LINE */
+
+/* ==========================================================================
+   SENTINEL AI — CYBER COMMAND CENTER TOKENS
+   Values are bare OKLCH channels so Tailwind alpha modifiers work
+   (bg-primary/12). Always consume as oklch(var(--token)).
+   Dark is the product theme; light is a supported fallback.
+   ========================================================================== */
+
+:root.dark,
+:root {
+  /* Canvas — near-black → deep navy */
+  --background: 0.148 0.012 262;
+  --surface-1: 0.183 0.014 262;
+  --surface-2: 0.213 0.015 262;
+  --surface-3: 0.246 0.016 262;
+  --card: 0.183 0.014 262;
+  --card-foreground: 0.968 0.003 250;
+  --popover: 0.205 0.015 262;
+  --popover-foreground: 0.968 0.003 250;
+  --foreground: 0.968 0.003 250;
+  /* Electric blue — the action + trust color */
+  --primary: 0.655 0.196 252;
+  --primary-hover: 0.715 0.175 252;
+  --primary-foreground: 0.14 0.012 262;
+  --primary-soft: 0.30 0.085 252;
+  /* Cyan — telemetry, live signal, secondary data */
+  --cyan: 0.795 0.135 199;
+  --cyan-soft: 0.32 0.065 199;
+  --secondary: 0.246 0.016 262;
+  --secondary-foreground: 0.955 0.003 250;
+  --muted: 0.232 0.015 262;
+  --muted-foreground: 0.715 0.014 255;
+  --accent: 0.258 0.018 262;
+  --accent-foreground: 0.975 0.003 250;
+  --destructive: 0.645 0.212 24;
+  --destructive-foreground: 0.15 0.012 262;
+  --success: 0.735 0.165 158;
+  --warning: 0.805 0.148 72;
+  --info: 0.735 0.125 232;
+  /* Severity scale */
+  --risk-critical: 0.645 0.212 24;
+  --risk-high: 0.745 0.170 48;
+  --risk-medium: 0.815 0.145 84;
+  --risk-low: 0.735 0.115 228;
+  --risk-none: 0.735 0.165 158;
+  /* AI identity — violet, reserved for Sentinel intelligence */
+  --ai: 0.685 0.205 298;
+  --ai-hover: 0.735 0.185 298;
+  --ai-foreground: 0.15 0.012 262;
+  --ai-surface: 0.255 0.055 298;
+  --ai-border: 0.415 0.115 298;
+  --ai-glow: oklch(0.685 0.205 298 / 0.32);
+  --border: 0.272 0.016 262;
+  --border-strong: 0.345 0.019 262;
+  --input: 0.288 0.016 262;
+  --ring: 0.655 0.196 252;
+  /* Data visualization */
+  --chart-1: 0.665 0.185 252;
+  --chart-2: 0.795 0.135 199;
+  --chart-3: 0.685 0.205 298;
+  --chart-4: 0.815 0.145 84;
+  --chart-5: 0.685 0.190 20;
+  --chart-grid: 0.262 0.015 262;
+  --radius: 0.625rem;
+  --sidebar: 0.163 0.013 262;
+  --sidebar-foreground: 0.80 0.010 255;
+  --sidebar-primary: 0.655 0.196 252;
+  --sidebar-primary-foreground: 0.14 0.012 262;
+  --sidebar-accent: 0.232 0.015 262;
+  --sidebar-accent-foreground: 0.98 0.003 250;
+  --sidebar-border: 0.252 0.016 262;
+  --sidebar-ring: 0.655 0.196 252;
+  --shadow-color: 262 70% 2%;
+}
+:root.light {
+  --background: 0.982 0.003 255;
+  --surface-1: 1 0 0;
+  --surface-2: 0.968 0.004 255;
+  --surface-3: 0.948 0.005 255;
+  --card: 1 0 0;
+  --card-foreground: 0.180 0.014 262;
+  --popover: 1 0 0;
+  --popover-foreground: 0.180 0.014 262;
+  --foreground: 0.180 0.014 262;
+  --primary: 0.505 0.205 255;
+  --primary-hover: 0.455 0.205 255;
+  --primary-foreground: 0.99 0 0;
+  --primary-soft: 0.93 0.04 255;
+  --cyan: 0.585 0.125 205;
+  --cyan-soft: 0.93 0.04 205;
+  --secondary: 0.960 0.005 255;
+  --secondary-foreground: 0.275 0.015 262;
+  --muted: 0.962 0.004 255;
+  --muted-foreground: 0.505 0.014 258;
+  --accent: 0.948 0.007 255;
+  --accent-foreground: 0.230 0.015 262;
+  --destructive: 0.545 0.215 25;
+  --destructive-foreground: 0.99 0 0;
+  --success: 0.545 0.145 158;
+  --warning: 0.615 0.150 65;
+  --info: 0.555 0.130 232;
+  --risk-critical: 0.520 0.222 22;
+  --risk-high: 0.575 0.185 45;
+  --risk-medium: 0.615 0.150 78;
+  --risk-low: 0.545 0.125 228;
+  --risk-none: 0.545 0.145 158;
+  --ai: 0.535 0.235 300;
+  --ai-hover: 0.485 0.235 300;
+  --ai-foreground: 0.99 0 0;
+  --ai-surface: 0.962 0.026 300;
+  --ai-border: 0.845 0.075 300;
+  --ai-glow: oklch(0.535 0.235 300 / 0.20);
+  --border: 0.900 0.005 255;
+  --border-strong: 0.848 0.007 255;
+  --input: 0.900 0.005 255;
+  --ring: 0.505 0.205 255;
+  --chart-1: 0.525 0.195 255;
+  --chart-2: 0.585 0.135 199;
+  --chart-3: 0.535 0.225 300;
+  --chart-4: 0.650 0.150 78;
+  --chart-5: 0.585 0.200 20;
+  --chart-grid: 0.898 0.005 255;
+  --sidebar: 0.975 0.003 255;
+  --sidebar-foreground: 0.295 0.013 258;
+  --sidebar-primary: 0.505 0.205 255;
+  --sidebar-primary-foreground: 0.99 0 0;
+  --sidebar-accent: 0.942 0.006 255;
+  --sidebar-accent-foreground: 0.195 0.015 262;
+  --sidebar-border: 0.902 0.005 255;
+  --sidebar-ring: 0.505 0.205 255;
+  --shadow-color: 258 30% 22%;
+}
+
+@theme inline {
+  --color-background: oklch(var(--background));
+  --color-foreground: oklch(var(--foreground));
+
+  --color-border: oklch(var(--border));
+  --color-input: oklch(var(--input));
+  --color-ring: oklch(var(--ring));
+
+  --color-primary: oklch(var(--primary));
+  --color-primary-foreground: oklch(var(--primary-foreground));
+
+  --color-secondary: oklch(var(--secondary));
+  --color-secondary-foreground: oklch(var(--secondary-foreground));
+
+  --color-muted: oklch(var(--muted));
+  --color-muted-foreground: oklch(var(--muted-foreground));
+
+  --color-accent: oklch(var(--accent));
+  --color-accent-foreground: oklch(var(--accent-foreground));
+
+  --color-destructive: oklch(var(--destructive));
+  --color-destructive-foreground: oklch(var(--destructive-foreground));
+
+  --color-card: oklch(var(--card));
+  --color-card-foreground: oklch(var(--card-foreground));
+
+  --color-popover: oklch(var(--popover));
+  --color-popover-foreground: oklch(var(--popover-foreground));
+
+  --font-heading: "Geist", sans-serif;
+  --font-mono: "Geist Mono", monospace;
+}
+@layer base {
+  * {
+    @apply border-gray-200;
+  }
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body {
+    @apply bg-white text-black;
+    font-feature-settings: 'cv11', 'ss01';
+    font-variant-numeric: tabular-nums;
+  }
+  :focus-visible {
+    @apply outline-none ring-2 ring-ring/70 ring-offset-2 ring-offset-background;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: oklch(var(--border-strong));
+    border-radius: 999px;
+    border: 3px solid transparent;
+    background-clip: content-box;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: oklch(var(--muted-foreground));
+    background-clip: content-box;
+  }
+}
+@layer utilities {
+  /* ---------- AI identity ---------- */
+  .ai-gradient {
+    background-image: linear-gradient(
+      120deg,
+      oklch(var(--ai)) 0%,
+      oklch(0.62 0.20 272) 55%,
+      oklch(var(--primary)) 100%
+    );
+  }
+  .ai-gradient-text {
+    background-image: linear-gradient(
+      100deg,
+      oklch(var(--ai)) 5%,
+      oklch(var(--primary)) 60%,
+      oklch(var(--cyan)) 100%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .ai-glow {
+    box-shadow:
+      0 0 0 1px oklch(var(--ai-border)),
+      0 8px 32px -8px var(--ai-glow);
+  }
+  /* ---------- Cyber surfaces ---------- */
+  .glass {
+    background-color: oklch(var(--background) / 0.82);
+    backdrop-filter: blur(16px) saturate(150%);
+  }
+  /* Technical coordinate grid — used behind hero + graph surfaces */
+  .cyber-grid {
+    background-image:
+      linear-gradient(to right, oklch(var(--border) / 0.55) 1px, transparent 1px),
+      linear-gradient(to bottom, oklch(var(--border) / 0.55) 1px, transparent 1px);
+    background-size: 44px 44px;
+  }
+  .cyber-grid-fine {
+    background-image:
+      linear-gradient(to right, oklch(var(--border) / 0.4) 1px, transparent 1px),
+      linear-gradient(to bottom, oklch(var(--border) / 0.4) 1px, transparent 1px);
+    background-size: 16px 16px;
+  }
+  .cyber-dots {
+    background-image: radial-gradient(
+      circle at 1px 1px,
+      oklch(var(--border-strong)) 1px,
+      transparent 0
+    );
+    background-size: 20px 20px;
+  }
+  /* Radial vignette so grids fade toward the edges */
+  .mask-fade {
+    -webkit-mask-image: radial-gradient(ellipse 75% 75% at 50% 40%, #000 30%, transparent 100%);
+    mask-image: radial-gradient(ellipse 75% 75% at 50% 40%, #000 30%, transparent 100%);
+  }
+  .scanlines::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background-image: repeating-linear-gradient(
+      to bottom,
+      oklch(var(--foreground) / 0.028) 0px,
+      oklch(var(--foreground) / 0.028) 1px,
+      transparent 1px,
+      transparent 3px
+    );
+  }
+  /* ---------- Restrained glow (trust, scans, criticals, AI) ---------- */
+  .glow-primary {
+    box-shadow: 0 0 24px -6px oklch(var(--primary) / 0.55);
+  }
+  .glow-cyan {
+    box-shadow: 0 0 22px -6px oklch(var(--cyan) / 0.5);
+  }
+  .glow-critical {
+    box-shadow: 0 0 18px -4px oklch(var(--risk-critical) / 0.6);
+  }
+  .glow-success {
+    box-shadow: 0 0 18px -4px oklch(var(--success) / 0.5);
+  }
+  .text-glow-primary {
+    text-shadow: 0 0 22px oklch(var(--primary) / 0.45);
+  }
+  .scrollbar-none {
+    scrollbar-width: none;
+  }
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* ---------- Keyframes & Animation Utilities ---------- */
+@keyframes shimmer {
+  100% { transform: translateX(100%); }
+}
+@keyframes pulse-ring {
+  0% { box-shadow: 0 0 0 0 var(--ai-glow); }
+  70% { box-shadow: 0 0 0 10px transparent; }
+  100% { box-shadow: 0 0 0 0 transparent; }
+}
+@keyframes signal-pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.35; transform: scale(0.82); }
+}
+@keyframes signal-ping {
+  0% { opacity: 0.6; transform: scale(1); }
+  100% { opacity: 0; transform: scale(2.6); }
+}
+@keyframes scan-rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+@keyframes sweep {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(300%); }
+}
+@keyframes dash-flow {
+  to { stroke-dashoffset: -24; }
+}
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-scan-slow {
+  animation: scan-rotate 22s linear infinite;
+}
+.animate-scan-rotate {
+  animation: scan-rotate 8s linear infinite;
+}
+.animate-signal-pulse {
+  animation: signal-pulse 2s ease-in-out infinite;
+}
+.animate-signal-ping {
+  animation: signal-ping 2.4s ease-out infinite;
+}
+.animate-sweep {
+  animation: sweep 2.6s ease-in-out infinite;
+}
+.animate-dash-flow {
+  animation: dash-flow 1s linear infinite;
+}
+.animate-pulse-ring {
+  animation: pulse-ring 2.4s ease-out infinite;
+}
+.animate-shimmer {
+  animation: shimmer 1.8s infinite;
+}
+.animate-fade-up {
+  animation: fade-up 0.24s ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}

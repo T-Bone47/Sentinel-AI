@@ -1,0 +1,1 @@
+{"source_event_id":"iab1-563db37c27f8","occurred_at":"2026-09-23T09:00:00Z","actor":{"type":"service","id":"lab-svc-hr-sync"},"target":{"type":"principal","id":"lab-user-114"},"action":"account.disable","outcome":"success","src_ip":"192.0.2.20","attributes":{"approval_ref":"HR-OFFBOARD-901"}}

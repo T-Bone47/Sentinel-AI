@@ -1,0 +1,97 @@
+# Detection rule contract. Human-readable; the executable rule is in
+# sentinel-ai-backend/app/detections/rules.py. tests/test_gate3_detections.py
+# fails if id, version, title, severity, confidence, parameters or ATT&CK
+# techniques here differ from the code. Pre-registered 2026-11-17 (docs/PROGRESS.md).
+
+id = "IA-003"
+version = 1
+title = "Repeated failed sign-ins, then success"
+status = "experimental"
+owner = "repository owner"
+fixture_family = "failed_privileged_logins_then_success"
+severity = "high"
+severity_reason = "A successful sign-in straight after a run of failures is the moment a guessed password would start being used."
+confidence = "medium"
+confidence_reason = "Password managers holding a stale password, scripts and shared addresses also produce a burst of failures followed by a success."
+description = "An account signs in after at least five failed sign-ins in the thirty minutes before, with no approved credential reset in between."
+limitations = [
+  "Counts failures per account, not per address: guessing spread across many accounts (password spraying) is not detected.",
+  "Guessing slower than five attempts in thirty minutes is not detected (fixture scenario S03-B3 has that shape).",
+  "Treats any approved credential change for the account as an explanation, whoever made it.",
+  "Sign-in events without an actor cannot be attributed and are counted as not evaluable.",
+  "The 30-minute window was chosen by reading fixture identity-access-v1, so that its approved-reset case is decided by the exclusion rather than by the window. It is frozen from here on.",
+]
+
+[logic]
+fires_when = "The first successful auth.login by an account after at least min_failures failed auth.login events by that account in the window_minutes before it (window [t - window, t), from any address)."
+does_not_fire_when = [
+  "fewer than min_failures failures fall in the window",
+  "a successful credential.change with an approval reference, targeting the account, falls strictly between the last failure and the success",
+  "an earlier success by the account already followed the last failure (only the first success after a burst alerts)",
+  "the failures belong to a different account",
+]
+not_evaluable_when = "An auth.login event has no actor."
+alert = "One alert per qualifying success. Trigger: the success. Context: the failures in the window, oldest first."
+required_fields = ["action", "outcome", "actor.id", "target.id", "attributes.approval_ref"]
+
+[parameters]
+min_failures = 5
+window_minutes = 30
+
+[attack]
+status = "mapped"
+techniques = ["T1110.001"]
+rationale = "ATT&CK's password-guessing sub-technique describes systematic, repeated attempts that cause many authentication failures. A success at the end of such a run is consistent with it."
+reference = "https://attack.mitre.org/techniques/T1110/001/"
+checked = "2026-11-17 against ATT&CK content v20.1 (sub-technique version 1.7)"
+
+[[test_vectors]]
+fixture = "identity-access-v1"
+scenario = "S03-P1"
+expected_alerts = 1
+
+[[test_vectors]]
+fixture = "identity-access-v1"
+scenario = "S03-B1"
+expected_alerts = 0
+
+[[test_vectors]]
+fixture = "identity-access-v1"
+scenario = "S03-B2"
+expected_alerts = 0
+
+[[test_vectors]]
+fixture = "identity-access-v1"
+scenario = "S03-B3"
+expected_alerts = 0
+
+[[test_vectors]]
+fixture = "identity-access-boundary-v1"
+scenario = "B-01"
+expected_alerts = 0
+
+[[test_vectors]]
+fixture = "identity-access-boundary-v1"
+scenario = "B-02"
+expected_alerts = 1
+
+[[test_vectors]]
+fixture = "identity-access-boundary-v1"
+scenario = "B-03"
+expected_alerts = 0
+
+[[test_vectors]]
+fixture = "identity-access-boundary-v1"
+scenario = "B-04"
+expected_alerts = 1
+
+[[test_vectors]]
+fixture = "identity-access-boundary-v1"
+scenario = "B-05"
+expected_alerts = 0
+
+[[test_vectors]]
+fixture = "identity-access-boundary-v1"
+scenario = "B-15"
+expected_alerts = 1
+note = "Two successes after the burst; only the first alerts."

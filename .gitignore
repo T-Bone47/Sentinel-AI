@@ -1,0 +1,59 @@
+﻿# Secrets and environment files
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Dependencies and generated builds
+node_modules/
+**/node_modules/
+dist/
+build/
+coverage/
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Logs
+*.log
+*.err
+logs/
+
+# Local databases and tokens
+*.db
+*.sqlite
+*.sqlite3
+token.txt
+
+# Temporary Vite files
+*.timestamp-*.mjs
+
+# Editors and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Backend environment and local runtime files
+sentinel-ai-backend/.env
+sentinel-ai-backend/.env.*
+!sentinel-ai-backend/.env.example
+!sentinel-ai-backend/.env.sample
+sentinel-ai-backend/*.db
+sentinel-ai-backend/*.sqlite
+sentinel-ai-backend/*.sqlite3
+sentinel-ai-backend/token.txt
+
+# Root runtime logs
+/frontend.log
+/frontend.err
+
+# Python packaging and test caches
+*.egg-info/
+.pytest_cache/
+
+# Shipped third-party samples include a .log file: keep it (see research/external/)
+!research/external/**/*.log

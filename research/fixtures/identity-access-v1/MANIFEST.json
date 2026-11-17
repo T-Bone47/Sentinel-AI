@@ -1,0 +1,218 @@
+{
+  "fixture": "identity-access-v1",
+  "synthetic": true,
+  "description": "Constructed identity-and-access test vectors. Not a sample of real activity.",
+  "generator": {
+    "script": "research/scripts/build_identity_access_fixture.py",
+    "version": 1,
+    "seed": 20261117
+  },
+  "adapter": "sentinel.native",
+  "event_time_range": {
+    "first": "2026-09-01T00:05:00+00:00",
+    "last": "2026-09-13T13:16:51+00:00"
+  },
+  "files": {
+    "events.jsonl": {
+      "sha256": "9c9e1b7f8f0053b58c8987d45f4118a92e8db46f209900f0fb6893aaa4112e5f",
+      "bytes": 64240,
+      "lines": 197
+    },
+    "labels.jsonl": {
+      "sha256": "25a1d2cb5ab4ebb36066eff57a9215e67f8fdc8873c8c3ba3a13190ad59dd24b",
+      "bytes": 18660,
+      "lines": 194
+    },
+    "replay-conflict.jsonl": {
+      "sha256": "c24e1a71983a13e4940cbc46bec8c2f3a52a831962b14ff2c2130e4b965b0fbe",
+      "bytes": 337,
+      "lines": 1
+    },
+    "malformed.jsonl": {
+      "sha256": "383daa0b76cd1e589eb2fac91688de9e8d82311a5e90545d8c3da12e6e9ca37e",
+      "bytes": 69082,
+      "lines": 16
+    }
+  },
+  "expected": {
+    "events.jsonl": {
+      "received": 197,
+      "inserted": 194,
+      "duplicates": 3,
+      "conflicts": 0,
+      "rejected": 0,
+      "reject_reasons": {}
+    },
+    "events.jsonl (replayed)": {
+      "received": 197,
+      "inserted": 0,
+      "duplicates": 197,
+      "conflicts": 0,
+      "rejected": 0,
+      "reject_reasons": {}
+    },
+    "replay-conflict.jsonl": {
+      "received": 1,
+      "inserted": 0,
+      "duplicates": 0,
+      "conflicts": 1,
+      "rejected": 0,
+      "reject_reasons": {
+        "conflicting_duplicate": 1
+      }
+    },
+    "malformed.jsonl": {
+      "received": 15,
+      "inserted": 2,
+      "duplicates": 0,
+      "conflicts": 0,
+      "rejected": 13,
+      "reject_reasons": {
+        "invalid_json": 1,
+        "invalid_record": 8,
+        "not_an_object": 2,
+        "record_too_large": 1,
+        "timestamp_in_future": 1
+      }
+    }
+  },
+  "label_counts": {
+    "benign": 179,
+    "suspicious": 15
+  },
+  "scenarios": [
+    {
+      "id": "S01-P1",
+      "family": "privilege_grant_without_approval",
+      "label": "suspicious",
+      "events": 1,
+      "summary": "An administrator grants a privileged role with no approval reference."
+    },
+    {
+      "id": "S01-P2",
+      "family": "privilege_grant_without_approval",
+      "label": "suspicious",
+      "events": 1,
+      "summary": "A non-administrator grants a privileged role to their own account."
+    },
+    {
+      "id": "S01-B1",
+      "family": "privilege_grant_without_approval",
+      "label": "benign",
+      "events": 1,
+      "summary": "The same privileged grant as S01-P1, with an approval reference."
+    },
+    {
+      "id": "S01-B2",
+      "family": "privilege_grant_without_approval",
+      "label": "benign",
+      "events": 1,
+      "summary": "Onboarding automation grants a non-privileged role with no approval reference."
+    },
+    {
+      "id": "S02-P1",
+      "family": "privileged_login_without_mfa",
+      "label": "suspicious",
+      "events": 1,
+      "summary": "A privileged account signs in successfully without a second factor."
+    },
+    {
+      "id": "S02-B1",
+      "family": "privileged_login_without_mfa",
+      "label": "benign",
+      "events": 1,
+      "summary": "A privileged account signs in with a second factor."
+    },
+    {
+      "id": "S02-B2",
+      "family": "privileged_login_without_mfa",
+      "label": "benign",
+      "events": 1,
+      "summary": "A non-privileged account signs in without a second factor."
+    },
+    {
+      "id": "S02-B3",
+      "family": "privileged_login_without_mfa",
+      "label": "benign",
+      "events": 1,
+      "summary": "A privileged sign-in without a second factor that failed: no access was gained."
+    },
+    {
+      "id": "S03-P1",
+      "family": "failed_privileged_logins_then_success",
+      "label": "suspicious",
+      "events": 7,
+      "summary": "Six failed sign-ins to a privileged account within three minutes, then a success from the same address."
+    },
+    {
+      "id": "S03-B1",
+      "family": "failed_privileged_logins_then_success",
+      "label": "benign",
+      "events": 3,
+      "summary": "Two failed sign-ins then a success: ordinary mistyping."
+    },
+    {
+      "id": "S03-B2",
+      "family": "failed_privileged_logins_then_success",
+      "label": "benign",
+      "events": 8,
+      "summary": "Six failed sign-ins, then an approved credential reset by the helpdesk, then a success."
+    },
+    {
+      "id": "S03-B3",
+      "family": "failed_privileged_logins_then_success",
+      "label": "benign",
+      "events": 7,
+      "summary": "Six failed sign-ins spread over nine hours, then a success."
+    },
+    {
+      "id": "S04-P1",
+      "family": "activity_by_disabled_account",
+      "label": "suspicious",
+      "events": 3,
+      "summary": "An account is disabled, and two days later signs in and reads confidential data."
+    },
+    {
+      "id": "S04-B1",
+      "family": "activity_by_disabled_account",
+      "label": "benign",
+      "events": 3,
+      "summary": "An account is disabled, re-enabled with approval, and then signs in."
+    },
+    {
+      "id": "S04-B2",
+      "family": "activity_by_disabled_account",
+      "label": "benign",
+      "events": 2,
+      "summary": "A disabled account attempts to sign in and is refused: the control worked."
+    },
+    {
+      "id": "S05-P1",
+      "family": "permission_change_then_sensitive_access",
+      "label": "suspicious",
+      "events": 2,
+      "summary": "An unapproved permission grant, and ten minutes later the grantee exports restricted data."
+    },
+    {
+      "id": "S05-B1",
+      "family": "permission_change_then_sensitive_access",
+      "label": "benign",
+      "events": 2,
+      "summary": "The same grant and export as S05-P1, but the grant was approved."
+    },
+    {
+      "id": "S05-B2",
+      "family": "permission_change_then_sensitive_access",
+      "label": "benign",
+      "events": 2,
+      "summary": "An unapproved grant followed by access to non-sensitive data."
+    },
+    {
+      "id": "N00",
+      "family": "background",
+      "label": "benign",
+      "events": 147,
+      "summary": "Routine sign-ins, reads, backups and health checks."
+    }
+  ]
+}

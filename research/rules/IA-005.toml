@@ -1,0 +1,75 @@
+# Detection rule contract. Human-readable; the executable rule is in
+# sentinel-ai-backend/app/detections/rules.py. tests/test_gate3_detections.py
+# fails if id, version, title, severity, confidence, parameters or ATT&CK
+# techniques here differ from the code. Pre-registered 2026-11-17 (docs/PROGRESS.md).
+
+id = "IA-005"
+version = 1
+title = "Unapproved permission change, then sensitive access"
+status = "experimental"
+owner = "repository owner"
+fixture_family = "permission_change_then_sensitive_access"
+severity = "high"
+severity_reason = "Permissions granted outside the change process and used at once on sensitive data is how a grant becomes a data loss."
+confidence = "medium"
+confidence_reason = "Depends on the source classifying resources (attributes.sensitivity) and attaching approval references."
+description = "A principal is granted permissions with no approval reference and, within an hour, reads or exports confidential or restricted data."
+limitations = [
+  "Sees only access the source records as the grantee's own action; access through a group the grantee joined is missed unless recorded that way.",
+  "A fixed one-hour window: use of the grant the next day is not detected.",
+  "Unclassified data cannot be judged; an access without attributes.sensitivity is not evaluable.",
+]
+
+[logic]
+fires_when = "A successful resource.read or resource.export by principal P on a target whose attributes.sensitivity is in sensitive_levels, at time t, where a successful privilege.grant to P with no approval reference happened at g, with g < t <= g + window_minutes."
+does_not_fire_when = [
+  "the grant carries an approval reference",
+  "the data accessed is public or internal",
+  "the access falls outside the window",
+  "the access is by someone other than the grantee",
+]
+not_evaluable_when = "An access by a recent unapproved grantee, inside the window, has no attributes.sensitivity."
+alert = "One alert per qualifying access. Trigger: the access. Context: every unapproved grant to P inside the window, oldest first."
+required_fields = ["action", "outcome", "actor.id", "target.id", "attributes.approval_ref", "attributes.sensitivity", "attributes.role"]
+
+[parameters]
+window_minutes = 60
+sensitive_levels = ["confidential", "restricted"]
+
+[attack]
+status = "mapped"
+techniques = ["T1098"]
+rationale = "The grant is consistent with account manipulation that adds permissions, as for IA-001. The access itself is not mapped: reading data has no single technique."
+reference = "https://attack.mitre.org/techniques/T1098/"
+checked = "2026-11-17 against ATT&CK content v20.1 (technique version 2.8)"
+
+[[test_vectors]]
+fixture = "identity-access-v1"
+scenario = "S05-P1"
+expected_alerts = 1
+
+[[test_vectors]]
+fixture = "identity-access-v1"
+scenario = "S05-B1"
+expected_alerts = 0
+
+[[test_vectors]]
+fixture = "identity-access-v1"
+scenario = "S05-B2"
+expected_alerts = 0
+
+[[test_vectors]]
+fixture = "identity-access-boundary-v1"
+scenario = "B-06"
+expected_alerts = 1
+note = "Access exactly 60 minutes after the grant: inside the window."
+
+[[test_vectors]]
+fixture = "identity-access-boundary-v1"
+scenario = "B-07"
+expected_alerts = 0
+
+[[test_vectors]]
+fixture = "identity-access-boundary-v1"
+scenario = "B-08"
+expected_alerts = 0

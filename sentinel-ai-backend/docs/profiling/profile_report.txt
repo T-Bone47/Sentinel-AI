@@ -1,0 +1,403 @@
+====================================================================================================
+DATASET: dataset10_evidence_repository.csv
+====================================================================================================
+Rows: 500   Columns: 7   Duplicate full rows: 0
+PK candidates: ['EvidenceID']
+----------------------------------------------------------------------------------------------------
+column                              dtype-ish  null%    nunique   uniq_ratio flags
+EvidenceID                          str        0.0      500       1.0        ID-NAME
+ControlID                           str        0.0      217       0.434      ID-NAME
+EvidenceType                        str        0.0      15        0.03       ENUM
+    -> values: ['Access Review Report', 'Audit Trail Export', 'Backup Verification Report', 'Configuration Export', 'Encryption Configuration Proof', 'Incident Report', 'Log Extract', 'Penetration Test Report', 'Policy Document', 'Screenshot', 'Signed Attestation', 'System Configuration Snapshot', 'Training Completion Report', 'Vendor Assessment Report', 'Vulnerability Scan Report']
+EvidenceLocation                    str        0.0      500       1.0        
+CollectedDate                       str        0.0      170       0.34       DATE
+Verified                            str        0.0      2         0.004      ENUM
+    -> values: ['FALSE', 'TRUE']
+CollectedAutomatically              str        0.0      2         0.004      ENUM
+    -> values: ['FALSE', 'TRUE']
+
+Sample records:
+  {'EvidenceID': 'EVD-516751', 'ControlID': 'CTRL-53203', 'EvidenceType': 'Backup Verification Report', 'EvidenceLocation': 'evidence-repo/backups/CTRL-53203-4488.pdf', 'CollectedDate': '2026-06-08', 'Verified': 'TRUE', 'CollectedAutomatically': 'TRUE'}
+  {'EvidenceID': 'EVD-806280', 'ControlID': 'CTRL-52753', 'EvidenceType': 'Audit Trail Export', 'EvidenceLocation': 'evidence-repo/audit-trails/CTRL-52753-7670.csv', 'CollectedDate': '2026-03-29', 'Verified': 'TRUE', 'CollectedAutomatically': 'TRUE'}
+  {'EvidenceID': 'EVD-862311', 'ControlID': 'CTRL-57033', 'EvidenceType': 'Incident Report', 'EvidenceLocation': 'evidence-repo/incidents/CTRL-57033-2051.pdf', 'CollectedDate': '2026-02-17', 'Verified': 'TRUE', 'CollectedAutomatically': 'FALSE'}
+
+====================================================================================================
+DATASET: dataset11_compliance_findings.csv
+====================================================================================================
+Rows: 300   Columns: 7   Duplicate full rows: 0
+PK candidates: ['FindingID']
+----------------------------------------------------------------------------------------------------
+column                              dtype-ish  null%    nunique   uniq_ratio flags
+FindingID                           str        0.0      300       1.0        ID-NAME
+ControlID                           str        0.0      193       0.6433     ID-NAME
+Severity                            str        0.0      4         0.0133     ENUM
+    -> values: ['Critical', 'High', 'Low', 'Medium']
+Description                         str        0.0      12        0.04       ENUM
+    -> values: ['Access review not performed for affected accounts: A sample of privileged accounts had no evidence of a periodic access recertification review.', 'Consent records incomplete for processed data: Personal data processing activity was identified without a corresponding valid consent record.', 'Control implementation partially effective: Testing indicated the control is implemented but does not consistently operate as designed across all in-scope systems.', 'Encryption not enforced on identified assets: One or more in-scope assets were found without encryption enabled, contrary to the control objective.', "Evidence not collected within required cadence: The control's supporting evidence was not refreshed within the defined collection interval, creating a gap in continuous assurance.", 'Incident response plan not tested within required period: No evidence of a tabletop exercise or simulation was found within the last 12 months.', 'Log retention below policy requirement: Centralized log data was found retained for a duration shorter than the policy-mandated period.', 'MFA not enforced for all applicable accounts: A subset of user accounts with access to sensitive systems did not have multi-factor authentication enabled.', 'Patch SLA breach identified: Vulnerability remediation exceeded the defined SLA window based on scan and ticketing data.', 'Segregation of duties violation identified: A single user was found with conflicting permissions that violate segregation of duties requirements.', 'Training completion below required threshold: Security awareness training completion rate for in-scope employees fell below the mandated threshold.', "Vendor security certification expired or missing: The associated third-party vendor's security certification could not be verified as current."]
+EvidenceID                          str        0.0      218       0.7267     ID-NAME
+Recommendation                      str        0.0      12        0.04       ENUM
+    -> values: ['Adjust log retention configuration to meet or exceed the policy-defined retention period.', 'Complete a full access recertification cycle and enforce quarterly review cadence going forward.', 'Enable encryption at rest and in transit on the affected assets and validate via automated scan.', 'Enforce organization-wide MFA policy and remediate exception accounts within 30 days.', "Establish an automated evidence collection schedule aligned to the control's required frequency.", 'Extend control coverage to remaining systems and re-test for consistent operating effectiveness.', 'Launch a remediation campaign to close training completion gaps within 30 days.', 'Obtain updated certification from the vendor or escalate to procurement for contract review.', 'Prioritize remediation of overdue vulnerabilities and review patch management SLA adherence.', 'Reconcile data processing activities against consent records and remediate gaps.', 'Revoke conflicting privileges and implement approval workflow for sensitive role combinations.', 'Schedule and conduct an incident response tabletop exercise and document results.']
+Status                              str        0.0      5         0.0167     ENUM
+    -> values: ['Closed', 'In Progress', 'Open', 'Remediated', 'Risk Accepted']
+
+Sample records:
+  {'FindingID': 'FIND-63833', 'ControlID': 'CTRL-86374', 'Severity': 'Low', 'Description': 'Consent records incomplete for processed data: Personal data processing activity was identified without a corresponding valid consent record.', 'EvidenceID': 'EVD-232410', 'Recommendation': 'Reconcile data processing activities against consent records and remediate gaps.', 'Status': 'Open'}
+  {'FindingID': 'FIND-36780', 'ControlID': 'CTRL-67924', 'Severity': 'Critical', 'Description': 'Patch SLA breach identified: Vulnerability remediation exceeded the defined SLA window based on scan and ticketing data.', 'EvidenceID': 'EVD-350826', 'Recommendation': 'Prioritize remediation of overdue vulnerabilities and review patch management SLA adherence.', 'Status': 'Risk Accepted'}
+  {'FindingID': 'FIND-56681', 'ControlID': 'CTRL-88524', 'Severity': 'Low', 'Description': 'Segregation of duties violation identified: A single user was found with conflicting permissions that violate segregation of duties requirements.', 'EvidenceID': 'EVD-140266', 'Recommendation': 'Revoke conflicting privileges and implement approval workflow for sensitive role combinations.', 'Status': 'Remediated'}
+
+====================================================================================================
+DATASET: dataset12_compliance_reports.csv
+====================================================================================================
+Rows: 100   Columns: 9   Duplicate full rows: 0
+PK candidates: ['ReportID']
+----------------------------------------------------------------------------------------------------
+column                              dtype-ish  null%    nunique   uniq_ratio flags
+ReportID                            str        0.0      100       1.0        ID-NAME
+Framework                           str        0.0      5         0.05       ENUM
+    -> values: ['CIS Controls', 'DPDP', 'ISO 27001', 'NIST', 'SOC2']
+GeneratedDate                       str        0.0      88        0.88       DATE
+OverallScore                        str        0.0      48        0.48       
+CriticalFindings                    str        0.0      4         0.04       ENUM
+    -> values: ['0', '1', '2', '3']
+HighFindings                        str        0.0      7         0.07       ENUM
+    -> values: ['0', '1', '2', '3', '4', '5', '6']
+MediumFindings                      str        0.0      8         0.08       ENUM
+    -> values: ['0', '1', '2', '3', '4', '5', '6', '7']
+LowFindings                         str        0.0      6         0.06       ENUM
+    -> values: ['0', '1', '2', '3', '4', '5']
+ComplianceStatus                    str        0.0      4         0.04       ENUM
+    -> values: ['Compliant', 'Non-Compliant', 'Partially Compliant', 'Substantially Compliant']
+
+Sample records:
+  {'ReportID': 'RPT-34567', 'Framework': 'ISO 27001', 'GeneratedDate': '2025-11-22', 'OverallScore': '88', 'CriticalFindings': '0', 'HighFindings': '0', 'MediumFindings': '3', 'LowFindings': '3', 'ComplianceStatus': 'Substantially Compliant'}
+  {'ReportID': 'RPT-23965', 'Framework': 'NIST', 'GeneratedDate': '2025-08-23', 'OverallScore': '87', 'CriticalFindings': '0', 'HighFindings': '1', 'MediumFindings': '2', 'LowFindings': '1', 'ComplianceStatus': 'Substantially Compliant'}
+  {'ReportID': 'RPT-55543', 'Framework': 'DPDP', 'GeneratedDate': '2026-03-14', 'OverallScore': '58', 'CriticalFindings': '0', 'HighFindings': '4', 'MediumFindings': '6', 'LowFindings': '0', 'ComplianceStatus': 'Partially Compliant'}
+
+====================================================================================================
+DATASET: dataset13_dpdp_personal_data_inventory.csv
+====================================================================================================
+Rows: 300   Columns: 8   Duplicate full rows: 0
+PK candidates: ['DataID']
+----------------------------------------------------------------------------------------------------
+column                              dtype-ish  null%    nunique   uniq_ratio flags
+DataID                              str        0.0      300       1.0        ID-NAME
+ApplicationID                       str        0.0      93        0.31       ID-NAME
+DataCategory                        str        0.0      17        0.0567     ENUM
+    -> values: ['Authentication Credentials', 'Background Verification Records', 'Biometric Data (Fingerprint/Facial Recognition)', 'Customer Contact Information', 'Customer Financial Details (Payment Card Data)', 'Customer Support Interaction Records', 'Customer Transaction History', 'Device and IP Address Data', 'Employee Contact Information', 'Employee Financial Details (Salary, Bank Account)', 'Employee Government ID (PAN/Aadhaar)', 'Employee Personal Details (Name, DOB, Address)', 'Health and Medical Records', 'Job Applicant Resume Data', 'Location Data', 'Marketing Preference Data', 'Vendor Contact and Banking Details']
+PurposeOfProcessing                 str        0.0      14        0.0467     ENUM
+    -> values: ['Access Control and Authentication', 'Analytics and Product Improvement', 'Customer Relationship Management', 'Customer Support Service Delivery', 'Employee Onboarding', 'Fraud Detection', 'Legal and Statutory Obligations', 'Marketing and Communications', 'Payment Processing', 'Payroll Processing', 'Performance Management', 'Recruitment and Hiring', 'Regulatory Compliance Reporting', 'Vendor Payment Processing']
+RetentionPeriod                     str        0.0      7         0.0233     ENUM
+    -> values: ['1 Year', '2 Years', '3 Years', '5 Years', '6 Months', '7 Years', 'Duration of Employment + 3 Years']
+ThirdPartySharing                   str        0.0      2         0.0067     ENUM
+    -> values: ['FALSE', 'TRUE']
+EncryptionEnabled                   str        0.0      2         0.0067     ENUM
+    -> values: ['FALSE', 'TRUE']
+ConsentRequired                     str        0.0      2         0.0067     ENUM
+    -> values: ['FALSE', 'TRUE']
+
+Sample records:
+  {'DataID': 'DPDP-80925', 'ApplicationID': 'APP9673', 'DataCategory': 'Health and Medical Records', 'PurposeOfProcessing': 'Legal and Statutory Obligations', 'RetentionPeriod': '2 Years', 'ThirdPartySharing': 'FALSE', 'EncryptionEnabled': 'TRUE', 'ConsentRequired': 'FALSE'}
+  {'DataID': 'DPDP-55571', 'ApplicationID': 'APP7390', 'DataCategory': 'Location Data', 'PurposeOfProcessing': 'Marketing and Communications', 'RetentionPeriod': '2 Years', 'ThirdPartySharing': 'FALSE', 'EncryptionEnabled': 'TRUE', 'ConsentRequired': 'TRUE'}
+  {'DataID': 'DPDP-41582', 'ApplicationID': 'APP9680', 'DataCategory': 'Employee Government ID (PAN/Aadhaar)', 'PurposeOfProcessing': 'Vendor Payment Processing', 'RetentionPeriod': '7 Years', 'ThirdPartySharing': 'FALSE', 'EncryptionEnabled': 'TRUE', 'ConsentRequired': 'TRUE'}
+
+====================================================================================================
+DATASET: dataset14_consent_records.csv
+====================================================================================================
+Rows: 500   Columns: 7   Duplicate full rows: 0
+PK candidates: ['ConsentID']
+----------------------------------------------------------------------------------------------------
+column                              dtype-ish  null%    nunique   uniq_ratio flags
+ConsentID                           str        0.0      500       1.0        ID-NAME
+EmployeeID                          str        0.0      320       0.64       ID-NAME
+ApplicationID                       str        0.0      100       0.2        ID-NAME
+ConsentGiven                        str        0.0      2         0.004      ENUM
+    -> values: ['FALSE', 'TRUE']
+ConsentDate                         str        0.0      396       0.792      DATE
+ExpiryDate                          str        0.0      417       0.834      DATE
+Revoked                             str        0.0      2         0.004      ENUM
+    -> values: ['FALSE', 'TRUE']
+
+Sample records:
+  {'ConsentID': 'CNS-799803', 'EmployeeID': 'EMP0450', 'ApplicationID': 'APP7447', 'ConsentGiven': 'FALSE', 'ConsentDate': '2025-05-02', 'ExpiryDate': '2026-12-02', 'Revoked': 'FALSE'}
+  {'ConsentID': 'CNS-689094', 'EmployeeID': 'EMP0493', 'ApplicationID': 'APP9740', 'ConsentGiven': 'TRUE', 'ConsentDate': '2024-03-07', 'ExpiryDate': '2026-01-04', 'Revoked': 'FALSE'}
+  {'ConsentID': 'CNS-192705', 'EmployeeID': 'EMP0191', 'ApplicationID': 'APP7096', 'ConsentGiven': 'TRUE', 'ConsentDate': '2024-03-21', 'ExpiryDate': '2026-07-17', 'Revoked': 'FALSE'}
+
+====================================================================================================
+DATASET: dataset15_identity_access_management.csv
+====================================================================================================
+Rows: 500   Columns: 8   Duplicate full rows: 0
+PK candidates: ['UserID', 'EmployeeID']
+----------------------------------------------------------------------------------------------------
+column                              dtype-ish  null%    nunique   uniq_ratio flags
+UserID                              str        0.0      500       1.0        ID-NAME
+EmployeeID                          str        0.0      500       1.0        ID-NAME
+Role                                str        0.0      47        0.094      
+Privileges                          str        0.0      47        0.094      
+PrivilegedAccount                   str        0.0      2         0.004      ENUM
+    -> values: ['FALSE', 'TRUE']
+MFAEnabled                          str        0.0      2         0.004      ENUM
+    -> values: ['FALSE', 'TRUE']
+InactiveDays                        str        0.0      73        0.146      
+LastPrivilegeReview                 str        0.0      281       0.562      DATE
+
+Sample records:
+  {'UserID': 'USR20944', 'EmployeeID': 'EMP0001', 'Role': 'Sales User', 'Privileges': 'Read: CRM Records; Write: Sales Opportunities', 'PrivilegedAccount': 'FALSE', 'MFAEnabled': 'FALSE', 'InactiveDays': '2', 'LastPrivilegeReview': '2025-12-05'}
+  {'UserID': 'USR72655', 'EmployeeID': 'EMP0002', 'Role': 'DevOps Engineer', 'Privileges': 'Read: Infrastructure; Write: Infrastructure; Deploy: Production Environment; Admin: CI/CD Pipeline', 'PrivilegedAccount': 'FALSE', 'MFAEnabled': 'TRUE', 'InactiveDays': '11', 'LastPrivilegeReview': '2026-02-05'}
+  {'UserID': 'USR98309', 'EmployeeID': 'EMP0003', 'Role': 'Product User', 'Privileges': 'Read: Product Roadmap; Write: Feature Requests', 'PrivilegedAccount': 'FALSE', 'MFAEnabled': 'TRUE', 'InactiveDays': '0', 'LastPrivilegeReview': '2026-06-02'}
+
+====================================================================================================
+DATASET: dataset1_enterprise_employees.csv
+====================================================================================================
+Rows: 500   Columns: 16   Duplicate full rows: 0
+PK candidates: ['EmployeeID', 'DeviceID']
+----------------------------------------------------------------------------------------------------
+column                              dtype-ish  null%    nunique   uniq_ratio flags
+EmployeeID                          str        0.0      500       1.0        ID-NAME
+FirstName                           str        0.0      100       0.2        
+LastName                            str        0.0      70        0.14       
+Email                               str        0.0      500       1.0        
+Department                          str        0.0      16        0.032      ENUM
+    -> values: ['Customer Support', 'Data & Analytics', 'Engineering', 'Executive', 'Finance', 'Human Resources', 'Information Security', 'Information Technology', 'Internal Audit', 'Legal & Compliance', 'Marketing', 'Operations', 'Procurement', 'Product Management', 'Risk Management', 'Sales']
+Designation                         str        0.0      75        0.15       
+ManagerID                           str        0.2      200       0.4        ID-NAME
+OfficeLocation                      str        0.0      12        0.024      ENUM
+    -> values: ['Austin, US', 'Bengaluru, IN', 'Chennai, IN', 'Gurugram, IN', 'Hyderabad, IN', 'London, UK', 'Mumbai, IN', 'New York, US', 'Pune, IN', 'Remote - India', 'Remote - US', 'Singapore, SG']
+EmploymentType                      str        0.0      4         0.008      ENUM
+    -> values: ['Contract', 'Full-Time', 'Intern', 'Part-Time']
+JoiningDate                         str        0.0      479       0.958      DATE
+PasswordLength                      str        0.0      5         0.01       ENUM
+    -> values: ['10', '12', '14', '16', '8']
+PasswordLastChanged                 str        0.0      433       0.866      DATE
+MFAEnabled                          str        0.0      2         0.004      ENUM
+    -> values: ['FALSE', 'TRUE']
+AccountStatus                       str        0.0      3         0.006      ENUM
+    -> values: ['Active', 'Disabled', 'Suspended']
+DeviceID                            str        0.0      500       1.0        ID-NAME
+LastLogin                           str        0.0      500       1.0        DATE
+
+Sample records:
+  {'EmployeeID': 'EMP0001', 'FirstName': 'Harish', 'LastName': 'Arora', 'Email': 'harish.arora@meridianfintech.example', 'Department': 'Sales', 'Designation': 'Sales Manager', 'ManagerID': 'EMP0231', 'OfficeLocation': 'Bengaluru, IN', 'EmploymentType': 'Part-Time', 'JoiningDate': '2020-11-21', 'PasswordLength': '8', 'PasswordLastChanged': '2025-10-30', 'MFAEnabled': 'FALSE', 'AccountStatus': 'Active', 'DeviceID': 'DEV0001', 'LastLogin': '2026-08-04 23:47:42'}
+  {'EmployeeID': 'EMP0002', 'FirstName': 'Sneha', 'LastName': 'Thompson', 'Email': 'sneha.thompson@meridianfintech.example', 'Department': 'Engineering', 'Designation': 'DevOps Engineer', 'ManagerID': 'EMP0408', 'OfficeLocation': 'Hyderabad, IN', 'EmploymentType': 'Part-Time', 'JoiningDate': '2026-04-29', 'PasswordLength': '10', 'PasswordLastChanged': '2026-06-27', 'MFAEnabled': 'TRUE', 'AccountStatus': 'Active', 'DeviceID': 'DEV0002', 'LastLogin': '2026-08-07 09:32:19'}
+  {'EmployeeID': 'EMP0003', 'FirstName': 'Fang', 'LastName': 'Liu', 'Email': 'fang.liu@meridianfintech.example', 'Department': 'Product Management', 'Designation': 'Senior Product Manager', 'ManagerID': 'EMP0231', 'OfficeLocation': 'Austin, US', 'EmploymentType': 'Part-Time', 'JoiningDate': '2019-04-26', 'PasswordLength': '12', 'PasswordLastChanged': '2020-06-05', 'MFAEnabled': 'TRUE', 'AccountStatus': 'Active', 'DeviceID': 'DEV0003', 'LastLogin': '2026-07-30 21:47:57'}
+
+====================================================================================================
+DATASET: dataset2_enterprise_devices.csv
+====================================================================================================
+Rows: 500   Columns: 12   Duplicate full rows: 0
+PK candidates: ['DeviceID', 'EmployeeID']
+----------------------------------------------------------------------------------------------------
+column                              dtype-ish  null%    nunique   uniq_ratio flags
+DeviceID                            str        0.0      500       1.0        ID-NAME
+EmployeeID                          str        0.0      500       1.0        ID-NAME
+DeviceType                          str        0.0      4         0.008      ENUM
+    -> values: ['Desktop', 'Laptop', 'Mobile Phone', 'Tablet']
+OperatingSystem                     str        0.0      6         0.012      ENUM
+    -> values: ['Android', 'Linux', 'Windows', 'iOS', 'iPadOS', 'macOS']
+OSVersion                           str        0.0      16        0.032      ENUM
+    -> values: ['10 Enterprise 22H2', '11 Pro 22H2', '11 Pro 23H2', '13', '14', '15', '17.4', '17.5', '17.5.1', '18.0', 'Fedora 40', 'Sequoia 15.1', 'Sonoma 14.5', 'Ubuntu 22.04 LTS', 'Ubuntu 24.04 LTS', 'Ventura 13.6']
+EncryptionEnabled                   str        0.0      2         0.004      ENUM
+    -> values: ['FALSE', 'TRUE']
+FirewallEnabled                     str        0.0      2         0.004      ENUM
+    -> values: ['FALSE', 'TRUE']
+AntivirusInstalled                  str        0.0      2         0.004      ENUM
+    -> values: ['FALSE', 'TRUE']
+EDRInstalled                        str        0.0      2         0.004      ENUM
+    -> values: ['FALSE', 'TRUE']
+ComplianceStatus                    str        0.0      3         0.006      ENUM
+    -> values: ['Compliant', 'Non-Compliant', 'Partially Compliant']
+RiskLevel                           str        0.0      4         0.008      ENUM
+    -> values: ['Critical', 'High', 'Low', 'Medium']
+LastPatchDate                       str        0.0      151       0.302      DATE
+
+Sample records:
+  {'DeviceID': 'DEV0001', 'EmployeeID': 'EMP0001', 'DeviceType': 'Mobile Phone', 'OperatingSystem': 'iOS', 'OSVersion': '17.4', 'EncryptionEnabled': 'FALSE', 'FirewallEnabled': 'TRUE', 'AntivirusInstalled': 'TRUE', 'EDRInstalled': 'TRUE', 'ComplianceStatus': 'Partially Compliant', 'RiskLevel': 'Medium', 'LastPatchDate': '2026-06-09'}
+  {'DeviceID': 'DEV0002', 'EmployeeID': 'EMP0002', 'DeviceType': 'Desktop', 'OperatingSystem': 'Windows', 'OSVersion': '10 Enterprise 22H2', 'EncryptionEnabled': 'FALSE', 'FirewallEnabled': 'TRUE', 'AntivirusInstalled': 'TRUE', 'EDRInstalled': 'TRUE', 'ComplianceStatus': 'Non-Compliant', 'RiskLevel': 'High', 'LastPatchDate': '2026-04-30'}
+  {'DeviceID': 'DEV0003', 'EmployeeID': 'EMP0003', 'DeviceType': 'Laptop', 'OperatingSystem': 'macOS', 'OSVersion': 'Sequoia 15.1', 'EncryptionEnabled': 'TRUE', 'FirewallEnabled': 'TRUE', 'AntivirusInstalled': 'TRUE', 'EDRInstalled': 'TRUE', 'ComplianceStatus': 'Compliant', 'RiskLevel': 'Low', 'LastPatchDate': '2026-07-24'}
+
+====================================================================================================
+DATASET: dataset3_cloud_assets.csv
+====================================================================================================
+Rows: 300   Columns: 10   Duplicate full rows: 0
+PK candidates: ['ResourceID']
+----------------------------------------------------------------------------------------------------
+column                              dtype-ish  null%    nunique   uniq_ratio flags
+ResourceID                          str        0.0      300       1.0        ID-NAME
+CloudProvider                       str        0.0      3         0.01       ENUM
+    -> values: ['AWS', 'Azure', 'GCP']
+ResourceType                        str        0.0      25        0.0833     ENUM
+    -> values: ['Azure AD Application', 'Azure SQL Database', 'Blob Storage', 'Cloud Function', 'Cloud SQL Instance', 'Cloud Storage Bucket', 'CloudFront Distribution', 'Compute Engine Instance', 'DynamoDB Table', 'EBS Volume', 'EC2 Instance', 'ELB Load Balancer', 'Function App', 'IAM Role', 'IAM Service Account', 'Lambda Function', 'Load Balancer', 'Managed Disk', 'Persistent Disk', 'RDS Database', 'S3 Bucket', 'VPC', 'VPC Network', 'Virtual Machine', 'Virtual Network']
+Region                              str        0.0      13        0.0433     ENUM
+    -> values: ['Central India', 'East US', 'Southeast Asia', 'West Europe', 'ap-south-1', 'ap-southeast-1', 'asia-south1', 'asia-southeast1', 'eu-west-1', 'europe-west1', 'us-central1', 'us-east-1', 'us-west-2']
+OwnerEmployeeID                     str        0.0      172       0.5733     ID-NAME
+PublicAccess                        str        0.0      2         0.0067     ENUM
+    -> values: ['FALSE', 'TRUE']
+EncryptionEnabled                   str        0.0      2         0.0067     ENUM
+    -> values: ['FALSE', 'TRUE']
+LoggingEnabled                      str        0.0      2         0.0067     ENUM
+    -> values: ['FALSE', 'TRUE']
+Criticality                         str        0.0      4         0.0133     ENUM
+    -> values: ['Critical', 'High', 'Low', 'Medium']
+RiskLevel                           str        0.0      4         0.0133     ENUM
+    -> values: ['Critical', 'High', 'Low', 'Medium']
+
+Sample records:
+  {'ResourceID': 'AZR-RES-69151', 'CloudProvider': 'Azure', 'ResourceType': 'Load Balancer', 'Region': 'Southeast Asia', 'OwnerEmployeeID': 'EMP0469', 'PublicAccess': 'FALSE', 'EncryptionEnabled': 'TRUE', 'LoggingEnabled': 'FALSE', 'Criticality': 'Medium', 'RiskLevel': 'Medium'}
+  {'ResourceID': 'AWS-RES-35196', 'CloudProvider': 'AWS', 'ResourceType': 'ELB Load Balancer', 'Region': 'us-west-2', 'OwnerEmployeeID': 'EMP0081', 'PublicAccess': 'FALSE', 'EncryptionEnabled': 'TRUE', 'LoggingEnabled': 'TRUE', 'Criticality': 'Medium', 'RiskLevel': 'Low'}
+  {'ResourceID': 'AZR-RES-78464', 'CloudProvider': 'Azure', 'ResourceType': 'Managed Disk', 'Region': 'Southeast Asia', 'OwnerEmployeeID': 'EMP0050', 'PublicAccess': 'FALSE', 'EncryptionEnabled': 'FALSE', 'LoggingEnabled': 'FALSE', 'Criticality': 'Medium', 'RiskLevel': 'High'}
+
+====================================================================================================
+DATASET: dataset4_applications.csv
+====================================================================================================
+Rows: 100   Columns: 9   Duplicate full rows: 0
+PK candidates: ['ApplicationID']
+----------------------------------------------------------------------------------------------------
+column                              dtype-ish  null%    nunique   uniq_ratio flags
+ApplicationID                       str        0.0      100       1.0        ID-NAME
+ApplicationName                     str        0.0      100       1.0        
+OwnerDepartment                     str        0.0      16        0.16       ENUM
+    -> values: ['Customer Support', 'Data & Analytics', 'Engineering', 'Executive', 'Finance', 'Human Resources', 'Information Security', 'Information Technology', 'Internal Audit', 'Legal & Compliance', 'Marketing', 'Operations', 'Procurement', 'Product Management', 'Risk Management', 'Sales']
+AuthenticationMethod                str        0.0      6         0.06       ENUM
+    -> values: ['Azure AD SSO', 'LDAP', 'Okta SSO', 'SSO (OAuth2)', 'SSO (SAML)', 'Username/Password']
+UsesMFA                             str        0.0      2         0.02       ENUM
+    -> values: ['FALSE', 'TRUE']
+EncryptionEnabled                   str        0.0      2         0.02       ENUM
+    -> values: ['FALSE', 'TRUE']
+DataClassification                  str        0.0      4         0.04       ENUM
+    -> values: ['Confidential', 'Internal', 'Public', 'Restricted']
+InternetFacing                      str        0.0      2         0.02       ENUM
+    -> values: ['FALSE', 'TRUE']
+RiskLevel                           str        0.0      4         0.04       ENUM
+    -> values: ['Critical', 'High', 'Low', 'Medium']
+
+Sample records:
+  {'ApplicationID': 'APP4193', 'ApplicationName': 'ThreatWatch', 'OwnerDepartment': 'Information Security', 'AuthenticationMethod': 'SSO (SAML)', 'UsesMFA': 'FALSE', 'EncryptionEnabled': 'FALSE', 'DataClassification': 'Internal', 'InternetFacing': 'FALSE', 'RiskLevel': 'High'}
+  {'ApplicationID': 'APP7712', 'ApplicationName': 'PurchaseOrderHub', 'OwnerDepartment': 'Procurement', 'AuthenticationMethod': 'LDAP', 'UsesMFA': 'FALSE', 'EncryptionEnabled': 'TRUE', 'DataClassification': 'Internal', 'InternetFacing': 'FALSE', 'RiskLevel': 'Medium'}
+  {'ApplicationID': 'APP2989', 'ApplicationName': 'IAM Gateway', 'OwnerDepartment': 'Information Security', 'AuthenticationMethod': 'Okta SSO', 'UsesMFA': 'TRUE', 'EncryptionEnabled': 'TRUE', 'DataClassification': 'Restricted', 'InternetFacing': 'FALSE', 'RiskLevel': 'Medium'}
+
+====================================================================================================
+DATASET: dataset5_third_party_vendors.csv
+====================================================================================================
+Rows: 100   Columns: 8   Duplicate full rows: 0
+PK candidates: ['VendorID']
+----------------------------------------------------------------------------------------------------
+column                              dtype-ish  null%    nunique   uniq_ratio flags
+VendorID                            str        0.0      100       1.0        ID-NAME
+VendorName                          str        0.0      100       1.0        
+ServiceCategory                     str        0.0      16        0.16       ENUM
+    -> values: ['Background Verification', 'Cloud Hosting', 'Customer Support Tooling', 'Cybersecurity Services', 'Data Analytics', 'Document Management', 'Email & Collaboration', 'Facilities Management', 'HR & Payroll Services', 'IT Managed Services', 'Legal Services', 'Logistics & Courier', 'Marketing Automation', 'Payment Processing', 'Recruitment Services', 'Software Development Outsourcing']
+ISO27001Certified                   str        0.0      2         0.02       ENUM
+    -> values: ['FALSE', 'TRUE']
+SOC2Certified                       str        0.0      2         0.02       ENUM
+    -> values: ['FALSE', 'TRUE']
+DPDPCompliant                       str        0.0      2         0.02       ENUM
+    -> values: ['FALSE', 'TRUE']
+RiskRating                          str        0.0      4         0.04       ENUM
+    -> values: ['Critical', 'High', 'Low', 'Medium']
+ContractExpiry                      str        0.0      96        0.96       DATE
+
+Sample records:
+  {'VendorID': 'VEN7649', 'VendorName': 'Ironclad Global', 'ServiceCategory': 'Cloud Hosting', 'ISO27001Certified': 'TRUE', 'SOC2Certified': 'FALSE', 'DPDPCompliant': 'TRUE', 'RiskRating': 'Low', 'ContractExpiry': '2026-09-18'}
+  {'VendorID': 'VEN8864', 'VendorName': 'Nimbus Global', 'ServiceCategory': 'HR & Payroll Services', 'ISO27001Certified': 'TRUE', 'SOC2Certified': 'TRUE', 'DPDPCompliant': 'FALSE', 'RiskRating': 'Medium', 'ContractExpiry': '2026-12-13'}
+  {'VendorID': 'VEN9291', 'VendorName': 'Sentinel Systems', 'ServiceCategory': 'Customer Support Tooling', 'ISO27001Certified': 'TRUE', 'SOC2Certified': 'FALSE', 'DPDPCompliant': 'FALSE', 'RiskRating': 'Medium', 'ContractExpiry': '2029-01-19'}
+
+====================================================================================================
+DATASET: dataset6_security_policies.csv
+====================================================================================================
+Rows: 100   Columns: 7   Duplicate full rows: 0
+PK candidates: ['PolicyID']
+----------------------------------------------------------------------------------------------------
+column                              dtype-ish  null%    nunique   uniq_ratio flags
+PolicyID                            str        0.0      100       1.0        ID-NAME
+PolicyName                          str        0.0      63        0.63       
+Framework                           str        0.0      5         0.05       ENUM
+    -> values: ['CIS Controls', 'DPDP', 'ISO 27001', 'NIST', 'SOC2']
+Category                            str        0.0      18        0.18       ENUM
+    -> values: ['Access Management', 'Asset Management', 'Audit', 'Business Continuity', 'Data Privacy', 'Data Protection', 'Endpoint Security', 'Governance', 'Incident Response', 'Monitoring', 'Network Security', 'Operations', 'Personnel Security', 'Physical Security', 'Risk Management', 'Secure Development', 'Third-Party Risk', 'Vulnerability Management']
+Version                             str        0.0      6         0.06       ENUM
+    -> values: ['1.0', '1.1', '1.2', '2.0', '2.1', '3.0']
+OwnerDepartment                     str        0.0      5         0.05       ENUM
+    -> values: ['Information Security', 'Information Technology', 'Internal Audit', 'Legal & Compliance', 'Risk Management']
+Mandatory                           str        0.0      2         0.02       ENUM
+    -> values: ['FALSE', 'TRUE']
+
+Sample records:
+  {'PolicyID': 'POL-DPDP-528', 'PolicyName': 'Data Protection Impact Assessment Policy', 'Framework': 'DPDP', 'Category': 'Risk Management', 'Version': '3.0', 'OwnerDepartment': 'Legal & Compliance', 'Mandatory': 'TRUE'}
+  {'PolicyID': 'POL-CIS-886', 'PolicyName': 'Email and Web Browser Protections Policy', 'Framework': 'CIS Controls', 'Category': 'Network Security', 'Version': '2.1', 'OwnerDepartment': 'Information Security', 'Mandatory': 'TRUE'}
+  {'PolicyID': 'POL-ISO-754', 'PolicyName': 'Internal Audit Policy', 'Framework': 'ISO 27001', 'Category': 'Audit', 'Version': '1.0', 'OwnerDepartment': 'Risk Management', 'Mandatory': 'TRUE'}
+
+====================================================================================================
+DATASET: dataset7_compliance_controls.csv
+====================================================================================================
+Rows: 300   Columns: 7   Duplicate full rows: 0
+PK candidates: ['ControlID']
+----------------------------------------------------------------------------------------------------
+column                              dtype-ish  null%    nunique   uniq_ratio flags
+ControlID                           str        0.0      300       1.0        ID-NAME
+PolicyID                            str        0.0      96        0.32       ID-NAME
+ControlName                         str        0.0      56        0.1867     
+Description                         str        0.0      56        0.1867     
+Severity                            str        0.0      4         0.0133     ENUM
+    -> values: ['Critical', 'High', 'Low', 'Medium']
+AutomationPossible                  str        0.0      2         0.0067     ENUM
+    -> values: ['FALSE', 'TRUE']
+EvidenceRequired                    str        0.0      2         0.0067     ENUM
+    -> values: ['FALSE', 'TRUE']
+
+Sample records:
+  {'ControlID': 'CTRL-57517', 'PolicyID': 'POL-ISO-123', 'ControlName': 'Risk Assessment Cadence', 'Description': 'Perform formal risk assessments at least annually', 'Severity': 'Medium', 'AutomationPossible': 'FALSE', 'EvidenceRequired': 'TRUE'}
+  {'ControlID': 'CTRL-31442', 'PolicyID': 'POL-CIS-211', 'ControlName': 'Continuous Security Monitoring', 'Description': 'Implement continuous monitoring of critical systems for anomalous activity', 'Severity': 'Medium', 'AutomationPossible': 'TRUE', 'EvidenceRequired': 'TRUE'}
+  {'ControlID': 'CTRL-64142', 'PolicyID': 'POL-CIS-573', 'ControlName': 'Network Segmentation', 'Description': 'Segment networks to isolate critical systems from general user traffic', 'Severity': 'High', 'AutomationPossible': 'FALSE', 'EvidenceRequired': 'TRUE'}
+
+====================================================================================================
+DATASET: dataset8_risk_register.csv
+====================================================================================================
+Rows: 300   Columns: 9   Duplicate full rows: 0
+PK candidates: ['RiskID']
+----------------------------------------------------------------------------------------------------
+column                              dtype-ish  null%    nunique   uniq_ratio flags
+RiskID                              str        0.0      300       1.0        ID-NAME
+RiskName                            str        0.0      20        0.0667     ENUM
+    -> values: ['Cloud Storage Misconfiguration', 'Cross-Border Data Transfer Without Safeguards', 'Data Exfiltration via Unencrypted Channels', 'Delayed Patching of Critical Vulnerabilities', 'Excessive Data Retention Beyond Policy', 'Inadequate Incident Response Readiness', 'Insider Threat from Privileged Users', 'Insufficient Vendor Contract Security Clauses', 'Lack of Network Segmentation', 'Non-Compliance with DPDP Consent Requirements', 'Outdated Software Dependencies in Applications', 'Phishing-Induced Credential Compromise', 'Ransomware Infection on Endpoints', 'Shadow IT Application Usage', 'Single Point of Failure in Backup Systems', 'Third-Party Vendor Data Mishandling', 'Unauthorized Access to Production Systems', 'Unmonitored Privileged Account Activity', 'Unpatched Legacy Systems in Production', 'Weak Password Policy Enforcement']
+Description                         str        0.0      20        0.0667     ENUM
+    -> values: ['Applications using unpatched third-party libraries are vulnerable to known exploits.', 'Employees using unsanctioned applications introduce unmanaged security and compliance risk.', 'Employees without adequate security awareness training are susceptible to phishing attacks.', 'Excessive standing privileges for employees increase the risk of intentional or accidental data misuse.', 'Flat network architecture allows lateral movement of attackers once a foothold is established.', 'Insufficient endpoint protection increases exposure to ransomware attacks that could encrypt critical business data.', 'Insufficient password complexity and rotation requirements increase susceptibility to credential attacks.', 'Lack of tested, redundant backups increases risk of permanent data loss during a disaster.', 'Legacy systems no longer receiving security updates remain exposed to known vulnerabilities.', 'Personal or sensitive data retained beyond defined retention periods increases breach exposure and compliance risk.', 'Privileged account actions not logged or reviewed could allow malicious activity to go undetected.', 'Processing personal data without valid recorded consent could violate DPDP obligations.', 'Publicly accessible cloud storage buckets could expose sensitive enterprise or customer data.', 'Sensitive data transmitted without encryption could be intercepted by malicious actors on the network.', 'Systems not patched within SLA windows remain exposed to known exploitable vulnerabilities.', 'Transferring personal data outside approved jurisdictions without safeguards may violate data protection law.', 'Untested incident response procedures may delay containment and recovery during a security incident.', 'Vendor contracts lacking explicit data protection obligations weaken enforceability of security expectations.', 'Vendors without adequate security certifications may mishandle data shared with them during service delivery.', 'Weak access controls could allow unauthorized personnel to reach production environments and sensitive data.']
+BusinessImpact                      str        0.0      20        0.0667     ENUM
+    -> values: ['Account compromise', 'Account takeover and lateral movement', 'Application compromise and data loss', 'Business continuity disruption', 'Data breach and compliance violation', 'Data breach and regulatory penalties', 'Data leakage through ungoverned channels', 'Extended breach impact and higher recovery cost', 'Increased attack surface', 'Increased likelihood of successful cyberattack', 'Limited recourse in case of vendor breach', 'Loss of confidential business and customer data', 'Operational downtime and financial loss', 'Regulatory fines and legal action', 'Regulatory non-compliance', 'Regulatory penalties and data subject complaints', 'Reputational damage and contractual liability', 'Unauthorized data disclosure or sabotage', 'Undetected data breach or fraud', 'Wider blast radius during a security incident']
+Likelihood                          str        0.0      3         0.01       ENUM
+    -> values: ['High', 'Low', 'Medium']
+Severity                            str        0.0      4         0.0133     ENUM
+    -> values: ['Critical', 'High', 'Low', 'Medium']
+OwnerDepartment                     str        0.0      11        0.0367     ENUM
+    -> values: ['Data & Analytics', 'Engineering', 'Finance', 'Human Resources', 'Information Security', 'Information Technology', 'Internal Audit', 'Legal & Compliance', 'Operations', 'Procurement', 'Risk Management']
+MappedControlID                     str        0.0      185       0.6167     ID-NAME
+CurrentStatus                       str        0.0      5         0.0167     ENUM
+    -> values: ['Accepted', 'Closed', 'In Remediation', 'Mitigated', 'Open']
+
+Sample records:
+  {'RiskID': 'RISK-77463', 'RiskName': 'Unauthorized Access to Production Systems', 'Description': 'Weak access controls could allow unauthorized personnel to reach production environments and sensitive data.', 'BusinessImpact': 'Data breach and regulatory penalties', 'Likelihood': 'Medium', 'Severity': 'High', 'OwnerDepartment': 'Engineering', 'MappedControlID': 'CTRL-81425', 'CurrentStatus': 'Mitigated'}
+  {'RiskID': 'RISK-96518', 'RiskName': 'Weak Password Policy Enforcement', 'Description': 'Insufficient password complexity and rotation requirements increase susceptibility to credential attacks.', 'BusinessImpact': 'Account compromise', 'Likelihood': 'High', 'Severity': 'Critical', 'OwnerDepartment': 'Internal Audit', 'MappedControlID': 'CTRL-70828', 'CurrentStatus': 'Open'}
+  {'RiskID': 'RISK-66453', 'RiskName': 'Ransomware Infection on Endpoints', 'Description': 'Insufficient endpoint protection increases exposure to ransomware attacks that could encrypt critical business data.', 'BusinessImpact': 'Operational downtime and financial loss', 'Likelihood': 'Low', 'Severity': 'Low', 'OwnerDepartment': 'Procurement', 'MappedControlID': 'CTRL-85132', 'CurrentStatus': 'In Remediation'}
+
+====================================================================================================
+DATASET: dataset9_audit_logs.csv
+====================================================================================================
+Rows: 10000   Columns: 9   Duplicate full rows: 0
+PK candidates: ['LogID']
+----------------------------------------------------------------------------------------------------
+column                              dtype-ish  null%    nunique   uniq_ratio flags
+LogID                               str        0.0      10000     1.0        ID-NAME
+Timestamp                           str        0.0      9993      0.9993     DATE
+EmployeeID                          str        0.0      449       0.0449     ID-NAME
+ApplicationID                       str        0.0      100       0.01       ID-NAME
+Action                              str        0.0      18        0.0018     ENUM
+    -> values: ['API Key Created', 'Configuration Change', 'Data Export', 'Failed Login Attempt', 'File Delete', 'File Download', 'File Upload', 'Login', 'Logout', 'MFA Challenge', 'Password Change', 'Permission Change', 'Privilege Escalation Request', 'Record Modified', 'Record Viewed', 'Report Generated', 'User Account Created', 'User Account Disabled']
+IPAddress                           str        0.0      2749      0.2749     
+GeoLocation                         str        0.0      12        0.0012     ENUM
+    -> values: ['Austin, USA', 'Bengaluru, India', 'Chennai, India', 'Frankfurt, Germany', 'Gurugram, India', 'Hyderabad, India', 'London, UK', 'Mumbai, India', 'New York, USA', 'Pune, India', 'Singapore, SG', 'Unknown Location']
+Result                              str        0.0      2         0.0002     ENUM
+    -> values: ['Failure', 'Success']
+RiskScore                           str        0.0      79        0.0079     
+
+Sample records:
+  {'LogID': 'LOG1193774', 'Timestamp': '2026-07-22 14:48:48', 'EmployeeID': 'EMP0205', 'ApplicationID': 'APP5360', 'Action': 'Permission Change', 'IPAddress': '223.190.12.91', 'GeoLocation': 'Mumbai, India', 'Result': 'Success', 'RiskScore': '22'}
+  {'LogID': 'LOG9589961', 'Timestamp': '2026-08-02 18:06:38', 'EmployeeID': 'EMP0149', 'ApplicationID': 'APP2184', 'Action': 'Data Export', 'IPAddress': '85.25.67.55', 'GeoLocation': 'Frankfurt, Germany', 'Result': 'Success', 'RiskScore': '40'}
+  {'LogID': 'LOG1150188', 'Timestamp': '2026-07-17 19:45:15', 'EmployeeID': 'EMP0020', 'ApplicationID': 'APP9581', 'Action': 'Privilege Escalation Request', 'IPAddress': '104.174.65.131', 'GeoLocation': 'Austin, USA', 'Result': 'Success', 'RiskScore': '43'}

@@ -1,0 +1,6 @@
+# Research fixtures are frozen and identified by SHA-256 (see each MANIFEST.json).
+# Never let git rewrite their line endings: a CRLF conversion on checkout would
+# change the hashes and fail the manifest tests on Windows.
+research/** -text
+# research/ also holds files pinned by SHA-256 elsewhere: the pre-registration,
+# the rule contracts and the shipped Splunk samples. Same rule, same reason.

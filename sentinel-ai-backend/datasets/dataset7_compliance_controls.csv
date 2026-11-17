@@ -1,0 +1,301 @@
+ControlID,PolicyID,ControlName,Description,Severity,AutomationPossible,EvidenceRequired
+CTRL-57517,POL-ISO-123,Risk Assessment Cadence,Perform formal risk assessments at least annually,Medium,FALSE,TRUE
+CTRL-31442,POL-CIS-211,Continuous Security Monitoring,Implement continuous monitoring of critical systems for anomalous activity,Medium,TRUE,TRUE
+CTRL-64142,POL-CIS-573,Network Segmentation,Segment networks to isolate critical systems from general user traffic,High,FALSE,TRUE
+CTRL-74900,POL-ISO-576,Information Security Governance Charter,Establish and maintain a formal information security governance charter approved by senior management,High,FALSE,TRUE
+CTRL-66319,POL-CIS-742,Acceptable Use Agreement,Require employees to acknowledge an acceptable use policy upon onboarding,High,FALSE,TRUE
+CTRL-92128,POL-NIST-850,Incident Response Plan Testing,Test the incident response plan through tabletop exercises at least annually,Low,TRUE,TRUE
+CTRL-24352,POL-ISO-576,Policy Review Cadence,Review and update security policies at least annually or upon significant organizational change,High,TRUE,TRUE
+CTRL-52518,POL-SOC2-959,Encryption of Data at Rest,Encrypt sensitive data at rest using industry-standard encryption algorithms,Medium,FALSE,TRUE
+CTRL-35167,POL-NIST-229,Security Incident Logging,Log and track all security incidents through to resolution,High,FALSE,FALSE
+CTRL-75802,POL-DPDP-762,Cross-Border Transfer Safeguards,Apply appropriate safeguards for cross-border personal data transfers,Critical,TRUE,TRUE
+CTRL-10182,POL-ISO-507,Acceptable Use Agreement,Require employees to acknowledge an acceptable use policy upon onboarding,Medium,TRUE,TRUE
+CTRL-81038,POL-ISO-105,Disaster Recovery Testing,Perform disaster recovery testing at least annually,Medium,TRUE,TRUE
+CTRL-68197,POL-NIST-320,Vendor Security Assessment,Conduct security assessments of vendors prior to onboarding and annually thereafter,Medium,FALSE,TRUE
+CTRL-51875,POL-SOC2-553,Configuration Baseline Management,Maintain secure configuration baselines for all production systems,Medium,TRUE,TRUE
+CTRL-79082,POL-DPDP-188,Consent Capture Mechanism,Implement mechanisms to capture and record data principal consent,Medium,FALSE,TRUE
+CTRL-91119,POL-DPDP-188,Data Minimization Practices,Limit collection of personal data to what is necessary for stated purposes,Critical,TRUE,TRUE
+CTRL-52491,POL-NIST-996,Security Log Retention,Retain security logs for a minimum of 12 months for investigative purposes,Medium,FALSE,TRUE
+CTRL-40554,POL-DPDP-558,Consent Capture Mechanism,Implement mechanisms to capture and record data principal consent,Critical,FALSE,FALSE
+CTRL-35877,POL-ISO-105,Recovery Time Objective Validation,Validate recovery time objectives against actual recovery test results,Medium,FALSE,TRUE
+CTRL-19096,POL-DPDP-390,Consent Capture Mechanism,Implement mechanisms to capture and record data principal consent,Medium,FALSE,TRUE
+CTRL-93221,POL-NIST-850,Breach Notification Timeliness,Notify affected parties and regulators within required timeframes following a breach,Medium,FALSE,TRUE
+CTRL-51477,POL-SOC2-448,Recovery Time Objective Validation,Validate recovery time objectives against actual recovery test results,Medium,FALSE,TRUE
+CTRL-94415,POL-CIS-573,Network Segmentation,Segment networks to isolate critical systems from general user traffic,High,TRUE,TRUE
+CTRL-98273,POL-ISO-123,Risk Assessment Cadence,Perform formal risk assessments at least annually,Medium,TRUE,FALSE
+CTRL-76784,POL-DPDP-428,Consent Capture Mechanism,Implement mechanisms to capture and record data principal consent,High,FALSE,TRUE
+CTRL-14981,POL-ISO-757,Multi-Factor Authentication Enforcement,Require multi-factor authentication for all privileged and remote access accounts,Low,TRUE,FALSE
+CTRL-84645,POL-CIS-901,Backup and Restoration Testing,Perform regular backups and test restoration procedures at least quarterly,High,TRUE,TRUE
+CTRL-92588,POL-DPDP-223,Data Subject Rights Fulfillment,"Fulfill data principal access, correction, and erasure requests within required timeframes",Critical,TRUE,FALSE
+CTRL-17485,POL-CIS-246,Fourth-Party Risk Monitoring,Assess subcontractor risk exposure for critical vendors,Low,FALSE,TRUE
+CTRL-23452,POL-DPDP-558,Data Subject Rights Fulfillment,"Fulfill data principal access, correction, and erasure requests within required timeframes",Critical,TRUE,TRUE
+CTRL-77283,POL-CIS-350,Penetration Testing Cadence,Conduct penetration testing at least annually on internet-facing systems,Critical,TRUE,TRUE
+CTRL-86730,POL-CIS-654,Key Management Procedures,"Maintain secure generation, rotation, and storage of cryptographic keys",Low,TRUE,TRUE
+CTRL-22310,POL-SOC2-450,Continuous Security Monitoring,Implement continuous monitoring of critical systems for anomalous activity,Medium,FALSE,FALSE
+CTRL-83813,POL-CIS-901,Backup and Restoration Testing,Perform regular backups and test restoration procedures at least quarterly,High,TRUE,TRUE
+CTRL-71906,POL-ISO-971,Network Segmentation,Segment networks to isolate critical systems from general user traffic,Low,TRUE,TRUE
+CTRL-76492,POL-NIST-842,Privileged Access Management,Restrict and monitor privileged account usage through a dedicated PAM solution,Low,TRUE,TRUE
+CTRL-92278,POL-CIS-638,Device Encryption Enforcement,Enforce full-disk encryption on all corporate laptops and desktops,Low,FALSE,TRUE
+CTRL-63153,POL-CIS-956,Intrusion Detection Monitoring,Deploy IDS/IPS to detect and alert on anomalous network activity,Medium,TRUE,TRUE
+CTRL-45134,POL-NIST-481,Security Log Retention,Retain security logs for a minimum of 12 months for investigative purposes,High,TRUE,TRUE
+CTRL-80559,POL-SOC2-609,Fourth-Party Risk Monitoring,Assess subcontractor risk exposure for critical vendors,High,TRUE,FALSE
+CTRL-44258,POL-CIS-362,Vendor Security Assessment,Conduct security assessments of vendors prior to onboarding and annually thereafter,Medium,FALSE,TRUE
+CTRL-27875,POL-SOC2-450,SIEM Alert Triage,Triage SIEM-generated alerts within defined response time SLAs,Critical,TRUE,TRUE
+CTRL-99794,POL-ISO-778,Visitor Management Procedures,Log and escort all visitors within secure facility zones,Medium,TRUE,TRUE
+CTRL-38246,POL-SOC2-610,Configuration Baseline Management,Maintain secure configuration baselines for all production systems,Low,FALSE,TRUE
+CTRL-20419,POL-ISO-971,Firewall Rule Review,Review firewall rule sets quarterly to remove unused or overly permissive rules,High,TRUE,TRUE
+CTRL-18738,POL-DPDP-186,Cross-Border Transfer Safeguards,Apply appropriate safeguards for cross-border personal data transfers,High,TRUE,TRUE
+CTRL-95201,POL-ISO-471,Disaster Recovery Testing,Perform disaster recovery testing at least annually,Medium,FALSE,TRUE
+CTRL-66127,POL-DPDP-696,Key Management Procedures,"Maintain secure generation, rotation, and storage of cryptographic keys",High,FALSE,TRUE
+CTRL-84898,POL-NIST-439,Multi-Factor Authentication Enforcement,Require multi-factor authentication for all privileged and remote access accounts,High,FALSE,TRUE
+CTRL-37503,POL-DPDP-428,Cross-Border Transfer Safeguards,Apply appropriate safeguards for cross-border personal data transfers,Critical,FALSE,TRUE
+CTRL-16004,POL-ISO-309,Acceptable Use Agreement,Require employees to acknowledge an acceptable use policy upon onboarding,High,FALSE,TRUE
+CTRL-47406,POL-SOC2-575,Continuous Security Monitoring,Implement continuous monitoring of critical systems for anomalous activity,Medium,TRUE,TRUE
+CTRL-47688,POL-CIS-432,Business Continuity Plan Maintenance,Maintain and test a business continuity plan for critical business functions,Critical,TRUE,TRUE
+CTRL-68083,POL-NIST-481,Security Log Retention,Retain security logs for a minimum of 12 months for investigative purposes,Medium,TRUE,TRUE
+CTRL-95295,POL-NIST-229,Breach Notification Timeliness,Notify affected parties and regulators within required timeframes following a breach,High,FALSE,TRUE
+CTRL-36006,POL-ISO-987,Encryption of Data in Transit,Encrypt sensitive data in transit using TLS 1.2 or higher,Medium,FALSE,TRUE
+CTRL-11581,POL-ISO-764,Asset Inventory Maintenance,Maintain an accurate and up-to-date inventory of all hardware and software assets,Critical,FALSE,TRUE
+CTRL-13293,POL-DPDP-428,Consent Capture Mechanism,Implement mechanisms to capture and record data principal consent,Low,TRUE,TRUE
+CTRL-25355,POL-ISO-754,Internal Audit Schedule,Maintain and execute an annual internal audit schedule covering key controls,Low,TRUE,FALSE
+CTRL-75077,POL-DPDP-390,Cross-Border Transfer Safeguards,Apply appropriate safeguards for cross-border personal data transfers,Medium,TRUE,TRUE
+CTRL-53203,POL-ISO-595,Policy Review Cadence,Review and update security policies at least annually or upon significant organizational change,High,TRUE,TRUE
+CTRL-57242,POL-ISO-477,Audit Finding Remediation Tracking,Track remediation of audit findings to closure within defined SLAs,High,FALSE,TRUE
+CTRL-70561,POL-CIS-362,Fourth-Party Risk Monitoring,Assess subcontractor risk exposure for critical vendors,High,FALSE,TRUE
+CTRL-74337,POL-ISO-662,Data Center Access Control,Restrict physical access to data centers using badge-based access controls,Low,TRUE,TRUE
+CTRL-30029,POL-ISO-764,Asset Classification,Classify assets based on sensitivity and criticality to the business,Medium,TRUE,TRUE
+CTRL-77762,POL-SOC2-553,Configuration Baseline Management,Maintain secure configuration baselines for all production systems,High,FALSE,TRUE
+CTRL-34563,POL-NIST-875,Penetration Testing Cadence,Conduct penetration testing at least annually on internet-facing systems,Medium,TRUE,TRUE
+CTRL-92564,POL-DPDP-390,Cross-Border Transfer Safeguards,Apply appropriate safeguards for cross-border personal data transfers,High,TRUE,TRUE
+CTRL-19341,POL-ISO-694,Breach Notification Timeliness,Notify affected parties and regulators within required timeframes following a breach,Critical,TRUE,FALSE
+CTRL-18890,POL-CIS-211,Security Log Retention,Retain security logs for a minimum of 12 months for investigative purposes,Critical,FALSE,TRUE
+CTRL-27775,POL-NIST-687,Security Awareness Training,Require annual security awareness training for all employees,Medium,TRUE,TRUE
+CTRL-21400,POL-CIS-638,Device Encryption Enforcement,Enforce full-disk encryption on all corporate laptops and desktops,Medium,TRUE,FALSE
+CTRL-67924,POL-DPDP-870,Risk Assessment Cadence,Perform formal risk assessments at least annually,High,FALSE,TRUE
+CTRL-89394,POL-DPDP-223,Cross-Border Transfer Safeguards,Apply appropriate safeguards for cross-border personal data transfers,Critical,TRUE,TRUE
+CTRL-52471,POL-DPDP-428,Cross-Border Transfer Safeguards,Apply appropriate safeguards for cross-border personal data transfers,Medium,FALSE,TRUE
+CTRL-68917,POL-SOC2-448,Disaster Recovery Testing,Perform disaster recovery testing at least annually,Critical,FALSE,TRUE
+CTRL-90034,POL-NIST-481,SIEM Alert Triage,Triage SIEM-generated alerts within defined response time SLAs,Critical,FALSE,TRUE
+CTRL-79910,POL-DPDP-412,Data Loss Prevention Monitoring,Deploy DLP tooling to detect and prevent unauthorized data exfiltration,High,TRUE,TRUE
+CTRL-99548,POL-ISO-471,Business Continuity Plan Maintenance,Maintain and test a business continuity plan for critical business functions,High,FALSE,TRUE
+CTRL-53003,POL-CIS-638,Endpoint Detection and Response,Deploy EDR agents on all corporate endpoints,Medium,TRUE,TRUE
+CTRL-32312,POL-CIS-333,Account Provisioning and Deprovisioning,Ensure timely provisioning and deprovisioning of user accounts based on employment status,Critical,FALSE,TRUE
+CTRL-11507,POL-SOC2-732,Breach Notification Timeliness,Notify affected parties and regulators within required timeframes following a breach,High,TRUE,TRUE
+CTRL-14975,POL-DPDP-696,Encryption of Data at Rest,Encrypt sensitive data at rest using industry-standard encryption algorithms,High,TRUE,TRUE
+CTRL-68952,POL-ISO-553,Change Management Process,Require documented approval and testing for all production changes,Low,TRUE,TRUE
+CTRL-81383,POL-ISO-576,Information Security Governance Charter,Establish and maintain a formal information security governance charter approved by senior management,Medium,TRUE,TRUE
+CTRL-92601,POL-DPDP-483,Breach Notification Timeliness,Notify affected parties and regulators within required timeframes following a breach,Low,TRUE,TRUE
+CTRL-72978,POL-ISO-105,Business Continuity Plan Maintenance,Maintain and test a business continuity plan for critical business functions,Medium,TRUE,TRUE
+CTRL-24219,POL-ISO-477,Internal Audit Schedule,Maintain and execute an annual internal audit schedule covering key controls,Critical,TRUE,TRUE
+CTRL-65977,POL-DPDP-528,Risk Assessment Cadence,Perform formal risk assessments at least annually,Medium,TRUE,TRUE
+CTRL-37734,POL-SOC2-214,Change Management Process,Require documented approval and testing for all production changes,Critical,TRUE,TRUE
+CTRL-90062,POL-CIS-432,Recovery Time Objective Validation,Validate recovery time objectives against actual recovery test results,Medium,FALSE,TRUE
+CTRL-46261,POL-CIS-573,Intrusion Detection Monitoring,Deploy IDS/IPS to detect and alert on anomalous network activity,High,FALSE,TRUE
+CTRL-90509,POL-ISO-576,Policy Review Cadence,Review and update security policies at least annually or upon significant organizational change,Medium,FALSE,TRUE
+CTRL-39599,POL-DPDP-390,Data Subject Rights Fulfillment,"Fulfill data principal access, correction, and erasure requests within required timeframes",Medium,TRUE,TRUE
+CTRL-49853,POL-NIST-611,Incident Response Plan Testing,Test the incident response plan through tabletop exercises at least annually,Critical,TRUE,TRUE
+CTRL-76445,POL-CIS-246,Vendor Security Assessment,Conduct security assessments of vendors prior to onboarding and annually thereafter,Critical,TRUE,TRUE
+CTRL-29267,POL-CIS-317,Software Asset Licensing Controls,Track software licenses to prevent unauthorized or unlicensed software use,Low,TRUE,TRUE
+CTRL-84531,POL-CIS-174,Incident Response Plan Testing,Test the incident response plan through tabletop exercises at least annually,Low,TRUE,FALSE
+CTRL-81089,POL-SOC2-298,Data Minimization Practices,Limit collection of personal data to what is necessary for stated purposes,Medium,TRUE,TRUE
+CTRL-78673,POL-ISO-662,Visitor Management Procedures,Log and escort all visitors within secure facility zones,Medium,FALSE,FALSE
+CTRL-88357,POL-ISO-756,Roles and Responsibilities Matrix,Define and communicate information security roles and responsibilities across the organization,High,FALSE,TRUE
+CTRL-85620,POL-DPDP-186,Data Subject Rights Fulfillment,"Fulfill data principal access, correction, and erasure requests within required timeframes",Medium,TRUE,TRUE
+CTRL-12147,POL-CIS-432,Recovery Time Objective Validation,Validate recovery time objectives against actual recovery test results,Medium,FALSE,TRUE
+CTRL-64958,POL-SOC2-610,Backup and Restoration Testing,Perform regular backups and test restoration procedures at least quarterly,Critical,TRUE,TRUE
+CTRL-11690,POL-DPDP-186,Data Minimization Practices,Limit collection of personal data to what is necessary for stated purposes,High,TRUE,TRUE
+CTRL-13594,POL-DPDP-215,Data Minimization Practices,Limit collection of personal data to what is necessary for stated purposes,Medium,TRUE,TRUE
+CTRL-33890,POL-SOC2-448,Business Continuity Plan Maintenance,Maintain and test a business continuity plan for critical business functions,High,TRUE,TRUE
+CTRL-91661,POL-ISO-354,Policy Review Cadence,Review and update security policies at least annually or upon significant organizational change,Low,FALSE,TRUE
+CTRL-41878,POL-ISO-984,Backup and Restoration Testing,Perform regular backups and test restoration procedures at least quarterly,Critical,FALSE,TRUE
+CTRL-32499,POL-NIST-611,Breach Notification Timeliness,Notify affected parties and regulators within required timeframes following a breach,Low,FALSE,TRUE
+CTRL-58193,POL-DPDP-483,Incident Response Plan Testing,Test the incident response plan through tabletop exercises at least annually,Medium,TRUE,TRUE
+CTRL-24039,POL-CIS-886,Firewall Rule Review,Review firewall rule sets quarterly to remove unused or overly permissive rules,High,TRUE,TRUE
+CTRL-12985,POL-CIS-365,Multi-Factor Authentication Enforcement,Require multi-factor authentication for all privileged and remote access accounts,High,TRUE,TRUE
+CTRL-21334,POL-DPDP-762,Data Subject Rights Fulfillment,"Fulfill data principal access, correction, and erasure requests within required timeframes",Medium,TRUE,TRUE
+CTRL-90193,POL-CIS-886,Firewall Rule Review,Review firewall rule sets quarterly to remove unused or overly permissive rules,High,FALSE,FALSE
+CTRL-40198,POL-CIS-573,Firewall Rule Review,Review firewall rule sets quarterly to remove unused or overly permissive rules,Low,TRUE,TRUE
+CTRL-79881,POL-CIS-432,Recovery Time Objective Validation,Validate recovery time objectives against actual recovery test results,Low,TRUE,TRUE
+CTRL-10942,POL-DPDP-412,Data Loss Prevention Monitoring,Deploy DLP tooling to detect and prevent unauthorized data exfiltration,Medium,FALSE,TRUE
+CTRL-97324,POL-DPDP-671,Data Minimization Practices,Limit collection of personal data to what is necessary for stated purposes,Low,FALSE,TRUE
+CTRL-31366,POL-SOC2-609,Vendor Contract Security Clauses,Include data protection and security obligations in vendor contracts,Critical,TRUE,TRUE
+CTRL-67489,POL-SOC2-610,Configuration Baseline Management,Maintain secure configuration baselines for all production systems,Medium,FALSE,TRUE
+CTRL-99551,POL-NIST-875,Vulnerability Scanning Cadence,Perform vulnerability scans on production systems at least monthly,Medium,TRUE,FALSE
+CTRL-57033,POL-ISO-984,Change Management Process,Require documented approval and testing for all production changes,High,TRUE,TRUE
+CTRL-80393,POL-ISO-471,Business Continuity Plan Maintenance,Maintain and test a business continuity plan for critical business functions,Medium,FALSE,TRUE
+CTRL-61815,POL-DPDP-762,Cross-Border Transfer Safeguards,Apply appropriate safeguards for cross-border personal data transfers,High,FALSE,TRUE
+CTRL-14397,POL-CIS-350,Vulnerability Scanning Cadence,Perform vulnerability scans on production systems at least monthly,Low,TRUE,TRUE
+CTRL-86374,POL-CIS-365,Privileged Access Management,Restrict and monitor privileged account usage through a dedicated PAM solution,Low,TRUE,TRUE
+CTRL-15873,POL-ISO-760,Software Asset Licensing Controls,Track software licenses to prevent unauthorized or unlicensed software use,High,FALSE,TRUE
+CTRL-53256,POL-NIST-996,Continuous Security Monitoring,Implement continuous monitoring of critical systems for anomalous activity,High,FALSE,TRUE
+CTRL-80455,POL-NIST-320,Vendor Contract Security Clauses,Include data protection and security obligations in vendor contracts,High,TRUE,TRUE
+CTRL-63082,POL-ISO-754,Independent Control Testing,Perform independent testing of control effectiveness,Low,TRUE,FALSE
+CTRL-63808,POL-CIS-192,Software Asset Licensing Controls,Track software licenses to prevent unauthorized or unlicensed software use,Medium,TRUE,TRUE
+CTRL-26430,POL-CIS-654,Encryption of Data in Transit,Encrypt sensitive data in transit using TLS 1.2 or higher,Medium,FALSE,TRUE
+CTRL-42263,POL-ISO-902,Fourth-Party Risk Monitoring,Assess subcontractor risk exposure for critical vendors,Low,FALSE,TRUE
+CTRL-37692,POL-NIST-481,Continuous Security Monitoring,Implement continuous monitoring of critical systems for anomalous activity,High,TRUE,FALSE
+CTRL-82790,POL-ISO-561,Risk Assessment Cadence,Perform formal risk assessments at least annually,High,TRUE,TRUE
+CTRL-21253,POL-SOC2-599,Vendor Contract Security Clauses,Include data protection and security obligations in vendor contracts,High,TRUE,TRUE
+CTRL-74171,POL-ISO-851,Vendor Contract Security Clauses,Include data protection and security obligations in vendor contracts,Low,TRUE,FALSE
+CTRL-76100,POL-ISO-756,Policy Review Cadence,Review and update security policies at least annually or upon significant organizational change,High,TRUE,TRUE
+CTRL-49331,POL-NIST-875,Patch Management SLA,Remediate critical vulnerabilities within defined SLA timeframes,High,TRUE,TRUE
+CTRL-85413,POL-ISO-778,Data Center Access Control,Restrict physical access to data centers using badge-based access controls,High,TRUE,FALSE
+CTRL-19578,POL-SOC2-945,Breach Notification Timeliness,Notify affected parties and regulators within required timeframes following a breach,Low,TRUE,TRUE
+CTRL-25609,POL-CIS-901,Change Management Process,Require documented approval and testing for all production changes,Medium,FALSE,TRUE
+CTRL-85132,POL-ISO-561,Risk Assessment Cadence,Perform formal risk assessments at least annually,Low,TRUE,TRUE
+CTRL-82836,POL-ISO-971,Intrusion Detection Monitoring,Deploy IDS/IPS to detect and alert on anomalous network activity,Critical,FALSE,TRUE
+CTRL-65578,POL-NIST-842,Account Provisioning and Deprovisioning,Ensure timely provisioning and deprovisioning of user accounts based on employment status,Medium,TRUE,TRUE
+CTRL-55240,POL-ISO-576,Policy Review Cadence,Review and update security policies at least annually or upon significant organizational change,Medium,TRUE,TRUE
+CTRL-52644,POL-DPDP-412,Data Loss Prevention Monitoring,Deploy DLP tooling to detect and prevent unauthorized data exfiltration,Low,TRUE,TRUE
+CTRL-36635,POL-SOC2-956,Roles and Responsibilities Matrix,Define and communicate information security roles and responsibilities across the organization,Critical,FALSE,TRUE
+CTRL-81970,POL-DPDP-870,Emerging Risk Monitoring,Monitor emerging threat intelligence for relevance to organizational risk,Critical,TRUE,TRUE
+CTRL-93132,POL-NIST-687,Acceptable Use Agreement,Require employees to acknowledge an acceptable use policy upon onboarding,Critical,TRUE,TRUE
+CTRL-38150,POL-DPDP-215,Cross-Border Transfer Safeguards,Apply appropriate safeguards for cross-border personal data transfers,Medium,TRUE,TRUE
+CTRL-29296,POL-CIS-402,Acceptable Use Agreement,Require employees to acknowledge an acceptable use policy upon onboarding,High,TRUE,TRUE
+CTRL-70077,POL-SOC2-991,Encryption of Data at Rest,Encrypt sensitive data at rest using industry-standard encryption algorithms,Medium,FALSE,TRUE
+CTRL-15503,POL-ISO-660,Secure Code Review,Require peer code review with security checks prior to production deployment,Medium,FALSE,FALSE
+CTRL-89368,POL-SOC2-732,Security Incident Logging,Log and track all security incidents through to resolution,Medium,TRUE,TRUE
+CTRL-55962,POL-DPDP-390,Data Minimization Practices,Limit collection of personal data to what is necessary for stated purposes,Critical,TRUE,TRUE
+CTRL-64237,POL-CIS-350,Penetration Testing Cadence,Conduct penetration testing at least annually on internet-facing systems,High,TRUE,TRUE
+CTRL-21993,POL-SOC2-610,Backup and Restoration Testing,Perform regular backups and test restoration procedures at least quarterly,Medium,TRUE,TRUE
+CTRL-30017,POL-CIS-246,Fourth-Party Risk Monitoring,Assess subcontractor risk exposure for critical vendors,Medium,TRUE,TRUE
+CTRL-17003,POL-ISO-778,Data Center Access Control,Restrict physical access to data centers using badge-based access controls,Medium,TRUE,TRUE
+CTRL-80109,POL-NIST-316,Disaster Recovery Testing,Perform disaster recovery testing at least annually,Critical,TRUE,FALSE
+CTRL-62960,POL-CIS-224,Software Asset Licensing Controls,Track software licenses to prevent unauthorized or unlicensed software use,High,FALSE,TRUE
+CTRL-78472,POL-ISO-971,Firewall Rule Review,Review firewall rule sets quarterly to remove unused or overly permissive rules,Medium,TRUE,TRUE
+CTRL-29793,POL-CIS-901,Backup and Restoration Testing,Perform regular backups and test restoration procedures at least quarterly,Low,FALSE,TRUE
+CTRL-77345,POL-SOC2-956,Information Security Governance Charter,Establish and maintain a formal information security governance charter approved by senior management,Medium,TRUE,TRUE
+CTRL-73692,POL-CIS-886,Intrusion Detection Monitoring,Deploy IDS/IPS to detect and alert on anomalous network activity,Medium,TRUE,FALSE
+CTRL-86760,POL-ISO-971,Firewall Rule Review,Review firewall rule sets quarterly to remove unused or overly permissive rules,Critical,TRUE,TRUE
+CTRL-75270,POL-SOC2-956,Information Security Governance Charter,Establish and maintain a formal information security governance charter approved by senior management,Critical,TRUE,FALSE
+CTRL-59983,POL-SOC2-609,Vendor Contract Security Clauses,Include data protection and security obligations in vendor contracts,Critical,TRUE,TRUE
+CTRL-55735,POL-SOC2-959,Data Loss Prevention Monitoring,Deploy DLP tooling to detect and prevent unauthorized data exfiltration,Medium,TRUE,TRUE
+CTRL-81425,POL-DPDP-215,Data Minimization Practices,Limit collection of personal data to what is necessary for stated purposes,Medium,FALSE,TRUE
+CTRL-84039,POL-SOC2-450,SIEM Alert Triage,Triage SIEM-generated alerts within defined response time SLAs,Critical,FALSE,FALSE
+CTRL-27090,POL-NIST-103,Data Loss Prevention Monitoring,Deploy DLP tooling to detect and prevent unauthorized data exfiltration,Medium,FALSE,TRUE
+CTRL-10128,POL-ISO-660,Dependency Vulnerability Scanning,Scan third-party dependencies for known vulnerabilities before release,Medium,FALSE,TRUE
+CTRL-91370,POL-SOC2-575,Security Log Retention,Retain security logs for a minimum of 12 months for investigative purposes,Medium,TRUE,TRUE
+CTRL-73522,POL-NIST-320,Vendor Security Assessment,Conduct security assessments of vendors prior to onboarding and annually thereafter,Medium,TRUE,FALSE
+CTRL-30587,POL-ISO-552,Static Application Security Testing,Run SAST scans on all code commits prior to merge,Medium,FALSE,TRUE
+CTRL-68320,POL-CIS-221,Endpoint Detection and Response,Deploy EDR agents on all corporate endpoints,High,FALSE,TRUE
+CTRL-56638,POL-DPDP-390,Data Minimization Practices,Limit collection of personal data to what is necessary for stated purposes,High,TRUE,TRUE
+CTRL-87329,POL-CIS-174,Incident Response Plan Testing,Test the incident response plan through tabletop exercises at least annually,Critical,FALSE,TRUE
+CTRL-13409,POL-SOC2-732,Incident Response Plan Testing,Test the incident response plan through tabletop exercises at least annually,Medium,TRUE,TRUE
+CTRL-82834,POL-CIS-192,Asset Inventory Maintenance,Maintain an accurate and up-to-date inventory of all hardware and software assets,Low,TRUE,TRUE
+CTRL-36249,POL-ISO-105,Business Continuity Plan Maintenance,Maintain and test a business continuity plan for critical business functions,Medium,TRUE,FALSE
+CTRL-76189,POL-SOC2-599,Fourth-Party Risk Monitoring,Assess subcontractor risk exposure for critical vendors,Medium,FALSE,TRUE
+CTRL-63148,POL-CIS-742,Acceptable Use Agreement,Require employees to acknowledge an acceptable use policy upon onboarding,Low,FALSE,TRUE
+CTRL-86907,POL-SOC2-298,Consent Capture Mechanism,Implement mechanisms to capture and record data principal consent,Critical,TRUE,TRUE
+CTRL-99105,POL-CIS-432,Recovery Time Objective Validation,Validate recovery time objectives against actual recovery test results,Low,TRUE,FALSE
+CTRL-55903,POL-SOC2-991,Data Loss Prevention Monitoring,Deploy DLP tooling to detect and prevent unauthorized data exfiltration,Medium,FALSE,FALSE
+CTRL-58554,POL-CIS-886,Intrusion Detection Monitoring,Deploy IDS/IPS to detect and alert on anomalous network activity,Medium,TRUE,TRUE
+CTRL-31983,POL-CIS-638,Endpoint Detection and Response,Deploy EDR agents on all corporate endpoints,Medium,FALSE,TRUE
+CTRL-43941,POL-CIS-432,Disaster Recovery Testing,Perform disaster recovery testing at least annually,Medium,TRUE,TRUE
+CTRL-15071,POL-NIST-672,Emerging Risk Monitoring,Monitor emerging threat intelligence for relevance to organizational risk,Critical,FALSE,TRUE
+CTRL-37926,POL-CIS-224,Asset Classification,Classify assets based on sensitivity and criticality to the business,High,FALSE,TRUE
+CTRL-45112,POL-NIST-672,Risk Treatment Tracking,Track risk treatment plans through to closure with defined owners,Critical,FALSE,TRUE
+CTRL-65323,POL-ISO-984,Backup and Restoration Testing,Perform regular backups and test restoration procedures at least quarterly,Low,FALSE,TRUE
+CTRL-42312,POL-DPDP-390,Cross-Border Transfer Safeguards,Apply appropriate safeguards for cross-border personal data transfers,High,TRUE,TRUE
+CTRL-73140,POL-NIST-672,Risk Assessment Cadence,Perform formal risk assessments at least annually,Critical,TRUE,TRUE
+CTRL-54670,POL-SOC2-945,Security Incident Logging,Log and track all security incidents through to resolution,High,FALSE,TRUE
+CTRL-38186,POL-NIST-850,Breach Notification Timeliness,Notify affected parties and regulators within required timeframes following a breach,Medium,FALSE,TRUE
+CTRL-49491,POL-ISO-309,Acceptable Use Agreement,Require employees to acknowledge an acceptable use policy upon onboarding,Low,FALSE,TRUE
+CTRL-98340,POL-NIST-320,Fourth-Party Risk Monitoring,Assess subcontractor risk exposure for critical vendors,Medium,TRUE,TRUE
+CTRL-98396,POL-DPDP-390,Consent Capture Mechanism,Implement mechanisms to capture and record data principal consent,Medium,TRUE,FALSE
+CTRL-88112,POL-SOC2-956,Policy Review Cadence,Review and update security policies at least annually or upon significant organizational change,Critical,TRUE,TRUE
+CTRL-49653,POL-ISO-576,Roles and Responsibilities Matrix,Define and communicate information security roles and responsibilities across the organization,Medium,TRUE,TRUE
+CTRL-80753,POL-ISO-754,Independent Control Testing,Perform independent testing of control effectiveness,High,TRUE,TRUE
+CTRL-45086,POL-DPDP-696,Key Management Procedures,"Maintain secure generation, rotation, and storage of cryptographic keys",Medium,FALSE,TRUE
+CTRL-64044,POL-NIST-672,Risk Treatment Tracking,Track risk treatment plans through to closure with defined owners,Medium,TRUE,TRUE
+CTRL-81468,POL-ISO-778,Data Center Access Control,Restrict physical access to data centers using badge-based access controls,Low,TRUE,TRUE
+CTRL-14039,POL-CIS-432,Business Continuity Plan Maintenance,Maintain and test a business continuity plan for critical business functions,Medium,TRUE,TRUE
+CTRL-48117,POL-SOC2-959,Key Management Procedures,"Maintain secure generation, rotation, and storage of cryptographic keys",High,FALSE,FALSE
+CTRL-62625,POL-DPDP-215,Cross-Border Transfer Safeguards,Apply appropriate safeguards for cross-border personal data transfers,Low,TRUE,TRUE
+CTRL-14431,POL-CIS-174,Security Incident Logging,Log and track all security incidents through to resolution,Medium,TRUE,TRUE
+CTRL-47253,POL-SOC2-438,Recovery Time Objective Validation,Validate recovery time objectives against actual recovery test results,High,TRUE,TRUE
+CTRL-96952,POL-NIST-611,Security Incident Logging,Log and track all security incidents through to resolution,Critical,TRUE,TRUE
+CTRL-81373,POL-CIS-901,Configuration Baseline Management,Maintain secure configuration baselines for all production systems,Critical,TRUE,TRUE
+CTRL-59731,POL-ISO-354,Roles and Responsibilities Matrix,Define and communicate information security roles and responsibilities across the organization,Low,FALSE,TRUE
+CTRL-84995,POL-SOC2-214,Backup and Restoration Testing,Perform regular backups and test restoration procedures at least quarterly,High,FALSE,TRUE
+CTRL-90251,POL-NIST-103,Encryption of Data at Rest,Encrypt sensitive data at rest using industry-standard encryption algorithms,Medium,TRUE,TRUE
+CTRL-62427,POL-CIS-368,Data Loss Prevention Monitoring,Deploy DLP tooling to detect and prevent unauthorized data exfiltration,High,TRUE,TRUE
+CTRL-70984,POL-NIST-439,Account Provisioning and Deprovisioning,Ensure timely provisioning and deprovisioning of user accounts based on employment status,Low,FALSE,FALSE
+CTRL-27399,POL-DPDP-671,Cross-Border Transfer Safeguards,Apply appropriate safeguards for cross-border personal data transfers,High,TRUE,FALSE
+CTRL-90137,POL-SOC2-214,Change Management Process,Require documented approval and testing for all production changes,Medium,TRUE,TRUE
+CTRL-76314,POL-ISO-694,Security Incident Logging,Log and track all security incidents through to resolution,High,FALSE,TRUE
+CTRL-87547,POL-SOC2-732,Incident Response Plan Testing,Test the incident response plan through tabletop exercises at least annually,Medium,TRUE,FALSE
+CTRL-86991,POL-NIST-875,Vulnerability Scanning Cadence,Perform vulnerability scans on production systems at least monthly,Low,TRUE,TRUE
+CTRL-92576,POL-CIS-368,Key Management Procedures,"Maintain secure generation, rotation, and storage of cryptographic keys",High,TRUE,TRUE
+CTRL-29855,POL-ISO-553,Change Management Process,Require documented approval and testing for all production changes,Critical,TRUE,TRUE
+CTRL-18317,POL-ISO-984,Configuration Baseline Management,Maintain secure configuration baselines for all production systems,Low,TRUE,FALSE
+CTRL-47297,POL-CIS-362,Vendor Security Assessment,Conduct security assessments of vendors prior to onboarding and annually thereafter,Low,TRUE,FALSE
+CTRL-29419,POL-CIS-886,Firewall Rule Review,Review firewall rule sets quarterly to remove unused or overly permissive rules,Medium,FALSE,TRUE
+CTRL-12407,POL-ISO-576,Information Security Governance Charter,Establish and maintain a formal information security governance charter approved by senior management,Critical,TRUE,TRUE
+CTRL-31848,POL-CIS-224,Software Asset Licensing Controls,Track software licenses to prevent unauthorized or unlicensed software use,High,FALSE,FALSE
+CTRL-85715,POL-ISO-902,Fourth-Party Risk Monitoring,Assess subcontractor risk exposure for critical vendors,High,TRUE,TRUE
+CTRL-92636,POL-SOC2-991,Encryption of Data at Rest,Encrypt sensitive data at rest using industry-standard encryption algorithms,High,FALSE,TRUE
+CTRL-62994,POL-CIS-333,Account Provisioning and Deprovisioning,Ensure timely provisioning and deprovisioning of user accounts based on employment status,Low,TRUE,TRUE
+CTRL-15470,POL-SOC2-438,Recovery Time Objective Validation,Validate recovery time objectives against actual recovery test results,Medium,TRUE,FALSE
+CTRL-45167,POL-ISO-971,Firewall Rule Review,Review firewall rule sets quarterly to remove unused or overly permissive rules,Low,FALSE,TRUE
+CTRL-35217,POL-CIS-192,Software Asset Licensing Controls,Track software licenses to prevent unauthorized or unlicensed software use,High,TRUE,TRUE
+CTRL-91192,POL-ISO-561,Emerging Risk Monitoring,Monitor emerging threat intelligence for relevance to organizational risk,Critical,FALSE,TRUE
+CTRL-43098,POL-CIS-654,Encryption of Data in Transit,Encrypt sensitive data in transit using TLS 1.2 or higher,High,TRUE,TRUE
+CTRL-77984,POL-SOC2-214,Configuration Baseline Management,Maintain secure configuration baselines for all production systems,Critical,TRUE,TRUE
+CTRL-95502,POL-SOC2-553,Configuration Baseline Management,Maintain secure configuration baselines for all production systems,High,FALSE,TRUE
+CTRL-87969,POL-ISO-778,Environmental Controls Monitoring,"Monitor temperature, humidity, and fire suppression systems in server rooms",Medium,TRUE,TRUE
+CTRL-97832,POL-CIS-402,Acceptable Use Agreement,Require employees to acknowledge an acceptable use policy upon onboarding,Critical,FALSE,TRUE
+CTRL-18470,POL-NIST-657,Privileged Access Management,Restrict and monitor privileged account usage through a dedicated PAM solution,Medium,FALSE,TRUE
+CTRL-16493,POL-ISO-309,Security Awareness Training,Require annual security awareness training for all employees,Low,TRUE,TRUE
+CTRL-21163,POL-DPDP-223,Data Minimization Practices,Limit collection of personal data to what is necessary for stated purposes,High,FALSE,TRUE
+CTRL-25778,POL-DPDP-558,Cross-Border Transfer Safeguards,Apply appropriate safeguards for cross-border personal data transfers,Medium,TRUE,TRUE
+CTRL-66003,POL-CIS-956,Firewall Rule Review,Review firewall rule sets quarterly to remove unused or overly permissive rules,High,FALSE,TRUE
+CTRL-28994,POL-CIS-350,Penetration Testing Cadence,Conduct penetration testing at least annually on internet-facing systems,Critical,TRUE,TRUE
+CTRL-92272,POL-CIS-684,Network Segmentation,Segment networks to isolate critical systems from general user traffic,Low,FALSE,TRUE
+CTRL-44961,POL-NIST-320,Vendor Security Assessment,Conduct security assessments of vendors prior to onboarding and annually thereafter,Medium,FALSE,TRUE
+CTRL-42825,POL-SOC2-945,Breach Notification Timeliness,Notify affected parties and regulators within required timeframes following a breach,Critical,FALSE,TRUE
+CTRL-30747,POL-SOC2-959,Encryption of Data at Rest,Encrypt sensitive data at rest using industry-standard encryption algorithms,Medium,TRUE,TRUE
+CTRL-98485,POL-ISO-754,Independent Control Testing,Perform independent testing of control effectiveness,Medium,FALSE,TRUE
+CTRL-88290,POL-NIST-875,Patch Management SLA,Remediate critical vulnerabilities within defined SLA timeframes,High,TRUE,FALSE
+CTRL-44081,POL-CIS-654,Key Management Procedures,"Maintain secure generation, rotation, and storage of cryptographic keys",Medium,TRUE,TRUE
+CTRL-25037,POL-DPDP-390,Data Minimization Practices,Limit collection of personal data to what is necessary for stated purposes,Medium,TRUE,TRUE
+CTRL-75138,POL-SOC2-448,Business Continuity Plan Maintenance,Maintain and test a business continuity plan for critical business functions,Medium,TRUE,FALSE
+CTRL-30446,POL-CIS-362,Fourth-Party Risk Monitoring,Assess subcontractor risk exposure for critical vendors,Medium,TRUE,FALSE
+CTRL-88524,POL-SOC2-298,Data Subject Rights Fulfillment,"Fulfill data principal access, correction, and erasure requests within required timeframes",Low,TRUE,FALSE
+CTRL-37958,POL-ISO-354,Policy Review Cadence,Review and update security policies at least annually or upon significant organizational change,High,TRUE,TRUE
+CTRL-49866,POL-DPDP-671,Data Subject Rights Fulfillment,"Fulfill data principal access, correction, and erasure requests within required timeframes",High,TRUE,TRUE
+CTRL-61392,POL-ISO-471,Recovery Time Objective Validation,Validate recovery time objectives against actual recovery test results,High,TRUE,TRUE
+CTRL-97409,POL-DPDP-351,Consent Capture Mechanism,Implement mechanisms to capture and record data principal consent,Critical,FALSE,TRUE
+CTRL-74917,POL-DPDP-223,Consent Capture Mechanism,Implement mechanisms to capture and record data principal consent,Low,TRUE,TRUE
+CTRL-21724,POL-NIST-875,Patch Management SLA,Remediate critical vulnerabilities within defined SLA timeframes,Medium,FALSE,FALSE
+CTRL-11597,POL-ISO-309,Acceptable Use Agreement,Require employees to acknowledge an acceptable use policy upon onboarding,Medium,FALSE,TRUE
+CTRL-74182,POL-NIST-687,Background Verification Checks,Conduct background verification checks for new hires in sensitive roles,High,TRUE,FALSE
+CTRL-45235,POL-CIS-639,Software Asset Licensing Controls,Track software licenses to prevent unauthorized or unlicensed software use,High,FALSE,FALSE
+CTRL-91787,POL-ISO-576,Roles and Responsibilities Matrix,Define and communicate information security roles and responsibilities across the organization,Medium,TRUE,TRUE
+CTRL-42858,POL-CIS-246,Vendor Security Assessment,Conduct security assessments of vendors prior to onboarding and annually thereafter,Medium,TRUE,TRUE
+CTRL-77196,POL-NIST-939,Penetration Testing Cadence,Conduct penetration testing at least annually on internet-facing systems,Critical,FALSE,TRUE
+CTRL-33033,POL-ISO-754,Independent Control Testing,Perform independent testing of control effectiveness,Medium,TRUE,TRUE
+CTRL-61002,POL-CIS-641,Breach Notification Timeliness,Notify affected parties and regulators within required timeframes following a breach,High,TRUE,TRUE
+CTRL-30021,POL-ISO-309,Acceptable Use Agreement,Require employees to acknowledge an acceptable use policy upon onboarding,Medium,FALSE,TRUE
+CTRL-72082,POL-CIS-402,Background Verification Checks,Conduct background verification checks for new hires in sensitive roles,Low,TRUE,TRUE
+CTRL-55798,POL-DPDP-223,Consent Capture Mechanism,Implement mechanisms to capture and record data principal consent,High,TRUE,TRUE
+CTRL-89811,POL-DPDP-870,Emerging Risk Monitoring,Monitor emerging threat intelligence for relevance to organizational risk,Critical,FALSE,TRUE
+CTRL-46748,POL-ISO-971,Network Segmentation,Segment networks to isolate critical systems from general user traffic,Medium,FALSE,TRUE
+CTRL-34616,POL-CIS-365,Account Provisioning and Deprovisioning,Ensure timely provisioning and deprovisioning of user accounts based on employment status,Low,FALSE,TRUE
+CTRL-10301,POL-ISO-507,Security Awareness Training,Require annual security awareness training for all employees,Low,FALSE,TRUE
+CTRL-52511,POL-SOC2-959,Data Loss Prevention Monitoring,Deploy DLP tooling to detect and prevent unauthorized data exfiltration,Low,TRUE,TRUE
+CTRL-68565,POL-DPDP-528,Emerging Risk Monitoring,Monitor emerging threat intelligence for relevance to organizational risk,High,TRUE,TRUE
+CTRL-70828,POL-NIST-875,Penetration Testing Cadence,Conduct penetration testing at least annually on internet-facing systems,Low,TRUE,TRUE
+CTRL-76659,POL-CIS-684,Intrusion Detection Monitoring,Deploy IDS/IPS to detect and alert on anomalous network activity,Critical,TRUE,TRUE
+CTRL-30154,POL-SOC2-298,Data Minimization Practices,Limit collection of personal data to what is necessary for stated purposes,High,FALSE,TRUE
+CTRL-58312,POL-CIS-956,Firewall Rule Review,Review firewall rule sets quarterly to remove unused or overly permissive rules,High,TRUE,TRUE
+CTRL-49937,POL-CIS-221,Antivirus Signature Updates,Ensure antivirus signatures are updated within 24 hours of release,High,TRUE,TRUE
+CTRL-97372,POL-ISO-902,Vendor Contract Security Clauses,Include data protection and security obligations in vendor contracts,Critical,TRUE,TRUE
+CTRL-60756,POL-DPDP-528,Risk Treatment Tracking,Track risk treatment plans through to closure with defined owners,Medium,FALSE,TRUE
+CTRL-32800,POL-DPDP-215,Cross-Border Transfer Safeguards,Apply appropriate safeguards for cross-border personal data transfers,High,TRUE,TRUE
+CTRL-14870,POL-ISO-553,Configuration Baseline Management,Maintain secure configuration baselines for all production systems,Medium,TRUE,TRUE
+CTRL-67063,POL-NIST-939,Penetration Testing Cadence,Conduct penetration testing at least annually on internet-facing systems,Medium,TRUE,TRUE
+CTRL-31447,POL-CIS-639,Asset Classification,Classify assets based on sensitivity and criticality to the business,Low,TRUE,TRUE
+CTRL-52753,POL-ISO-105,Recovery Time Objective Validation,Validate recovery time objectives against actual recovery test results,High,FALSE,TRUE
+CTRL-88295,POL-DPDP-188,Cross-Border Transfer Safeguards,Apply appropriate safeguards for cross-border personal data transfers,High,TRUE,FALSE
+CTRL-15674,POL-CIS-644,Vulnerability Scanning Cadence,Perform vulnerability scans on production systems at least monthly,Medium,TRUE,FALSE
+CTRL-77732,POL-ISO-576,Information Security Governance Charter,Establish and maintain a formal information security governance charter approved by senior management,Medium,FALSE,TRUE
