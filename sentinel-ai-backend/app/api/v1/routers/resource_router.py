@@ -10,7 +10,7 @@ in HANDOFF.md.
 """
 from __future__ import annotations
 
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import Any
 
 from fastapi import APIRouter, Depends, Query, Request
@@ -32,7 +32,8 @@ RESERVED = {"page", "page_size", "search", "sort", "date_from", "date_to", "min_
 def _parse_dt(value: str) -> datetime | None:
     for fmt in ("%Y-%m-%d %H:%M:%S", "%Y-%m-%dT%H:%M:%S", "%Y-%m-%d"):
         try:
-            return datetime.strptime(value, fmt)
+            # Stored timestamps are UTC; a naive bound would be read as server-local time.
+            return datetime.strptime(value, fmt).replace(tzinfo=timezone.utc)
         except ValueError:
             continue
     return None

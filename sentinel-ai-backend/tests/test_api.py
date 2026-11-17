@@ -78,6 +78,17 @@ async def test_sorting(client):
     assert scores == sorted(scores, reverse=True)
 
 
+def test_date_filters_are_read_as_utc():
+    """Regression: a naive bound was read as the server's local time by asyncpg, so on a
+    non-UTC machine PostgreSQL returned rows from the previous day (found 2026-11-18)."""
+    from datetime import timezone
+
+    from app.api.v1.routers.resource_router import _parse_dt
+
+    assert _parse_dt("2026-07-01").tzinfo is timezone.utc
+    assert _parse_dt("2026-07-01T10:00:00").tzinfo is timezone.utc
+
+
 async def test_audit_log_date_range_filter(client):
     response = await client.get(
         "/api/v1/audit-logs",

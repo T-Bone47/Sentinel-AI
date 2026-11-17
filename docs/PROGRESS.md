@@ -4,6 +4,43 @@ Status words: IMPLEMENTED (code exists), TESTED (automated test passes),
 LIVE-VALIDATED (seen working in a real browser), BLOCKED, PLANNED.
 Newest entry first.
 
+## 2026-11-18 — M0: PostgreSQL validation (branch `fix/pg-date-filter-utc`)
+
+- **Environment:** a throwaway `postgres:16-alpine` container on
+  `127.0.0.1:55432`, with in-memory storage and `--rm`; it was removed
+  afterwards. Database timezone UTC, machine timezone IST.
+- **Steps:** `alembic upgrade head`, the dataset load and the user seed all
+  succeeded. `alembic check` found no drift.
+- **First full run: 627 passed, 1 failed, 1 skipped.**
+  - The failure was real, and only PostgreSQL shows it.
+    `_parse_dt` (`resource_router.py`) built a *naive* datetime from
+    `date_from` and `date_to`.
+  - asyncpg reads a naive value as the server's local time, so on this IST
+    machine "from 2026-07-01" became 30 June 18:30 UTC, and June rows leaked
+    into a July query. SQLite compares strings, so it never showed this.
+- **Fix:** the parser now returns UTC-aware datetimes; stored timestamps are
+  UTC. The regression test `test_date_filters_are_read_as_utc` was watched
+  failing before the fix.
+- **After the fix:**
+
+  | Database | Passed | Skipped | Failed |
+  |---|---|---|---|
+  | PostgreSQL | 629 | 1 | 0 |
+  | SQLite | 628 | 2 | 0 |
+
+  On PostgreSQL the immutability triggers, the Gate 2 and Gate 3 migrations
+  and the alert store ran for the first time. The one PostgreSQL-only test
+  that SQLite skips now runs and passes.
+- **Gates 1–3:** the PostgreSQL condition is now met for the enumerated tests.
+  Still not covered:
+  - two real concurrent writers (the concurrency paths are still simulated);
+  - CI on GitHub;
+  - a deployment;
+  - an independent review.
+- **Noticed, not fixed:** a date-only `date_to=2026-07-31` means midnight at
+  the start of 31 July, so the rest of that day is excluded. That is a
+  separate behaviour change, needing its own decision.
+
 ## 2026-11-18 — M0: version control
 
 - **First commit.** `git init` on branch `main`; the first commit holds this
